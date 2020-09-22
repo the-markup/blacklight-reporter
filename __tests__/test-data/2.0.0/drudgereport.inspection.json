@@ -1,0 +1,3010 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "http://drudgereport.com",
+  "uri_dest": "http://drudgereport.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "drudgereport.com",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": "iPhone X",
+    "numPages": 2
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/79.0.3945.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/79.0.3945.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "4.15.0-101-generic"
+    }
+  },
+  "script": {
+    "host": "shakaal",
+    "version": {
+      "npm": "2.0.0",
+      "commit": null
+    },
+    "node_version": "v12.15.0"
+  },
+  "start_time": "2020-05-26T21:37:47.884Z",
+  "end_time": "2020-05-26T21:38:04.504Z",
+  "deviceEmulated": {
+    "name": "iPhone X",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1",
+    "viewport": {
+      "width": 375,
+      "height": 812,
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "isLandscape": false
+    }
+  },
+  "browsing_history": [
+    "http://drudgereport.com/",
+    "http://drudgereport.com/privacy/",
+    "http://drudgereport.com/wx.htm"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "drudgereport.com",
+        "eproof.drudgereport.com",
+        "www.drudgereport.com"
+      ],
+      "third_party": [
+        "d185y8fkx3tp2z.cloudfront.net",
+        "ads.rubiconproject.com",
+        "www.googletagservices.com",
+        "cdnjs.cloudflare.com",
+        "pbs.twimg.com",
+        "th.bing.com",
+        "i.clean.gg",
+        "dw7nrwnn2bkh1.cloudfront.net",
+        "securepubads.g.doubleclick.net",
+        "adservice.google.com",
+        "voranda-com.videoplayerhub.com",
+        "edge.quantserve.com",
+        "widget.quantcast.com",
+        "hbopenbid.pubmatic.com",
+        "granite-cubed-d.openx.net",
+        "brightcombid.marphezis.com",
+        "web.hb.ad.cpe.dotomi.com",
+        "fastlane.rubiconproject.com",
+        "bidder.criteo.com",
+        "g2.gumgum.com",
+        "ib.adnxs.com",
+        "mrb.upapi.net",
+        "rules.quantcount.com",
+        "data",
+        "14c315700781ce440c9430a6eeb21cf5.safeframe.googlesyndication.com",
+        "tpc.googlesyndication.com",
+        "static.criteo.net",
+        "ad.doubleclick.net",
+        "ad-delivery.net",
+        "pixel.quantserve.com",
+        "cdn.ampproject.org",
+        "megadeliveryn.com",
+        "tags.expo9.exponential.com",
+        "www.google.com",
+        "fonts.googleapis.com",
+        "pagead2.googlesyndication.com",
+        "backend.upapi.net",
+        "a.tribalfusion.com",
+        "ads.pubmatic.com",
+        "943.hostedprebid.com",
+        "secure.adnxs.com",
+        "fonts.gstatic.com",
+        "jita.rtk.io",
+        "gum.criteo.com",
+        "sync.rtk.io",
+        "loadus.exelator.com",
+        "dsum-sec.casalemedia.com",
+        "pixel.advertising.com",
+        "aa.agkn.com",
+        "cm.g.doubleclick.net",
+        "ads.stickyadstv.com",
+        "match.adsrvr.org",
+        "rtb.openx.net",
+        "pixel.rubiconproject.com",
+        "prebid-match.dotomi.com",
+        "beacon.krxd.net",
+        "ad.turn.com",
+        "match.prod.bidr.io",
+        "rtb.gumgum.com",
+        "s2s.rtk.io",
+        "rtkio-d.openx.net",
+        "apex.go.sonobi.com",
+        "bidder.rtk.io",
+        "public-prod-dspcookiematching.dmxleo.com",
+        "ups.analytics.yahoo.com",
+        "sshowads.pubmatic.com",
+        "thor.rtk.io",
+        "prebid-a.rubiconproject.com",
+        "x.bidswitch.net",
+        "sync.srv.stackadapt.com",
+        "b1sync.zemanta.com",
+        "sync.1rx.io",
+        "sync.outbrain.com",
+        "us-u.openx.net",
+        "pr-bh.ybp.yahoo.com",
+        "sync.ipredictive.com",
+        "sync.mathtag.com",
+        "sync-tm.everesttech.net",
+        "sync.technoratimedia.com",
+        "cs.emxdgt.com",
+        "tg.socdm.com",
+        "image2.pubmatic.com",
+        "ssum-sec.casalemedia.com",
+        "image6.pubmatic.com",
+        "rtb-csync.smartadserver.com",
+        "cm.adgrx.com",
+        "px.owneriq.net",
+        "bttrack.com",
+        "d.adroll.com",
+        "p.adsymptotic.com",
+        "um.simpli.fi",
+        "pixel-sync.sitescout.com",
+        "idsync.rlcdn.com",
+        "simage2.pubmatic.com",
+        "bh.contextweb.com",
+        "image4.pubmatic.com",
+        "bsw.digitru.st",
+        "aktrack.pubmatic.com",
+        "stags.bluekai.com",
+        "sync.targeting.unrulymedia.com",
+        "simage4.pubmatic.com",
+        "dsum.casalemedia.com",
+        "pippio.com",
+        "us-east-sync.bidswitch.net",
+        "usermatch.krxd.net",
+        "ads.avct.cloud",
+        "csm.va.us.criteo.net",
+        "www.goes.noaa.gov"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://cdn.ampproject.org/rtv/012005012256000/v0/amp-analytics-0.1.js": [
+          "click",
+          "mousemove",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://cdn.ampproject.org/rtv/012005012256000/amp4ads-v0.js": [
+          "click",
+          "mousedown"
+        ],
+        "https://cdn.ampproject.org/rtv/012005012256000/amp4ads-host-v0.js": [
+          "scroll"
+        ],
+        "https://mrb.upapi.net/code?w=5750854860668928&upapi=true": [
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://cdn.ampproject.org/rtv/012005012256000/v0/amp-analytics-0.1.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://cdn.ampproject.org/rtv/012005012256000/v0/amp-form-0.1.js": [
+          "keydown"
+        ],
+        "https://cdn.ampproject.org/rtv/012005012256000/amp4ads-v0.js": [
+          "keydown",
+          "input"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__cfduid",
+        "value": "dd16e11087c4c0360b3f9176e790e98191590529068",
+        "domain": "drudgereport.com",
+        "path": "/",
+        "expires": "2020-06-25T21:37:48.335Z",
+        "size": 51,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "type": "http",
+        "third_party": false
+      },
+      {
+        "name": "i",
+        "value": "14dfda28-5fc8-08c1-3c04-8a2ecba1c28b|1590529069",
+        "domain": "openx.net",
+        "path": "/",
+        "expires": "2021-05-26T21:37:57.081Z",
+        "size": 48,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "DotomiUser",
+        "value": "715705484789554392$3$1323189043$$1",
+        "domain": "dotomi.com",
+        "path": "/",
+        "expires": "2021-06-23T21:37:50.425Z",
+        "size": 44,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "khaos",
+        "value": "KAOFXX3Z-12-M6BG",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2021-05-26T21:37:53.868Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "rsid",
+        "value": "1|AsWsKlgX4q/fRiqn0c0CYSLstLJKOZudmxo6TJWfOAhzwYWWPmviL8eYY9WWjeHKKRyvtVOrDAv9SSiWHWOgGwbzrldKiVYfyk4Vad3QREh28zX8YKVfI636JLzeNECYBNSZ+lQibEDxov4=",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": -1,
+        "size": 150,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ses43",
+        "value": "",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2020-05-27T11:59:59.435Z",
+        "size": 5,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "vis43",
+        "value": "280592^1",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2020-05-27T11:59:59.435Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ses15",
+        "value": "280592^1",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2020-05-27T11:59:59.436Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "vis15",
+        "value": "280592^1",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2020-05-27T11:59:59.436Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "icu",
+        "value": "ChgI6dtgEAoYASABKAEwsJi29gU4AUABSAEQsJi29gUYAA..",
+        "domain": "adnxs.com",
+        "path": "/",
+        "expires": "2020-08-24T21:37:50.734Z",
+        "size": 51,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuid2",
+        "value": "6212558529098160474",
+        "domain": "adnxs.com",
+        "path": "/",
+        "expires": "2020-08-24T21:37:55.716Z",
+        "size": 24,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "test_cookie",
+        "value": "CheckForPermission",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2020-05-26T21:52:50.215Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__gads",
+        "value": "ID=efd2cc63da9bda30-229c9a7f9cbf0002:T=1590529070:RT=1590529070:S=ALNI_MYS-nPTgvnBLQ2YBl2L5laviFS4zg",
+        "domain": "drudgereport.com",
+        "path": "/",
+        "expires": "2022-05-26T21:37:50.000Z",
+        "size": 106,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "mc",
+        "value": "5ecd8c2f-585ce-f12a1-168bc",
+        "domain": "quantserve.com",
+        "path": "/",
+        "expires": "2021-06-26T21:37:51.374Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__qca",
+        "value": "P0-142026945-1590529070929",
+        "domain": "drudgereport.com",
+        "path": "/",
+        "expires": "2021-06-22T21:37:51.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "rtk_session",
+        "value": "eyJyZXZlbnVlIjowLCJ0cmlnZ2VyZWRSUFNSdWxlcyI6W10sInNpZCI6Ijk2NTc3ZGZlLWZmZTYtNDVlMC04ZGU2LTc2ZTc4MzYxZjkzMiIsInN0YXJ0ZWRBdCI6MTU5MDUyOTA3MiwibGFzdFNlZW4iOjE1OTA1MjkwNzJ9",
+        "domain": "drudgereport.com",
+        "path": "/",
+        "expires": -1,
+        "size": 179,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "rtk_gdpr_a",
+        "value": "0",
+        "domain": "drudgereport.com",
+        "path": "/",
+        "expires": -1,
+        "size": 11,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "rtkuuid",
+        "value": "89bd0390-29e2-4464-a241-adc09373b462",
+        "domain": "drudgereport.com",
+        "path": "/",
+        "expires": -1,
+        "size": 43,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_pubcid",
+        "value": "aec92f4d-0794-43dc-ac78-b4d3a23769c2",
+        "domain": "drudgereport.com",
+        "path": "/",
+        "expires": "2025-05-25T21:37:53.000Z",
+        "size": 43,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "EE",
+        "value": "\"c88ba4e30073a6319dea1c7f7a44d2f9\"",
+        "domain": "exelator.com",
+        "path": "/",
+        "expires": "2020-09-23T21:37:53.099Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ud",
+        "value": "\"eJxrXxzq6XKLQSHZwiIp0STV2MDA3DjRzNjQMiU10TDZPM080cQkxSjNcnFZatGCpaXFqSlJh5ZU5JTkNK0uiw91jHdz9PX0iVzrm5%252BUmZOqEJyYlliUuQIsE%252BYatMjQcEl%252BUWb6otDgxUUpaQyLSopPBe%252FULAMArCMsfA%253D%253D\"",
+        "domain": "exelator.com",
+        "path": "/",
+        "expires": "2020-09-23T21:37:53.099Z",
+        "size": 196,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "loc",
+        "value": "jgFQ1i7taklKhSNj6gDbrQCN-Oz7BMpeNdwSEVuC_ZvHaYe-A98Eps_lySHneTo47szdIDVKCmqO-oc37gd2CbsY9rW4C3zS2AIY1uKVMezNEHvMHkL3NA",
+        "domain": "gumgum.com",
+        "path": "/",
+        "expires": "2020-06-25T21:37:53.157Z",
+        "size": 121,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMTEST",
+        "value": "1",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2020-05-26T22:37:58.451Z",
+        "size": 7,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMID",
+        "value": "Xs2MMdHM6T4AAGVILm0AAAAt",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2021-05-26T21:37:58.451Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMPS",
+        "value": "3490",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2020-08-24T21:37:58.451Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMPRO",
+        "value": "482",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2020-08-24T21:37:58.451Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "APID",
+        "value": "UP27a9e6e2-9f99-11ea-8ef8-0285b9914547",
+        "domain": "advertising.com",
+        "path": "/",
+        "expires": "2021-05-27T21:37:53.354Z",
+        "size": 42,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "UID",
+        "value": "4c8fff77bb7241ac95dbe32467d9a38",
+        "domain": "ads.stickyadstv.com",
+        "path": "/",
+        "expires": "2020-06-25T21:37:53.557Z",
+        "size": 34,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uid-bp-8225",
+        "value": "18072662222303110441",
+        "domain": "ads.stickyadstv.com",
+        "path": "/",
+        "expires": "2021-05-26T21:37:53.557Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sessionId",
+        "value": "6441062d24a9f9bb24f4e3489667ef4",
+        "domain": "ads.stickyadstv.com",
+        "path": "/",
+        "expires": -1,
+        "size": 40,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TDID",
+        "value": "c70bde37-6808-40bc-871f-cab7b1671191",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": "2021-05-26T21:37:56.671Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "aa",
+        "value": "0001%3AJp9NG8isNWM0drmsjBBzy2%2BuQnc0MHoaf7CKav3pRjVne3kX0%2FJebFmcOrH8th4IOIlRpyBOga7UPXgx8Qk65NmCXLPH3O2Zn81uH4HhtnWRiDYsiXHgfeE9Ivx1nwFkrKruBYxspKjNHF4jMMUX0%2FhK3n5xG3l7",
+        "domain": "agkn.com",
+        "path": "/",
+        "expires": "2021-05-26T21:37:53.807Z",
+        "size": 175,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ab",
+        "value": "0001%3APdWisypgXr7fIgRW1gykOk6LA4C3IavZ",
+        "domain": "agkn.com",
+        "path": "/",
+        "expires": "2021-05-26T21:37:53.807Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "audit",
+        "value": "1|mFVHqHkj5bFXYYlCBgbHR25LIuwVQkQFUP37ChL6QDZ33d7yGpN8jy4O1NyShiEjp6sUpEvtf7fgcRgjl6EitfkQlGVKgNXS3OlDu/ORdD8=",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2021-05-26T21:37:53.868Z",
+        "size": 115,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_kuid_",
+        "value": "NbVTkYgM",
+        "domain": "krxd.net",
+        "path": "/",
+        "expires": "2020-11-22T21:37:54.017Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uid",
+        "value": "7601948034880787230",
+        "domain": "turn.com",
+        "path": "/",
+        "expires": "2020-11-22T21:37:56.733Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bito",
+        "value": "AAA84069mxgAAA_vtGGhtA",
+        "domain": "bidr.io",
+        "path": "/",
+        "expires": "2021-06-25T17:37:54.247Z",
+        "size": 26,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bitoIsSecure",
+        "value": "ok",
+        "domain": "bidr.io",
+        "path": "/",
+        "expires": "2021-06-25T17:37:54.247Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "vst",
+        "value": "u_6c337f0d-02a3-4b4a-9e6b-66c6a57ef664",
+        "domain": "gumgum.com",
+        "path": "/",
+        "expires": "2021-05-26T21:37:54.274Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "KTPCACOOKIE",
+        "value": "YES",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2020-08-24T21:37:54.000Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uids",
+        "value": "eyJ0ZW1wVUlEcyI6eyJndW1ndW0iOnsidWlkIjoidV82YzMzN2YwZC0wMmEzLTRiNGEtOWU2Yi02NmM2YTU3ZWY2NjQiLCJleHBpcmVzIjoiMjAyMC0wNi0wOVQyMTozNzo1NC41Njk3MTg0OTVaIn19LCJiZGF5IjoiMjAyMC0wNS0yNlQyMTozNzo1NC41Njk3MTUwMDlaIn0=",
+        "domain": "rtk.io",
+        "path": "/",
+        "expires": "2020-08-24T21:37:54.599Z",
+        "size": 212,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuid",
+        "value": "472c5ecd-8c33-4800-9619-97fc0855435d",
+        "domain": "mathtag.com",
+        "path": "/",
+        "expires": "2021-06-23T21:37:55.038Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "everest_g_v2",
+        "value": "g_surferid~Xs2MMwAAAGerug9x",
+        "domain": "everesttech.net",
+        "path": "/",
+        "expires": "2021-05-26T21:37:55.120Z",
+        "size": 39,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "tads_uid",
+        "value": "3ACDC87832BF44F6B03D096246289C84",
+        "domain": "technoratimedia.com",
+        "path": "/",
+        "expires": "2025-05-25T21:37:56.885Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "tads_uid_cd",
+        "value": "20200526173755-0400",
+        "domain": "technoratimedia.com",
+        "path": "/",
+        "expires": "2025-05-25T21:37:56.885Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "tads_zora",
+        "value": "2",
+        "domain": "technoratimedia.com",
+        "path": "/",
+        "expires": "2025-05-25T21:37:56.885Z",
+        "size": 10,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uid",
+        "value": "267311590529075273343b5",
+        "domain": "emxdgt.com",
+        "path": "/",
+        "expires": "2020-08-24T21:37:55.286Z",
+        "size": 26,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "apn_id",
+        "value": "6212558529098160474",
+        "domain": "emxdgt.com",
+        "path": "/",
+        "expires": "2020-08-24T21:37:55.342Z",
+        "size": 25,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "KRTBCOOKIE_699",
+        "value": "22727-AAA84069mxgAAA_vtGGhtA&KRTB&22744-AAA84069mxgAAA_vtGGhtA",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2020-06-25T21:37:56.949Z",
+        "size": 76,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "PUBMDCID",
+        "value": "2",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2020-08-24T21:37:56.955Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "KADUSERCOOKIE",
+        "value": "E12DC680-BC00-4564-80C7-BCBBF0393975",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2020-08-24T21:37:55.656Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "chkSecSet",
+        "value": "1",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2020-08-24T21:37:55.656Z",
+        "size": 10,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "DPSync2",
+        "value": "1591660800%3A201_200%7C1591056000%3A164%7C1590537600%3A174",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2020-08-24T21:37:55.656Z",
+        "size": 65,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "SyncRTB2",
+        "value": "1591660800%3A22_55_21_13_54_7_3_166_99%7C1591056000%3A2",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2020-08-24T21:37:55.656Z",
+        "size": 63,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMSUM",
+        "value": "2e5ecd8c3327606212558529098160474",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2021-05-26T21:37:58.451Z",
+        "size": 38,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "KRTBCOOKIE_57",
+        "value": "22767-6212558529098160474&KRTB&22776-6212558529098160474",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2020-08-24T21:37:55.741Z",
+        "size": 69,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "IDSYNC",
+        "value": "18gs~1rl9",
+        "domain": "analytics.yahoo.com",
+        "path": "/",
+        "expires": "2021-05-27T21:37:55.880Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "APID",
+        "value": "UP27a9e6e2-9f99-11ea-8ef8-0285b9914547",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": "2020-12-31T23:59:59.880Z",
+        "size": 42,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "APIDTS",
+        "value": "1590529075",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": "2020-05-27T21:37:55.880Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ANON_ID",
+        "value": "apnOnIRkP6cPeCnw79ThxT7CvZb2wqwZaMTlST6SxpZclQsJpVdrW3bIoS8DK7CRZaWHxZdCP5UvcUO8Tku7WFYZcp8FpVGNR2wBi4uabHaddUgYT72tD0RNmKc943buenAtm4jw6oQTwiP1nUHp6hjVHa7SrZdoZaeyGK1tpBmsKRR8HZch6",
+        "domain": "tribalfusion.com",
+        "path": "/",
+        "expires": "2020-08-24T21:37:55.993Z",
+        "size": 188,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ANON_ID_old",
+        "value": "apnOnIRkP6cPeCnw79ThxT7CvZb2wqwZaMTlST6SxpZclQsJpVdrW3bIoS8DK7CRZaWHxZdCP5UvcUO8Tku7WFYZcp8FpVGNR2wBi4uabHaddUgYT72tD0RNmKc943buenAtm4jw6oQTwiP1nUHp6hjVHa7SrZdoZaeyGK1tpBmsKRR8HZch6",
+        "domain": "tribalfusion.com",
+        "path": "/",
+        "expires": "2020-08-24T21:37:55.994Z",
+        "size": 192,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "pp",
+        "value": "158893",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2020-08-24T21:37:55.029Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "PMDTSHR",
+        "value": "cat:",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2020-05-27T21:37:56.029Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "tuuid",
+        "value": "0c06a6fa-aea6-4427-9bea-ebfae90a83d7",
+        "domain": "bidswitch.net",
+        "path": "/",
+        "expires": "2021-05-26T21:37:56.063Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "c",
+        "value": "1590529076",
+        "domain": "bidswitch.net",
+        "path": "/",
+        "expires": "2021-05-26T21:37:56.063Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "tuuid_lu",
+        "value": "1590529076",
+        "domain": "bidswitch.net",
+        "path": "/",
+        "expires": "2021-05-26T21:37:56.063Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "SOC",
+        "value": "Xs2MM8Co5mIAAbxhiTQAAAAA",
+        "domain": "socdm.com",
+        "path": "/",
+        "expires": "2022-05-26T21:37:56.070Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sa-user-id",
+        "value": "s%3A0-4f7e2fbb-eb45-4cba-72e2-46ddf1e594fc.KOOldbsZgP1IPri4Z%2BZpaj7Qgt9vIqo3hvuuVtEujC4",
+        "domain": "srv.stackadapt.com",
+        "path": "/",
+        "expires": "2021-05-26T21:37:56.149Z",
+        "size": 98,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sa-user-id-v2",
+        "value": "s%3A0-4f7e2fbb-eb45-4cba-72e2-46ddf1e594fc%24ip%2424.187.51.199.%2BlHVPZNq8E7PT1qUwtwn1AtUvPtOR%2F14iPG%2FB7fWByI",
+        "domain": "srv.stackadapt.com",
+        "path": "/",
+        "expires": "2021-05-26T21:37:56.149Z",
+        "size": 126,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "zuid",
+        "value": "GMev2PceeJRcgwK-OLzc",
+        "domain": "zemanta.com",
+        "path": "/",
+        "expires": "2021-05-26T21:37:58.361Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "U",
+        "value": "910c40815a697175dccc7565ec2191cd",
+        "domain": "adsymptotic.com",
+        "path": "/",
+        "expires": "2020-08-24T21:37:56.517Z",
+        "size": 33,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "pid",
+        "value": "8983947970254610492",
+        "domain": "smartadserver.com",
+        "path": "/",
+        "expires": "2021-06-26T21:37:56.464Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TestIfCookieP",
+        "value": "ok",
+        "domain": "smartadserver.com",
+        "path": "/",
+        "expires": "2021-06-26T21:37:56.464Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "csync",
+        "value": "127:AAA84069mxgAAA_vtGGhtA",
+        "domain": "smartadserver.com",
+        "path": "/",
+        "expires": "2021-06-26T21:37:56.464Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "KRTBCOOKIE_330",
+        "value": "22938-910c40815a697175dccc7565ec2191cd&KRTB&22939-910c40815a697175dccc7565ec2191cd",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2020-06-25T21:37:56.483Z",
+        "size": 96,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "suid",
+        "value": "4858039937B7433BA284A5E963C133AE",
+        "domain": "simpli.fi",
+        "path": "/",
+        "expires": "2021-05-27T21:37:56.519Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "suid_legacy",
+        "value": "4858039937B7433BA284A5E963C133AE",
+        "domain": "simpli.fi",
+        "path": "/",
+        "expires": "2021-05-27T21:37:56.520Z",
+        "size": 43,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "tads_uidp_73",
+        "value": "AAA84069mxgAAA_vtGGhtA",
+        "domain": "technoratimedia.com",
+        "path": "/",
+        "expires": "2025-05-25T21:37:56.521Z",
+        "size": 34,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "KRTBCOOKIE_148",
+        "value": "19421-uid:4858039937B7433BA284A5E963C133AE",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2020-06-25T21:37:56.561Z",
+        "size": 56,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TDCPM",
+        "value": "CAESFQoGY2FzYWxlEgsI-qqF2eLxwDgQBRIXCghwdWJtYXRpYxILCOrH8tni8cA4EAUYASABKAIyCwie2fyP-fHAOBAFOAFaC2FkY29uZHVjdG9yYAI.",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": "2021-05-26T21:37:56.671Z",
+        "size": 121,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_rxuuid",
+        "value": "%7B%22rx_uuid%22%3A%22RX-f81d42e6-cb67-4405-ae45-d9d941827fb6-005%22%7D",
+        "domain": "1rx.io",
+        "path": "/",
+        "expires": "2021-05-26T21:37:56.729Z",
+        "size": 78,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ssi",
+        "value": "015ba4f9-0abe-43ce-8864-89e93ef74476#1590529076792",
+        "domain": "sitescout.com",
+        "path": "/",
+        "expires": "2021-05-26T21:37:57.867Z",
+        "size": 53,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "V",
+        "value": "LuwsRgtOEoMk",
+        "domain": "contextweb.com",
+        "path": "/",
+        "expires": "2021-05-21T21:37:56.827Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "pb_rtb_ev",
+        "value": "3-10j4|7dN.0.AAA84069mxgAAA_vtGGhtA",
+        "domain": "contextweb.com",
+        "path": "/",
+        "expires": "2021-05-26T21:37:56.827Z",
+        "size": 44,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "INGRESSCOOKIE",
+        "value": "4ccb91fe06ab07b3",
+        "domain": "bh.contextweb.com",
+        "path": "/",
+        "expires": -1,
+        "size": 29,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ssum",
+        "value": "e30",
+        "domain": "sitescout.com",
+        "path": "/",
+        "expires": "2020-06-25T21:37:57.867Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "KRTBCOOKIE_188",
+        "value": "3189-015ba4f9-0abe-43ce-8864-89e93ef74476-5ecd8c34-5553&KRTB&22716-015ba4f9-0abe-43ce-8864-89e93ef74476-5ecd8c34-5553",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2020-11-22T21:37:56.896Z",
+        "size": 131,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "KRTBCOOKIE_27",
+        "value": "16735-uid:472c5ecd-8c33-4800-9619-97fc0855435d&KRTB&16736-uid:472c5ecd-8c33-4800-9619-97fc0855435d&KRTB&23208-uid:472c5ecd-8c33-4800-9619-97fc0855435d",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2020-06-25T21:37:56.947Z",
+        "size": 163,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "KRTBCOOKIE_218",
+        "value": "22922-Xs2MMwAAAGerug9x&KRTB&22978-Xs2MMwAAAGerug9x&KRTB&23194-Xs2MMwAAAGerug9x&KRTB&23209-Xs2MMwAAAGerug9x",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2020-08-24T21:37:56.951Z",
+        "size": 120,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "PugT",
+        "value": "1590529076",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2020-06-25T21:37:56.955Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "KRTBCOOKIE_377",
+        "value": "22918-c70bde37-6808-40bc-871f-cab7b1671191&KRTB&23031-c70bde37-6808-40bc-871f-cab7b1671191",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2020-08-24T21:37:56.953Z",
+        "size": 104,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "KRTBCOOKIE_22",
+        "value": "14911-7601948034880787230&KRTB&23150-7601948034880787230",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2020-06-25T21:37:56.955Z",
+        "size": 69,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "obuid",
+        "value": "8d0878dc-ba62-40ee-95ad-ce180aa3784a",
+        "domain": "outbrain.com",
+        "path": "/",
+        "expires": "2020-08-24T21:37:57.035Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "B",
+        "value": "2tnbda1fcr31l&b=3&s=f4",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": "2021-05-27T03:37:57.233Z",
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "A3",
+        "value": "d=AQABBDWMzV4CEK-aYqB9d2SRZBCPU1Bt3S4FEgEBAQHdzl7XXgAAAAAA_SMAAA&S=AQAAArzc2usZdDKbObSakIkcVTI",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": "2021-05-27T03:37:57.233Z",
+        "size": 96,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "GUC",
+        "value": "AQEBAQFezt1e10If-gR4",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": "2021-05-27T03:37:57.233Z",
+        "size": 23,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "cu",
+        "value": "2a17b296-9f99-11ea-ac7b-01cd776ff470|1590529077323",
+        "domain": "ipredictive.com",
+        "path": "/",
+        "expires": "2021-05-26T21:37:58.332Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_rxuuid",
+        "value": "%7B%22rx_uuid%22%3A%22RX-f81d42e6-cb67-4405-ae45-d9d941827fb6-005%22%7D",
+        "domain": "targeting.unrulymedia.com",
+        "path": "/",
+        "expires": "2021-05-26T21:37:57.452Z",
+        "size": 78,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ADGRX_UID",
+        "value": "2a31809a-9f99-11ea-95cc-5a645700029e",
+        "domain": "adgrx.com",
+        "path": "/",
+        "expires": "2021-06-25T21:37:57.525Z",
+        "size": 45,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ADGRX_CM_CASALE_BRIDGED",
+        "value": "1",
+        "domain": "adgrx.com",
+        "path": "/",
+        "expires": "2020-05-27T21:37:57.526Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "GLOBALID",
+        "value": "2uKlc8-sIBd987FnJwLAHeeHeQgEp1J9CHM4nXTPI0MOOblscIvFrYBL4B-q4vQvJmr290p-qpQC4TM1",
+        "domain": "bttrack.com",
+        "path": "/",
+        "expires": "2022-05-26T21:37:58.725Z",
+        "size": 88,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "rlas3",
+        "value": "f8j+OPIa37MnoYkN9q9X9QMkaVTFDlTSqXTERmxHoIw=",
+        "domain": "rlcdn.com",
+        "path": "/",
+        "expires": "2021-05-26T21:37:57.857Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "si",
+        "value": "Q6438154771581108952",
+        "domain": "owneriq.net",
+        "path": "/",
+        "expires": "2025-05-25T21:37:57.811Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "p2",
+        "value": "cc",
+        "domain": "owneriq.net",
+        "path": "/",
+        "expires": "2020-06-05T21:37:57.811Z",
+        "size": 4,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "pxrc",
+        "value": "CLWYtvYFEgUI6AcQABIFCOhHEAA=",
+        "domain": "rlcdn.com",
+        "path": "/",
+        "expires": "2020-07-25T21:37:57.857Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "DigiTrust.v1.identity",
+        "value": "eyJwcml2YWN5Ijp7Im9wdG91dCI6ZmFsc2V9LCJpZCI6IjlIdVRSUTFDMDI4PSIsInByb2R1Y2VyIjoieWVDVUxGSU9rZiIsInZlcnNpb24iOjJ9",
+        "domain": "digitru.st",
+        "path": "/",
+        "expires": "2022-05-26T21:37:57.017Z",
+        "size": 133,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bkdc",
+        "value": "phx",
+        "domain": "bluekai.com",
+        "path": "/",
+        "expires": "2020-11-22T21:37:58.336Z",
+        "size": 7,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bkpa",
+        "value": "KJy2iNawQp9DCUXBFgkk+bwpjEa3H6F+CDPSighNojkAqOoQsF4gCHKEA80EfIHqer6RkAOVZT4c++k0eBIy20c/BldXKqlwNzl42SaoIIlcmcTBWUZv/Jk0V9tdafITCqmfMsfCwXXEF9bC7dcX525yzrt6FmrbQdm7tuBJWhsVwRB/N60n+YgGVC+1v8fcvL1RnYMBL+QVBaRS0Noy37nWM5l+aVOoYbpPmtSsFh9+6aeff6A+HzA1N1o0ZUJK36HvmEVoJaoeBxwWwNWruu6=",
+        "domain": "bluekai.com",
+        "path": "/",
+        "expires": "2020-11-22T21:37:58.337Z",
+        "size": 284,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bku",
+        "value": "ylT99eS1pPfk47zp",
+        "domain": "bluekai.com",
+        "path": "/",
+        "expires": "2020-11-22T21:37:58.337Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "SPugT",
+        "value": "1590529078",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2020-06-25T21:37:58.390Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMST",
+        "value": "Xs2MMV7NjDYA",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2020-05-27T21:37:58.451Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMRUM3",
+        "value": "835ecd8c31276018072662222303110441&275ecd8c332760c70bde37-6808-40bc-871f-cab7b1671191&9c5ecd8c36276053674ac2-938f-43df-a038-d723b803b253&295ecd8c3527602a31809a-9f99-11ea-95cc-5a645700029e&2e5ecd8c3327606212558529098160474&495ecd8c3305a00&2d5ecd8c3305a0&1f5ecd8c352760Q6438154771581108952&695ecd8c3505a00",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2021-05-26T21:37:58.451Z",
+        "size": 309,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "did",
+        "value": "z4-j3V1PeT7_uO6w",
+        "domain": "pippio.com",
+        "path": "/",
+        "expires": "2021-05-26T21:37:58.564Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "didts",
+        "value": "1590529078",
+        "domain": "pippio.com",
+        "path": "/",
+        "expires": "2021-05-26T21:37:58.564Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "nnls",
+        "value": "",
+        "domain": "pippio.com",
+        "path": "/",
+        "expires": "2020-07-25T21:37:58.565Z",
+        "size": 4,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "pxrc",
+        "value": "CLaYtvYFEgQIAhAAEgYI3awrEAA=",
+        "domain": "pippio.com",
+        "path": "/",
+        "expires": "2020-07-25T21:37:58.932Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuid",
+        "value": "f9d79517-1828-47d5-a1d1-5657a456fec1",
+        "domain": "ads.avct.cloud",
+        "path": "/",
+        "expires": "2021-05-26T21:37:58.993Z",
+        "size": 40,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "cto_bundle",
+        "value": "bLqyhl9ZNUtrRTR2YThocnZodU5kJTJCQk52JTJCd1JCWGFpWEhMV0xuJTJGY08lMkY3dWRZT1EwY2dENlFQJTJCViUyQjZZbmswRk51elQyQUd6eWxRR1E0dXVvYXZEMlBQOXVRZUZlWjclMkJtVXJhM09GbGNYQk1sQTFIeEVWQkpsJTJGRmFUZEMlMkZmQk5OJTJCTk95",
+        "domain": "drudgereport.com",
+        "path": "/",
+        "expires": "2021-06-20T21:37:59.000Z",
+        "size": 214,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||criteo.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "entry": "h~Gum.SafariSyncframe.CookieSyncSuccessDuration~27"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://gum.criteo.com/syncframe?topUrl=drudgereport.com",
+            "source": "requested from https://gum.criteo.com/syncframe?topUrl=drudgereport.com and matched with easyprivacy.txt filter ||criteo.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://csm.va.us.criteo.net/iev?entry=c~Gum.SafariSyncframe.InitCookieSync~1&entry=c~Gum.SafariSyncframe.SidReadSuccess~1&entry=h~Gum.SafariSyncframe.SidReadSuccessDuration~25&entry=c~Gum.SafariSyncframe.StorageWriting.Cname.Disabled~1&entry=c~Gum.SafariSyncframe.CookieSyncSuccess~1&entry=h~Gum.SafariSyncframe.CookieSyncSuccessDuration~27"
+      },
+      {
+        "data": {
+          "filter": "||criteo.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "entry": "h~Gum.SafariSyncframe.CookieSyncSuccessDuration~32"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://gum.criteo.com/syncframe?topUrl=drudgereport.com",
+            "source": "requested from https://gum.criteo.com/syncframe?topUrl=drudgereport.com and matched with easyprivacy.txt filter ||criteo.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://csm.va.us.criteo.net/iev?entry=c~Gum.SafariSyncframe.InitCookieSync~1&entry=c~Gum.SafariSyncframe.SidReadSuccess~1&entry=h~Gum.SafariSyncframe.SidReadSuccessDuration~26&entry=c~Gum.SafariSyncframe.StorageWriting.Cname.Disabled~1&entry=c~Gum.SafariSyncframe.CookieSyncSuccess~1&entry=h~Gum.SafariSyncframe.CookieSyncSuccessDuration~32"
+      },
+      {
+        "data": {
+          "filter": "/gen_204?$image,other,ping,script",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "sodar2",
+            "v": 209,
+            "t": 2,
+            "li": "gpt_2020052102",
+            "jk": 547607165839390,
+            "bg": "!bm2lbXVYKXC6jVZAQOoCAAAAOFIAAAALmQFuBpua2uw6LJgRuzJj29q-Be0g53rydZzgW1t5F5hKmb2Y69nMHP2A_QvmoOCbF1-fz4lZEK26CtYLVuflDHOp5HjkiEV96KTGvMQJS45sAlhg6TqU5gRkTy1SJbjyM-cM_ieGTenj1IGfD9XAq4mJjPPkFap_CppyXGy2etZMFF_0BMC0s2_8ru-04w3usqQ3UopLDAcjdEJjfrrzMDaUahNb7pUhOgK7xok1ZO_urYbdo5tNZBZsFDHE0yPW_7ZXHTd-ZDhdLce7Z2GzipGnfEbjhAt1rOPotForAu3VkmJC5pAIjz5rxLEl3LlWlMu301bpNKvIwDIuVU4T1TqCtPMx1OwOpGLD1ec3iLDJSTrxLVVnAkJraAGHjBRNbZWpzo86YzR-2tJU2xkznfx-_KSF0iLJ9Kwfk17wcZhlkdxw_Jt8WgnT63JbP8u1sDnLFimk5h6DJDk6e0pOxNfQ9hE9Nd3BrTZSwtvHd5vb"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://drudgereport.com/",
+            "source": "requested from http://drudgereport.com/ and matched with easyprivacy.txt filter /gen_204?$image,other,ping,script"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=sodar2&v=209&t=2&li=gpt_2020052102&jk=547607165839390&bg=!bm2lbXVYKXC6jVZAQOoCAAAAOFIAAAALmQFuBpua2uw6LJgRuzJj29q-Be0g53rydZzgW1t5F5hKmb2Y69nMHP2A_QvmoOCbF1-fz4lZEK26CtYLVuflDHOp5HjkiEV96KTGvMQJS45sAlhg6TqU5gRkTy1SJbjyM-cM_ieGTenj1IGfD9XAq4mJjPPkFap_CppyXGy2etZMFF_0BMC0s2_8ru-04w3usqQ3UopLDAcjdEJjfrrzMDaUahNb7pUhOgK7xok1ZO_urYbdo5tNZBZsFDHE0yPW_7ZXHTd-ZDhdLce7Z2GzipGnfEbjhAt1rOPotForAu3VkmJC5pAIjz5rxLEl3LlWlMu301bpNKvIwDIuVU4T1TqCtPMx1OwOpGLD1ec3iLDJSTrxLVVnAkJraAGHjBRNbZWpzo86YzR-2tJU2xkznfx-_KSF0iLJ9Kwfk17wcZhlkdxw_Jt8WgnT63JbP8u1sDnLFimk5h6DJDk6e0pOxNfQ9hE9Nd3BrTZSwtvHd5vb"
+      },
+      {
+        "data": {
+          "filter": "||bidswitch.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dsp_id": 59,
+            "user_id": "f9d79517-1828-47d5-a1d1-5657a456fec1",
+            "ssp": "gumgum2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://rtb.gumgum.com/usync/prbds2s?gdpr=0&gdpr_consent=&r=https%3A%2F%2Fs2s.rtk.io%2Fsetuid%3Fbidder%3Dgumgum%26gdpr%3D0%26gdpr_consent%3D%26uid%3D",
+            "source": "requested from https://rtb.gumgum.com/usync/prbds2s?gdpr=0&gdpr_consent=&r=https%3A%2F%2Fs2s.rtk.io%2Fsetuid%3Fbidder%3Dgumgum%26gdpr%3D0%26gdpr_consent%3D%26uid%3D and matched with easyprivacy.txt filter ||bidswitch.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://x.bidswitch.net/sync?dsp_id=59&user_id=f9d79517-1828-47d5-a1d1-5657a456fec1&ssp=gumgum2"
+      },
+      {
+        "data": {
+          "filter": "||pippio.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 709973,
+            "it": 1,
+            "iv": "NbVTkYgM"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ads.pubmatic.com/AdServer/js/showad.js",
+            "source": "requested from https://ads.pubmatic.com/AdServer/js/showad.js and matched with easyprivacy.txt filter ||pippio.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pippio.com/api/sync?pid=709973&it=1&iv=NbVTkYgM"
+      },
+      {
+        "data": {
+          "filter": "||krxd.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner": "liveramp_identity"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ads.pubmatic.com/AdServer/js/showad.js",
+            "source": "requested from https://ads.pubmatic.com/AdServer/js/showad.js and matched with easyprivacy.txt filter ||krxd.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://usermatch.krxd.net/um/v2?partner=liveramp_identity"
+      },
+      {
+        "data": {
+          "filter": "||pippio.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 2,
+            "m": "CMwpElsKVwgBEJInGlBjMTA5OTU4YmQwZDg3YTFiM2E5NzFhMTg2YzllMmE0ZjZiMGM3N2M2NzZiZjVlMzMzZmVkMTM0ZTllODkwNTdkNzkxNDI2YjU0MTdkY2UyMRAAGgwItpi29gUSBAgCEABCAEoA",
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ads.pubmatic.com/AdServer/js/showad.js",
+            "source": "requested from https://ads.pubmatic.com/AdServer/js/showad.js and matched with easyprivacy.txt filter ||pippio.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pippio.com/api/sync/ddp?pid=2&m=CMwpElsKVwgBEJInGlBjMTA5OTU4YmQwZDg3YTFiM2E5NzFhMTg2YzllMmE0ZjZiMGM3N2M2NzZiZjVlMzMzZmVkMTM0ZTllODkwNTdkNzkxNDI2YjU0MTdkY2UyMRAAGgwItpi29gUSBAgCEABCAEoA&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "pippio_dmp",
+            "google_cm": null,
+            "google_no_sc": null,
+            "m": "CMwpElsKVwgBEJInGlBjMTA5OTU4YmQwZDg3YTFiM2E5NzFhMTg2YzllMmE0ZjZiMGM3N2M2NzZiZjVlMzMzZmVkMTM0ZTllODkwNTdkNzkxNDI2YjU0MTdkY2UyMRAAGgwItpi29gUSBAgCEABCAEoA"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ads.pubmatic.com/AdServer/js/showad.js",
+            "source": "requested from https://ads.pubmatic.com/AdServer/js/showad.js and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=pippio_dmp&google_cm&google_no_sc&m=CMwpElsKVwgBEJInGlBjMTA5OTU4YmQwZDg3YTFiM2E5NzFhMTg2YzllMmE0ZjZiMGM3N2M2NzZiZjVlMzMzZmVkMTM0ZTllODkwNTdkNzkxNDI2YjU0MTdkY2UyMRAAGgwItpi29gUSBAgCEABCAEoA"
+      },
+      {
+        "data": {
+          "filter": "/bluekai/*",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d": "NB2HI4DTHIXS64TUMIXGO5LNM52W2LTDN5WS65LTMVZHG6LOMM7WEPL2MVWSMZLYMNUGC3THMU6WO5LNM52W2JTJHVDU2ZLWGJIGGZLFJJJGGZ3XJMWU6TD2MM"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://rtb.gumgum.com/usync/prbds2s?gdpr=0&gdpr_consent=&r=https%3A%2F%2Fs2s.rtk.io%2Fsetuid%3Fbidder%3Dgumgum%26gdpr%3D0%26gdpr_consent%3D%26uid%3D",
+            "source": "requested from https://rtb.gumgum.com/usync/prbds2s?gdpr=0&gdpr_consent=&r=https%3A%2F%2Fs2s.rtk.io%2Fsetuid%3Fbidder%3Dgumgum%26gdpr%3D0%26gdpr_consent%3D%26uid%3D and matched with easyprivacy.txt filter /bluekai/*"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://b1sync.zemanta.com/usersync/bluekai/callback/?d=NB2HI4DTHIXS64TUMIXGO5LNM52W2LTDN5WS65LTMVZHG6LOMM7WEPL2MVWSMZLYMNUGC3THMU6WO5LNM52W2JTJHVDU2ZLWGJIGGZLFJJJGGZ3XJMWU6TD2MM"
+      },
+      {
+        "data": {
+          "filter": "||bidswitch.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ssp": "gumgum2",
+            "user_id": "u_6c337f0d-02a3-4b4a-9e6b-66c6a57ef664",
+            "gdpr": 0,
+            "gdpr_consent": "",
+            "us_privacy": "",
+            "bsw_own_uuid": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://rtb.gumgum.com/usync/prbds2s?gdpr=0&gdpr_consent=&r=https%3A%2F%2Fs2s.rtk.io%2Fsetuid%3Fbidder%3Dgumgum%26gdpr%3D0%26gdpr_consent%3D%26uid%3D",
+            "source": "requested from https://rtb.gumgum.com/usync/prbds2s?gdpr=0&gdpr_consent=&r=https%3A%2F%2Fs2s.rtk.io%2Fsetuid%3Fbidder%3Dgumgum%26gdpr%3D0%26gdpr_consent%3D%26uid%3D and matched with easyprivacy.txt filter ||bidswitch.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://us-east-sync.bidswitch.net/sync?ssp=gumgum2&user_id=u_6c337f0d-02a3-4b4a-9e6b-66c6a57ef664&gdpr=0&gdpr_consent=&us_privacy=&bsw_own_uuid="
+      },
+      {
+        "data": {
+          "filter": "||pippio.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 5324,
+            "it": 1,
+            "iv": "c109958bd0d87a1b3a971a186c9e2a4f6b0c77c676bf5e333fed134e9e89057d791426b5417dce21",
+            "_": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ads.pubmatic.com/AdServer/js/showad.js",
+            "source": "requested from https://ads.pubmatic.com/AdServer/js/showad.js and matched with easyprivacy.txt filter ||pippio.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pippio.com/api/sync?pid=5324&it=1&iv=c109958bd0d87a1b3a971a186c9e2a4f6b0c77c676bf5e333fed134e9e89057d791426b5417dce21&_=2"
+      },
+      {
+        "data": {
+          "filter": "||px.owneriq.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "redir": "https://dsum-sec.casalemedia.com/crum?cm_dsp_id=31&external_user_id=Q6438154771581108952",
+            "uid": "Q6438154771581108952",
+            "ref": "/eucm/p/cc"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ssum-sec.casalemedia.com/usermatch?s=177754&cb=https%3A%2F%2Frtb.gumgum.com%2Fusersync%3Fb%3Diex%26i%3D",
+            "source": "requested from https://ssum-sec.casalemedia.com/usermatch?s=177754&cb=https%3A%2F%2Frtb.gumgum.com%2Fusersync%3Fb%3Diex%26i%3D and matched with easyprivacy.txt filter ||px.owneriq.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.owneriq.net/ecc?redir=https%3a%2f%2fdsum-sec.casalemedia.com%2fcrum%3fcm_dsp_id%3d31%26external_user_id%3dQ6438154771581108952&uid=Q6438154771581108952&ref=%2Feucm%2Fp%2Fcc"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "memo": "CIbVGRIwCiwIARCMowEaJEUxMkRDNjgwLUJDMDAtNDU2NC04MEM3LUJDQkJGMDM5Mzk3NRAAGg0ItZi29gUSBQjoBxAAQgBKAA"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ads.pubmatic.com/AdServer/js/showad.js",
+            "source": "requested from https://ads.pubmatic.com/AdServer/js/showad.js and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/1000.gif?memo=CIbVGRIwCiwIARCMowEaJEUxMkRDNjgwLUJDMDAtNDU2NC04MEM3LUJDQkJGMDM5Mzk3NRAAGg0ItZi29gUSBQjoBxAAQgBKAA"
+      },
+      {
+        "data": {
+          "filter": "/pixel.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "requested from about:blank and matched with easyprivacy.txt filter /pixel.gif?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.criteo.net/images/pixel.gif?ch=2"
+      },
+      {
+        "data": {
+          "filter": "/pixel.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "requested from about:blank and matched with easyprivacy.txt filter /pixel.gif?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.criteo.net/images/pixel.gif?ch=1"
+      },
+      {
+        "data": {
+          "filter": "/gen_204?$image,other,ping,script",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "sodar2",
+            "v": 209,
+            "t": 2,
+            "li": "gpt_2020052101",
+            "jk": 2487926906594799,
+            "bg": "!xcalxt5Yljq6dNWXxNkCAAAAk1IAAAAMmQGHJ-Qzopqj2mpaBIhv6J9FLcwmJoVYZpoetintoZwLXpF6FFrRFTTdxmk7ILyuGIIZ6o8kpKLWcC1RcVEaQzPFsRSeHYk3MD01Kvuu7_HdtVOkLo0WT7KcOrfPreWvDkS7L5n43LNxvZaSzCJAc7J79DseRxsPejg4TWdtuQ3IIshzOFKCsddtrlxjYUsQ7yFY5rOItjdZ49wuPp80yQBPQFo8YCkIdsBdrHOm8-08maIMcxK6kbOzzRntV2_Hh911p5PcXRuWpUmvHz8Do2FYX33brfQUM5v-SQceIKtSzpajHGf_89FBZFDIC-De6TERFx_PWt9QeUUdStrQXWFAQ3YWZAZMnpjE-_F-xzdIBPkgia4EWLlSdOeGyNBBHZ2mu-c8U_t8b7Aucf6SAQ6nArDryfQoiLJlzOLknUkvNPp3gIKOWMWArw_k4T3c7dVOdo7v8CeLNZemGrHX-bKFIfejrJsAU6Fv0PVWKSWyQgq0n2m8s2X129lpo6x3wtUXtW5hmR5JMQ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "requested from about:blank and matched with easyprivacy.txt filter /gen_204?$image,other,ping,script"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=sodar2&v=209&t=2&li=gpt_2020052101&jk=2487926906594799&bg=!xcalxt5Yljq6dNWXxNkCAAAAk1IAAAAMmQGHJ-Qzopqj2mpaBIhv6J9FLcwmJoVYZpoetintoZwLXpF6FFrRFTTdxmk7ILyuGIIZ6o8kpKLWcC1RcVEaQzPFsRSeHYk3MD01Kvuu7_HdtVOkLo0WT7KcOrfPreWvDkS7L5n43LNxvZaSzCJAc7J79DseRxsPejg4TWdtuQ3IIshzOFKCsddtrlxjYUsQ7yFY5rOItjdZ49wuPp80yQBPQFo8YCkIdsBdrHOm8-08maIMcxK6kbOzzRntV2_Hh911p5PcXRuWpUmvHz8Do2FYX33brfQUM5v-SQceIKtSzpajHGf_89FBZFDIC-De6TERFx_PWt9QeUUdStrQXWFAQ3YWZAZMnpjE-_F-xzdIBPkgia4EWLlSdOeGyNBBHZ2mu-c8U_t8b7Aucf6SAQ6nArDryfQoiLJlzOLknUkvNPp3gIKOWMWArw_k4T3c7dVOdo7v8CeLNZemGrHX-bKFIfejrJsAU6Fv0PVWKSWyQgq0n2m8s2X129lpo6x3wtUXtW5hmR5JMQ"
+      },
+      {
+        "data": {
+          "filter": "||bluekai.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GMev2PceeJRcgwK-OLzc",
+            "redir": "https://b1sync.zemanta.com/usersync/bluekai/callback/?d=NB2HI4DTHIXS64TUMIXGO5LNM52W2LTDN5WS65LTMVZHG6LOMM7WEPL2MVWSMZLYMNUGC3THMU6WO5LNM52W2JTJHVDU2ZLWGJIGGZLFJJJGGZ3XJMWU6TD2MM"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://rtb.gumgum.com/usync/prbds2s?gdpr=0&gdpr_consent=&r=https%3A%2F%2Fs2s.rtk.io%2Fsetuid%3Fbidder%3Dgumgum%26gdpr%3D0%26gdpr_consent%3D%26uid%3D",
+            "source": "requested from https://rtb.gumgum.com/usync/prbds2s?gdpr=0&gdpr_consent=&r=https%3A%2F%2Fs2s.rtk.io%2Fsetuid%3Fbidder%3Dgumgum%26gdpr%3D0%26gdpr_consent%3D%26uid%3D and matched with easyprivacy.txt filter ||bluekai.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stags.bluekai.com/site/23178?id=GMev2PceeJRcgwK-OLzc&redir=https%3A%2F%2Fb1sync.zemanta.com%2Fusersync%2Fbluekai%2Fcallback%2F%3Fd%3DNB2HI4DTHIXS64TUMIXGO5LNM52W2LTDN5WS65LTMVZHG6LOMM7WEPL2MVWSMZLYMNUGC3THMU6WO5LNM52W2JTJHVDU2ZLWGJIGGZLFJJJGGZ3XJMWU6TD2MM"
+      },
+      {
+        "data": {
+          "filter": "||digitru.st^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ssp": "gumgum2",
+            "user_id": "u_6c337f0d-02a3-4b4a-9e6b-66c6a57ef664",
+            "gdpr": 0,
+            "gdpr_consent": "",
+            "us_privacy": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://rtb.gumgum.com/usync/prbds2s?gdpr=0&gdpr_consent=&r=https%3A%2F%2Fs2s.rtk.io%2Fsetuid%3Fbidder%3Dgumgum%26gdpr%3D0%26gdpr_consent%3D%26uid%3D",
+            "source": "requested from https://rtb.gumgum.com/usync/prbds2s?gdpr=0&gdpr_consent=&r=https%3A%2F%2Fs2s.rtk.io%2Fsetuid%3Fbidder%3Dgumgum%26gdpr%3D0%26gdpr_consent%3D%26uid%3D and matched with easyprivacy.txt filter ||digitru.st^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bsw.digitru.st/syncx?ssp=gumgum2&user_id=u_6c337f0d-02a3-4b4a-9e6b-66c6a57ef664&gdpr=0&gdpr_consent=&us_privacy="
+      },
+      {
+        "data": {
+          "filter": "/publishertag.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "requested from about:blank and matched with easyprivacy.txt filter /publishertag.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "http://static.criteo.net/js/ld/publishertag.js"
+      },
+      {
+        "data": {
+          "filter": "||analytics.yahoo.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "uid": 18072662222303111000,
+            "_origin": 1,
+            "redir": true,
+            "apid": "UP27a9e6e2-9f99-11ea-8ef8-0285b9914547",
+            "verify": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://a.tribalfusion.com/p.media?clickID=abmSg31UQ90qemPrUFUrUSWWrUnbBqQFrqXEZbq4aJa4q31mq7LYbUbTtFUmmvIpGrumWnD3EZbe5duq5PfGnUjZa0snTXVr5XGnNpTF42rM2VUnGUPQ3QTn4ScQMQHUM0drsT63v3GB50FZbZdUAqt56ZbdQmrF3d3s1HBKpdEo5mBR3sYgUGY8VcbgSmFxWdvUUFBS5rPnWEroVaJlSTBFSdrJ2GaCvZd6Zb5m&mediaDataID=6347136&mediaName=frame.html",
+            "source": "requested from http://a.tribalfusion.com/p.media?clickID=abmSg31UQ90qemPrUFUrUSWWrUnbBqQFrqXEZbq4aJa4q31mq7LYbUbTtFUmmvIpGrumWnD3EZbe5duq5PfGnUjZa0snTXVr5XGnNpTF42rM2VUnGUPQ3QTn4ScQMQHUM0drsT63v3GB50FZbZdUAqt56ZbdQmrF3d3s1HBKpdEo5mBR3sYgUGY8VcbgSmFxWdvUUFBS5rPnWEroVaJlSTBFSdrJ2GaCvZd6Zb5m&mediaDataID=6347136&mediaName=frame.html and matched with easyprivacy.txt filter ||analytics.yahoo.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ups.analytics.yahoo.com/ups/57628/sync?uid=18072662222303110441&_origin=1&redir=true&apid=UP27a9e6e2-9f99-11ea-8ef8-0285b9914547&verify=true"
+      },
+      {
+        "data": {
+          "filter": "||ib.adnxs.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "vcode": "bz0yJnR5cGU9MSZjb2RlPTc4JnRsPTE1NzY4MDA=",
+            "piggybackCookie": "$UID",
+            "gdpr": 0,
+            "gdpr_consent": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ads.pubmatic.com/AdServer/js/showad.js",
+            "source": "requested from https://ads.pubmatic.com/AdServer/js/showad.js and matched with easyprivacy.txt filter ||ib.adnxs.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/getuid?https://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTc4JnRsPTE1NzY4MDA=&piggybackCookie=$UID&gdpr=0&gdpr_consent="
+      },
+      {
+        "data": {
+          "filter": "||everesttech.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "redir": "https://simage2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZqcz0xJmNvZGU9MjE5MSZ0bD0yNTkyMDA=&piggybackCookie=${USER_ID}&gdpr=0&gdpr_consent="
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ads.pubmatic.com/AdServer/js/showad.js",
+            "source": "requested from https://ads.pubmatic.com/AdServer/js/showad.js and matched with easyprivacy.txt filter ||everesttech.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync-tm.everesttech.net/upi/pid/b9pj45k4?redir=https%3A//simage2.pubmatic.com/AdServer/Pug%3Fvcode%3Dbz0yJnR5cGU9MSZqcz0xJmNvZGU9MjE5MSZ0bD0yNTkyMDA%3D%26piggybackCookie%3D%24%7BUSER_ID%7D%26gdpr%3D0%26gdpr_consent%3D"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "pubmatic",
+            "google_cm": null,
+            "google_sc": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ads.pubmatic.com/AdServer/js/showad.js",
+            "source": "requested from https://ads.pubmatic.com/AdServer/js/showad.js and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=pubmatic&google_cm&google_sc"
+      },
+      {
+        "data": {
+          "filter": "||mathtag.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mt_exid": 3,
+            "redir": "https://image4.pubmatic.com/AdServer/SPug?partnerID=27&partnerUID=[MM_UUID]"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ads.pubmatic.com/AdServer/js/showad.js",
+            "source": "requested from https://ads.pubmatic.com/AdServer/js/showad.js and matched with easyprivacy.txt filter ||mathtag.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync.mathtag.com/sync/img?mt_exid=3&redir=https%3A%2F%2Fimage4.pubmatic.com%2FAdServer%2FSPug%3FpartnerID%3D27%26partnerUID%3D%5BMM_UUID%5D"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_uid": "E12DC680-BC00-4564-80C7-BCBBF0393975"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ads.pubmatic.com/AdServer/js/showad.js",
+            "source": "requested from https://ads.pubmatic.com/AdServer/js/showad.js and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/420486.gif?partner_uid=E12DC680-BC00-4564-80C7-BCBBF0393975"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "pmeb",
+            "google_sc": 1,
+            "google_hm": "4S3GgLwARWSAx7y78Dk5dQ=="
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ads.pubmatic.com/AdServer/js/showad.js",
+            "source": "requested from https://ads.pubmatic.com/AdServer/js/showad.js and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=pmeb&google_sc=1&google_hm=4S3GgLwARWSAx7y78Dk5dQ%3D%3D"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "casale_media2_dbm",
+            "google_cm": null,
+            "google_sc": null,
+            "google_hm": "Xs2MMdHM6T4AAGVILm0AAAAt"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ssum-sec.casalemedia.com/usermatch?s=177754&cb=https%3A%2F%2Frtb.gumgum.com%2Fusersync%3Fb%3Diex%26i%3D",
+            "source": "requested from https://ssum-sec.casalemedia.com/usermatch?s=177754&cb=https%3A%2F%2Frtb.gumgum.com%2Fusersync%3Fb%3Diex%26i%3D and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=casale_media2_dbm&google_cm&google_sc&google_hm=Xs2MMdHM6T4AAGVILm0AAAAt"
+      },
+      {
+        "data": {
+          "filter": "||px.owneriq.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "redir": "https://dsum-sec.casalemedia.com/crum?cm_dsp_id=31&external_user_id=(OIQ_UUID)"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ssum-sec.casalemedia.com/usermatch?s=177754&cb=https%3A%2F%2Frtb.gumgum.com%2Fusersync%3Fb%3Diex%26i%3D",
+            "source": "requested from https://ssum-sec.casalemedia.com/usermatch?s=177754&cb=https%3A%2F%2Frtb.gumgum.com%2Fusersync%3Fb%3Diex%26i%3D and matched with easyprivacy.txt filter ||px.owneriq.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.owneriq.net/eucm/p/cc?redir=https%3A%2F%2Fdsum-sec.casalemedia.com%2Fcrum%3Fcm_dsp_id%3D31%26external_user_id%3D(OIQ_UUID)"
+      },
+      {
+        "data": {
+          "filter": "||ib.adnxs.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "apnxid": "$UID",
+            "redirect": "https://rtb.gumgum.com/usersync?b=emx&i=$EMXUID"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||ib.adnxs.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/getuid?https://cs.emxdgt.com/umcheck?apnxid=$UID&redirect=https%3A%2F%2Frtb.gumgum.com%2Fusersync%3Fb%3Demx%26i%3D%24EMXUID"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "gumgum_dbm",
+            "google_cm": null,
+            "google_sc": null,
+            "google_dbm": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=gumgum_dbm&google_cm&google_sc&google_dbm"
+      },
+      {
+        "data": {
+          "filter": "||bidswitch.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ssp": "gumgum2",
+            "user_id": "u_6c337f0d-02a3-4b4a-9e6b-66c6a57ef664",
+            "gdpr": 0,
+            "gdpr_consent": "",
+            "us_privacy": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://rtb.gumgum.com/usync/prbds2s?gdpr=0&gdpr_consent=&r=https%3A%2F%2Fs2s.rtk.io%2Fsetuid%3Fbidder%3Dgumgum%26gdpr%3D0%26gdpr_consent%3D%26uid%3D",
+            "source": "requested from https://rtb.gumgum.com/usync/prbds2s?gdpr=0&gdpr_consent=&r=https%3A%2F%2Fs2s.rtk.io%2Fsetuid%3Fbidder%3Dgumgum%26gdpr%3D0%26gdpr_consent%3D%26uid%3D and matched with easyprivacy.txt filter ||bidswitch.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://x.bidswitch.net/sync?ssp=gumgum2&user_id=u_6c337f0d-02a3-4b4a-9e6b-66c6a57ef664&gdpr=0&gdpr_consent=&us_privacy="
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "beeswaxio",
+            "google_sc": "",
+            "google_hm": "QUFBODQwNjlteGdBQUFfdnRHR2h0QQ",
+            "rtkid": "89bd0390-29e2-4464-a241-adc09373b462",
+            "bee_sync_partners": "pm,sas,syn,pp,rtk",
+            "bee_sync_current_partner": "adx",
+            "bee_sync_initiator": "rtk",
+            "bee_sync_hop_count": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=beeswaxio&google_sc=&google_hm=QUFBODQwNjlteGdBQUFfdnRHR2h0QQ&rtkid=89bd0390-29e2-4464-a241-adc09373b462&bee_sync_partners=pm%2Csas%2Csyn%2Cpp%2Crtk&bee_sync_current_partner=adx&bee_sync_initiator=rtk&bee_sync_hop_count=1"
+      },
+      {
+        "data": {
+          "filter": "||analytics.yahoo.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "uid": 18072662222303111000,
+            "_origin": 1,
+            "redir": true,
+            "apid": "UP27a9e6e2-9f99-11ea-8ef8-0285b9914547"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://a.tribalfusion.com/p.media?clickID=abmSg31UQ90qemPrUFUrUSWWrUnbBqQFrqXEZbq4aJa4q31mq7LYbUbTtFUmmvIpGrumWnD3EZbe5duq5PfGnUjZa0snTXVr5XGnNpTF42rM2VUnGUPQ3QTn4ScQMQHUM0drsT63v3GB50FZbZdUAqt56ZbdQmrF3d3s1HBKpdEo5mBR3sYgUGY8VcbgSmFxWdvUUFBS5rPnWEroVaJlSTBFSdrJ2GaCvZd6Zb5m&mediaDataID=6347136&mediaName=frame.html",
+            "source": "requested from http://a.tribalfusion.com/p.media?clickID=abmSg31UQ90qemPrUFUrUSWWrUnbBqQFrqXEZbq4aJa4q31mq7LYbUbTtFUmmvIpGrumWnD3EZbe5duq5PfGnUjZa0snTXVr5XGnNpTF42rM2VUnGUPQ3QTn4ScQMQHUM0drsT63v3GB50FZbZdUAqt56ZbdQmrF3d3s1HBKpdEo5mBR3sYgUGY8VcbgSmFxWdvUUFBS5rPnWEroVaJlSTBFSdrJ2GaCvZd6Zb5m&mediaDataID=6347136&mediaName=frame.html and matched with easyprivacy.txt filter ||analytics.yahoo.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ups.analytics.yahoo.com/ups/57628/sync?uid=18072662222303110441&_origin=1&redir=true&apid=UP27a9e6e2-9f99-11ea-8ef8-0285b9914547"
+      },
+      {
+        "data": {
+          "filter": "||advertising.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "uid": 18072662222303111000,
+            "_origin": 1,
+            "redir": true,
+            "verify": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://a.tribalfusion.com/p.media?clickID=abmSg31UQ90qemPrUFUrUSWWrUnbBqQFrqXEZbq4aJa4q31mq7LYbUbTtFUmmvIpGrumWnD3EZbe5duq5PfGnUjZa0snTXVr5XGnNpTF42rM2VUnGUPQ3QTn4ScQMQHUM0drsT63v3GB50FZbZdUAqt56ZbdQmrF3d3s1HBKpdEo5mBR3sYgUGY8VcbgSmFxWdvUUFBS5rPnWEroVaJlSTBFSdrJ2GaCvZd6Zb5m&mediaDataID=6347136&mediaName=frame.html",
+            "source": "requested from http://a.tribalfusion.com/p.media?clickID=abmSg31UQ90qemPrUFUrUSWWrUnbBqQFrqXEZbq4aJa4q31mq7LYbUbTtFUmmvIpGrumWnD3EZbe5duq5PfGnUjZa0snTXVr5XGnNpTF42rM2VUnGUPQ3QTn4ScQMQHUM0drsT63v3GB50FZbZdUAqt56ZbdQmrF3d3s1HBKpdEo5mBR3sYgUGY8VcbgSmFxWdvUUFBS5rPnWEroVaJlSTBFSdrJ2GaCvZd6Zb5m&mediaDataID=6347136&mediaName=frame.html and matched with easyprivacy.txt filter ||advertising.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.advertising.com/ups/57628/sync?uid=18072662222303110441&_origin=1&redir=true&verify=true"
+      },
+      {
+        "data": {
+          "filter": "-dspcookiematching.",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dspId": 15,
+            "dspUserId": 18072662222303111000
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://a.tribalfusion.com/p.media?clickID=admSg3XGnnnEj23UrVWbbZcUmvYQqM4PsZbtPt3M0HbuVmYw2V3VXFZbZdUATt4636R6fI4HUr0WBJptTu5mQY5Vb8VVQ9VVZblPPZbMWdv3TUFP3r2tWqnsWa36ST3FScQKQbqtPHYcVcbU2U6tnWioYEey3tjAPsbF56JZbmdAyTHQ60b3k1bFhXqZamSFJEWUM1VHrTob3oPbjrYqFy3TUa4UFYyd7pyEFt5Zd&mediaDataID=8039566&mediaName=frame.html",
+            "source": "requested from http://a.tribalfusion.com/p.media?clickID=admSg3XGnnnEj23UrVWbbZcUmvYQqM4PsZbtPt3M0HbuVmYw2V3VXFZbZdUATt4636R6fI4HUr0WBJptTu5mQY5Vb8VVQ9VVZblPPZbMWdv3TUFP3r2tWqnsWa36ST3FScQKQbqtPHYcVcbU2U6tnWioYEey3tjAPsbF56JZbmdAyTHQ60b3k1bFhXqZamSFJEWUM1VHrTob3oPbjrYqFy3TUa4UFYyd7pyEFt5Zd&mediaDataID=8039566&mediaName=frame.html and matched with easyprivacy.txt filter -dspcookiematching."
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://public-prod-dspcookiematching.dmxleo.com/dspreply?dspId=15&dspUserId=18072662222303110441"
+      },
+      {
+        "data": {
+          "filter": "/amp-analytics-",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "requested from about:blank and matched with easyprivacy.txt filter /amp-analytics-"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.ampproject.org/rtv/012005012256000/v0/amp-analytics-0.1.js"
+      },
+      {
+        "data": {
+          "filter": "||exelator.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "p": 204,
+            "g": 96,
+            "j": 0,
+            "PFID": 18072662222303111000,
+            "xl8blockcheck": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://a.tribalfusion.com/p.media?clickID=a7mSg30G70YsU41GrOnEj45bZbQWrFGVP74QEjYPVQMQdfy1WbxVmbO3GvXXb3KVmuu2AU8P6MD4HFr0HQAnHTw3PYW4GYfVcB8UcB8SmMoUtFRTFj32FAtUqnvVaJdPEZbLQVfIQFupPW76VcMR5r6qntymYEuw3tbFSGjZa46JZamdiyVd3b0UM8XrYgXaIrRUrZcWFZb0VHQ2mFQxRUrNYr7tSdJ5MoSZaud&mediaDataID=8858276&mediaName=frame.html",
+            "source": "requested from http://a.tribalfusion.com/p.media?clickID=a7mSg30G70YsU41GrOnEj45bZbQWrFGVP74QEjYPVQMQdfy1WbxVmbO3GvXXb3KVmuu2AU8P6MD4HFr0HQAnHTw3PYW4GYfVcB8UcB8SmMoUtFRTFj32FAtUqnvVaJdPEZbLQVfIQFupPW76VcMR5r6qntymYEuw3tbFSGjZa46JZamdiyVd3b0UM8XrYgXaIrRUrZcWFZb0VHQ2mFQxRUrNYr7tSdJ5MoSZaud&mediaDataID=8858276&mediaName=frame.html and matched with easyprivacy.txt filter ||exelator.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://loadus.exelator.com/load/?p=204&g=96&j=0&PFID=18072662222303110441&xl8blockcheck=1"
+      },
+      {
+        "data": {
+          "filter": "||krxd.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner": "exponential",
+            "partner_uid": 18072662222303111000
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://a.tribalfusion.com/p.media?clickID=a8mSg30b7kYFBg1EenSr3ZbTrJ2TdU3nbQnQUMsXqYy5Efj4EMQmEMEXFjaUtjQoAMDpVvmoHfA5TFh3d6N56nZcpFMKYs3X1cZbYXGFnmqB43FFSVrBGV631REvQQVZbrPdYxYtBoWPbv4cBYYbUZcUAir5AFdQPjD3HZbrXWYAnt2v36rY4V77Ucr6VGMhPPvwUWv4WbnY3UEpWEjvTTJlQbbZc5bZbvOgkSRe&mediaDataID=6807466&mediaName=frame.html",
+            "source": "requested from http://a.tribalfusion.com/p.media?clickID=a8mSg30b7kYFBg1EenSr3ZbTrJ2TdU3nbQnQUMsXqYy5Efj4EMQmEMEXFjaUtjQoAMDpVvmoHfA5TFh3d6N56nZcpFMKYs3X1cZbYXGFnmqB43FFSVrBGV631REvQQVZbrPdYxYtBoWPbv4cBYYbUZcUAir5AFdQPjD3HZbrXWYAnt2v36rY4V77Ucr6VGMhPPvwUWv4WbnY3UEpWEjvTTJlQbbZc5bZbvOgkSRe&mediaDataID=6807466&mediaName=frame.html and matched with easyprivacy.txt filter ||krxd.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://beacon.krxd.net/usermatch.gif?partner=exponential&partner_uid=18072662222303110441"
+      },
+      {
+        "data": {
+          "filter": "||ib.adnxs.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "requested from about:blank and matched with easyprivacy.txt filter ||ib.adnxs.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "http://ib.adnxs.com/ut/v3/prebid"
+      },
+      {
+        "data": {
+          "filter": "||ib.adnxs.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "requested from about:blank and matched with easyprivacy.txt filter ||ib.adnxs.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "http://ib.adnxs.com/ut/v3/prebid"
+      },
+      {
+        "data": {
+          "filter": "||ib.adnxs.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "requested from about:blank and matched with easyprivacy.txt filter ||ib.adnxs.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "http://ib.adnxs.com/ut/v3/prebid"
+      },
+      {
+        "data": {
+          "filter": "||ib.adnxs.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "https%3A%2F%2Fs2s.rtk.io%2Fsetuid%3Fbidder%3Dadnxs%26gdpr%3D0%26gdpr_consent%3D%26uid%3D%24UID": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||ib.adnxs.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/getuid?https%3A%2F%2Fs2s.rtk.io%2Fsetuid%3Fbidder%3Dadnxs%26gdpr%3D0%26gdpr_consent%3D%26uid%3D%24UID"
+      },
+      {
+        "data": {
+          "filter": "-dspcookiematching.",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "p": "b24",
+            "u": 18072662222303111000,
+            "redirect": "https://public-prod-dspcookiematching.dmxleo.com/dspreply?dspId=15&dspUserId=$TF_USER_ID_ENC$"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://a.tribalfusion.com/p.media?clickID=admSg3XGnnnEj23UrVWbbZcUmvYQqM4PsZbtPt3M0HbuVmYw2V3VXFZbZdUATt4636R6fI4HUr0WBJptTu5mQY5Vb8VVQ9VVZblPPZbMWdv3TUFP3r2tWqnsWa36ST3FScQKQbqtPHYcVcbU2U6tnWioYEey3tjAPsbF56JZbmdAyTHQ60b3k1bFhXqZamSFJEWUM1VHrTob3oPbjrYqFy3TUa4UFYyd7pyEFt5Zd&mediaDataID=8039566&mediaName=frame.html",
+            "source": "requested from http://a.tribalfusion.com/p.media?clickID=admSg3XGnnnEj23UrVWbbZcUmvYQqM4PsZbtPt3M0HbuVmYw2V3VXFZbZdUATt4636R6fI4HUr0WBJptTu5mQY5Vb8VVQ9VVZblPPZbMWdv3TUFP3r2tWqnsWa36ST3FScQKQbqtPHYcVcbU2U6tnWioYEey3tjAPsbF56JZbmdAyTHQ60b3k1bFhXqZamSFJEWUM1VHrTob3oPbjrYqFy3TUa4UFYyd7pyEFt5Zd&mediaDataID=8039566&mediaName=frame.html and matched with easyprivacy.txt filter -dspcookiematching."
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://a.tribalfusion.com/i.match?p=b24&u=18072662222303110441&redirect=https%3A%2F%2Fpublic-prod-dspcookiematching.dmxleo.com%2Fdspreply%3FdspId%3D15%26dspUserId%3D%24TF_USER_ID_ENC%24"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "exp",
+            "google_cm": null,
+            "google_sc": null,
+            "google_ula": 2786954,
+            "google_hm": 18072662222303111000
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://a.tribalfusion.com/p.media?clickID=aemSg3XayMRrUFUFZbPWW3WnFBoQUMoXTFs4T3i5TMRmEBBYUJgUWMTnmQZansnpmHML5TUh3tmt3PnZanbrEXc7R1V3X1sJMpTnQ5Uv2WbJZcWP72Pa3SQsvoStJr1HvmWmfM4sv5YbZbJV6is56UbQPMF3HFm1dQJmt2u36YY5cj7VcMjVV7iSmUmTHFTWrBX3U6xUa7mVaQaQaBFQVQCPE2o4qMWwfflSI&mediaDataID=4056396&mediaName=frame.html",
+            "source": "requested from http://a.tribalfusion.com/p.media?clickID=aemSg3XayMRrUFUFZbPWW3WnFBoQUMoXTFs4T3i5TMRmEBBYUJgUWMTnmQZansnpmHML5TUh3tmt3PnZanbrEXc7R1V3X1sJMpTnQ5Uv2WbJZcWP72Pa3SQsvoStJr1HvmWmfM4sv5YbZbJV6is56UbQPMF3HFm1dQJmt2u36YY5cj7VcMjVV7iSmUmTHFTWrBX3U6xUa7mVaQaQaBFQVQCPE2o4qMWwfflSI&mediaDataID=4056396&mediaName=frame.html and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=exp&google_cm&google_sc&google_ula=2786954&google_hm=18072662222303110441"
+      },
+      {
+        "data": {
+          "filter": "||agkn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sid": 9212295768,
+            "_puid": 18072662222303111000
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://a.tribalfusion.com/p.media?clickID=aamSg31cZbV0VjpnTZb25bQ2WFBZaV6Y4QTb1PcFrPHJr1dFnVAvm2cBYYbrZcTAyp2PYgRmbA2WZbsXHJKntZao5AJQ3GraUVvdUcrjPPvoTHM3UbM53FZaxVq3sTTUlQaBZbRG3ZaRrApSt7cUGbS5rusnWqmYa6y3WrGPVrG2mQHotXtVWbhYb39XFb71EqqPbrFUbMPTdF4mFJmPbrN1EFy5bnlRWMfy4GePL&mediaDataID=7665496&mediaName=frame.html",
+            "source": "requested from http://a.tribalfusion.com/p.media?clickID=aamSg31cZbV0VjpnTZb25bQ2WFBZaV6Y4QTb1PcFrPHJr1dFnVAvm2cBYYbrZcTAyp2PYgRmbA2WZbsXHJKntZao5AJQ3GraUVvdUcrjPPvoTHM3UbM53FZaxVq3sTTUlQaBZbRG3ZaRrApSt7cUGbS5rusnWqmYa6y3WrGPVrG2mQHotXtVWbhYb39XFb71EqqPbrFUbMPTdF4mFJmPbrN1EFy5bnlRWMfy4GePL&mediaDataID=7665496&mediaName=frame.html and matched with easyprivacy.txt filter ||agkn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://aa.agkn.com/adscores/g.pixel?sid=9212295768&_puid=18072662222303110441"
+      },
+      {
+        "data": {
+          "filter": "||advertising.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "uid": 18072662222303111000,
+            "_origin": 1,
+            "redir": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://a.tribalfusion.com/p.media?clickID=abmSg31UQ90qemPrUFUrUSWWrUnbBqQFrqXEZbq4aJa4q31mq7LYbUbTtFUmmvIpGrumWnD3EZbe5duq5PfGnUjZa0snTXVr5XGnNpTF42rM2VUnGUPQ3QTn4ScQMQHUM0drsT63v3GB50FZbZdUAqt56ZbdQmrF3d3s1HBKpdEo5mBR3sYgUGY8VcbgSmFxWdvUUFBS5rPnWEroVaJlSTBFSdrJ2GaCvZd6Zb5m&mediaDataID=6347136&mediaName=frame.html",
+            "source": "requested from http://a.tribalfusion.com/p.media?clickID=abmSg31UQ90qemPrUFUrUSWWrUnbBqQFrqXEZbq4aJa4q31mq7LYbUbTtFUmmvIpGrumWnD3EZbe5duq5PfGnUjZa0snTXVr5XGnNpTF42rM2VUnGUPQ3QTn4ScQMQHUM0drsT63v3GB50FZbZdUAqt56ZbdQmrF3d3s1HBKpdEo5mBR3sYgUGY8VcbgSmFxWdvUUFBS5rPnWEroVaJlSTBFSdrJ2GaCvZd6Zb5m&mediaDataID=6347136&mediaName=frame.html and matched with easyprivacy.txt filter ||advertising.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.advertising.com/ups/57628/sync?uid=18072662222303110441&_origin=1&redir=true"
+      },
+      {
+        "data": {
+          "filter": "||exelator.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "p": 204,
+            "g": 96,
+            "j": 0,
+            "PFID": 18072662222303111000
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://a.tribalfusion.com/p.media?clickID=a7mSg30G70YsU41GrOnEj45bZbQWrFGVP74QEjYPVQMQdfy1WbxVmbO3GvXXb3KVmuu2AU8P6MD4HFr0HQAnHTw3PYW4GYfVcB8UcB8SmMoUtFRTFj32FAtUqnvVaJdPEZbLQVfIQFupPW76VcMR5r6qntymYEuw3tbFSGjZa46JZamdiyVd3b0UM8XrYgXaIrRUrZcWFZb0VHQ2mFQxRUrNYr7tSdJ5MoSZaud&mediaDataID=8858276&mediaName=frame.html",
+            "source": "requested from http://a.tribalfusion.com/p.media?clickID=a7mSg30G70YsU41GrOnEj45bZbQWrFGVP74QEjYPVQMQdfy1WbxVmbO3GvXXb3KVmuu2AU8P6MD4HFr0HQAnHTw3PYW4GYfVcB8UcB8SmMoUtFRTFj32FAtUqnvVaJdPEZbLQVfIQFupPW76VcMR5r6qntymYEuw3tbFSGjZa46JZamdiyVd3b0UM8XrYgXaIrRUrZcWFZb0VHQ2mFQxRUrNYr7tSdJ5MoSZaud&mediaDataID=8858276&mediaName=frame.html and matched with easyprivacy.txt filter ||exelator.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://loadus.exelator.com/load/?p=204&g=96&j=0&PFID=18072662222303110441"
+      },
+      {
+        "data": {
+          "filter": "||upapi.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": "tQkgi1DjG",
+            "br": "safari",
+            "sid": "sRdwpWRa",
+            "w": 5750854860668928,
+            "cv": "8c057b4f-v2",
+            "r": false,
+            "upapi": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://drudgereport.com/",
+            "source": "requested from http://drudgereport.com/ and matched with easyprivacy.txt filter ||upapi.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://backend.upapi.net/pv?pid=tQkgi1DjG&br=safari&sid=sRdwpWRa&w=5750854860668928&cv=8c057b4f-v2&r=false&upapi=true"
+      },
+      {
+        "data": {
+          "filter": "/gen_204?$image,other,ping,script",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "gpt_sz",
+            "pvsid": 547607165839390,
+            "r": "300x250",
+            "w": 359,
+            "h": 369,
+            "a": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://drudgereport.com/",
+            "source": "requested from http://drudgereport.com/ and matched with easyprivacy.txt filter /gen_204?$image,other,ping,script"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=gpt_sz&pvsid=547607165839390&r=300x250&w=359&h=369&a=1"
+      },
+      {
+        "data": {
+          "filter": "/amp-analytics-",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "requested from about:blank and matched with easyprivacy.txt filter /amp-analytics-"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.ampproject.org/rtv/012005012256000/v0/amp-analytics-0.1.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagservices.com^*/osd.js$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cb": "/r20100101"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://drudgereport.com/",
+            "source": "requested from http://drudgereport.com/ and matched with easyprivacy.txt filter ||googletagservices.com^*/osd.js$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"
+      },
+      {
+        "data": {
+          "filter": "/amp-analytics-",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "requested from about:blank and matched with easyprivacy.txt filter /amp-analytics-"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.ampproject.org/rtv/012005012256000/v0/amp-analytics-0.1.js"
+      },
+      {
+        "data": {
+          "filter": "||criteo.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "http://drudgereport.com/",
+            "source": "requested from http://drudgereport.com/ and matched with easyprivacy.txt filter ||criteo.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.criteo.net/js/ld/publishertag.prebid.js"
+      },
+      {
+        "data": {
+          "filter": "||quantserve.com/pixel;",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "http://drudgereport.com/",
+            "source": "requested from http://drudgereport.com/ and matched with easyprivacy.txt filter ||quantserve.com/pixel;"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "http://pixel.quantserve.com/pixel;r=712662208;rf=0;a=p-e2qh6t-Out2Ug;url=http%3A%2F%2Fdrudgereport.com%2F;fpan=1;fpa=P0-142026945-1590529070929;ns=0;ce=1;qjs=1;qv=f473609d-20200430082408;cm=;gdpr=0;ref=;je=0;sr=375x812x24;enc=n;dst=1;et=1590529070929;tzo=240;ogl="
+      },
+      {
+        "data": {
+          "filter": "/px.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 1,
+            "e": 0.5206803889562002
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://drudgereport.com/",
+            "source": "requested from http://drudgereport.com/ and matched with easyprivacy.txt filter /px.gif?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad-delivery.net/px.gif?ch=1&e=0.5206803889562002"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^$image,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ad": "300x250",
+            "ad_box_": 1,
+            "adnet": 1,
+            "showad": 1,
+            "size": "250x250"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://drudgereport.com/",
+            "source": "requested from http://drudgereport.com/ and matched with easyprivacy.txt filter ||doubleclick.net^$image,third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad.doubleclick.net/favicon.ico?ad=300x250&ad_box_=1&adnet=1&showad=1&size=250x250"
+      },
+      {
+        "data": {
+          "filter": "||quantcount.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "http://drudgereport.com/",
+            "source": "requested from http://drudgereport.com/ and matched with easyprivacy.txt filter ||quantcount.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rules.quantcount.com/rules-p-e2qh6t-Out2Ug.js"
+      },
+      {
+        "data": {
+          "filter": "||upapi.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "w": 5750854860668928,
+            "upapi": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://drudgereport.com/",
+            "source": "requested from http://drudgereport.com/ and matched with easyprivacy.txt filter ||upapi.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mrb.upapi.net/code?w=5750854860668928&upapi=true"
+      },
+      {
+        "data": {
+          "filter": "||criteo.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "http://drudgereport.com/",
+            "source": "requested from http://drudgereport.com/ and matched with easyprivacy.txt filter ||criteo.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.criteo.net/js/ld/publishertag.prebid.js"
+      },
+      {
+        "data": {
+          "filter": "||quantcount.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "http://drudgereport.com/",
+            "source": "requested from http://drudgereport.com/ and matched with easyprivacy.txt filter ||quantcount.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "http://rules.quantcount.com/rules-p-e2qh6t-Out2Ug.js"
+      },
+      {
+        "data": {
+          "filter": "||upapi.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "o": 5685540219256832,
+            "upapi": true
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://drudgereport.com/",
+            "source": "requested from http://drudgereport.com/ and matched with easyprivacy.txt filter ||upapi.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mrb.upapi.net/org?o=5685540219256832&upapi=true"
+      },
+      {
+        "data": {
+          "filter": "||ib.adnxs.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "http://drudgereport.com/",
+            "source": "requested from http://drudgereport.com/ and matched with easyprivacy.txt filter ||ib.adnxs.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/ut/v3/prebid"
+      },
+      {
+        "data": {
+          "filter": "||criteo.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "profileId": 207,
+            "av": 28,
+            "wv": "3.17.0",
+            "cb": 57170242321
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://drudgereport.com/",
+            "source": "requested from http://drudgereport.com/ and matched with easyprivacy.txt filter ||criteo.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bidder.criteo.com/cdb?profileId=207&av=28&wv=3.17.0&cb=57170242321"
+      },
+      {
+        "data": {
+          "filter": "||dotomi.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "http://drudgereport.com/",
+            "source": "requested from http://drudgereport.com/ and matched with easyprivacy.txt filter ||dotomi.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://web.hb.ad.cpe.dotomi.com/s2s/header/24"
+      },
+      {
+        "data": {
+          "filter": "||widget.quantcast.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||widget.quantcast.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://widget.quantcast.com/p-e2qh6t-Out2Ug/1"
+      },
+      {
+        "data": {
+          "filter": "/quant.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "http://drudgereport.com/",
+            "source": "requested from http://drudgereport.com/ and matched with easyprivacy.txt filter /quant.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "http://edge.quantserve.com/quant.js"
+      }
+    ]
+  }
+}

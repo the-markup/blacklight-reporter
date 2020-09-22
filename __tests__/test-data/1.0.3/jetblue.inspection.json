@@ -1,0 +1,1591 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "http://www.jetblue.com",
+  "uri_dest": "https://www.jetblue.com/",
+  "uri_redirects": [
+    "http://www.jetblue.com/"
+  ],
+  "secure_connection": {},
+  "host": "www.jetblue.com",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": "iPhone X",
+    "numPages": 3
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/79.0.3945.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/79.0.3945.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "4.15.0-99-generic"
+    }
+  },
+  "script": {
+    "host": "shakaal",
+    "version": {
+      "npm": "1.0.3",
+      "commit": null
+    },
+    "node_version": "v12.15.0"
+  },
+  "start_time": "2020-05-12T21:37:23.909Z",
+  "end_time": "2020-05-12T21:37:35.853Z",
+  "deviceEmulated": {
+    "name": "iPhone X",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1",
+    "viewport": {
+      "width": 375,
+      "height": 812,
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "isLandscape": false
+    }
+  },
+  "browsing_history": [
+    "https://www.jetblue.com/",
+    "https://trueblue.jetblue.com/enroll/join-us/",
+    "https://www.jetblue.com/magnoliapublic/dam/ui-assets/p/jetblue_coc.pdf?v2",
+    "https://www.jetblue.com/at-the-airport/special-assistance/accessibility-information/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "www.jetblue.com",
+        "somnistats.jetblue.com",
+        "trueblue.jetblue.com"
+      ],
+      "third_party": [
+        "data",
+        "prd.b6orgeng.net",
+        "cdn.gladly.com",
+        "s.btstatic.com",
+        "fullstory.com",
+        "dpm.demdex.net",
+        "s.thebrighttag.com",
+        "d1fc8wv8zag5ca.cloudfront.net",
+        "jetblueairways.demdex.net",
+        "cm.everesttech.net",
+        "5c5b46bb5c60cc0022085cd4.config.smooch.io",
+        "rs.fullstory.com",
+        "cdnjs.cloudflare.com",
+        "gladly-production.sinter-collect.com",
+        "api.amplitude.com",
+        "www.googletagmanager.com",
+        "www.googleadservices.com",
+        "edge.fullstory.com",
+        "googleads.g.doubleclick.net",
+        "www.google.com",
+        "2784362.fls.doubleclick.net",
+        "servedby.flashtalking.com",
+        "connect.facebook.net",
+        "bat.bing.com",
+        "js.adsrvr.org",
+        "snap.licdn.com",
+        "s.yimg.com",
+        "secure.media6degrees.com",
+        "beacon.krxd.net",
+        "ci.iasds01.com",
+        "insight.adsrvr.org",
+        "secure.adnxs.com",
+        "urldefense.proofpoint.com",
+        "adservice.google.com",
+        "usermatch.krxd.net",
+        "www.facebook.com",
+        "d9.flashtalking.com",
+        "tapestry.tapad.com",
+        "px.ads.linkedin.com",
+        "sp.analytics.yahoo.com",
+        "match.adsrvr.org",
+        "cdn.krxd.net"
+      ]
+    }
+  },
+  "reports": {
+    "cookies": [
+      {
+        "domain": "www.jetblue.com",
+        "name": "amplitude_id_c604142301d9fa47280440deacedf31djetblue.com",
+        "path": "/",
+        "script": "https://cdn.gladly.com/assets/chat-sdk/3206ddffd21497779ac7716cac650aaa30bc8b7f/main.js",
+        "type": "js",
+        "value": "eyJkZXZpY2VJZCI6IjdmZDM0MDg3LTExNDItNGIwNy05YjM3LTg5ZWFkZTliYTA3MFIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTU4OTMxOTQ0NjQ4MiwibGFzdEV2ZW50VGltZSI6MTU4OTMxOTQ1MzIwOCwiZXZlbnRJZCI6MCwiaWRlbnRpZnlJZCI6Miwic2VxdWVuY2VOdW1iZXIiOjJ9",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "_sp_ses.607f",
+        "path": "/",
+        "script": "https://d1fc8wv8zag5ca.cloudfront.net/2.10.2/sp.js",
+        "type": "js",
+        "value": "*",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "_sp_id.607f",
+        "path": "/",
+        "script": "https://d1fc8wv8zag5ca.cloudfront.net/2.10.2/sp.js",
+        "type": "js",
+        "value": "7552df7e-925c-471e-866c-9b57816e80ff.1589319453.1.1589319453.1589319453.557d71ff-1fb6-4f7b-a9c5-93457dc55838",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "_gcl_au",
+        "path": "/",
+        "script": "https://www.googletagmanager.com/gtag/js?id=DC-2784362",
+        "type": "js",
+        "value": "1.1.1706216258.1589319448",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "amplitude_testjetblue.com",
+        "path": "/",
+        "script": "https://cdn.gladly.com/assets/chat-sdk/3206ddffd21497779ac7716cac650aaa30bc8b7f/main.js",
+        "type": "js",
+        "value": "null",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "__tld_test__",
+        "path": "/",
+        "script": "https://cdn.gladly.com/assets/chat-sdk/3206ddffd21497779ac7716cac650aaa30bc8b7f/main.js",
+        "type": "js",
+        "value": "null",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "amplitude_cookie_test",
+        "path": "/",
+        "script": "https://cdn.gladly.com/assets/chat-sdk/3206ddffd21497779ac7716cac650aaa30bc8b7f/main.js",
+        "type": "js",
+        "value": "null",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "__bterr",
+        "path": "/",
+        "script": "https://s.btstatic.com/tag.js",
+        "type": "js",
+        "value": "",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "_uetsid",
+        "path": "/",
+        "script": "https://bat.bing.com/bat.js",
+        "type": "js",
+        "value": "_uet24474e3d-4933-984a-c61c-bb3387664925",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "__bterr_UXE8DVB",
+        "path": "/",
+        "script": "https://s.btstatic.com/tag.js",
+        "type": "js",
+        "value": "",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "fs_uid",
+        "path": "/",
+        "script": "https://fullstory.com/s/fs.js",
+        "type": "js",
+        "value": "rs.fullstory.com#4HV1Q#4987391414386688:6655697640767488/1620855446",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "_sp_ses.9a86",
+        "path": "/",
+        "script": "https://d1fc8wv8zag5ca.cloudfront.net/2.10.2/sp.js",
+        "type": "js",
+        "value": "*",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "_sp_id.9a86",
+        "path": "/",
+        "script": "https://d1fc8wv8zag5ca.cloudfront.net/2.10.2/sp.js",
+        "type": "js",
+        "value": "b206d4c8-6a90-4c88-b67b-ca90f2486ba0.1589319447.1.1589319447.1589319447.613a5111-2145-4b81-8f5d-9f11682419be",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "_dp",
+        "path": "/",
+        "script": "https://jetblueairways.demdex.net/dest5.html?d_nsid=0",
+        "type": "js",
+        "value": "1",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "s_cc",
+        "path": "/",
+        "script": "https://www.jetblue.com/ui-assets/analytics/app-measurement.js?1",
+        "type": "js",
+        "value": "true",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "AMCV_A553776A5245AE600A490D44%40AdobeOrg",
+        "path": "/",
+        "script": "https://www.jetblue.com/ui-assets/analytics/visitor-api.js",
+        "type": "js",
+        "value": "2096510701%7CMCIDTS%7C18395%7CMCMID%7C52443917460230482153877968417588317141%7CMCAAMLH-1589924246%7C7%7CMCAAMB-1589924246%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1589326646s%7CNONE%7CMCSYNCSOP%7C411-18402%7CMCAID%7CNONE%7CvVersion%7C2.0.0",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "AMCVS_A553776A5245AE600A490D44%40AdobeOrg",
+        "path": "/",
+        "script": "https://www.jetblue.com/ui-assets/analytics/visitor-api.js",
+        "type": "js",
+        "value": "1",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "gpv_pn",
+        "path": "/",
+        "script": "https://www.jetblue.com/vendor-es2015.6eeb506debc9c215e892.js",
+        "type": "js",
+        "value": "JetBlue%20%7C%20Home%20Page",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "jbCountryCode",
+        "path": "/",
+        "script": "https://www.jetblue.com/vendor-es2015.6eeb506debc9c215e892.js",
+        "type": "js",
+        "value": "US",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "jbNearbyAirports",
+        "path": "/",
+        "script": "https://www.jetblue.com/vendor-es2015.6eeb506debc9c215e892.js",
+        "type": "js",
+        "value": "%5B%22LGA%22%2C%22JFK%22%2C%22EWR%22%2C%22HPN%22%2C%22SWF%22%5D",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "bookerVacationPromoCode",
+        "path": "/",
+        "script": "https://www.jetblue.com/vendor-es2015.6eeb506debc9c215e892.js",
+        "type": "js",
+        "value": "",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "bookerAirPromoCode",
+        "path": "/",
+        "script": "https://www.jetblue.com/vendor-es2015.6eeb506debc9c215e892.js",
+        "type": "js",
+        "value": "",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "jbUserBirthdayToday",
+        "path": "/",
+        "script": "https://www.jetblue.com/vendor-es2015.6eeb506debc9c215e892.js",
+        "type": "js",
+        "value": "",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "jbUserIsMosaic",
+        "path": "/",
+        "script": "https://www.jetblue.com/vendor-es2015.6eeb506debc9c215e892.js",
+        "type": "js",
+        "value": "",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "lastVisit",
+        "path": "/",
+        "script": "https://www.jetblue.com/vendor-es2015.6eeb506debc9c215e892.js",
+        "type": "js",
+        "value": "",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "points",
+        "path": "/",
+        "script": "https://www.jetblue.com/vendor-es2015.6eeb506debc9c215e892.js",
+        "type": "js",
+        "value": "",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "cardStatus",
+        "path": "/",
+        "script": "https://www.jetblue.com/vendor-es2015.6eeb506debc9c215e892.js",
+        "type": "js",
+        "value": "",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "SSWEB2TGC",
+        "path": "/",
+        "script": "https://www.jetblue.com/vendor-es2015.6eeb506debc9c215e892.js",
+        "type": "js",
+        "value": "",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "jbTrueBlueCookie",
+        "path": "/",
+        "script": "https://www.jetblue.com/vendor-es2015.6eeb506debc9c215e892.js",
+        "type": "js",
+        "value": "",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "jbAuthentication",
+        "path": "/",
+        "script": "https://www.jetblue.com/vendor-es2015.6eeb506debc9c215e892.js",
+        "type": "js",
+        "value": "",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "COOKIE_KUMITSU",
+        "path": "/",
+        "script": "https://trueblue.jetblue.com/enroll/join-us/",
+        "type": "http",
+        "value": "rd2o00000000000000000000ffff0ad721a5o8080",
+        "third_party": false
+      },
+      {
+        "domain": "insight.adsrvr.org",
+        "name": "TDID",
+        "path": "/",
+        "script": "https://insight.adsrvr.org/track/up?adv=7asns46&ref=https%3A%2F%2Fwww.jetblue.com%2F&upid=28erq50&upv=1.1.0",
+        "type": "http",
+        "value": "bf2fb2e4-f9df-4e64-8362-4d5ced582335",
+        "third_party": true
+      },
+      {
+        "domain": "servedby.flashtalking.com",
+        "name": "flashtalkingad1",
+        "path": "/",
+        "script": "https://servedby.flashtalking.com/map/?key=a7rAgh52909gAgrTaAporDg928888&url=https://servedby.flashtalking.com/container/29;71832;7464;iframe/?g=[%FT_GUID%]",
+        "type": "http",
+        "value": "\"GUID=4515261AE2763D\"",
+        "third_party": true
+      },
+      {
+        "domain": "jetblueairways.demdex.net",
+        "name": "demdex",
+        "path": "/",
+        "script": "https://jetblueairways.demdex.net/dest5.html?d_nsid=0",
+        "type": "http",
+        "value": "47916816186449793754569434191823012205",
+        "third_party": true
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "pushed-8.3.0-rc-10-80266",
+        "path": "/",
+        "script": "https://www.jetblue.com/",
+        "type": "http",
+        "value": "pushed",
+        "third_party": false
+      },
+      {
+        "domain": "www.jetblue.com",
+        "name": "isMobile",
+        "script": "https://www.jetblue.com/",
+        "type": "http",
+        "value": "true",
+        "third_party": true
+      }
+    ],
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://s.btstatic.com/tag.js": [
+          "keydown",
+          "keyup"
+        ],
+        "https://cdn.gladly.com/assets/smooch/frame.1.12.7.min.js": [
+          "keyup",
+          "keydown",
+          "input"
+        ],
+        "https://trueblue.jetblue.com/scripts.5c7324fb30ea23ec772b.bundle.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://edge.fullstory.com/s/fs.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://www.jetblue.com/vendor-es2015.6eeb506debc9c215e892.js": [
+          "keyup"
+        ],
+        "https://www.jetblue.com/js/src/jb-74873.js": [
+          "keypress",
+          "keyup",
+          "keydown"
+        ]
+      },
+      "MOUSE": {
+        "https://s.btstatic.com/tag.js": [
+          "click",
+          "scroll",
+          "dblclick",
+          "mouseup",
+          "mousedown",
+          "mousemove"
+        ],
+        "https://cdn.gladly.com/assets/smooch/frame.1.12.7.min.js": [
+          "scroll",
+          "click"
+        ],
+        "https://trueblue.jetblue.com/scripts.5c7324fb30ea23ec772b.bundle.js": [
+          "click"
+        ],
+        "https://edge.fullstory.com/s/fs.js": [
+          "scroll",
+          "dblclick",
+          "click",
+          "mouseup",
+          "mousedown",
+          "mousemove"
+        ],
+        "https://www.jetblue.com/vendor-es2015.6eeb506debc9c215e892.js": [
+          "click",
+          "scroll"
+        ],
+        "https://www.jetblue.com/js/src/jb-74873.js": [
+          "mousemove",
+          "click",
+          "mouseup",
+          "mousedown"
+        ]
+      },
+      "TOUCH": {
+        "https://cdn.gladly.com/assets/smooch/frame.1.12.7.min.js": [
+          "touchstart",
+          "touchmove"
+        ],
+        "https://edge.fullstory.com/s/fs.js": [
+          "touchcancel",
+          "touchmove",
+          "touchend",
+          "touchstart"
+        ],
+        "https://s.btstatic.com/tag.js": [
+          "touchcancel",
+          "touchmove",
+          "touchend",
+          "touchstart"
+        ],
+        "https://www.jetblue.com/vendor-es2015.6eeb506debc9c215e892.js": [
+          "touchstart"
+        ],
+        "https://www.jetblue.com/js/src/jb-74873.js": [
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ]
+      },
+      "SENSOR": {
+        "https://www.jetblue.com/js/src/jb-74873.js": [
+          "deviceorientation"
+        ]
+      }
+    },
+    "key_logging": {
+      "fullstory.com": [
+        {
+          "filter": [
+            "IdaaaaTarbell",
+            "Tarbell",
+            "Idaaaa",
+            "IdaaaaTarbell"
+          ],
+          "match_type": [
+            "plaintext"
+          ],
+          "post_data": "{\"When\":1068,\"Seq\":2,\"Evts\":[{\"Kind\":25,\"Args\":[\"https://www.jetblue.com/\",\"<!DOCTYPE html>\"],\"When\":1068,\"FId\":2253},{\"Kind\":8198,\"Args\":[false,1],\"When\":1068,\"FId\":2253},{\"Kind\":53,\"Args\":[],\"When\":1068,\"FId\":2253},{\"Kind\":66,\"Args\":[\"any-pointer\",\"coarse\"],\"When\":1069,\"FId\":2253},{\"Kind\":66,\"Args\":[\"any-hover\",\"none\"],\"When\":1070,\"FId\":2253},{\"Kind\":66,\"Args\":[\"pointer\",\"none\"],\"When\":1071,\"FId\":2253},{\"Kind\":20,\"Args\":[],\"When\":1072,\"FId\":2253},{\"Kind\":57,\"Args\":[0,1589319446497,0,0,0,0,0,0,0,0,0,0,0,0,1589319446503,1589319446497,1589319446504,1589319446504,1589319446504,1589319446504,1589319446504,1589319446504],\"When\":1073,\"FId\":2253},{\"Kind\":57,\"Args\":[2,\"https://cdn.gladly.com/assets/smooch/frame.1.12.7.css\",8.130000001983717,29.855000000679865,\"link\",0,0,8.130000001983717,0,0,0,0,0,0,0,37.98500000266358,0,0,0],\"When\":1074,\"FId\":2253},{\"Kind\":57,\"Args\":[2,\"https://cdn.gladly.com/assets/smooch/frame.1.12.7.min.js\",8.525000004738104,85.67999999650056,\"script\",0,0,8.525000004738104,0,0,0,0,0,0,0,94.20500000123866,0,0,0],\"When\":1075,\"FId\":2253},{\"Kind\":57,\"Args\":[2,\"https://5c5b46bb5c60cc0022085cd4.config.smooch.io/sdk/apps/5c5b46bb5c60cc0022085cd4/config\",186.6950000039651,449.8249999960535,\"fetch\",0,0,186.6950000039651,0,0,0,0,0,0,0,636.5200000000186,0,0,0],\"When\":1076,\"FId\":2253},{\"Kind\":57,\"Args\":[2,\"https://5c5b46bb5c60cc0022085cd4.config.smooch.io/sdk/apps/5c5b46bb5c60cc0022085cd4/config\",637.6900000032037,40.154999995138496,\"fetch\",0,0,637.6900000032037,0,0,0,0,0,0,0,677.8449999983422,0,0,0],\"When\":1077,\"FId\":2253},{\"Kind\":57,\"Args\":[2,\"https://fullstory.com/s/fs.js\",1249.5550000021467,1.3499999986379407,\"script\",0,0,1249.5550000021467,0,0,0,0,0,0,0,1250.9050000007846,0,0,0],\"When\":1078,\"FId\":2253},{\"Kind\":21,\"Args\":[],\"When\":1079,\"FId\":2253},{\"Kind\":58,\"Args\":[3,true],\"When\":1080,\"FId\":2253},{\"When\":1077,\"Kind\":2,\"Args\":[-1,-1,[\"<#document\",\"[\",\"<!DOCTYPE\",\":name\",\"html\",\":publicId\",\"\",\":systemId\",6,\"<HTML\",1,\"<HEAD\",1,\"<#text\",\"\\n                            \\n                            \",\"<LINK\",\":rel\",\"stylesheet\",\":href\",\"https://cdn.gladly.com/assets/smooch/frame.1.12.7.css\",\":type\",\"text/css\",13,\"\\n                            \",13,\"\\n                        \",\"<TITLE\",\"]\",[24,2],\"<BODY\",[12,2],23,\"<DIV\",\":id\",\"mount\",1,34,\":class\",\"widget-embedded\",[37,2],35,\"container\",39,\"button-display embedded ios-device\",[41,3],\"wrapper\",39,\"branding-color-dark accent-color-dark link-color-dark\",[41,3],\"header\",39,\"header-wrapper\",\":style\",\"background-color: rgb(34, 100, 199);\",[12,2],\"How can we help?\",27,[38,2],\"notification-container\",34,[68,2],59,\"z-index: 2;\",[37,2],39,\"floating-banner\",59,\"top: 67px; left: 10px; border-radius: 6px; position: absolute; width: calc(100% - 20px); background-color: rgba(69, 79, 91, 0.94); box-shadow: rgba(71, 69, 123, 0.2) 0px 2px 6px 0px, rgba(71, 69, 123, 0.03) 0px 4px 14px 0px; overflow: hidden; transition: all 0.3s ease-in-out 0s; opacity: 0;\",[64,2],35,\"conversation\",39,6,[73,3],\"intro-pane\",1,\"<svg:svg\",39,\"app-icon\",\":viewBox\",\"0 0 80 80\",59,\"shape-rendering: geometricprecision;\",1,\"<svg:rect\",\":fill\",\"#2264c7\",\":x\",\"31.3\",\":y\",\"39.5\",\":width\",\"4.4\",\":height\",106,[98,2],[100,2],[102,2],\"30.8\",[105,2],107,\"5.8\",\"<svg:path\",[99,2],\":d\",\"M48.7,52.6v-5.8h-4.4v33c3-0.3,5.9-1,8.7-2V52.6H48.7z\",[120,2],100,123,\"M56,64.2v12.5c2-0.9,4-1.9,5.8-3.1v-9.3H56z\",[125,3],123,\"M18.2,64.2v9.3c1.8,1.2,3.8,2.3,5.8,3.2V64.2H18.2z\",[130,4],\"M38.5,46.8V80c0.5,0,1,0,1.5,0s1,0,1.5,0V46.8H38.5z\",[130,4],\"M31.3,46.8v5.8h-4.4v25.2c2.8,1,5.8,1.7,8.7,2v-33L31.3,46.8L31.3,46.8z\",[109,3],101,\"44.4\",103,[115,2],[106,2],119,[145,4],\"38.5\",[103,2],105,\"2.9\",[107,2],[130,4],\"M80,40C80,17.9,62.1,0,40,0S0,17.9,0,40c0,12.3,5.6,23.9,15.3,31.4V59.7c0-0.7,0.6-1.3,1.3-1.3h0h4.5V51 c0-0.7,0.6-1.3,1.3-1.3h4.5V26.3c0-0.7,0.6-1.3,1.3-1.3h7.4V19c0-0.7,0.6-1.3,1.3-1.3c0,0,0,0,0.1,0h1.6V7.5C38.6,6.7,39.2,6,40,6 c0.8,0,1.5,0.7,1.5,1.5v10.2H43c0.7,0,1.3,0.6,1.4,1.3c0,0,0,0,0,0v6h7.4c0.7,0,1.3,0.6,1.3,1.3v0v23.4h4.8c0.7,0,1.3,0.6,1.3,1.3 v7.6h4.2c0.7,0,1.3,0.6,1.3,1.3v0v11.5C74.4,63.9,80,52.3,80,40z\",[156,5],[150,2],[163,2],[118,2],[145,4],[149,2],[104,2],[106,2],106,\"<svg:g\",1,[120,2],\"transparent\",123,\"M56,76.7V64.2h5.8v9.3c1-0.7,2-1.3,2.9-2.1V60c0-0.7-0.6-1.3-1.3-1.3h-4.2V51c0-0.7-0.6-1.3-1.3-1.3h-4.8V26.3 v0c0-0.7-0.6-1.3-1.3-1.3h-7.4v-6c0,0,0,0,0,0c0-0.7-0.6-1.3-1.4-1.3h-1.5V7.5c0-0.8-0.7-1.5-1.5-1.5s-1.5,0.7-1.5,1.5v10.2H37 c0,0,0,0-0.1,0c-0.7,0-1.3,0.6-1.3,1.3V25h-7.4c-0.7,0-1.3,0.6-1.3,1.3v23.4h-4.5c-0.7,0-1.3,0.6-1.3,1.3v7.4h-4.5 c-0.7,0-1.3,0.6-1.3,1.3v11.7c0.9,0.7,1.9,1.4,2.9,2.1v-9.3H24v12.4c1,0.4,1.9,0.8,2.9,1.1V52.6h4.4v-5.8h4.4v33 c1,0.1,1.9,0.2,2.9,0.2V46.8h2.9V80c1,0,1.9-0.1,2.9-0.2v-33h4.4v5.8h4.4v25.2 M35.6,43.9h-4.4v-4.4h4.4V43.9z M35.6,36.6h-4.4 v-5.8h4.4V36.6z M41.5,43.9h-2.9v-4.4h2.9V43.9z M41.5,36.6h-2.9v-5.8h2.9V36.6z M48.7,43.9h-4.4v-4.4h4.4V43.9z M48.7,36.6h-4.4 v-5.8h4.4V36.6z\",[196,3],123,\"M56.1,76.6C56.1,76.7,56,76.7,56.1,76.6L56.1,76.6C56,76.7,56.1,76.7,56.1,76.6z\",[201,4],\"M18.2,73.6C18.2,73.6,18.2,73.6,18.2,73.6L18.2,73.6C18.2,73.6,18.2,73.6,18.2,73.6z\",27,[64,2],39,\"app-name\",[12,2],\"Jetblue\",[212,3],\"intro-text\",[12,2],\"We're here to talk, so ask us anything!\",[211,2],[38,2],\"messages-container\",59,\"max-height: calc(100% - 10px);\",[73,3],\"messages\",[226,3],35,\"footer\",59,\"transition-duration: 0.3s; transition-timing-function: ease-out; transition-property: color, background-color, border-color, opacity;\",[37,2],59,\"flex: 0 1 34px;\",1,\"<LABEL\",39,\"btn btn-link image-upload\",59,\"transition: opacity 0.3s ease-out 0s;\",[89,2],105,\"22px\",107,257,93,\"0 0 26 26\",\":version\",\"1.1\",1,\"<svg:defs\",194,35,\"Graphics-/-Custom-Icons-/-iMessage-/-Close\",\":stroke\",\"none\",\":stroke-width\",\"1\",99,270,\":fill-rule\",\"evenodd\",[195,2],123,\"M18.1647143,16.2277143 C18.7032857,16.7662857 18.707,17.6298571 18.1684286,18.1702857 C17.6354286,18.7032857 16.7681429,18.707 16.2277143,18.1665714 L12.9981429,14.9388571 L9.77042857,18.1665714 C9.23,18.7032857 8.36828571,18.707 7.82971429,18.1702857 C7.29485714,17.6335714 7.293,16.77 7.83342857,16.2277143 L11.0611429,13 L7.83342857,9.77228571 C7.29857143,9.23557143 7.293,8.372 7.82971429,7.83157143 C8.36457143,7.29485714 9.22814286,7.293 9.77042857,7.83157143 L12.9981429,11.0592857 L16.2277143,7.83157143 C16.7644286,7.29671429 17.6317143,7.293 18.1684286,7.83157143 C18.7032857,8.36642857 18.707,9.22814286 18.1647143,9.77228571 L14.9388571,13 L18.1647143,16.2277143 Z M13,0 C5.82214286,0 0,5.82214286 0,13 C0,20.1778571 5.82214286,26 13,26 C20.1797143,26 26,20.1778571 26,13 C26,5.82214286 20.1797143,0 13,0 L13,0 Z\",35,\"Close-Icon\",99,\"#8A8A8F\",\":transition\",\"fill 0.3s ease-out\",\":transform\",\"translate(13.000000, 13.000000) rotate(45.000000) translate(-13.000000, -13.000000) \",[211,2],[211,2],\"<FORM\",\":action\",\"#\",[73,3],\"input-container\",1,\"<TEXTAREA\",\":rows\",272,39,\"input message-input single-line\",\":title\",\"Send\",\":placeholder\",\"Type a message...\",59,\"transition-duration: 0.3s; transition-timing-function: ease-out; transition-property: color, background-color, border-color, opacity; resize: none; font-size: 16px; transform: scale(0.8125); transform-origin: left center; width: calc(123.077%);\",[211,2],\"<SPAN\",39,\"send\",[242,2],[12,2],307,[226,3],[289,3],[27,2],\"\\n                        \\n                    \\n                    \",[289,3]]],\"FId\":2253},{\"When\":1077,\"Kind\":78,\"Args\":[[0,1,1,1077,5,[3,0]]],\"FId\":2253},{\"Kind\":57,\"Args\":[2,\"https://cm.everesttech.net/cm/dd?d_uuid=47916816186449793754569434191823012205\",2466.5900000036345,119.91999999736436,\"img\",0,0,2466.77500000078,0,0,0,0,0,0,0,2586.510000000999,0,0,0],\"When\":888},{\"Kind\":57,\"Args\":[2,\"https://s.thebrighttag.com/tag?site=UXE8DVB&H=-1153k6u\",2333.8950000033947,381.7549999948824,\"script\",0,0,2334.2199999970035,0,0,0,0,0,0,0,2715.649999998277,0,0,0],\"When\":889},{\"Kind\":57,\"Args\":[2,\"https://d1fc8wv8zag5ca.cloudfront.net/2.10.2/sp.js\",2338.71000000363,391.04499999666587,\"script\",0,0,2339.4100000004983,0,0,0,0,0,0,0,2729.7550000002957,0,0,0],\"When\":890},{\"Kind\":57,\"Args\":[2,\"https://somnistats.jetblue.com/id?d_visid_ver=2.0.0&d_fieldgroup=A&mcorgid=A553776A5245AE600A490D44%40AdobeOrg&mid=52443917460230482153877968417588317141&ts=1589319446584\",2466.1249999990105,369.8900000017602,\"xmlhttprequest\",0,0,2466.359999998531,0,0,0,0,0,0,0,2836.0150000007707,0,0,0],\"When\":891},{\"Kind\":57,\"Args\":[2,\"https://somnistats.jetblue.com/b/ss/jetbluecom2/1/JS-1.8.0/s98448677787368?AQB=1&ndh=1&pf=1&t=12%2F4%2F2020%2017%3A37%3A26%202%20240&mid=52443917460230482153877968417588317141&aamlh=7&vmt=4EFCAA19&ce=UTF-8&pageName=JetBlue%20%7C%20Home%20Page&g=https%3A%2F%2Fwww.jetblue.com%2F&ch=NTS_TRADITIONAL%20WEB&events=event40&aamb=RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y&v2=ENG&v42=NTS_TRADITIONAL%20WEB&c60=https%3A%2F%2Fwww.jetblue.com%2F&v70=TEST%20-%20HP%20A&s=375x812&c=24&j=1.6&v=N&k=Y&bw=375&bh=812&AQE=1\",2859.474999997474,36.19000000617234,\"img\",0,0,2860.0549999973737,0,0,0,0,0,0,0,2895.665000003646,0,0,0],\"When\":892},{\"Kind\":57,\"Args\":[2,\"https://jetblueairways.demdex.net/dest5.html?d_nsid=(redacted)#https%3A%2F%2Fwww.jetblue.com%2F\",2460.015000004205,497.2799999959534,\"iframe\",0,0,2460.015000004205,0,0,0,0,0,0,0,2957.2950000001583,0,0,0],\"When\":893},{\"Kind\":57,\"Args\":[2,\"https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/md5.js\",2736.65500000061,437.8199999991921,\"script\",0,0,2737.8699999972014,2737.8699999972014,2737.8699999972014,2737.8699999972014,2737.8699999972014,0,2737.455000002228,3174.270000003162,3174.474999999802,0,0,0],\"When\":894},{\"Kind\":57,\"Args\":[2,\"https://s.btstatic.com/lib/9783d901d19ed613040722fa980f16c1aeceda95.js?v=2\",3182.8999999997905,19.31999999942491,\"script\",0,0,3183.2550000035553,0,0,0,0,0,0,0,3202.2199999992154,0,0,0],\"When\":895},{\"Kind\":57,\"Args\":[2,\"https://www.googletagmanager.com/gtag/js?id=DC-2784362\",3203.4350000030827,93.86499999527587,\"script\",0,0,3203.73500000278,0,0,0,0,0,0,0,3297.2999999983585,0,0,0],\"When\":896},{\"Kind\":57,\"Args\":[2,\"https://www.googletagmanager.com/gtag/js?id=AW-1067674170\",3310.714999999618,39.64000000269152,\"script\",0,0,3311.5400000024238,0,0,0,0,0,0,0,3350.3550000023097,0,0,0],\"When\":897},{\"Kind\":57,\"Args\":[2,\"https://s.btstatic.com/lib/2dc2cd4fa4c00a075854a285cb2e825df8aae69c.js?v=2\",3359.839999997348,16.835000002174638,\"script\",0,0,3360.274999999092,0,0,0,0,0,0,0,3376.6749999995227,0,0,0],\"When\":898},{\"Kind\":57,\"Args\":[2,\"https://s.btstatic.com/BrightTag.jquery-1.5.1.js\",3410.6250000040745,24.149999997462146,\"script\",0,0,3410.9650000027614,0,0,0,0,0,0,0,3434.7750000015367,0,0,0],\"When\":899},{\"Kind\":57,\"Args\":[2,\"https://www.googletagmanager.com/gtag/js?id=GF-9&l=dataLayer&cx=c\",3405.559999999241,36.775000000488944,\"script\",0,0,3405.850000002829,0,0,0,0,0,0,0,3442.33499999973,0,0,0],\"When\":900},{\"Kind\":57,\"Args\":[2,\"https://gladly-production.sinter-collect.com/com.snowplowanalytics.snowplow/tp2\",3155.140000002575,313.0749999982072,\"xmlhttprequest\",0,0,3155.514999998559,0,0,0,0,0,0,0,3468.2150000007823,0,0,0],\"When\":901},{\"Kind\":18,\"Args\":[1442,\"true\"],\"When\":945},{\"Kind\":18,\"Args\":[1483,\"New York City area (NYC)\"],\"When\":946},{\"Kind\":42,\"Args\":[375,4087],\"When\":1014},{\"Kind\":10,\"Args\":[3,0,0],\"When\":1015},{\"Kind\":64,\"Args\":[3,0,0],\"When\":1016},{\"Kind\":19,\"Args\":[375,812],\"When\":1017},{\"Kind\":40,\"Args\":[375,812],\"When\":1018},{\"Kind\":56,\"Args\":[1368,true],\"When\":1019},{\"Kind\":17,\"Args\":[1483],\"When\":2074},{\"Kind\":14,\"Args\":[],\"When\":2111},{\"Kind\":24,\"Args\":[1483],\"When\":2119},{\"Kind\":17,\"Args\":[1494],\"When\":2123},{\"Kind\":59,\"Args\":[1480,2],\"When\":2125},{\"Kind\":15,\"Args\":[],\"When\":2228},{\"Kind\":24,\"Args\":[1494],\"When\":2232},{\"Kind\":17,\"Args\":[1483],\"When\":2235},{\"Kind\":14,\"Args\":[],\"When\":2267},{\"When\":2303,\"Kind\":3,\"Args\":[1481]},{\"When\":2303,\"Kind\":2,\"Args\":[4,-1,[[377,3],\"jb-select[_ngcontent-jmy-c64]     .lh-copy{line-height:1.15rem}.legend-partner[_ngcontent-jmy-c64]{width:0;height:0;border-left:3px solid transparent;border-right:3px solid transparent;border-bottom:6px solid #757575}.legend-mint[_ngcontent-jmy-c64]{width:6px;height:5px;background:#6cc24a;box-shadow:1px 1px 0 0 #6cc24a}\",33]]},{\"When\":2303,\"Kind\":78,\"Args\":[[0,1,2,2303,0,[3,0]]]},{\"When\":2303,\"Kind\":2,\"Args\":[239,-1,[\"<FLYING-FOCUS\",1207,\"flying-focus\",785,\"transition-duration: 0.2s; left: 306.875px; top: 361px; width: 32px; height: 32px;\",[9054,2]]]},{\"When\":2303,\"Kind\":78,\"Args\":[[0,1,2,2303,0,[3,0]]]},{\"When\":2303,\"Kind\":2,\"Args\":[1476,-1,[782,[9940,3],\"copy-s avenir absolute bg-white top-100 w-100 suggestion-z-index menu-shadow suggestion-list suggestions-not-focus h-100 top-10 overflow-y-scroll ng-star-inserted\",[904,2],[9940,3],\"list ph3 mt0 mt1-ns mb1 mb10\",1207,9958,4906,9958,1,\"<JB-LEGEND\",[9940,3],\"flex pb3 ng-star-inserted\",\":_nghost-jmy-c64\",[891,3],\":_ngcontent-jmy-c64\",[895,2],\"w-100 bg-light-gray\",[904,2],[16261,2],12,\"list w-100 flex copy-xs ma0 pr0 pl5 pv2\",[910,2],[16267,3],\"avenir-regular pr3 flex items-center ng-star-inserted\",[972,2],[16267,3],\"mr2 fill-mint-green\",814,\"0.7em\",812,16284,[3190,9],16284,[16283,2],816,\"0 0 7 6\",[10824,5],997,826,\"M7.059 6h-4.47A2.603 2.603 0 0 1 0 3.398V0h4.47A2.603 2.603 0 0 1 7.06 2.602V6z\",[2193,3],[16267,3],\"lh-solid\",[16,2],\"Mint Service\",[931,3],[16273,4],[16277,3],[895,2],\"mr2 fill-slate-grey\",[16283,2],[16285,2],[16287,10],[16297,3],[16300,2],[821,2],[12744,4],\"3.5 0 6.5 6 .5 6\",[16309,4],[895,2],[16315,2],17,\"Partner Airline\",[1294,6],[9940,3],\"flex items-center item royal-blue pointer highlightable-icon airport-suggestion no-flying-focus ng-star-inserted\",4906,\"option\",[9965,3],[895,2],\"suggestion-icon tc\",[972,2],[9940,3],\"fill-mint-green mint-icon t-fast notranslate\",814,\"0.6em\",1523,\"mint\",3,\"mintIndicator\",812,16393,[1527,3],16395,[10221,3],[1484,4],16393,[16392,2],[16299,2],[16301,6],[16307,2],[8937,3],[9940,3],\"fill-slate-gray partner-icon t-fast notranslate\",[16392,2],1523,\"partner city\",3,\"partnerAirlineIndicator\",[16398,2],[1527,3],16434,[16404,4],[984,3],[16411,2],16393,[16414,3],[16351,3],[3298,3],[16357,2],[2193,3],[9934,2],[1285,2],[1285,2],12,\"b\",[16,2],\"New\",[744,2],\" \",1280,[16473,2],[16,2],\"York\",[16478,3],[16481,2],[16474,2],17,\"City\",[16487,4],[16482,3],17,\"area\",[744,2],\" (\",[16490,3],[16,2],\"NYC\",[744,2],\")\",[5980,4],[9940,3],\"list royal-blue pointer avenir highlightable-icon airport-suggestion no-flying-focus no-highlight ng-star-inserted\",[16378,2],[16380,4],[9848,2],[16527,5],[16385,2],797,[16388,4],[16431,3],[16395,2],[16397,2],[16399,2],[2733,2],[16403,2],[763,2],[16407,5],[16412,3],[16349,3],[998,3],[16306,2],[16308,2],[1517,2],[16427,4],[16431,3],[16434,2],[16436,2],[16552,3],1529,[16442,2],[16558,3],[16447,4],[16565,4],[859,3],[16353,5],[1506,4],[9940,3],\"hyphen-list mr2\",[10181,2],[763,2],1280,[16471,3],[16492,3],[16477,2],17,[16480,2],[16500,4],[16486,2],17,\", NY (LGA)\",[2069,5],[16521,4],[16525,3],[16624,3],[16531,3],[16660,4],[16538,3],[16541,5],[16393,2],[16548,3],[16437,3],[16554,3],[16443,5],[811,2],[16450,3],[16453,4],[16571,4],[16422,3],[16578,3],[895,2],[16430,2],[16393,2],[16587,3],[16683,4],[16594,2],[16689,6],[16398,2],[16604,5],[16456,4],[4471,2],[16462,3],[1279,2],[16620,4],[16624,3],[16469,3],17,\"Westchester County, NY (HPN)\",[16648,6],[895,2],[16524,2],[16379,2],[16660,4],[10795,3],[9940,3],[16670,4],[895,2],[16391,2],[16678,3],[16396,2],[16722,5],[16556,3],[2321,5],[16696,4],[16568,4],[9881,3],[16707,4],[16540,2],[16713,3],[16584,4],[16435,2],[16722,5],[16595,3],[16807,6],[16736,6],[8600,5],[16747,4],[16660,4],[16623,2],[16467,3],[16628,2],[16508,4],17,[16635,3],\"burgh, NY (SWF)\",[16764,7],12,[16772,3],[16527,5],[16780,4],[16383,3],[16386,3],[16790,3],[16545,4],[16797,3],[16591,4],[16804,4],[16560,6],[16452,2],[16816,5],[996,2],[16823,5],[16580,5],[16717,3],[16836,3],[16591,4],[16843,4],[16931,7],[16699,5],[16611,6],[16464,4],[895,2],[16871,3],[16626,3],[16629,4],[16475,3],[16496,5],[16492,3],[16644,3],\", NY (JFK)\",[16887,8],[16895,4],[16776,5],[16533,6],[16910,4],12,[16792,3],[16394,2],[16920,4],[16400,4],[16728,7],[16812,5],[16416,7],[16576,3],[16827,3],12,[16715,3],[16433,2],[16959,4],[16439,4],[17060,8],[16852,7],[16982,7],[16750,3],[16992,3],[16756,4],[16876,3],[16500,4],[16635,3],\"ark, NJ (EWR)\",[16887,8],\"copy-s dn pl1 b flex-ns pointer highlightable-icon bt border-color-light-gray royal-blue airport-suggestion no-flying-focus no-highlight overflow-hidden\",[16525,3],[17082,4],\"fill-royal-blue flex flex-column self-center mr2 nt2 nb2 overflow-hidden t-fast notranslate\",3,\"popup\",[15639,12],[8318,7],\"translate(13 13)\",1545,[8597,4],[825,2],\"M9.164 2.355a.75.75 0 0 0-.75.75v8.72c0 .415.336.75.75.75h10.449a.75.75 0 0 0 .75-.75v-8.72a.75.75 0 0 0-.75-.75H9.164zm0-1.5h10.449a2.25 2.25 0 0 1 2.25 2.25v8.72a2.25 2.25 0 0 1-2.25 2.25H9.164a2.25 2.25 0 0 1-2.25-2.25v-8.72a2.25 2.25 0 0 1 2.25-2.25z\",[825,2],\"M13.639 16.68a.75.75 0 0 1 1.5 0v.955a2.691 2.691 0 0 1-2.692 2.691H2.881a2.691 2.691 0 0 1-2.692-2.691V9.797a2.691 2.691 0 0 1 2.692-2.69h.966a.75.75 0 0 1 0 1.5h-.966c-.658 0-1.192.532-1.192 1.19v7.838c0 .658.534 1.191 1.192 1.191h9.566c.658 0 1.192-.533 1.192-1.191v-.955z\",[16616,5],[895,2],\"flex flex-column din\",[16,2],\"Browse by regions\",[831,3],[16252,2],[895,2],\"dn db-ns bt b--moon-gray\",[16257,2],[781,2],[16267,3],[16264,2],905,[16267,3],[16270,2],911,[16322,5],797,[16279,4],[16332,3],[16286,2],[7178,8],[16296,2],16284,[16699,5],[16820,4],[16576,3],1280,[16312,4],[16316,3],[16319,4],[895,2],[16276,2],[17232,2],[16329,3],[17237,4],[16336,11],[17252,2],[16568,4],[16982,7],[17265,2],[16362,3],[16,2],[16367,2],[1070,5]]]},{\"When\":2303,\"Kind\":78,\"Args\":[[0,1,2,2303,4,[3,1]]]},{\"When\":2303,\"Kind\":2,\"Args\":[1491,-1,[[10236,2],[895,2],\"pr2 ng-star-inserted\",[10241,4],12,\"nowrap pv3 ml3\",[9002,3],17,\" United States & Canada \",[743,2]]]},{\"When\":2303,\"Kind\":78,\"Args\":[[0,1,2,2303,0,[3,0]]]},{\"When\":2303,\"Kind\":2,\"Args\":[1491,-1,[[17328,3],12,[17332,2],4804,[10016,3],\"nowrap pv3 ml2\",[17339,4],\" Africa \",[743,2]]]},{\"When\":2303,\"Kind\":78,\"Args\":[[0,1,2,2303,0,[3,0]]]},{\"When\":2303,\"Kind\":2,\"Args\":[1491,-1,[[17346,4],[17350,3],[17353,4],[17339,4],\" Asia \",[743,2]]]},{\"When\":2303,\"Kind\":78,\"Args\":[[0,1,2,2303,0,[3,0]]]},{\"When\":2303,\"Kind\":2,\"Args\":[1491,-1,[[17364,5],[17333,5],[17356,2],4935,[16,2],\" Caribbean & Central America \",[743,2]]]},{\"When\":2303,\"Kind\":78,\"Args\":[[0,1,2,2303,0,[3,0]]]},{\"When\":2303,\"Kind\":2,\"Args\":[1491,-1,[[17382,6],[17352,2],[895,2],[17392,3],[16,2],\" Europe \",[743,2]]]},{\"When\":2303,\"Kind\":78,\"Args\":[[0,1,2,2303,0,[3,0]]]},{\"When\":2303,\"Kind\":2,\"Args\":[1491,-1,[[17400,7],[17371,5],[17394,2],17,\" Middle East \",[743,2]]]},{\"When\":2303,\"Kind\":78,\"Args\":[[0,1,2,2303,1,[3,0]]]},{\"When\":2303,\"Kind\":2,\"Args\":[1491,-1,[[17418,8],[895,2],\"nowrap pv3 ml2 mr4\",[17339,4],\" South America \",[743,2]]]},{\"When\":2303,\"Kind\":78,\"Args\":[[0,1,2,2303,0,[3,0]]]},{\"When\":2303,\"Kind\":2,\"Args\":[1520,-1,[[17436,9],[17337,2],[17339,4],[17343,2],33]]},{\"When\":2303,\"Kind\":78,\"Args\":[[0,1,2,2303,0,[3,0]]]},{\"When\":2303,\"Kind\":2,\"Args\":[1520,-1,[[17454,10],[17410,4],17,[17361,2],33]]},{\"When\":2303,\"Kind\":78,\"Args\":[[0,1,2,2303,0,[3,0]]]},{\"When\":2303,\"Kind\":2,\"Args\":[1520,-1,[[17472,11],[17375,5],[743,2]]]},{\"When\":2303,\"Kind\":78,\"Args\":[[0,1,2,2303,0,[3,0]]]},{\"When\":2303,\"Kind\":2,\"Args\":[1520,-1,[[17490,12],[17430,3],[17397,2],33]]},{\"When\":2303,\"Kind\":78,\"Args\":[[0,1,2,2303,0,[3,0]]]},{\"When\":2303,\"Kind\":2,\"Args\":[1520,-1,[[17508,13],[17413,3],[743,2]]]},{\"When\":2303,\"Kind\":78,\"Args\":[[0,1,2,2303,0,[3,0]]]},{\"When\":2303,\"Kind\":2,\"Args\":[1520,-1,[[17526,14],[17432,2],[743,2]]]},{\"When\":2303,\"Kind\":78,\"Args\":[[0,1,2,2303,0,[3,0]]]},{\"When\":2303,\"Kind\":2,\"Args\":[1520,-1,[[17454,10],[17446,2],[17430,3],[17451,2],33]]},{\"When\":2303,\"Kind\":78,\"Args\":[[0,1,2,2303,0,[3,0]]]},{\"When\":2303,\"Kind\":2,\"Args\":[1568,-1,[[10488,2],[895,2],\"tc copy-xs slate-gray w-100 pv2 ng-star-inserted\",[16,2],\" Flights available for sale through . \",33]]},{\"When\":2303,\"Kind\":78,\"Args\":[[0,1,2,2303,0,[3,0]]]},{\"Kind\":4,\"When\":2303,\"Args\":[1442,\"name\",\"jb-radio-group-label-id-0\"]},{\"Kind\":4,\"When\":2303,\"Args\":[1449,\"name\",\"jb-radio-group-label-id-0\"]},{\"Kind\":4,\"When\":2303,\"Args\":[1456,\"href\",\"https://book.jetblue.com/B6/webqtrip.html?journeySpan=MC\"]},{\"Kind\":4,\"When\":2303,\"Args\":[1483,\"class\",\"avenir f5 fl ph3 pv2 pt0 bn core-blue w-100 h-100 border-box no-flying-focus ng-valid ng-touched ng-dirty\"]},{\"Kind\":4,\"When\":2303,\"Args\":[1494,\"class\",\"t-fast relative-ns absolute cb z-2 b--light-gray bg-white icon-swap flex items-center justify-center h2 w2 ba br-100 pointer mr1 nl3-ns nr3-ns ng-tns-c54-22 ng-star-inserted\"]},{\"Kind\":4,\"When\":2303,\"Args\":[1476,\"class\",\"flex flex-column open-mobile\"]},{\"Kind\":4,\"When\":2303,\"Args\":[1477,\"class\",\"pv2 pb1-ns bg-white contains-city-input z-2 fixed left-0 right-0\"]},{\"Kind\":4,\"When\":2303,\"Args\":[1484,\"hidden\",null]},{\"Kind\":4,\"When\":2303,\"Args\":[1480,\"aria-expanded\",\"true\"]},{\"Kind\":4,\"When\":2303,\"Args\":[1481,\"style\",\"\"]},{\"Kind\":57,\"Args\":[2,\"https://rs.fullstory.com/rec/page\",2615.474999998696,872.4650000003749,\"xmlhttprequest\",0,0,2615.830000002461,0,0,0,0,0,0,0,3487.939999999071,0,0,0],\"When\":2302},{\"Kind\":57,\"Args\":[2,\"https://www.googleadservices.com/pagead/conversion_async.js\",3404.2499999995925,123.65999999747146,\"script\",0,0,3404.609999997774,3404.609999997774,3404.609999997774,3404.609999997774,3404.609999997774,0,3404.450000001816,3527.6599999997416,3527.909999997064,0,0,0],\"When\":2303},{\"Kind\":57,\"Args\":[2,\"https://api.amplitude.com/\",3163.1649999981164,579.2849999997998,\"xmlhttprequest\",0,0,3163.5949999981676,0,0,0,0,0,0,0,3742.449999997916,0,0,0],\"When\":2304},{\"Kind\":57,\"Args\":[2,\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1067674170/?random=1589319447751&cv=9&fst=1589319447751&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=812&u_w=375&u_ah=812&u_aw=375&u_cd=24&u_his=2&u_tz=-240&u_java=false&u_nplug=0&u_nmime=0&gtm=2oa4t0&sendb=1&ig=1&data=event%3Dgtag.config&frm=0&url=https%3A%2F%2Fwww.jetblue.com%2F&tiba=Airline%20Tickets%2C%20Flights%20%26%20Airfare%3A%20Book%20Direct%20-%20Official%20Site%20%7C%20JetBlue&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4\",3635.5550000007497,133.82999999885214,\"script\",0,0,3635.9099999972386,3635.9099999972386,3635.9099999972386,3635.9099999972386,3635.9099999972386,0,3635.8000000036554,3769.2800000004354,3769.384999999602,0,0,0],\"When\":2305},{\"Kind\":57,\"Args\":[2,\"https://www.google.com/pagead/1p-user-list/1067674170/?random=1589319447751&cv=9&fst=1589317200000&num=1&bg=ffffff&guid=ON&u_h=812&u_w=375&u_ah=812&u_aw=375&u_cd=24&u_his=2&u_tz=-240&u_java=false&u_nplug=0&u_nmime=0&gtm=2oa4t0&sendb=1&data=event%3Dgtag.config&frm=0&url=https%3A%2F%2Fwww.jetblue.com%2F&tiba=Airline%20Tickets%2C%20Flights%20%26%20Airfare%3A%20Book%20Direct%20-%20Official%20Site%20%7C%20JetBlue&async=1&fmt=3&is_vtc=1&random=1963405786&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y\",3770.5300000015995,97.33499999856576,\"img\",0,0,3770.8199999979115,3770.8199999979115,3770.8199999979115,3770.8199999979115,3770.8199999979115,0,3770.6899999975576,3867.5050000019837,3867.8650000001653,0,0,0],\"When\":2306},{\"Kind\":57,\"Args\":[2,\"https://rs.fullstory.com/rec/bundle?OrgId=4HV1Q&UserId=4987391414386688&SessionId=6655697640767488&PageId=6060215323344896&Seq=1&PageStart=1589319447355&PrevBundleTime=0&LastActivity=992&IsNewSession=true\",3607.174999997369,314.59000000177184,\"xmlhttprequest\",0,0,3609.9949999988894,0,0,0,0,0,0,0,3921.764999999141,0,0,0],\"When\":2307},{\"Kind\":18,\"Args\":[1483,\"New York City area (NYC\"],\"When\":2312},{\"Kind\":15,\"Args\":[],\"When\":2313},{\"Kind\":42,\"Args\":[375,4031],\"When\":2314},{\"Kind\":14,\"Args\":[],\"When\":2316},{\"Kind\":18,\"Args\":[1483,\"New York City area (NYCI\"],\"When\":2333},{\"Kind\":15,\"Args\":[],\"When\":2334},{\"Kind\":14,\"Args\":[],\"When\":2335},{\"Kind\":59,\"Args\":[1480,1],\"When\":2349},{\"Kind\":18,\"Args\":[1483,\"New York City area (NYCId\"],\"When\":2350},{\"Kind\":15,\"Args\":[],\"When\":2351},{\"Kind\":14,\"Args\":[],\"When\":2352},{\"Kind\":18,\"Args\":[1483,\"New York City area (NYCIda\"],\"When\":2368},{\"Kind\":15,\"Args\":[],\"When\":2369},{\"Kind\":14,\"Args\":[],\"When\":2370},{\"Kind\":18,\"Args\":[1483,\"New York City area (NYCIdaa\"],\"When\":2384},{\"Kind\":15,\"Args\":[],\"When\":2385},{\"Kind\":14,\"Args\":[],\"When\":2386},{\"Kind\":18,\"Args\":[1483,\"New York City area (NYCIdaaa\"],\"When\":2397},{\"Kind\":15,\"Args\":[],\"When\":2398},{\"Kind\":14,\"Args\":[],\"When\":2399},{\"Kind\":18,\"Args\":[1483,\"New York City area (NYCIdaaaa\"],\"When\":2409},{\"Kind\":15,\"Args\":[],\"When\":2410},{\"Kind\":14,\"Args\":[],\"When\":2411},{\"Kind\":18,\"Args\":[1483,\"New York City area (NYCIdaaaaT\"],\"When\":2419},{\"Kind\":15,\"Args\":[],\"When\":2420},{\"Kind\":14,\"Args\":[],\"When\":2421},{\"Kind\":18,\"Args\":[1483,\"New York City area (NYCIdaaaaTa\"],\"When\":2431},{\"Kind\":15,\"Args\":[],\"When\":2432},{\"Kind\":14,\"Args\":[],\"When\":2433},{\"Kind\":18,\"Args\":[1483,\"New York City area (NYCIdaaaaTar\"],\"When\":2443},{\"Kind\":15,\"Args\":[],\"When\":2444},{\"Kind\":14,\"Args\":[],\"When\":2445},{\"Kind\":18,\"Args\":[1483,\"New York City area (NYCIdaaaaTarb\"],\"When\":2455},{\"Kind\":15,\"Args\":[],\"When\":2456},{\"Kind\":14,\"Args\":[],\"When\":2457},{\"Kind\":18,\"Args\":[1483,\"New York City area (NYCIdaaaaTarbe\"],\"When\":2467},{\"Kind\":15,\"Args\":[],\"When\":2468},{\"Kind\":14,\"Args\":[],\"When\":2469},{\"Kind\":18,\"Args\":[1483,\"New York City area (NYCIdaaaaTarbel\"],\"When\":2481},{\"Kind\":15,\"Args\":[],\"When\":2482},{\"Kind\":14,\"Args\":[],\"When\":2483},{\"Kind\":18,\"Args\":[1483,\"New York City area (NYCIdaaaaTarbell\"],\"When\":2492},{\"Kind\":15,\"Args\":[],\"When\":2493},{\"When\":2492,\"Kind\":3,\"Args\":[2286,2311,2329,2342,2357,2375]},{\"When\":2492,\"Kind\":2,\"Args\":[2270,2390,[911,[9940,3],\"copy-s ph5 lh-copy slate-gray airport-description no-flying-focus ng-star-inserted\",[16525,3],17,\"Hmmm... we couldn't find any results for  \\\"New York City area (NYCIdaaaaTarbell\\\". You can also browse alphabetically.\",33]]},{\"When\":2492,\"Kind\":78,\"Args\":[[0,1,2,2492,0,[3,0]]]},{\"Kind\":4,\"When\":2492,\"Args\":[2286,\"style\",\"\"]},{\"Kind\":4,\"When\":2492,\"Args\":[2311,\"style\",\"\"]},{\"Kind\":4,\"When\":2492,\"Args\":[2329,\"style\",\"\"]},{\"Kind\":4,\"When\":2492,\"Args\":[2342,\"style\",\"\"]},{\"Kind\":4,\"When\":2492,\"Args\":[2357,\"style\",\"\"]},{\"Kind\":4,\"When\":2492,\"Args\":[2375,\"style\",\"\"]},{\"Kind\":24,\"Args\":[1483],\"When\":2610},{\"Kind\":17,\"Args\":[1512],\"When\":2622},{\"Kind\":14,\"Args\":[],\"When\":2631},{\"Kind\":24,\"Args\":[1512],\"When\":2640},{\"Kind\":17,\"Args\":[1533],\"When\":2644},{\"Kind\":59,\"Args\":[1528,2],\"When\":2647},{\"Kind\":4,\"When\":2742,\"Args\":[1512,\"class\",\"avenir f5 fl ph3 pv2 pt0 bn core-blue w-100 h-100 border-box no-flying-focus ng-pristine ng-valid ng-touched\"]},{\"Kind\":15,\"Args\":[],\"When\":2749},{\"Kind\":24,\"Args\":[1533],\"When\":2754},{\"Kind\":17,\"Args\":[1512],\"When\":2756},{\"Kind\":14,\"Args\":[],\"When\":2769},{\"Kind\":59,\"Args\":[1509,1],\"When\":2912},{\"Kind\":15,\"Args\":[],\"When\":2918},{\"Kind\":14,\"Args\":[],\"When\":2919},{\"Kind\":18,\"Args\":[1512,\"I\"],\"When\":3044},{\"Kind\":15,\"Args\":[],\"When\":3045},{\"When\":3045,\"Kind\":3,\"Args\":[1510]},{\"When\":3045,\"Kind\":2,\"Args\":[1505,-1,[[16236,2],[895,2],[16240,2],905,[16243,4],[16247,2],[16249,2],[16251,2],[16253,4],[17211,3],782,[17215,4],[16265,3],[895,2],[17224,3],[17227,6],[17233,5],[16284,2],[17240,3],[7263,7],[17250,3],[17253,6],[16944,3],[17262,4],[17266,5],17,[16318,2],[1710,2],[17637,7],[17283,4],[17648,3],[17290,12],[16977,6],[16459,4],[16358,5],12,[16364,3],[17321,3],[16517,5],[895,2],[16377,2],[16774,3],[16783,4],[17042,5],[17047,4],[16680,4],[16923,5],[17099,9],[16937,3],[17072,8],[16424,4],[16829,4],[16956,4],[16589,3],[17095,5],[16597,4],[16694,3],[17107,8],[17718,5],[16988,5],[16759,4],\"Aguad\",[16878,5],\"i\",[744,2],\"lla, PR (BQN)\",[17734,6],12,[17741,3],[17036,7],[17082,4],[17755,5],[17052,5],[16686,4],[17808,5],[16734,3],[17777,4],[1061,3],[17669,4],[17788,5],[17085,2],[16832,5],[17800,4],[2733,2],[16966,5],[16600,5],[17890,5],[16858,6],[17192,6],[16759,4],\"Albany, NY (ALB)\",[17847,7],[17854,4],[16666,5],[17750,6],[16916,5],[16550,3],[17056,5],[17882,6],[17067,6],[17894,4],[16574,3],[17901,6],[17086,4],[16719,4],[16962,5],[17768,10],[17712,7],[16745,3],[17940,7],[16628,2],17,\"Albuquerque/Santa Fe, NM (ABQ)\",[17951,8],[16657,4],[17746,5],[17864,5],[17973,6],[16799,6],[18024,11],[16939,6],[18002,4],[16710,4],[17906,3],[17796,5],[16838,6],[18089,12],[16608,4],[17823,6],[17121,4],[16759,4],\"Anchorage, AK (ANC)\",[18055,9],[17743,4],[16907,4],[18072,6],[16794,4],[17978,4],[17878,5],[16846,7],[17929,6],[17258,5],[18005,7],[17908,6],[18122,7],[17986,7],[17815,9],[18041,4],[17828,6],[18051,3],\"Ant\",[17838,6],[744,2],\"gua, Ant\",[18263,7],17,\"gua and Barbuda (ANU)\",[18159,10],[17857,8],[16673,6],[17050,3],[18186,5],1529,[16927,5],[17924,6],[17663,7],[18106,5],[17082,4],[18011,5],[17091,5],[17917,3],[18128,13],[16741,5],1501,[16863,5],[16873,4],[16,2],\"Atlanta, GA (ATL)\",[18281,11],[17962,6],[18176,7],[18305,4],[18083,7],[18233,8],[18202,7],[17897,5],[18110,5],[18341,6],[17913,5],[16726,3],[18420,9],[18034,8],[18372,2],[18044,8],[16,2],\"Aust\",[18272,8],\"n, TX (AUS)\",[18385,12],[18067,6],[18299,7],[17759,5],[17981,6],[18195,8],[18325,8],[16946,6],[17792,5],[17089,3],[18451,6],[17919,6],[17812,4],[17929,6],[17114,8],[17127,5],[16,2],\"Bermuda (BDA)\",[18498,13],[18172,5],[18516,8],[17873,6],[18313,2],[18354,14],[16703,5],[17079,4],[16951,6],[18561,4],[18226,8],[18534,9],[17303,5],[18144,7],[18594,6],17,\"Bogota, Colomb\",[18272,8],\"a (BOG)\",[18602,14],12,[16786,5],[17046,2],[18077,7],[17763,6],[18459,10],[18100,7],[18550,7],[18114,4],[18665,5],[18019,6],[18750,11],[18140,5],[18249,5],[18150,5],[18051,3],\"Boston area\",[17847,7],[17027,5],[9940,3],[16903,5],[18729,2],[17967,7],[18182,5],[18413,8],[18677,10],[17780,9],[18440,6],[18220,7],[18783,7],[18861,11],[18367,6],[18373,6],[17124,4],[18378,5],17,\"Worcester, MA (ORH)\",[17019,9],[18063,5],[895,2],[18834,6],[18730,6],[17868,6],[18308,6],[18314,6],[18576,5],[18542,9],[18655,5],[18556,6],[18015,5],[17803,6],[18900,12],[17934,7],[16988,5],12,[16994,4],[16759,4],\"Boston, MA (BOS)\",[16887,8],[17958,5],[18510,7],[16913,4],[18848,6],[18744,7],[19016,13],[18208,6],[18880,7],[18117,6],[18893,8],[16970,8],[18686,6],[18805,6],[18698,7],\"Br\",[18272,8],\"dgetown, Barbados (BG\",[16878,5],\"I\",[16514,3],[18715,15],[18956,7],[18737,8],[18528,7],[19127,9],[18871,10],[18337,5],[18886,8],[19010,7],[19210,10],[18911,7],[18478,9],17,\"Burl\",[18272,8],\"ngton, VT (BTV)\",[19173,16],[18841,8],[18409,5],[19080,8],[19249,11],[18650,6],[18213,8],[19113,7],[19242,8],[18319,7],[19135,7],[18476,3],[18253,7],[16,2],\"Cancun, Mex\",[18272,8],\"co (CUN)\",[19286,17],[18402,8],[18523,6],[18190,6],[19323,12],[19100,7],[19229,6],[19348,8],[18351,4],[18789,12],[19259,8],[19380,8],17,\"Cartagena, Colomb\",[18272,8],\"a (CTG)\",[19399,18],[18620,9],[18968,7],[18636,15],[19448,8],[18659,7],[19005,6],[19469,5],[19016,13],[18586,9],[18927,6],\"Charleston, SC (CHS)\",[19512,19],[19070,5],[19310,6],[19203,8],[19363,8],[19219,11],[19569,8],[18346,6],[18456,4],[19587,14],[18691,8],[18927,6],\"Charlotte, NC (CLT)\",[19616,20],[18735,3],[19074,7],[19646,9],[18980,6],[18760,8],[18994,6],[18774,5],[19576,7],[19687,5],[19323,12],[19600,10],[16997,4],17,\"Ch\",[18272,8],\"cago, \",[19164,6],[744,2],\"L (ORD)\",[19720,21],[18962,7],[18853,9],[19436,13],[18435,6],[19455,7],[18778,6],[19355,9],[19759,7],[18800,6],[19377,4],[18810,6],[16,2],\"Cleveland, OH (CLE)\",[19842,22],[19195,9],[19430,7],[19654,9],[17998,5],[18767,8],[18445,7],[18669,9],[19796,13],[19705,9],[19818,5],\"Dallas/Fort Worth, TX (DFW)\",[19946,23],[19743,8],[19977,8],[19920,8],[19993,6],[19773,7],[20006,8],[19119,9],[19984,10],[19028,8],[19937,7],17,\"Denver, CO (DEN)\",[20050,24],[19640,7],[20081,9],[17887,4],[18985,10],[19340,9],[19905,7],[19582,6],[20022,14],[19141,7],[18927,6],\"Detro\",[18272,8],\"t, M\",[19833,7],17,\" (DTW)\",[20154,25],[19424,7],[18634,3],[19473,13],[19334,7],[19106,8],[20217,8],[19791,6],[20127,11],[19808,11],[16759,4],\"Fort Myers, FL (RSW)\",[20276,26],[18628,7],[18974,7],[20194,5],[19765,9],[20208,10],[19784,8],[18570,7],[20420,6],[19927,7],[18917,7],[16759,4],\"Grand Cayman (GCM)\",[20380,27],[19539,8],[20311,14],[19561,9],[18999,7],[19681,7],[20452,8],[17992,7],[20137,9],[18698,7],\"Guatemala C\",[18272,8],\"ty (GUA)\",[20484,28],[19870,10],[20127,11],[20533,10],[19779,6],[20549,8],[18636,15],[20364,12],[18051,3],\"Guayaqu\",[18272,8],\"l, Ecuador (GYE)\",[20597,29],[19315,9],[20635,12],[19892,7],[19673,9],[18564,7],[20670,16],[20035,10],[16759,4],\"Holgu\",[18272,8],\"n, Cuba (HOG)\",[20710,30],[19750,10],[20459,7],[20097,7],[20434,11],[20662,9],[20311,14],[20685,13],[16,2],\"Houston, TX (\",[20267,8],\"AH)\",[20823,31],[20185,10],[20564,8],[20646,11],[20110,9],[19911,10],[20863,8],[20571,10],[18927,6],\"Hyann\",[18272,8],\"s, MA (HYA)\",[20936,32],[20308,4],[19087,14],[20760,8],[20542,8],[20776,8],[20897,15],[20799,11],[18051,3],\"Jacksonv\",[18272,8],\"lle, FL (JAX)\",[21049,33],[20413,8],[20977,9],[21099,9],[20656,7],[21115,9],[19691,15],[20244,8],[19818,5],\"K\",[18272,8],\"ngston, Jama\",[18272,8],\"ca (K\",[20267,8],\"N)\",[21162,34],[19546,16],[21212,10],[20996,10],[20224,7],[20353,12],[21138,12],[16,2],\"La Romana, DR (LRM)\",[21293,35],[20519,15],[21343,11],[19234,9],[21363,8],[20089,9],[21023,11],[19818,5],\"Las Vegas, NV (LAS)\",[21397,36],[21085,15],[18332,6],[20767,10],[20013,10],[21370,13],[21252,9],[16759,4],\"L\",[18272,8],\"ber\",[18272,8],\"a, Costa R\",[18272,8],\"ca (L\",[20267,8],\"R)\",[21501,37],[19879,14],[21552,7],[21107,9],[21568,11],[21475,10],[20911,14],17,[21604,2],[16500,4],[17843,2],17,\"ma, Peru (L\",[20267,8],\"M)\",[21641,38],[20748,13],[21692,8],[21221,8],[21708,12],[21015,9],[21729,15],\"Los Angeles area\",[18819,8],[18943,6],[16663,4],[19063,8],[19740,4],[20178,8],[21081,5],[21678,15],[19998,9],[21458,10],[20347,7],[21719,11],[20035,10],[19040,2],[18698,7],\"Long Beach, CA (LGB)\",[18934,10],[18168,5],[21881,5],[18615,6],[19635,6],[20301,8],[21195,9],[16852,7],[20985,12],[21934,11],[20556,9],[18240,10],[19933,5],[16867,5],[18698,7],\"Ontar\",[18272,8],\"o, CA (ONT)\",[21982,11],[16898,6],[18291,9],[22008,7],[20406,8],[21327,17],[21814,9],[21353,11],[21944,8],[21842,10],[21962,11],[19041,5],[18051,3],\"Burbank, CA (BUR)\",[22107,12],[17031,6],[18396,7],[19530,10],[20625,11],[21475,10],[22038,13],[19461,9],[22185,9],[20564,8],[19808,11],[21972,3],[18927,6],\"Los Angeles, CA (LAX)\",[19050,9],[21875,7],[19188,8],[20073,9],[21905,6],[21801,14],[21925,10],[22292,10],[22061,10],[18580,7],[21382,13],17,\"Martha's V\",[18272,8],\"neyard, MA (MVY)\",[21763,39],[22269,11],[21447,12],[22402,11],[20783,17],[21591,10],[18051,3],\"Medell\",[18272,8],\"n, Colomb\",[18272,8],\"a (MDE)\",[22453,40],[21015,9],[22279,14],[20339,9],[22412,11],[18468,9],[20472,8],[18051,3],\"Mex\",[18272,8],\"co C\",[18272,8],\"ty, Mex\",[18272,8],\"co (MEX)\",[22575,41],[21203,10],[22165,10],[22050,12],[22526,18],[22080,6],[18927,6],10506,[18272,8],\"am\",[18272,8],\" area\",[21867,9],[21992,6],[18950,7],[19302,9],[22014,9],[22148,18],[22392,11],[22638,10],[22779,19],[18917,7],[22329,4],[19818,5],\"Fort Lauderdale, FL (FLL)\",[22223,13],[18831,4],[22124,10],[21893,5],[22859,10],[21432,16],[22757,11],[22515,12],[21123,16],[21252,9],[22933,5],[16759,4],\"West Palm Beach, FL (PB\",[20267,8],[16516,2],[22706,42],[22031,8],[22503,13],[22897,11],[23024,17],[22797,7],[19818,5],[22809,2],[21746,5],[744,2],\"nneapol\",[18272,8],\"s/St. Paul, MN (MSP)\",[23069,43],[18428,8],[23001,12],[23132,12],[21237,16],[23160,8],[16759,4],\"Montego Bay, Jama\",[18272,8],\"ca (MBJ)\",[23191,44],[20198,11],[20331,9],[20444,9],[22907,20],[19266,10],\"Nashv\",[18272,8],\"lle, TN (BNA)\",[23304,45],[20425,10],[23359,10],[20888,10],[23266,17],[22667,9],[16,2],\"Nassau, Bahamas (NAS)\",[23417,46],[19662,12],[21699,10],[20118,10],[21951,12],[22543,11],[16,2],\"New Orleans, LA (MSY)\",[23521,47],[20870,8],[23472,11],[21228,10],[20230,15],[23282,9],[18051,3],\"Orlando, FL (MCO)\",[23625,48],[20324,8],[19898,8],[23368,10],[23143,18],[23509,10],17,\"Palm Spr\",[18272,8],\"ngs, CA (PSP)\",[23729,49],[22624,15],[23793,11],[23492,18],[19266,10],\"Phoen\",[18272,8],\"x, AZ (PHX)\",[23842,50],[23119,14],[23906,12],[23701,16],[23821,11],\"P\",[18272,8],\"ttsburgh, PA (P\",[20267,8],\"T)\",[23955,51],[23242,13],[24019,13],[21578,14],[23716,10],[16,2],\"Po\",[18272,8],\"nte-à-P\",[18272,8],\"tre, Guadeloupe (PTP)\",[24077,52],[22886,12],[24141,14],[23599,13],[24168,11],17,\"Ponce, PR (PSE)\",[24199,53],[20103,8],[22767,13],[23803,19],[19266,10],\"Port of Spa\",[18272,8],\"n, Tr\",[18272,8],\"n\",[18272,8],\"dad and Tobago (POS)\",[24303,54],[20877,12],[23691,11],[24154,15],[23821,11],\"Port-au-Pr\",[18272,8],\"nce, Ha\",[18272,8],\"t\",[18272,8],\" (PAP)\",[24434,55],[23680,12],[21830,13],[22310,9],[22429,14],\"Portland, ME (PWM)\",[24565,56],[23785,9],[23482,11],[24031,17],[19266,10],\"Prov\",[18272,8],\"denc\",[18272,8],\"ales, Turks and Ca\",[18272,8],\"cos (PLS)\",[24669,57],[21558,11],[23589,11],[22193,11],[23611,12],17,\"Puerto Plata, DR (POP)\",[24800,58],[23579,11],[21005,11],[24645,10],[24890,13],\"Punta Cana, DR (PUJ)\",[24904,59],[21822,9],[24868,12],[24984,11],[24290,12],\"Qu\",[18272,8],\"to, Ecuador (U\",[20267,8],\"O)\",[25008,60],[22174,12],[22647,12],[19370,8],[23821,11],\"Rale\",[18272,8],\"gh/Durham, NC (RDU)\",[25130,61],[24364,14],[23917,19],[19493,9],\"R\",[18272,8],\"chmond, VA (R\",[20267,8],\"C)\",[25243,62],[23012,13],[25318,20],[20145,8],\"Sacramento, CA (SMF)\",[25365,63],[23254,13],[24745,18],[19493,9],\"Salt Lake C\",[18272,8],\"ty, UT (SLC)\",[25469,64],[24263,15],[24879,12],[24290,12],\"San D\",[18272,8],\"ego, CA (SAN)\",[25582,65],[24734,12],[24511,16],[19266,10],\"San Franc\",[18272,8],\"sco area\",[22828,10],[22118,7],[22241,8],[22133,8],[20511,9],[21537,16],[24251,13],[25760,13],[24277,14],[22926,8],[22214,6],[16,2],[25798,2],[23174,6],17,\"sco, CA (SFO)\",[22943,14],[18948,3],[22960,11],[19863,8],[20739,10],[22492,12],[24128,14],[25879,14],[25661,13],[25906,9],[18698,7],\"Oakland, CA (OAK)\",[25932,15],[21997,6],[18839,3],[19416,9],[22140,9],[22985,17],[25866,14],[24500,12],[25892,15],[17192,6],[23049,6],[18051,3],\"San Jose, CA (SJC)\",[22339,10],[21992,6],[22355,9],[21897,9],[22022,10],[23234,9],[26107,15],[24632,14],[22070,11],[23821,11],\"San Jose, Costa R\",[18272,8],\"ca (SJO)\",[25695,66],[26121,13],[26018,14],[19266,10],\"San Juan, PR (SJU)\",[26278,67],[26232,15],[22422,8],[24890,13],\"Sant\",[18272,8],\"ago, DR (ST\",[23059,9],[26382,68],[25076,13],[26246,12],[19266,10],\"Santo Dom\",[18272,8],\"ngo, DR (SDQ)\",[26504,69],[24973,12],[26585,13],[19493,9],\"Sarasota, FL (SRQ)\",[26617,70],[21467,9],[26357,15],[19493,9],\"Savannah/H\",[18272,8],\"lton Head, GA (SAV)\",[26721,71],[22301,10],[26698,14],[20145,8],\"Seattle, WA (SEA)\",[26834,72],[25202,13],[20465,8],[19266,10],\"St. Luc\",[18272,8],\"a (UVF)\",[26938,73],[23377,21],[19493,9],\"St. Maarten (SXM)\",[27051,74],[24377,20],[19493,9],\"St. Thomas (STT)\",[27155,75],[25440,21],[18698,7],\"Steamboat Spr\",[18272,8],\"ngs, CO (HDN)\",[27259,76],[25545,19],[20145,8],\"Tampa, FL (TPA)\",[27372,77],[25772,17],[19493,9],\"Wash\",[18272,8],\"ngton DC area (WAS)\",[25808,11],[22235,7],[21885,9],[25960,9],[20853,11],[22747,11],[26217,16],[16962,5],[27334,22],[16752,5],[18927,6],[27579,2],[25924,7],\"ngton, DC (\",[20267,8],\"AD)\",[26048,16],[22843,8],[26072,10],[25841,10],[21910,16],[24356,9],[25427,14],[27448,20],[22085,6],[18927,6],\"Balt\",[18272,8],\"more, MD (BW\",[26495,10],[26938,73],[27668,23],[19818,5],\"Aberdeen, Un\",[18272,8],\"ted K\",[18272,8],\"ngdom (ABZ)\",[27855,74],[27803,21],[18927,6],\"Al\",[18272,8],\"cante (ALC)\",[27975,75],[27553,18],[20145,8],\"Amman, Jordan (AMM)\",[28086,76],[26133,16],[19493,9],\"Amsterdam - Sch\",[18272,8],\"phol (AMS)\",[28188,77],[26800,16],[20145,8],\"Angu\",[18272,8],\"lla - Wall Blake (AXA)\",[28299,78],[25088,12],[23821,11],\"Augusta, ME (AUG)\",[28410,79],[26915,15],[18698,7],\"Bahra\",[18272,8],\"n (BAH)\",[28512,80],[26464,9],[24290,12],\"Bangkok (BKK)\",[28623,81],[22658,10],[19266,10],\"Bar Harbor, ME (BHB)\",[28725,82],[25214,9],[19266,10],\"Belfast, UK (BHD)\",[28827,83],[27023,9],[19493,9],\"Berl\",[18272,8],\"n - Tegel (TXL)\",[28929,84],[19485,9],[20145,8],\"B\",[18272,8],\"m\",[24416,9],[18272,8],\", Bahamas (B\",[21754,9],[29040,85],[21484,12],[16759,4],[29141,2],[25924,7],\"rm\",[18272,8],\"ngham, Un\",[27957,9],[18272,8],\"ngdom (BHX)\",[29178,86],[21729,15],\"Bologna, \",[20267,8],\"taly (BLQ)\",[29316,87],[22429,14],\"Bordeaux, France (BOD)\",[29427,88],[24890,13],[19154,2],[25924,7],\"stol, Un\",[29298,10],[25924,7],\"ngdom (BRS)\",[29529,89],[24290,12],\"Brussels (BRU)\",[29658,90],[23821,11],\"Card\",[18272,8],\"ff, UK (CWL)\",[29760,91],[19266,10],\"Catan\",[18272,8],\"a, \",[20267,8],\"taly (CTA)\",[29871,92],[19493,9],\"Cork, \",[20267,8],\"reland (ORK)\",[29991,93],[20145,8],\"Daytona Beach, FL (DAB)\",[30102,94],[18698,7],\"Dom\",[29151,10],[25924,7],\"ca, Dom\",[30306,11],[16492,3],[21750,3],\"ca (DOM)\",[30204,95],[18927,6],\"DuBo\",[18272,8],\"s, PA (DUJ)\",[30342,96],[19818,5],\"Dubl\",[18272,8],\"n (DUB)\",[30453,97],[16759,4],\"Dubrovn\",[18272,8],\"k, Croat\",[18272,8],\"a (DBV)\",[30564,98],[18051,3],\"Dusseldorf (DUS)\",[30684,99],[16,2],\"Ed\",[18272,8],\"nburgh, UK (ED\",[27845,11],[1710,2],[16374,4],[22348,8],[22850,10],[26081,10],[25850,17],[27780,10],[22638,10],[27928,24],[16759,4],\"Fort De France, Mart\",[30324,12],[16,2],[21750,3],\"que (FDF)\",[30786,100],17,\"Glasgow, UK (GLA)\",[31026,101],\"Hoolehua/Moloka\",[18272,8],\", H\",[20267,8],\" (MKK)\",[31026,101],\"Huntsv\",[18272,8],\"lle \",[20267,8],\"nternat\",[18272,8],\"onal A\",[18272,8],\"rport, AL (HSV)\",[30786,100],[20267,8],\"slamabad, Pak\",[18272,8],\"stan (\",[20267,8],\"SB)\",[31386,101],[16500,4],[19169,2],17,\"sle of Man, UK (\",[20267,8],\"OM)\",[31026,101],\"Jersey, Un\",[29640,11],[30335,4],[744,2],\"ngdom (JER)\",[31026,101],\"Johnstown, PA (JST)\",[31026,101],\"Kaua\",[18272,8],\"-L\",[18272,8],\"hue, H\",[20267,8],\" (L\",[20267,8],\"H)\",[31026,101],\"Kerry (K\",[21632,9],[31026,101],\"Key West, FL (EYW)\",[31026,101],\"Kuwa\",[18272,8],\"t, Kuwa\",[18272,8],\"t (KW\",[30897,12],[17589,2],[17739,3],[30914,9],[27744,11],[22258,12],[22615,10],[24005,15],[20549,8],[30979,25],[18051,3],\"Lana\",[31230,9],[20267,8],\" (LNY)\",[31026,101],\"Las Palmas, Spa\",[18272,8],\"n (LPA)\",[31026,101],\"Lebanon, NH (LEB)\",[31026,101],[21744,3],[31744,5],17,\"mer\",[18272,8],\"ck - Shannon (SNN)\",[32666,102],[18272,8],\"sbon, Portugal (L\",[20267,8],\"S)\",[31026,101],\"London Heathrow (LHR)\",[31026,101],\"London-Gatw\",[18272,8],\"ck, Un\",[31733,12],[31020,3],[744,2],\"ngdom (LGW)\",[31026,101],\"Manchester (MAN)\",[31026,101],\"Marse\",[18272,8],\"lle (MRS)\",[31026,101],\"Mau\",[18272,8],\"-Kahulu\",[32435,10],[31614,5],[744,2],\" (OGG)\",[31026,101],\"Mayaguez, PR (MAZ)\",[31026,101],[23172,3],[32770,6],\"lan - Malpensa (MXP)\",[31026,101],\"Montpell\",[18272,8],\"er, France (MPL)\",[31026,101],\"Morgantown, WV (MGW)\",[31026,101],\"Naples, \",[20267,8],\"taly (NAP)\",[31026,101],\"Nev\",[18272,8],\"s (NEV)\",[31026,101],\"Newcastle, Un\",[33119,13],17,[21750,3],\"ngdom (NCL)\",[31026,101],\"N\",[18272,8],\"ce, France (NCE)\",[31026,101],\"Oahu-Honolulu, H\",[20267,8],\" (HNL)\",[31026,101],\"Oslo, Norway (OSL)\",[31026,101],\"Palma de Mallorca/Majorca, Spa\",[18272,8],\"n (PM\",[32324,13],[30910,5],[26174,7],[30922,11],[27754,11],[22378,15],[30959,11],[20444,9],[32406,26],[16,2],\"Panama C\",[18272,8],\"ty, FL (ECP)\",[31026,101],\"Par\",[18272,8],\"s - Charles de Gaulle (CDG)\",[31026,101],\"Pensacola, FL (PNS)\",[31026,101],\"Perp\",[18272,8],\"gnan, France (PGF)\",[31026,101],[24058,2],[25924,7],\"sa (PSA)\",[31026,101],\"Prague, Czech Republ\",[18272,8],\"c (PRG)\",[31026,101],[24772,2],[25924,7],\"ncetown, MA (PVC)\",[31026,101],\"Pula, Croat\",[18272,8],\"a (PUY)\",[31026,101],\"Reykjav\",[18272,8],\"k (KEF)\",[31026,101],\"Rockland, ME (RKD)\",[31026,101],\"Rome (F\",[18272,8],\"um\",[18272,8],\"c\",[18272,8],\"no) (FCO)\",[31026,101],[26485,2],[25924,7],\"ago de Compostela, Spa\",[18272,8],\"n (SCQ)\",[31026,101],\"Shenandoah/Staunton, VA (SHD)\",[31026,101],\"Spl\",[18272,8],\"t (SPU)\",[31026,101],\"St. Cro\",[18272,8],\"x (STX)\",[31026,101],\"St. K\",[18272,8],\"tts, Sa\",[18272,8],\"nt K\",[18272,8],\"tts and Nev\",[18272,8],\"s (SKB)\",[31026,101],[27041,2],[25924,7],\"a-Castr\",[18272,8],\"es, Sa\",[18272,8],\"nt Luc\",[18272,8],\"a (SLU)\",[31026,101],\"St. V\",[18272,8],\"ncent, Sa\",[18272,8],\"nt V\",[18272,8],\"ncent and Grenad\",[18272,8],\"nes (SVD)\",[31026,101],\"Stuttgart, Germany (STR)\",[31026,101],\"Tallahassee, FL (TLH)\",[31026,101],\"Tortola, Beef \",[20267,8],\"sland (E\",[32897,9],[31026,101],\"Trondhe\",[18272,8],\"m, Norway (TRD)\",[31026,101],\"Ven\",[18272,8],\"ce, \",[20267,8],\"taly (VCE)\",[31026,101],\"Verona, \",[20267,8],\"taly (VRN)\",[31026,101],\"V\",[18272,8],\"enna, Austr\",[18272,8],\"a (V\",[20267,8],\"E)\",[31026,101],\"V\",[18272,8],\"eques, PR (VQS)\",[17847,7],[17150,2],[16379,2],[17154,5],[17159,2],[17161,13],[4271,6],[17180,2],[17182,5],826,[17188,2],826,[17191,2],[19035,6],[17199,2],17,[17202,2],[743,2],[17206,3],12,[17210,2],[16258,4],[16262,3],[17629,4],[16269,2],[16271,3],[17277,3],[16326,4],12,[16282,2],[17697,4],[17242,9],[16346,4],[18871,10],[17314,3],[17727,2],[17270,4],[17684,3],[17277,3],[16326,4],12,[16331,2],[17697,4],[17242,9],[16346,4],[29012,10],[17314,3],[17727,2],[17319,3],[1429,6]]]},{\"When\":3045,\"Kind\":78,\"Args\":[[0,1,2,3045,46,[3,11]]]},{\"Kind\":4,\"When\":3045,\"Args\":[1505,\"class\",\"flex flex-column open-mobile\"]},{\"Kind\":4,\"When\":3045,\"Args\":[1506,\"class\",\"pv2 pb1-ns bg-white contains-city-input z-2 fixed left-0 right-0\"]},{\"Kind\":4,\"When\":3045,\"Args\":[1513,\"hidden\",null]},{\"Kind\":4,\"When\":3045,\"Args\":[1509,\"aria-expanded\",\"true\"]},{\"Kind\":4,\"When\":3045,\"Args\":[1510,\"style\",\"\"]},{\"Kind\":4,\"When\":3045,\"Args\":[1601,\"class\",\"db tc pt4 db-ns\"]},{\"Kind\":4,\"When\":3045,\"Args\":[1523,\"class\",\"db flex-column mt1 flex-row-ns justify-between-ns order-2-ns w-100-ns flex-ns\"]},{\"Kind\":4,\"When\":3045,\"Args\":[1512,\"class\",\"avenir f5 fl ph3 pv2 pt0 bn core-blue w-100 h-100 border-box no-flying-focus ng-valid ng-touched ng-dirty\"]},{\"Kind\":14,\"Args\":[],\"When\":3106},{\"Kind\":42,\"Args\":[375,3975],\"When\":3139},{\"Kind\":18,\"Args\":[1512,\"Id\"],\"When\":3143},{\"Kind\":15,\"Args\":[],\"When\":3144},{\"Kind\":14,\"Args\":[],\"When\":3148},{\"Kind\":18,\"Args\":[1512,\"Ida\"],\"When\":3168},{\"Kind\":15,\"Args\":[],\"When\":3169},{\"Kind\":14,\"Args\":[],\"When\":3171},{\"Kind\":18,\"Args\":[1512,\"Idaa\"],\"When\":3191},{\"Kind\":15,\"Args\":[],\"When\":3192},{\"Kind\":14,\"Args\":[],\"When\":3193},{\"Kind\":18,\"Args\":[1512,\"Idaaa\"],\"When\":3217},{\"Kind\":15,\"Args\":[],\"When\":3218},{\"Kind\":14,\"Args\":[],\"When\":3219},{\"Kind\":18,\"Args\":[1512,\"Idaaaa\"],\"When\":3237},{\"Kind\":15,\"Args\":[],\"When\":3238},{\"Kind\":14,\"Args\":[],\"When\":3239},{\"When\":3249,\"Kind\":3,\"Args\":[2599,2612,2625,2636,2784,2876,3089,3108,3121,3202,3286,3337,3578,3664,4016,4291,4625,4653,4915,2476,2490,2501,2512,2523,2540,2551,2565,2576,2644,2658,2672,2686,2697,2708,2725,2736,2747,2758,2786,2797,2811,2825,2839,2853,2881,2901,2912,2923,2946,2963,2974,2987,3003,3016,3029,3043,3060,3126,3143,3157,3171,3182,3204,3218,3232,3249,3266,3297,3317,3348,3359,3370,3387,3401,3418,3429,3443,3457,3471,3487,3500,3513,3527,3538,3555,3580,3594,3605,3619,3630,3641,3666,3680,3699,3718,3735,3749,3760,3774,3788,3799,3813,3824,3835,3846,3860,3883,3906,3920,3931,3951,3962,3976,3993,4018,4041,4055,4069,4086,4097,4114,4131,4142,4159,4182,4201,4217,4234,4245,4268,4293,4313,4330,4344,4355,4372,4389,4400,4420,4431,4445,4465,4476,4490,4504,4515,4529,4543,4560,4574,4588,4599,4630,4655,4669,4683,4697,4711,4725,4739,4750,4770,4787,4798,4812,4826,4849,4872,4895,4917,4934,4948,4965,4979,4999,2590,2601,2614,2627,3328,2775,2867,3080,3097,3110,3193,3277,3569,3655,4007,4282,4616,4644,4906]},{\"When\":3249,\"Kind\":2,\"Args\":[2460,5013,[[32336,3],12,[17593,2],[16379,2],17,\"Hmmm... we couldn't find any results for  \\\"IdaaaaT\\\". You can also browse alphabetically.\",33]]},{\"When\":3249,\"Kind\":78,\"Args\":[[0,1,2,3249,0,[3,11]]]},{\"Kind\":4,\"When\":3249,\"Args\":[2476,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2490,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2501,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2512,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2523,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2540,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2551,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2565,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2576,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2644,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2658,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2672,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2686,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2697,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2708,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2725,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2736,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2747,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2758,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2786,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2797,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2811,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2825,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2839,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2853,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2881,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2901,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2912,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2923,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2946,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2963,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2974,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2987,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3003,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3016,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3029,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3043,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3060,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3126,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3143,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3157,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3171,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3182,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3204,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3218,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3232,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3249,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3266,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3297,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3317,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3348,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3359,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3370,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3387,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3401,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3418,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3429,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3443,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3457,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3471,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3487,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3500,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3513,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3527,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3538,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3555,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3580,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3594,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3605,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3619,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3630,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3641,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3666,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3680,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3699,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3718,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3735,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3749,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3760,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3774,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3788,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3799,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3813,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3824,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3835,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3846,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3860,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3883,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3906,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3920,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3931,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3951,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3962,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3976,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3993,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4018,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4041,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4055,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4069,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4086,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4097,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4114,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4131,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4142,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4159,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4182,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4201,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4217,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4234,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4245,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4268,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4293,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4313,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4330,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4344,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4355,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4372,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4389,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4400,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4420,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4431,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4445,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4465,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4476,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4490,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4504,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4515,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4529,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4543,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4560,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4574,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4588,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4599,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4630,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4655,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4669,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4683,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4697,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4711,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4725,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4739,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4750,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4770,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4787,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4798,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4812,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4826,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4849,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4872,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4895,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4917,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4934,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4948,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4965,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4979,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4999,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2590,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2601,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2614,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2627,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3328,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2775,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[2867,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3080,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3097,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3110,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3193,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3277,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3569,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[3655,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4007,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4282,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4616,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4644,\"style\",\"\"]},{\"Kind\":4,\"When\":3249,\"Args\":[4906,\"style\",\"\"]},{\"Kind\":18,\"Args\":[1512,\"IdaaaaT\"],\"When\":3277},{\"Kind\":15,\"Args\":[],\"When\":3278},{\"Kind\":14,\"Args\":[],\"When\":3280},{\"Kind\":18,\"Args\":[1512,\"IdaaaaTa\"],\"When\":3289},{\"Kind\":15,\"Args\":[],\"When\":3290},{\"Kind\":14,\"Args\":[],\"When\":3291},{\"Kind\":18,\"Args\":[1512,\"IdaaaaTar\"],\"When\":3298},{\"Kind\":15,\"Args\":[],\"When\":3299},{\"Kind\":14,\"Args\":[],\"When\":3300},{\"Kind\":18,\"Args\":[1512,\"IdaaaaTarb\"],\"When\":3309},{\"Kind\":15,\"Args\":[],\"When\":3310},{\"Kind\":14,\"Args\":[],\"When\":3312},{\"Kind\":18,\"Args\":[1512,\"IdaaaaTarbe\"],\"When\":3323},{\"Kind\":15,\"Args\":[],\"When\":3324},{\"Kind\":14,\"Args\":[],\"When\":3325},{\"Kind\":18,\"Args\":[1512,\"IdaaaaTarbel\"],\"When\":3336},{\"Kind\":15,\"Args\":[],\"When\":3337},{\"Kind\":14,\"Args\":[],\"When\":3338},{\"Kind\":18,\"Args\":[1512,\"IdaaaaTarbell\"],\"When\":3347},{\"Kind\":15,\"Args\":[],\"When\":3348},{\"Kind\":24,\"Args\":[1512],\"When\":3464},{\"Kind\":17,\"Args\":[1533],\"When\":3479},{\"Kind\":14,\"Args\":[],\"When\":3491},{\"Kind\":59,\"Args\":[1528,2],\"When\":3497},{\"Kind\":6,\"When\":3498,\"Args\":[5037,\"Hmmm... we couldn't find any results for  \\\"IdaaaaTarbell\\\". You can also browse alphabetically.\"]},{\"Kind\":15,\"Args\":[],\"When\":3599},{\"Kind\":48,\"Args\":[\"log\",\"\\\"referring_URL doc.ref==>\\\"\",\"\\\"\\\"\"],\"When\":3617},{\"Kind\":14,\"Args\":[],\"When\":3654},{\"Kind\":15,\"Args\":[],\"When\":3661},{\"Kind\":14,\"Args\":[],\"When\":3662},{\"Kind\":15,\"Args\":[],\"When\":3668},{\"Kind\":14,\"Args\":[],\"When\":3669},{\"Kind\":15,\"Args\":[],\"When\":3674},{\"Kind\":14,\"Args\":[],\"When\":3675},{\"Kind\":15,\"Args\":[],\"When\":3679},{\"Kind\":14,\"Args\":[],\"When\":3680},{\"Kind\":15,\"Args\":[],\"When\":3686},{\"Kind\":48,\"Args\":[\"log\",\"\\\"Signal: error: {\\\\\\\"type\\\\\\\":\\\\\\\"dbe\\\\\\\",\\\\\\\"message\\\\\\\":\\\\\\\"ReferenceError: brightTagPageData is not defined\\\\\\\",\\\\\\\"dbe.name\\\\\\\":\\\\\\\"departure airport code\\\\\\\",\\\\\\\"pageId\\\\\\\":2217008}\\\"\"],\"When\":3687},{\"Kind\":48,\"Args\":[\"log\",\"\\\"hide search bar on NTS pages\\\"\"],\"When\":3703},{\"Kind\":14,\"Args\":[],\"When\":3719},{\"Kind\":15,\"Args\":[],\"When\":3727},{\"Kind\":14,\"Args\":[],\"When\":3728},{\"Kind\":15,\"Args\":[],\"When\":3734},{\"Kind\":14,\"Args\":[],\"When\":3742},{\"When\":3748,\"Kind\":2,\"Args\":[239,-1,[16156,814,\"1px\",[16163,2],812,\"1px\",1134,\"https://2784362.fls.doubleclick.net/activityi;src=2784362;type=stand891;cat=jetbl326;ord=6004809074;prd=\",[785,2]]]},{\"When\":3748,\"Kind\":78,\"Args\":[[0,1,2,3748,3,[3,0]]]},{\"When\":3748,\"Kind\":2,\"Args\":[239,-1,[16156,785,\"position: absolute; visibility: hidden; width: 1px; height: 1px;\",1134,\"https://servedby.flashtalking.com/container/1777;30025;3530;iframe/?spotName=(redacted)&cachebuster=(redacted)\"]]},{\"When\":3748,\"Kind\":78,\"Args\":[[0,1,2,3748,2,[3,0]]]},{\"When\":3748,\"Kind\":2,\"Args\":[239,-1,[1127,1134,\"https://secure.media6degrees.com/orbserv/hbpix?pixId=29213&pcv=57\",785,\"display:none;\",812,\"1\",814,\"1\"]]},{\"When\":3748,\"Kind\":78,\"Args\":[[0,1,2,3748,0,[3,0]]]},{\"When\":3748,\"Kind\":2,\"Args\":[239,-1,[1127,1134,\"https://beacon.krxd.net/event.gif?event_id=KYqQ_YMG&event_type=purchase&pub_id=0fd0bb10-6db5-11df-be2b-0800200c9a66\",812,923,814,923,785,\"visibility:hidden\"]]},{\"When\":3748,\"Kind\":78,\"Args\":[[0,1,2,3748,0,[3,0]]]},{\"When\":3748,\"Kind\":2,\"Args\":[239,-1,[1127,1134,\"https://ci.iasds01.com/?anId=928923&chanId=2978\",814,\"1\",812,\"1\",[1275,2]]]},{\"When\":3748,\"Kind\":78,\"Args\":[[0,1,2,3748,0,[3,0]]]},{\"When\":3748,\"Kind\":2,\"Args\":[239,-1,[1127,1134,\"//insight.adsrvr.org/track/evnt/?adv=cdin8k5&ct=0:r9r74df&fmt=3&\",814,\"1\",812,\"1\",785,\"display:none;\",[1275,2]]]},{\"When\":3748,\"Kind\":78,\"Args\":[[0,1,2,3748,0,[3,0]]]},{\"When\":3748,\"Kind\":2,\"Args\":[239,-1,[1127,1134,\"//insight.adsrvr.org/track/conv/?adv=7asns46&ct=0:oy5t6v5&fmt=3&v=&vf=&orderid=&t1=\",814,\"1\",812,\"1\",785,\"display:none;\"]]},{\"When\":3748,\"Kind\":78,\"Args\":[[0,1,2,3748,0,[3,0]]]},{\"When\":3748,\"Kind\":2,\"Args\":[239,-1,[17,\"\\n      \"]]},{\"When\":3748,\"Kind\":78,\"Args\":[[0,1,2,3748,0,[3,0]]]},{\"When\":3748,\"Kind\":2,\"Args\":[239,-1,[[356,2]]]},{\"When\":3748,\"Kind\":78,\"Args\":[[0,1,2,3748,0,[3,0]]]},{\"When\":3748,\"Kind\":2,\"Args\":[239,-1,[17,\"\\n        \"]]},{\"When\":3748,\"Kind\":78,\"Args\":[[0,1,2,3748,0,[3,0]]]},{\"When\":3748,\"Kind\":2,\"Args\":[239,-1,[16156,785,\"position: absolute; visibility: hidden; width: 1px; height: 1px;\",1134,\"https://servedby.flashtalking.com/container/1777;109595;11302;iframe/?ftXRef=(redacted)&ftXVaftXRef=(redacted)&ftXValue=(redacted)&ftXCurrency=(redacted)&U1=(redacted)&U2=(redacted)&U3=(redacted)&U5=(redacted)&U6=(redacted)&U11=(redacted)&U15=(redacted)&U16=(redacted)&U17=(redacted)&U18=(redacted)&ft_referrer=(redacted)&ns=(redacted)=%20&ftXCurrency=(redacted)&U1=(redacted)&U2=(redacted)&U3=(redacted)&U5=(redacted)&U6=(redacted)&U11=(redacted)&ft_referrer=(redacted)&ns=(redacted)&cachebuster=(redacted)\"]]},{\"When\":3748,\"Kind\":78,\"Args\":[[0,1,2,3748,2,[3,0]]]},{\"When\":3748,\"Kind\":2,\"Args\":[239,-1,[[356,2]]]},{\"When\":3748,\"Kind\":78,\"Args\":[[0,1,2,3748,0,[3,0]]]},{\"When\":3748,\"Kind\":2,\"Args\":[239,-1,[372,1207,\"getToKnowUsMargin\",[16,2],\" .page-margin.pt5-ns.jb-max-width.center.ng-star-inserted {margin-top: -10px !important}\",33]]},{\"When\":3748,\"Kind\":78,\"Args\":[[0,1,2,3748,0,[3,0]]]},{\"When\":3748,\"Kind\":2,\"Args\":[239,-1,[1127,785,\"visibility:hidden;display:none;\",814,\"1\",812,\"1\",1134,\"https://urldefense.proofpoint.com/v2/url?u=https-3A__live.rezync.com_sync-3Fc-3D16b6410431b6374e780104abb0443ca8-26p-3D85c500c20900a7e018f3371f24a9ad5c-26k-3Dhomepage-2Dretargeting-2Djetblue&d=DwIGAg&c=Ftw_YSVcGmqQBvrGwAZugGylNRkk-uER0-5bY94tjsc&r=t9Xx8AIt6ZBalF1Oq30XBTQmmxu-vHJJStrxXrgHf9E&m=Rq-Ck5avHfD4MD5VhpMIGQckqNcXI49O4ceg4jRwGGU&s=L7I_IOjmfgdTcFhkBR_p8V0tmEE8E6k1Wrt3atmT4HQ&e= \"]]},{\"When\":3748,\"Kind\":78,\"Args\":[[0,1,2,3748,0,[3,0]]]},{\"When\":3748,\"Kind\":2,\"Args\":[239,-1,[17,\"\\n      \"]]},{\"When\":3748,\"Kind\":78,\"Args\":[[0,1,2,3748,0,[3,0]]]},{\"Kind\":4,\"When\":3748,\"Args\":[1815,\"class\",\"pt5-ns pb5-ns jb-grid gr-unset\"]},{\"Kind\":57,\"Args\":[2,\"https://s.thebrighttag.com/tag?site=UXE8DVB&H=-1153k6u&referrer=https%3A%2F%2Fwww.jetblue.com%2F&mode=v2&cf=5578%2C1135124%2C2564445%2C3035531%2C3592701%2C6497479%2C7014028%2C7014191%2C7398697%2C7436917%2C7436928%2C7441747%2C7442869%2C7443866%2C7444554%2C7446870%2C7452599%2C7458768\",6247.020000002522,41.09500000049593,\"script\",0,0,6247.394999998505,0,0,0,0,0,0,0,6288.1150000030175,0,0,0],\"When\":3748},{\"Kind\":57,\"Args\":[2,\"https://www.googleadservices.com/pagead/conversion_async.js\",6300.714999997581,2.5250000035157427,\"script\",0,0,6301.124999998137,6301.124999998137,6301.124999998137,6301.124999998137,6301.124999998137,0,6300.960000000487,6303.070000001753,6303.240000001097,0,0,0],\"When\":3749},{\"Kind\":15,\"Args\":[],\"When\":3755},{\"Kind\":14,\"Args\":[],\"When\":3756},{\"Kind\":42,\"Args\":[375,3983],\"When\":3762},{\"Kind\":15,\"Args\":[],\"When\":3763},{\"Kind\":14,\"Args\":[],\"When\":3764},{\"Kind\":15,\"Args\":[],\"When\":3768},{\"Kind\":14,\"Args\":[],\"When\":3769},{\"Kind\":15,\"Args\":[],\"When\":3773},{\"Kind\":14,\"Args\":[],\"When\":3774},{\"Kind\":15,\"Args\":[],\"When\":3781},{\"Kind\":14,\"Args\":[],\"When\":3782},{\"Kind\":15,\"Args\":[],\"When\":3786},{\"Kind\":14,\"Args\":[],\"When\":3787},{\"Kind\":15,\"Args\":[],\"When\":3792},{\"Kind\":24,\"Args\":[1533],\"When\":3938},{\"Kind\":17,\"Args\":[1541],\"When\":3939},{\"Kind\":14,\"Args\":[],\"When\":3949},{\"Kind\":59,\"Args\":[1536,2],\"When\":3968},{\"Kind\":15,\"Args\":[],\"When\":4070},{\"Kind\":14,\"Args\":[],\"When\":4112},{\"Kind\":15,\"Args\":[],\"When\":4119},{\"Kind\":14,\"Args\":[],\"When\":4121},{\"Kind\":15,\"Args\":[],\"When\":4127},{\"Kind\":14,\"Args\":[],\"When\":4128},{\"Kind\":15,\"Args\":[],\"When\":4133},{\"Kind\":14,\"Args\":[],\"When\":4134},{\"Kind\":15,\"Args\":[],\"When\":4140},{\"Kind\":14,\"Args\":[],\"When\":4141},{\"Kind\":15,\"Args\":[],\"When\":4148},{\"Kind\":14,\"Args\":[],\"When\":4151},{\"Kind\":15,\"Args\":[],\"When\":4159},{\"Kind\":14,\"Args\":[],\"When\":4160},{\"Kind\":15,\"Args\":[],\"When\":4166},{\"Kind\":14,\"Args\":[],\"When\":4167},{\"Kind\":15,\"Args\":[],\"When\":4173},{\"Kind\":14,\"Args\":[],\"When\":4174},{\"Kind\":15,\"Args\":[],\"When\":4187},{\"Kind\":14,\"Args\":[],\"When\":4189},{\"Kind\":15,\"Args\":[],\"When\":4212},{\"Kind\":14,\"Args\":[],\"When\":4221},{\"Kind\":15,\"Args\":[],\"When\":4229},{\"Kind\":14,\"Args\":[],\"When\":4230},{\"Kind\":15,\"Args\":[],\"When\":4236},{\"Kind\":14,\"Args\":[],\"When\":4239},{\"When\":4245,\"Kind\":2,\"Args\":[239,-1,[782,785,\"width:0px; height:0px; display:none; visibility:hidden;\",1207,\"batBeacon0.6844168134631909\",[1126,2],785,\"width:0px; height:0px; display:none; visibility:hidden;\",1207,\"batBeacon0.48233302925881993\",812,923,814,923,[1275,2],1134,\"https://bat.bing.com/action/0?ti=5762284&Ver=2&mid=87fbaca6-bba8-c5c6-61b4-a2c69cc868a9&sid=24474e3d-4933-984a-c61c-bb3387664925&pi=0&lg=en-US&sw=375&sh=812&sc=24&tl=Airline%20Tickets,%20Flights%20%26%20Airfare%3A%20Book%20Direct%20-%20Official%20Site%20%7C%20JetBlue&kw=JetBlue%20airline,%20flights,%20vacations,%20low%20airfare,%20cheap%20fare,%20jetblue.com&p=https%3A%2F%2Fwww.jetblue.com%2F&r=&lt=1668&evt=pageLoad&msclkid=N&sv=1&rn=277197\",33]]},{\"When\":4245,\"Kind\":78,\"Args\":[[0,1,2,4245,0,[3,0]]]},{\"Kind\":57,\"Args\":[2,\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/933821389/?random=1589319450461&cv=9&fst=1589319450461&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=812&u_w=375&u_ah=812&u_aw=375&u_cd=24&u_his=2&u_tz=-240&u_java=false&u_nplug=0&u_nmime=0&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fwww.jetblue.com%2F&tiba=Airline%20Tickets%2C%20Flights%20%26%20Airfare%3A%20Book%20Direct%20-%20Official%20Site%20%7C%20JetBlue&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4\",6346.349999999802,45.12500000419095,\"script\",0,0,6346.685000004072,6346.685000004072,6346.685000004072,6346.685000004072,6346.685000004072,0,6346.53999999864,6391.3549999997485,6391.475000003993,0,0,0],\"When\":4244},{\"Kind\":57,\"Args\":[2,\"https://www.google.com/pagead/1p-user-list/933821389/?random=1589319450461&cv=9&fst=1589317200000&num=1&guid=ON&u_h=812&u_w=375&u_ah=812&u_aw=375&u_cd=24&u_his=2&u_tz=-240&u_java=false&u_nplug=0&u_nmime=0&sendb=1&frm=0&url=https%3A%2F%2Fwww.jetblue.com%2F&tiba=Airline%20Tickets%2C%20Flights%20%26%20Airfare%3A%20Book%20Direct%20-%20Official%20Site%20%7C%20JetBlue&async=1&fmt=3&is_vtc=1&random=942873484&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y\",6396.390000001702,49.20999999740161,\"img\",0,0,6396.724999998696,6396.724999998696,6396.724999998696,6396.724999998696,6396.724999998696,0,6396.600000000035,6445.12499999837,6445.599999999104,0,0,0],\"When\":4245},{\"Kind\":57,\"Args\":[2,\"https://2784362.fls.doubleclick.net/activityi;src=2784362;type=stand891;cat=jetbl326;ord=6004809074;prd=\",6295.404999997118,199.2900000041118,\"iframe\",0,0,6295.404999997118,6296.540000003006,6410.790000001725,6410.790000001725,6452.5450000001,6424.324999999953,6452.935000001162,6492.129999998724,6494.695000001229,404,313,848],\"When\":4246},{\"Kind\":57,\"Args\":[2,\"https://servedby.flashtalking.com/container/1777;30025;3530;iframe/?spotName=(redacted)&cachebuster=(redacted)\",6297.169999998005,310.1500000047963,\"iframe\",0,0,6297.169999998005,0,0,0,0,0,0,0,6607.320000002801,0,0,0],\"When\":4247},{\"Kind\":57,\"Args\":[2,\"https://connect.facebook.net/en_US/fbds.js\",6298.315000000002,365.6249999985448,\"script\",0,0,6298.64500000258,6298.64500000258,6298.64500000258,6298.64500000258,6298.64500000258,0,6298.5049999988405,6663.7249999985215,6663.939999998547,0,0,0],\"When\":4248},{\"Kind\":57,\"Args\":[2,\"https://servedby.flashtalking.com/container/1777;109595;11302;iframe/?ftXRef=(redacted)&ftXVaftXRef=(redacted)&ftXValue=(redacted)&ftXCurrency=(redacted)&U1=(redacted)&U2=(redacted)&U3=(redacted)&U5=(redacted)&U6=(redacted)&U11=(redacted)&U15=(redacted)&U16=(redacted)&U17=(redacted)&U18=(redacted)&ft_referrer=(redacted)&ns=(redacted)=%20&ftXCurrency=(redacted)&U1=(redacted)&U2=(redacted)&U3=(redacted)&U5=(redacted)&U6=(redacted)&U11=(redacted)&ft_referrer=(redacted)&ns=(redacted)&cachebuster=(redacted)\",6306.185000001278,333.65000000048894,\"iframe\",0,0,6306.185000001278,0,0,0,0,0,0,0,6639.835000001767,0,0,0],\"When\":4249},{\"Kind\":57,\"Args\":[2,\"https://bat.bing.com/bat.js\",6301.930000001448,480.42500000155997,\"script\",0,0,6302.204999999958,0,0,0,0,0,0,0,6782.355000003008,0,0,0],\"When\":4250},{\"Kind\":15,\"Args\":[],\"When\":4251},{\"Kind\":14,\"Args\":[],\"When\":4252},{\"Kind\":15,\"Args\":[],\"When\":4253},{\"When\":4504,\"Kind\":2,\"Args\":[239,-1,[[16156,2],\"universal_pixel_28erq50\",814,923,812,923,785,\"display:none;\",1134,\"https://insight.adsrvr.org/track/up?adv=(redacted)&ref=(redacted)&upid=(redacted)&upv=(redacted)\",16182,\"TTD Universal Pixel\"]]},{\"When\":4504,\"Kind\":78,\"Args\":[[0,1,2,4504,6,[3,0]]]},{\"Kind\":23,\"Args\":[7],\"When\":5385}]}",
+          "post_request_url": "https://rs.fullstory.com/rec/bundle?OrgId=4HV1Q&UserId=4987391414386688&SessionId=6655697640767488&PageId=6060215323344896&Seq=2&PageStart=1589319447355&PrevBundleTime=1589319447830&IsNewSession=true&SkipResponseBody=true",
+          "post_request_ps": "fullstory.com"
+        }
+      ]
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "https://www.jetblue.com/js/src/jb-74873.js": [
+          "data:image/png;base64,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"
+        ]
+      },
+      "fingerprinters": [
+        "https://www.jetblue.com/js/src/jb-74873.js"
+      ],
+      "styles": {},
+      "texts": {
+        "https://www.jetblue.com/js/src/jb-74873.js": [
+          "Hel$&?6%){mZ+#@"
+        ]
+      }
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {
+        "https://www.jetblue.com/js/src/jb-74873.js": {
+          "0-_{w.": 89
+        }
+      }
+    },
+    "fingerprintable_api_calls": {
+      "NAVIGATOR": {
+        "https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727": [
+          "window.navigator.doNotTrack",
+          "window.navigator.language",
+          "window.navigator.userAgent"
+        ],
+        "https://cdn.krxd.net/controltag?confid=KPiliWQ5": [
+          "window.navigator.userAgent"
+        ],
+        "https://cdn.gladly.com/assets/chat-sdk/3206ddffd21497779ac7716cac650aaa30bc8b7f/main.js": [
+          "window.navigator.userAgent",
+          "window.navigator.product",
+          "window.navigator.languages"
+        ],
+        "https://d1fc8wv8zag5ca.cloudfront.net/2.10.2/sp.js": [
+          "window.navigator.userAgent",
+          "window.navigator.cookieEnabled",
+          "window.navigator.language",
+          "window.navigator.doNotTrack"
+        ],
+        "https://cdn.gladly.com/assets/smooch/frame.1.12.7.min.js": [
+          "window.navigator.onLine",
+          "window.navigator.userAgent"
+        ],
+        "https://www.googleadservices.com/pagead/conversion_async.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=AW-1067674170": [
+          "window.navigator.userAgent"
+        ],
+        "https://trueblue.jetblue.com/main.b63edbb4ec135c6801bc.bundle.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://trueblue.jetblue.com/scripts.5c7324fb30ea23ec772b.bundle.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://trueblue.jetblue.com/polyfills.b883f8b494ccefe999ef.bundle.js": [
+          "window.navigator.geolocation",
+          "window.navigator.userAgent"
+        ],
+        "https://d9.flashtalking.com/d9core": [
+          "window.navigator.platform",
+          "window.navigator.language",
+          "window.navigator.userAgent",
+          "window.navigator.doNotTrack",
+          "window.navigator.appVersion",
+          "window.navigator.appName",
+          "window.navigator.appCodeName"
+        ],
+        "https://bat.bing.com/bat.js": [
+          "window.navigator.language"
+        ],
+        "https://s.btstatic.com/tag.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://edge.fullstory.com/s/fs.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://s.btstatic.com/BrightTag.jquery-1.5.1.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=DC-2784362": [
+          "window.navigator.userAgent"
+        ],
+        "https://cdn.gladly.com/chat-sdk/widget.js?q=1589319445895": [
+          "window.navigator.userAgent",
+          "window.navigator.product",
+          "window.navigator.languages"
+        ],
+        "https://jetblueairways.demdex.net/dest5.html?d_nsid=0": [
+          "window.navigator.cookieEnabled"
+        ],
+        "https://fullstory.com/s/fs.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.jetblue.com/ui-assets/analytics/app-measurement.js?1": [
+          "window.navigator.userAgent",
+          "window.navigator.appName"
+        ],
+        "https://www.jetblue.com/main-es2015.0e7222b262b2d58ef7fe.js": [
+          "window.navigator.userAgent",
+          "window.navigator.cookieEnabled"
+        ],
+        "https://www.jetblue.com/vendor-es2015.6eeb506debc9c215e892.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.jetblue.com/js/src/jb-74873.js": [
+          "window.navigator.doNotTrack",
+          "window.navigator.vendorSub",
+          "window.navigator.vendor",
+          "window.navigator.userAgent",
+          "window.navigator.productSub",
+          "window.navigator.product",
+          "window.navigator.platform",
+          "window.navigator.appVersion",
+          "window.navigator.appName",
+          "window.navigator.appCodeName"
+        ],
+        "https://www.jetblue.com/polyfills-es2015.e5c6979199a68dc4477f.js": [
+          "window.navigator.geolocation"
+        ],
+        "https://www.jetblue.com/ui-assets/browser-warning/browser-warning.js?1": [
+          "window.navigator.platform",
+          "window.navigator.userAgent"
+        ]
+      },
+      "SCREEN": {
+        "https://d1fc8wv8zag5ca.cloudfront.net/2.10.2/sp.js": [
+          "window.screen.colorDepth"
+        ],
+        "https://www.googleadservices.com/pagead/conversion_async.js": [
+          "window.screen.colorDepth"
+        ],
+        "https://d9.flashtalking.com/d9core": [
+          "window.screen.colorDepth"
+        ],
+        "https://bat.bing.com/bat.js": [
+          "window.screen.colorDepth"
+        ],
+        "https://www.jetblue.com/ui-assets/analytics/app-measurement.js?1": [
+          "window.screen.pixelDepth"
+        ],
+        "https://www.jetblue.com/js/src/jb-74873.js": [
+          "window.screen.colorDepth",
+          "window.screen.pixelDepth"
+        ]
+      },
+      "MEDIA_DEVICES": {
+        "https://www.jetblue.com/js/src/jb-74873.js": [
+          "window.navigator.mediaDevices.enumerateDevices"
+        ]
+      },
+      "CANVAS": {
+        "https://www.jetblue.com/js/src/jb-74873.js": [
+          "HTMLCanvasElement.toDataURL",
+          "CanvasRenderingContext2D.fillText"
+        ]
+      }
+    },
+    "session_recorders": {
+      "fullstory.com/s/fs.js": [
+        "fullstory.com/s/fs.js"
+      ]
+    },
+    "web_beacons": [
+      {
+        "data": {
+          "filter": "||krxd.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "callback": "Krux.ns.jetblue.kxjsonp_optOutCheck"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://trueblue.jetblue.com/enroll/join-us",
+            "source": "requested from https://trueblue.jetblue.com/enroll/join-us and matched with easyprivacy.txt filter ||krxd.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://beacon.krxd.net/optout_check?callback=Krux.ns.jetblue.kxjsonp_optOutCheck"
+      },
+      {
+        "data": {
+          "filter": "||krxd.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://trueblue.jetblue.com/enroll/join-us",
+            "source": "requested from https://trueblue.jetblue.com/enroll/join-us and matched with easyprivacy.txt filter ||krxd.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.krxd.net/ctjs/controltag.js.e4cdf7ad64ebac73f207c1ce55cc1727"
+      },
+      {
+        "data": {
+          "filter": ".snowplowanalytics.$domain=~snowplowanalytics.com",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://trueblue.jetblue.com/enroll/join-us",
+            "source": "requested from https://trueblue.jetblue.com/enroll/join-us and matched with easyprivacy.txt filter .snowplowanalytics.$domain=~snowplowanalytics.com"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gladly-production.sinter-collect.com/com.snowplowanalytics.snowplow/tp2"
+      },
+      {
+        "data": {
+          "filter": "||amplitude.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://trueblue.jetblue.com/enroll/join-us",
+            "source": "requested from https://trueblue.jetblue.com/enroll/join-us and matched with easyprivacy.txt filter ||amplitude.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.amplitude.com/"
+      },
+      {
+        "data": {
+          "filter": ".snowplowanalytics.$domain=~snowplowanalytics.com",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://trueblue.jetblue.com/enroll/join-us",
+            "source": "requested from https://trueblue.jetblue.com/enroll/join-us and matched with easyprivacy.txt filter .snowplowanalytics.$domain=~snowplowanalytics.com"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gladly-production.sinter-collect.com/com.snowplowanalytics.snowplow/tp2"
+      },
+      {
+        "data": {
+          "filter": "||krxd.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "confid": "KPiliWQ5"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://trueblue.jetblue.com/enroll/join-us",
+            "source": "requested from https://trueblue.jetblue.com/enroll/join-us and matched with easyprivacy.txt filter ||krxd.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.krxd.net/controltag?confid=KPiliWQ5"
+      },
+      {
+        "data": {
+          "filter": "||btstatic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://trueblue.jetblue.com/enroll/join-us",
+            "source": "requested from https://trueblue.jetblue.com/enroll/join-us and matched with easyprivacy.txt filter ||btstatic.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.btstatic.com/lib/a96496d88a27bfa60831b4a7a0345a0a1133b3bc.js?v=2"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GF-9",
+            "l": "dataLayer",
+            "cx": "c"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://trueblue.jetblue.com/enroll/join-us",
+            "source": "requested from https://trueblue.jetblue.com/enroll/join-us and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=GF-9&l=dataLayer&cx=c"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://trueblue.jetblue.com/enroll/join-us",
+            "source": "requested from https://trueblue.jetblue.com/enroll/join-us and matched with easyprivacy.txt filter ||googleadservices.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js"
+      },
+      {
+        "data": {
+          "filter": "||btstatic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://trueblue.jetblue.com/enroll/join-us",
+            "source": "requested from https://trueblue.jetblue.com/enroll/join-us and matched with easyprivacy.txt filter ||btstatic.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.btstatic.com/lib/2dc2cd4fa4c00a075854a285cb2e825df8aae69c.js?v=2"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "AW-1067674170"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://trueblue.jetblue.com/enroll/join-us",
+            "source": "requested from https://trueblue.jetblue.com/enroll/join-us and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-1067674170"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "DC-2784362"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://trueblue.jetblue.com/enroll/join-us",
+            "source": "requested from https://trueblue.jetblue.com/enroll/join-us and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-2784362"
+      },
+      {
+        "data": {
+          "filter": "||btstatic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://trueblue.jetblue.com/enroll/join-us",
+            "source": "requested from https://trueblue.jetblue.com/enroll/join-us and matched with easyprivacy.txt filter ||btstatic.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.btstatic.com/lib/9783d901d19ed613040722fa980f16c1aeceda95.js?v=2"
+      },
+      {
+        "data": {
+          "filter": "||cloudfront.net*/sp.js|",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://trueblue.jetblue.com/enroll/join-us",
+            "source": "requested from https://trueblue.jetblue.com/enroll/join-us and matched with easyprivacy.txt filter ||cloudfront.net*/sp.js|"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://d1fc8wv8zag5ca.cloudfront.net/2.10.2/sp.js"
+      },
+      {
+        "data": {
+          "filter": "||thebrighttag.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "site": "UXE8DVB",
+            "mode": "async",
+            "H": "171cu8s"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://trueblue.jetblue.com/enroll/join-us/",
+            "source": "requested from https://trueblue.jetblue.com/enroll/join-us/ and matched with easyprivacy.txt filter ||thebrighttag.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.thebrighttag.com/tag?site=UXE8DVB&mode=async&H=171cu8s"
+      },
+      {
+        "data": {
+          "filter": "||btstatic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://trueblue.jetblue.com/enroll/join-us/",
+            "source": "requested from https://trueblue.jetblue.com/enroll/join-us/ and matched with easyprivacy.txt filter ||btstatic.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.btstatic.com/tag.js"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ti": 5762284,
+            "Ver": 2,
+            "mid": "87fbaca6-bba8-c5c6-61b4-a2c69cc868a9",
+            "sid": "24474e3d-4933-984a-c61c-bb3387664925",
+            "evt": "pageHide"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||bat.bing.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/actionp/0?ti=5762284&Ver=2&mid=87fbaca6-bba8-c5c6-61b4-a2c69cc868a9&sid=24474e3d-4933-984a-c61c-bb3387664925&evt=pageHide"
+      },
+      {
+        "data": {
+          "filter": "||krxd.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "kuid_status": "new",
+            "partner": "flashtalking"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://servedby.flashtalking.com/container/1777;30025;3530;iframe/?spotName=Homepage&cachebuster=1546786278",
+            "source": "requested from https://servedby.flashtalking.com/container/1777;30025;3530;iframe/?spotName=Homepage&cachebuster=1546786278 and matched with easyprivacy.txt filter ||krxd.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://beacon.krxd.net/usermatch.gif?kuid_status=new&partner=flashtalking"
+      },
+      {
+        "data": {
+          "filter": "||analytics.yahoo.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 10000,
+            "d": "Tue, 12 May 2020 21:37:31 GMT",
+            "n": "4d",
+            "b": "Airline Tickets, Flights & Airfare: Book Direct - Official Site | JetBlue",
+            ".yp": 433254,
+            "f": "https://www.jetblue.com/",
+            "enc": "UTF-8"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||analytics.yahoo.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Tue%2C%2012%20May%202020%2021%3A37%3A31%20GMT&n=4d&b=Airline%20Tickets%2C%20Flights%20%26%20Airfare%3A%20Book%20Direct%20-%20Official%20Site%20%7C%20JetBlue&.yp=433254&f=https%3A%2F%2Fwww.jetblue.com%2F&enc=UTF-8"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ti": 5762284,
+            "Ver": 2,
+            "mid": "87fbaca6-bba8-c5c6-61b4-a2c69cc868a9",
+            "sid": "24474e3d-4933-984a-c61c-bb3387664925",
+            "pi": 0,
+            "lg": "en-US",
+            "sw": 375,
+            "sh": 812,
+            "sc": 24,
+            "tl": "Airline Tickets, Flights & Airfare: Book Direct - Official Site | JetBlue",
+            "kw": "JetBlue airline, flights, vacations, low airfare, cheap fare, jetblue.com",
+            "p": "https://www.jetblue.com/",
+            "r": "",
+            "lt": 1668,
+            "evt": "pageLoad",
+            "msclkid": "N",
+            "sv": 1,
+            "rn": 277197
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||bat.bing.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/action/0?ti=5762284&Ver=2&mid=87fbaca6-bba8-c5c6-61b4-a2c69cc868a9&sid=24474e3d-4933-984a-c61c-bb3387664925&pi=0&lg=en-US&sw=375&sh=812&sc=24&tl=Airline%20Tickets,%20Flights%20%26%20Airfare%3A%20Book%20Direct%20-%20Official%20Site%20%7C%20JetBlue&kw=JetBlue%20airline,%20flights,%20vacations,%20low%20airfare,%20cheap%20fare,%20jetblue.com&p=https%3A%2F%2Fwww.jetblue.com%2F&r=&lt=1668&evt=pageLoad&msclkid=N&sv=1&rn=277197"
+      },
+      {
+        "data": {
+          "filter": "||facebook.com/tr$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": null,
+            "ev": 6021308698253,
+            "dl": "https://www.jetblue.com/",
+            "rl": "",
+            "if": false,
+            "ts": 1589319450806,
+            "cd[value]": 0,
+            "cd[currency]": "USD"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||facebook.com/tr$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=null&ev=6021308698253&dl=https%3A%2F%2Fwww.jetblue.com%2F&rl=&if=false&ts=1589319450806&cd[value]=0.00&cd[currency]=USD"
+      },
+      {
+        "data": {
+          "filter": "||facebook.com/tr$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": 759780814143568,
+            "ev": "PixelInitialized",
+            "dl": "https://www.jetblue.com/",
+            "rl": "",
+            "if": false,
+            "ts": 1589319450804
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||facebook.com/tr$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=759780814143568&ev=PixelInitialized&dl=https%3A%2F%2Fwww.jetblue.com%2F&rl=&if=false&ts=1589319450804"
+      },
+      {
+        "data": {
+          "filter": "||krxd.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner": "flashtalking"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://servedby.flashtalking.com/container/1777;30025;3530;iframe/?spotName=Homepage&cachebuster=1546786278",
+            "source": "requested from https://servedby.flashtalking.com/container/1777;30025;3530;iframe/?spotName=Homepage&cachebuster=1546786278 and matched with easyprivacy.txt filter ||krxd.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://usermatch.krxd.net/um/v2?partner=flashtalking"
+      },
+      {
+        "data": {
+          "filter": "||proofpoint.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "u": "https-3A__live.rezync.com_sync-3Fc-3D16b6410431b6374e780104abb0443ca8-26p-3D85c500c20900a7e018f3371f24a9ad5c-26k-3Dhomepage-2Dretargeting-2Djetblue",
+            "d": "DwIGAg",
+            "c": "Ftw_YSVcGmqQBvrGwAZugGylNRkk-uER0-5bY94tjsc",
+            "r": "t9Xx8AIt6ZBalF1Oq30XBTQmmxu-vHJJStrxXrgHf9E",
+            "m": "Rq-Ck5avHfD4MD5VhpMIGQckqNcXI49O4ceg4jRwGGU",
+            "s": "L7I_IOjmfgdTcFhkBR_p8V0tmEE8E6k1Wrt3atmT4HQ",
+            "e": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||proofpoint.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://urldefense.proofpoint.com/v2/url?u=https-3A__live.rezync.com_sync-3Fc-3D16b6410431b6374e780104abb0443ca8-26p-3D85c500c20900a7e018f3371f24a9ad5c-26k-3Dhomepage-2Dretargeting-2Djetblue&d=DwIGAg&c=Ftw_YSVcGmqQBvrGwAZugGylNRkk-uER0-5bY94tjsc&r=t9Xx8AIt6ZBalF1Oq30XBTQmmxu-vHJJStrxXrgHf9E&m=Rq-Ck5avHfD4MD5VhpMIGQckqNcXI49O4ceg4jRwGGU&s=L7I_IOjmfgdTcFhkBR_p8V0tmEE8E6k1Wrt3atmT4HQ&e="
+      },
+      {
+        "data": {
+          "filter": "||krxd.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "event_id": "KYqQ_YMG",
+            "event_type": "purchase",
+            "pub_id": "0fd0bb10-6db5-11df-be2b-0800200c9a66"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||krxd.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://beacon.krxd.net/event.gif?event_id=KYqQ_YMG&event_type=purchase&pub_id=0fd0bb10-6db5-11df-be2b-0800200c9a66"
+      },
+      {
+        "data": {
+          "filter": "||yimg.com/wi/ytc.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||yimg.com/wi/ytc.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.yimg.com/wi/ytc.js"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter .lms-analytics/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||bat.bing.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/bat.js"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||googleadservices.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net^*/fbds.js$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||connect.facebook.net^*/fbds.js$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbds.js"
+      },
+      {
+        "data": {
+          "filter": "||thebrighttag.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "site": "UXE8DVB",
+            "H": "-1153k6u",
+            "referrer": "https://www.jetblue.com/",
+            "mode": "v2",
+            "cf": "5578,1135124,2564445,3035531,3592701,6497479,7014028,7014191,7398697,7436917,7436928,7441747,7442869,7443866,7444554,7446870,7452599,7458768"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||thebrighttag.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.thebrighttag.com/tag?site=UXE8DVB&H=-1153k6u&referrer=https%3A%2F%2Fwww.jetblue.com%2F&mode=v2&cf=5578%2C1135124%2C2564445%2C3035531%2C3592701%2C6497479%2C7014028%2C7014191%2C7398697%2C7436917%2C7436928%2C7441747%2C7442869%2C7443866%2C7444554%2C7446870%2C7452599%2C7458768"
+      },
+      {
+        "data": {
+          "filter": "||btstatic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||btstatic.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.btstatic.com/BrightTag.jquery-1.5.1.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GF-9",
+            "l": "dataLayer",
+            "cx": "c"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=GF-9&l=dataLayer&cx=c"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||googleadservices.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js"
+      },
+      {
+        "data": {
+          "filter": "||btstatic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||btstatic.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.btstatic.com/lib/2dc2cd4fa4c00a075854a285cb2e825df8aae69c.js?v=2"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "AW-1067674170"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-1067674170"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "DC-2784362"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-2784362"
+      },
+      {
+        "data": {
+          "filter": "||btstatic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||btstatic.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.btstatic.com/lib/9783d901d19ed613040722fa980f16c1aeceda95.js?v=2"
+      },
+      {
+        "data": {
+          "filter": "||amplitude.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||amplitude.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.amplitude.com/"
+      },
+      {
+        "data": {
+          "filter": ".snowplowanalytics.$domain=~snowplowanalytics.com",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter .snowplowanalytics.$domain=~snowplowanalytics.com"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gladly-production.sinter-collect.com/com.snowplowanalytics.snowplow/tp2"
+      },
+      {
+        "data": {
+          "filter": "/b/ss/*&events=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "AQB": 1,
+            "ndh": 1,
+            "pf": 1,
+            "t": "12/4/2020 17:37:26 2 240",
+            "mid": 5.244391746023048e+37,
+            "aamlh": 7,
+            "vmt": "4EFCAA19",
+            "ce": "UTF-8",
+            "pageName": "JetBlue | Home Page",
+            "g": "https://www.jetblue.com/",
+            "ch": "NTS_TRADITIONAL WEB",
+            "events": "event40",
+            "aamb": "RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y",
+            "v2": "ENG",
+            "v42": "NTS_TRADITIONAL WEB",
+            "c60": "https://www.jetblue.com/",
+            "v70": "TEST - HP A",
+            "s": "375x812",
+            "c": 24,
+            "j": 1.6,
+            "v": "N",
+            "k": "Y",
+            "bw": 375,
+            "bh": 812,
+            "AQE": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter /b/ss/*&events="
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://somnistats.jetblue.com/b/ss/jetbluecom2/1/JS-1.8.0/s98448677787368?AQB=1&ndh=1&pf=1&t=12%2F4%2F2020%2017%3A37%3A26%202%20240&mid=52443917460230482153877968417588317141&aamlh=7&vmt=4EFCAA19&ce=UTF-8&pageName=JetBlue%20%7C%20Home%20Page&g=https%3A%2F%2Fwww.jetblue.com%2F&ch=NTS_TRADITIONAL%20WEB&events=event40&aamb=RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y&v2=ENG&v42=NTS_TRADITIONAL%20WEB&c60=https%3A%2F%2Fwww.jetblue.com%2F&v70=TEST%20-%20HP%20A&s=375x812&c=24&j=1.6&v=N&k=Y&bw=375&bh=812&AQE=1"
+      },
+      {
+        "data": {
+          "filter": "||everesttech.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_uuid": 4.79168161864498e+37
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||everesttech.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.everesttech.net/cm/dd?d_uuid=47916816186449793754569434191823012205"
+      },
+      {
+        "data": {
+          "filter": "/id?d_visid_",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_visid_ver": "2.0.0",
+            "d_fieldgroup": "A",
+            "mcorgid": "A553776A5245AE600A490D44@AdobeOrg",
+            "mid": 5.244391746023048e+37,
+            "ts": 1589319446584
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter /id?d_visid_"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://somnistats.jetblue.com/id?d_visid_ver=2.0.0&d_fieldgroup=A&mcorgid=A553776A5245AE600A490D44%40AdobeOrg&mid=52443917460230482153877968417588317141&ts=1589319446584"
+      },
+      {
+        "data": {
+          "filter": "||cloudfront.net*/sp.js|",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||cloudfront.net*/sp.js|"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://d1fc8wv8zag5ca.cloudfront.net/2.10.2/sp.js"
+      },
+      {
+        "data": {
+          "filter": "||thebrighttag.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "site": "UXE8DVB",
+            "H": "-1153k6u"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||thebrighttag.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.thebrighttag.com/tag?site=UXE8DVB&H=-1153k6u"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_visid_ver": "2.0.0",
+            "d_fieldgroup": "MC",
+            "d_rtbd": "json",
+            "d_ver": 2,
+            "d_verify": 1,
+            "d_orgid": "A553776A5245AE600A490D44@AdobeOrg",
+            "d_nsid": 0,
+            "ts": 1589319446104
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||demdex.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/id?d_visid_ver=2.0.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_verify=1&d_orgid=A553776A5245AE600A490D44%40AdobeOrg&d_nsid=0&ts=1589319446104"
+      },
+      {
+        "data": {
+          "filter": "||fullstory.com/s/fs.js$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||fullstory.com/s/fs.js$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://fullstory.com/s/fs.js"
+      },
+      {
+        "data": {
+          "filter": "||btstatic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.jetblue.com/",
+            "source": "requested from https://www.jetblue.com/ and matched with easyprivacy.txt filter ||btstatic.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.btstatic.com/tag.js"
+      }
+    ]
+  }
+}

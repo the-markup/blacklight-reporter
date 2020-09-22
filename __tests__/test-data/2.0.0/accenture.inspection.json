@@ -1,0 +1,4210 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "http://www.accenture.com",
+  "uri_dest": "https://www.accenture.com/us-en",
+  "uri_redirects": [
+    "http://www.accenture.com/",
+    "https://www.accenture.com/"
+  ],
+  "secure_connection": {},
+  "host": "www.accenture.com",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": "iPhone X",
+    "numPages": 2
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/79.0.3945.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/79.0.3945.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "4.15.0-99-generic"
+    }
+  },
+  "script": {
+    "host": "shakaal",
+    "version": {
+      "npm": "2.0.0",
+      "commit": null
+    },
+    "node_version": "v12.15.0"
+  },
+  "start_time": "2020-05-19T23:02:34.184Z",
+  "end_time": "2020-05-19T23:02:54.199Z",
+  "deviceEmulated": {
+    "name": "iPhone X",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1",
+    "viewport": {
+      "width": 375,
+      "height": 812,
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "isLandscape": false
+    }
+  },
+  "browsing_history": [
+    "https://www.accenture.com/us-en",
+    "https://www.accenture.com/br-pt",
+    "https://www.accenture.com/za-en"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "www.accenture.com",
+        "somni.accenture.com"
+      ],
+      "third_party": [
+        "cdn.cookielaw.org",
+        "scripts.demandbase.com",
+        "assets.adobedtm.com",
+        "s.delvenetworks.com",
+        "geolocation.onetrust.com",
+        "dpm.demdex.net",
+        "api.company-target.com",
+        "accenture.demdex.net",
+        "cm.everesttech.net",
+        "www.googletagmanager.com",
+        "snap.licdn.com",
+        "8140983.fls.doubleclick.net",
+        "bat.bing.com",
+        "accenture.tt.omtrdc.net",
+        "connect.facebook.net",
+        "cdnssl.clicktale.net",
+        "www.youtube.com",
+        "px.ads.linkedin.com",
+        "www.google-analytics.com",
+        "ml314.com",
+        "adservice.google.com",
+        "api.demandbase.com",
+        "data",
+        "bcp.crwdcntrl.net",
+        "s.ytimg.com",
+        "www.facebook.com",
+        "conductor.clicktale.net",
+        "ing-district.clicktale.net",
+        "www.linkedin.com",
+        "stats.g.doubleclick.net",
+        "www.google.com",
+        "p.adsymptotic.com",
+        "tag.demandbase.com",
+        "match.prod.bidr.io",
+        "segments.company-target.com",
+        "8157286.fls.doubleclick.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://connect.facebook.net/signals/config/772335989453317?v=2.9.18&r=stable": [
+          "click"
+        ],
+        "https://www.google-analytics.com/analytics.js": [
+          "mousedown"
+        ],
+        "https://www.accenture.com/bundlesupgrade/prebodyjsredesign?v=44ZZ5Bg8dcPjwjiHCNVpL2frnF5hxUpaIZ714NrYHWM1": [
+          "mousedown",
+          "scroll",
+          "click",
+          "mouseup"
+        ],
+        "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/EX319512eeb3654064bdfba7fafaad1fef-libraryCode_source.min.js": [
+          "scroll",
+          "click"
+        ],
+        "https://assets.adobedtm.com/launch-EN664f8f34ad5946f8a0f7914005f717cf.min.js": [
+          "scroll",
+          "mousedown",
+          "click"
+        ],
+        "https://www.accenture.com/bundlesupgrade/postbodyjsredesign?v=uaUFBXVeuQ7QZ2GQvAAYrphIqXL-7kJRi2cZnzv5kOI1": [
+          "scroll"
+        ],
+        "https://cdnssl.clicktale.net/www/WR-latest.js": [
+          "click",
+          "scroll"
+        ],
+        "https://cdnssl.clicktale.net/www27/pcc/bd52ad0e-c233-4c22-882d-4c2151b49d64.js?DeploymentConfigName=Release_20200403&Version=3": [
+          "mouseup",
+          "mousedown"
+        ],
+        "https://cdnssl.clicktale.net/www/monitor-latest.js": [
+          "mouseup",
+          "mousedown",
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.google-analytics.com/analytics.js": [
+          "keyup"
+        ],
+        "https://www.accenture.com/bundlesupgrade/prebodyjsredesign?v=44ZZ5Bg8dcPjwjiHCNVpL2frnF5hxUpaIZ714NrYHWM1": [
+          "keyup",
+          "keydown"
+        ],
+        "https://cdnssl.clicktale.net/www/WR-latest.js": [
+          "keypress",
+          "keyup",
+          "keydown"
+        ],
+        "https://cdnssl.clicktale.net/www27/pcc/bd52ad0e-c233-4c22-882d-4c2151b49d64.js?DeploymentConfigName=Release_20200403&Version=3": [
+          "keypress"
+        ],
+        "https://cdnssl.clicktale.net/www/monitor-latest.js": [
+          "keyup"
+        ]
+      },
+      "SENSOR": {
+        "https://www.accenture.com/bundlesupgrade/prebodyjsredesign?v=44ZZ5Bg8dcPjwjiHCNVpL2frnF5hxUpaIZ714NrYHWM1": [
+          "orientationchange"
+        ],
+        "https://www.accenture.com/bundlesupgrade/postbodyjsredesign?v=uaUFBXVeuQ7QZ2GQvAAYrphIqXL-7kJRi2cZnzv5kOI1": [
+          "orientationchange"
+        ],
+        "https://cdnssl.clicktale.net/www/WR-latest.js": [
+          "orientationchange"
+        ]
+      },
+      "TOUCH": {
+        "https://www.accenture.com/bundlesupgrade/prebodyjsredesign?v=44ZZ5Bg8dcPjwjiHCNVpL2frnF5hxUpaIZ714NrYHWM1": [
+          "touchmove",
+          "touchend",
+          "touchstart"
+        ],
+        "https://cdnssl.clicktale.net/www/WR-latest.js": [
+          "touchmove",
+          "touchend",
+          "touchstart"
+        ],
+        "https://cdnssl.clicktale.net/www27/pcc/bd52ad0e-c233-4c22-882d-4c2151b49d64.js?DeploymentConfigName=Release_20200403&Version=3": [
+          "touchstart"
+        ],
+        "https://cdnssl.clicktale.net/www/monitor-latest.js": [
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "",
+        "value": "",
+        "domain": "www.facebook.com",
+        "path": "/tr",
+        "expires": -1,
+        "size": 0,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "check",
+        "value": "true",
+        "domain": "accenture.com",
+        "path": "/",
+        "expires": -1,
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "demdex",
+        "value": "20531197356334315331508362464103519487",
+        "domain": "demdex.net",
+        "path": "/",
+        "expires": "2020-11-15T23:02:38.187Z",
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "AMCVS_AAB73BC75245B44A0A490D4D%40AdobeOrg",
+        "value": "1",
+        "domain": "accenture.com",
+        "path": "/",
+        "expires": -1,
+        "size": 42,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "dmdbase_cdc",
+        "value": "DBSET",
+        "domain": "accenture.com",
+        "path": "/",
+        "expires": "2020-05-19T23:32:36.000Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_ecid",
+        "value": "MCMID%7C20249408785217202391480254014403527357",
+        "domain": "accenture.com",
+        "path": "/",
+        "expires": "2022-05-19T23:02:49.515Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "everest_g_v2",
+        "value": "g_surferid~XsRljAAAAvMS2S4o",
+        "domain": "everesttech.net",
+        "path": "/",
+        "expires": "2022-05-19T23:02:37.459Z",
+        "size": 39,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "everest_session_v2",
+        "value": "XsRljAAAAvMS2y4o",
+        "domain": "everesttech.net",
+        "path": "/",
+        "expires": -1,
+        "size": 34,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "dpm",
+        "value": "20531197356334315331508362464103519487",
+        "domain": "dpm.demdex.net",
+        "path": "/",
+        "expires": "2020-11-15T23:02:37.646Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "test_cookie",
+        "value": "CheckForPermission",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2020-05-19T23:17:36.730Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.497475484.1589929357",
+        "domain": "accenture.com",
+        "path": "/",
+        "expires": "2020-08-17T23:02:43.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "MUID",
+        "value": "0671B128F87B6E4A23B8BFE7F9F36F9A",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": "2021-06-13T23:02:36.814Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MR",
+        "value": "0",
+        "domain": "bat.bing.com",
+        "path": "/",
+        "expires": "2020-05-26T23:02:36.814Z",
+        "size": 3,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MR2",
+        "value": "0",
+        "domain": "bat.bing.com",
+        "path": "/",
+        "expires": "2020-05-26T23:02:36.814Z",
+        "size": 4,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "dextp",
+        "value": "22052-1-1589929356791|121998-1-1589929356931",
+        "domain": "demdex.net",
+        "path": "/",
+        "expires": "2020-11-15T23:02:36.000Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "eVar46",
+        "value": "acn:page:homepage",
+        "domain": "accenture.com",
+        "path": "/",
+        "expires": -1,
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1589929357187.202459000",
+        "domain": "accenture.com",
+        "path": "/",
+        "expires": "2020-08-17T23:02:49.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "li_sugr",
+        "value": "a0b980e3-545d-4db2-a0be-d66293ee46d0",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2020-08-17T23:02:49.290Z",
+        "size": 43,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "lang",
+        "value": "v=2&lang=en-us",
+        "domain": "ads.linkedin.com",
+        "path": "/",
+        "expires": -1,
+        "size": 18,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "lidc",
+        "value": "\"b=VGST09:g=1698:u=1:i=1589929357:t=1590015757:s=AQFrFRXSJ4vYOPCzbcet2Jv8PZ-CgM2X\"",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2020-05-20T23:02:37.190Z",
+        "size": 86,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "s_cc",
+        "value": "true",
+        "domain": "accenture.com",
+        "path": "/",
+        "expires": -1,
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "UserMatchHistory",
+        "value": "AQI15RDkiSIf_QAAAXIvLK_Ei9QWRXWlWK_zPcaieMYaVNAAO9A9ap3uMrQsn9nQLNTZWScC7KY",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2020-06-18T23:02:37.264Z",
+        "size": 91,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2.953476815.1589929357",
+        "domain": "accenture.com",
+        "path": "/",
+        "expires": "2022-05-19T23:02:49.000Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.525690817.1589929357",
+        "domain": "accenture.com",
+        "path": "/",
+        "expires": "2020-05-20T23:02:49.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gat_gtag_UA_76413435_1",
+        "value": "1",
+        "domain": "accenture.com",
+        "path": "/",
+        "expires": "2020-05-19T23:03:37.000Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "pi",
+        "value": "3610393252460494882",
+        "domain": "ml314.com",
+        "path": "/",
+        "expires": "2021-05-19T23:02:38.401Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_cc_dc",
+        "value": "0",
+        "domain": "crwdcntrl.net",
+        "path": "/",
+        "expires": "2021-02-13T23:02:00.617Z",
+        "size": 7,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_cc_id",
+        "value": "3fb2fe23fb8c114d70a5ec991070f79c",
+        "domain": "crwdcntrl.net",
+        "path": "/",
+        "expires": "2021-02-13T23:02:00.617Z",
+        "size": 38,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_cc_cc",
+        "value": "\"ACZ4nGNQME5LMkpLNQJSFsmGhiYp5gaJpqnJlpaGBuYGaeaWyQxAEHcktZcBAQBlGgsn\"",
+        "domain": "crwdcntrl.net",
+        "path": "/",
+        "expires": "2021-02-13T23:02:37.617Z",
+        "size": 76,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_cc_aud",
+        "value": "\"ABR4nGNgYGCIO5LaywAHABn1AhU%3D\"",
+        "domain": "crwdcntrl.net",
+        "path": "/",
+        "expires": "2021-02-13T23:02:37.617Z",
+        "size": 39,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "fr",
+        "value": "0SngfSYBNuD9EiaPQ..BexGWN...1.0.BexGWN.",
+        "domain": "facebook.com",
+        "path": "/",
+        "expires": "2020-08-17T23:02:37.668Z",
+        "size": 41,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_CT_RS_",
+        "value": "Recording",
+        "domain": "accenture.com",
+        "path": "/",
+        "expires": "2020-06-18T23:02:37.000Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "WRUID",
+        "value": "2782969166119805",
+        "domain": "accenture.com",
+        "path": "/",
+        "expires": "2021-05-19T23:02:37.000Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "lang",
+        "value": "v=2&lang=en-us",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": -1,
+        "size": 18,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bcookie",
+        "value": "\"v=2&f1dcbd54-d6a0-48c5-86e3-72528703f713\"",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2022-05-20T10:40:09.996Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bscookie",
+        "value": "\"v=1&2020051923023783cf13f3-73ec-41fe-84b6-542c307c681cAQG_agHy0E07axjMlHC8SnGn3A8TjoQ2\"",
+        "domain": "www.linkedin.com",
+        "path": "/",
+        "expires": "2022-05-20T10:40:09.996Z",
+        "size": 96,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "lissc",
+        "value": "1",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2021-05-19T23:02:37.996Z",
+        "size": 6,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__CT_Data",
+        "value": "gpv=1&ckp=tld&dm=accenture.com&apv_3111_www27=1&cpv_3111_www27=1&rpv_3111_www27=1",
+        "domain": "accenture.com",
+        "path": "/",
+        "expires": "2021-05-19T23:02:38.000Z",
+        "size": 90,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "AMCV_AAB73BC75245B44A0A490D4D%40AdobeOrg",
+        "value": "-432600572%7CMCIDTS%7C18402%7CMCMID%7C20249408785217202391480254014403527357%7CMCAAMLH-1590534158%7C7%7CMCAAMB-1590534158%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1589936558s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-18409%7CMCCIDH%7C1761854423%7CvVersion%7C4.5.2",
+        "domain": "accenture.com",
+        "path": "/",
+        "expires": "2022-05-19T23:02:49.515Z",
+        "size": 326,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "U",
+        "value": "1939f5957096d395eefaaea6b07c94d1",
+        "domain": "adsymptotic.com",
+        "path": "/",
+        "expires": "2020-08-17T23:02:49.355Z",
+        "size": 33,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bito",
+        "value": "AAFxVE69iMsAAG-DEkFiWA",
+        "domain": "bidr.io",
+        "path": "/",
+        "expires": "2021-06-18T19:02:38.889Z",
+        "size": 26,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bitoIsSecure",
+        "value": "ok",
+        "domain": "bidr.io",
+        "path": "/",
+        "expires": "2021-06-18T19:02:38.889Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "tuuid",
+        "value": "2da4975f-76f0-4027-8de5-59dd16b44cce",
+        "domain": "company-target.com",
+        "path": "/",
+        "expires": "2022-05-19T23:02:39.095Z",
+        "size": 41,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "tuuid_lu",
+        "value": "1589929359",
+        "domain": "company-target.com",
+        "path": "/",
+        "expires": "2022-05-19T23:02:39.095Z",
+        "size": 18,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ctm",
+        "value": "{'pgv':2849074111519230|'vst':2614957538755798|'vstr':8101479455354758|'intr':1589929360856|'v':1}",
+        "domain": "accenture.com",
+        "path": "/",
+        "expires": "2021-05-19T23:02:40.000Z",
+        "size": 101,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "locationEnabled",
+        "value": "prompt",
+        "domain": "accenture.com",
+        "path": "/",
+        "expires": -1,
+        "size": 21,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "sat_track",
+        "value": "true",
+        "domain": "www.accenture.com",
+        "path": "/",
+        "expires": -1,
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "mbox",
+        "value": "session#b70e02f97b0641168cccdd11f6b89935#1589931229|PC#b70e02f97b0641168cccdd11f6b89935.17_0#1653174157",
+        "domain": "accenture.com",
+        "path": "/",
+        "expires": "2022-05-21T23:02:37.000Z",
+        "size": 107,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_uetsid",
+        "value": "a9c1bfaf-330f-cbed-594d-f2ed1d161212",
+        "domain": "accenture.com",
+        "path": "/",
+        "expires": "2020-05-20T23:02:49.000Z",
+        "size": 43,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isIABGlobal=false&datestamp=Tue+May+19+2020+19%3A02%3A49+GMT-0400+(Eastern+Daylight+Time)&version=5.13.0&landingPath=NotLandingPage&groups=1%3A1%2C2%3A1%2C3%3A1%2C4%3A1&hosts=&AwaitingReconsent=false",
+        "domain": "accenture.com",
+        "path": "/",
+        "expires": "2021-05-19T23:02:49.000Z",
+        "size": 213,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_tp",
+        "value": "4256",
+        "domain": "accenture.com",
+        "path": "/",
+        "expires": -1,
+        "size": 8,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "s_ppv",
+        "value": "acn%253Apage%253Ahomepage%2C37%2C23%2C1562",
+        "domain": "accenture.com",
+        "path": "/",
+        "expires": -1,
+        "size": 47,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [
+      {
+        "eventName": "PageView",
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "pageUrl": "https://www.accenture.com/za-en",
+        "isStandardEvent": true,
+        "dataParams": [],
+        "advancedMatchingParams": [],
+        "raw": "https://www.facebook.com/tr/?id=772335989453317&ev=PageView&dl=https%3A%2F%2Fwww.accenture.com%2Fza-en&rl=&if=false&ts=1589929369376&sw=375&sh=812&v=2.9.18&r=stable&ec=0&o=30&fbp=fb.1.1589929357187.202459000&it=1589929369285&coo=false&rqm=GET"
+      },
+      {
+        "eventName": "PageView",
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "pageUrl": "https://www.accenture.com/br-pt",
+        "isStandardEvent": true,
+        "dataParams": [],
+        "advancedMatchingParams": [],
+        "raw": "https://www.facebook.com/tr/?id=772335989453317&ev=PageView&dl=https%3A%2F%2Fwww.accenture.com%2Fbr-pt&rl=&if=false&ts=1589929362959&sw=375&sh=812&v=2.9.18&r=stable&ec=0&o=30&fbp=fb.1.1589929357187.202459000&it=1589929362877&coo=false&rqm=GET"
+      },
+      {
+        "eventName": "PageView",
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "pageUrl": "https://www.accenture.com/us-en",
+        "isStandardEvent": true,
+        "dataParams": [],
+        "advancedMatchingParams": [],
+        "raw": "https://www.facebook.com/tr/?id=772335989453317&ev=PageView&dl=https%3A%2F%2Fwww.accenture.com%2Fus-en&rl=&if=false&ts=1589929357190&sw=375&sh=812&v=2.9.18&r=stable&ec=0&o=30&fbp=fb.1.1589929357187.202459000&it=1589929356958&coo=false&rqm=GET"
+      }
+    ],
+    "key_logging": {},
+    "session_recorders": {
+      "clicktale.net": [
+        "conductor.clicktale.net/monitor",
+        "cdnssl.clicktale.net/www/WR-latest.js",
+        "cdnssl.clicktale.net/www27/pcc/bd52ad0e-c233-4c22-882d-4c2151b49d64.js",
+        "cdnssl.clicktale.net/www/monitor-latest.js",
+        "cdnssl.clicktale.net/www27/ptc/BD52AD0E-C233-4C22-882D-4C2151B49D64.js"
+      ]
+    },
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||facebook.com/tr$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||facebook.com/tr$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/"
+      },
+      {
+        "data": {
+          "filter": "||company-target.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "vendor": "choca",
+            "user_id": "AAFxVE69iMsAAG-DEkFiWA"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||company-target.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://segments.company-target.com/log?vendor=choca&user_id=AAFxVE69iMsAAG-DEkFiWA"
+      },
+      {
+        "data": {
+          "filter": "||company-target.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "referrer": "",
+            "page": "https://www.accenture.com/za-en",
+            "page_title": "Accenture | South Africa | New Applied Now",
+            "key": "5f71597d1c087bea98a9c8c2c4080646",
+            "src": "tag"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||company-target.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.company-target.com/api/v2/ip.json?referrer=&page=https%3A%2F%2Fwww.accenture.com%2Fza-en&page_title=Accenture%20%7C%20South%20Africa%20%7C%20New%20Applied%20Now&key=5f71597d1c087bea98a9c8c2c4080646&src=tag"
+      },
+      {
+        "data": {
+          "filter": "||bidr.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||bidr.io^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://match.prod.bidr.io/cookie-sync/demandbase"
+      },
+      {
+        "data": {
+          "filter": "||demandbase.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||demandbase.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tag.demandbase.com/wDq4Hx70.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC856d063a18fc4843a04a8397d5c0b1a4-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC6200a27eb4c3433a9d8c8e25956e73bc-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC7e63339f37064b99a79871dc7c8487de-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RCbbf93726d327489690854516539a33af-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC41946dc9434e4107b011a88cf35a6ef9-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RCe0a02bd209d144daadb1c6fc081ea855-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RCae5ac80c26cd42d0b7f30bd02d0079be-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RCc05ba2c0a30443379abf6058491b35f8-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC082b20cb91c442ceaf1348b0be921587-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||demandbase.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "key": "126cd7070cfc0c3ab3e70e653cde6887",
+            "callback": "Dmdbase_CDC.callback"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||demandbase.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.demandbase.com/api/v2/ip.json?key=126cd7070cfc0c3ab3e70e653cde6887&callback=Dmdbase_CDC.callback"
+      },
+      {
+        "data": {
+          "filter": "||facebook.com/tr$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": 772335989453317,
+            "ev": "PageView",
+            "dl": "https://www.accenture.com/za-en",
+            "rl": "",
+            "if": false,
+            "ts": 1589929369376,
+            "sw": 375,
+            "sh": 812,
+            "v": "2.9.18",
+            "r": "stable",
+            "ec": 0,
+            "o": 30,
+            "fbp": "fb.1.1589929357187.202459000",
+            "it": 1589929369285,
+            "coo": false,
+            "rqm": "GET"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||facebook.com/tr$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=772335989453317&ev=PageView&dl=https%3A%2F%2Fwww.accenture.com%2Fza-en&rl=&if=false&ts=1589929369376&sw=375&sh=812&v=2.9.18&r=stable&ec=0&o=30&fbp=fb.1.1589929357187.202459000&it=1589929369285&coo=false&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j82",
+            "a": 1745455334,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.accenture.com/za-en",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Accenture | South Africa | New Applied Now",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "ACCACUABB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 953476815.1589929,
+            "tid": "UA-76413435-1",
+            "_gid": 525690817.15899295,
+            "gtm": "2ou561",
+            "z": 2020628824
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j82&a=1745455334&t=pageview&_s=1&dl=https%3A%2F%2Fwww.accenture.com%2Fza-en&ul=en-us&de=UTF-8&dt=Accenture%20%7C%20South%20Africa%20%7C%20New%20Applied%20Now&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=ACCACUABB~&jid=&gjid=&cid=953476815.1589929357&tid=UA-76413435-1&_gid=525690817.1589929357&gtm=2ou561&z=2020628824"
+      },
+      {
+        "data": {
+          "filter": "||adsymptotic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_pid": 16218,
+            "_psign": "0aa5badf92527f7732e22463d6fa4dbc",
+            "coopa": 0,
+            "gdpr": 0,
+            "gdpr_consent": "",
+            "_puuid": "a0b980e3-545d-4db2-a0be-d66293ee46d0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||adsymptotic.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.adsymptotic.com/d/px/?_pid=16218&_psign=0aa5badf92527f7732e22463d6fa4dbc&coopa=0&gdpr=0&gdpr_consent=&_puuid=a0b980e3-545d-4db2-a0be-d66293ee46d0"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RCbd0f31b7fe2148bb928a033077f889bd-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": "2.9.18",
+            "r": "stable"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||connect.facebook.net/signals/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/772335989453317?v=2.9.18&r=stable"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ti": 36001212,
+            "Ver": 2,
+            "mid": "2659f6da-4542-c936-2ce7-10e09559d75a",
+            "sid": "a9c1bfaf-330f-cbed-594d-f2ed1d161212",
+            "pi": 0,
+            "lg": "en-US",
+            "sw": 375,
+            "sh": 812,
+            "sc": 24,
+            "tl": "Accenture | South Africa | New Applied Now",
+            "kw": "accenture, new applied now, strategy consulting, management consulting, digital consulting, technology consulting, operations consulting, business operations management",
+            "p": "https://www.accenture.com/za-en",
+            "r": "",
+            "lt": 966,
+            "evt": "pageLoad",
+            "msclkid": "N",
+            "sv": 1,
+            "rn": 392411
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||bat.bing.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/action/0?ti=36001212&Ver=2&mid=2659f6da-4542-c936-2ce7-10e09559d75a&sid=a9c1bfaf-330f-cbed-594d-f2ed1d161212&pi=0&lg=en-US&sw=375&sh=812&sc=24&tl=Accenture%20%7C%20South%20Africa%20%7C%20New%20Applied%20Now&kw=accenture,%20new%20applied%20now,%20strategy%20consulting,%20management%20consulting,%20digital%20consulting,%20technology%20consulting,%20operations%20consulting,%20business%20operations%20management&p=https%3A%2F%2Fwww.accenture.com%2Fza-en&r=&lt=966&evt=pageLoad&msclkid=N&sv=1&rn=392411"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC5109835b5b6b4d83b820771f006d7de3-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RCd49ed0eb7d4b4d5891079ddaec73d927-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC97e82023b2fc4806ac15fd8a1145ddc1-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RCd77d4fdb52074d699465ab4d0a36c2a0-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RCeee2c5a602c246e6b917512abdff71b9-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC2f669671a92b4c48a1805d0f1d168c57-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC980eb9845db94506807337bfbdb6fa2b-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter /fbevents.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||omtrdc.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mbox": "track-user-info",
+            "mboxSession": "b70e02f97b0641168cccdd11f6b89935",
+            "mboxPC": "b70e02f97b0641168cccdd11f6b89935.17_0",
+            "mboxPage": "bc74e432114c40c7b9034af115cef006",
+            "mboxRid": "35057906909040559c24f1b7094efedb",
+            "mboxVersion": "1.7.1",
+            "mboxCount": 2,
+            "mboxTime": 1589914968959,
+            "mboxHost": "www.accenture.com",
+            "mboxURL": "https://www.accenture.com/za-en",
+            "mboxReferrer": "",
+            "browserHeight": 812,
+            "browserWidth": 375,
+            "browserTimeOffset": -240,
+            "screenHeight": 812,
+            "screenWidth": 375,
+            "colorDepth": 24,
+            "devicePixelRatio": 3,
+            "screenOrientation": "portrait",
+            "webGLRenderer": "Google SwiftShader",
+            "profile.userType": "anon",
+            "profile.userSocialSkill": "",
+            "profile.userSocialCountry": "",
+            "profile.userSocialIndustry": "",
+            "profile.userCareersSkill1": "",
+            "profile.userCareersSkill2": "",
+            "profile.userCareersSkill3": "",
+            "profile.userCareersSpecialization1": "",
+            "profile.userCareersSpecialization2": "",
+            "profile.userCareersSpecialization3": "",
+            "profile.userCareersSpecialization4": "",
+            "profile.userCareersSpecialization5": "",
+            "profile.userTravelOption": "",
+            "profile.userCareersIndustry": "",
+            "profile.userCareersCountry": "",
+            "profile.userCareersCity": "",
+            "profile.userCareersYearsOfExperience": "",
+            "profile.userCareersCareerLevel": "",
+            "profile.jobAlertsSubscriber": "not available",
+            "profile.talentConnectionSubscriber": "not available",
+            "profile.careersBlogSubscriber": "not available",
+            "mboxMCSDID": "5C9F2E71E8F06ECF-0CAC12B3887B9A47",
+            "vst.trk": "somni.accenture.com",
+            "vst.trks": "somni.accenture.com",
+            "mboxMCGVID": 2.0249408785217202e+37,
+            "mboxAAMB": "6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y",
+            "mboxMCGLH": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||omtrdc.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://accenture.tt.omtrdc.net/m2/accenture/mbox/json?mbox=track-user-info&mboxSession=b70e02f97b0641168cccdd11f6b89935&mboxPC=b70e02f97b0641168cccdd11f6b89935.17_0&mboxPage=bc74e432114c40c7b9034af115cef006&mboxRid=35057906909040559c24f1b7094efedb&mboxVersion=1.7.1&mboxCount=2&mboxTime=1589914968959&mboxHost=www.accenture.com&mboxURL=https%3A%2F%2Fwww.accenture.com%2Fza-en&mboxReferrer=&browserHeight=812&browserWidth=375&browserTimeOffset=-240&screenHeight=812&screenWidth=375&colorDepth=24&devicePixelRatio=3&screenOrientation=portrait&webGLRenderer=Google%20SwiftShader&profile.userType=anon&profile.userSocialSkill=&profile.userSocialCountry=&profile.userSocialIndustry=&profile.userCareersSkill1=&profile.userCareersSkill2=&profile.userCareersSkill3=&profile.userCareersSpecialization1=&profile.userCareersSpecialization2=&profile.userCareersSpecialization3=&profile.userCareersSpecialization4=&profile.userCareersSpecialization5=&profile.userTravelOption=&profile.userCareersIndustry=&profile.userCareersCountry=&profile.userCareersCity=&profile.userCareersYearsOfExperience=&profile.userCareersCareerLevel=&profile.jobAlertsSubscriber=not%20available&profile.talentConnectionSubscriber=not%20available&profile.careersBlogSubscriber=not%20available&mboxMCSDID=5C9F2E71E8F06ECF-0CAC12B3887B9A47&vst.trk=somni.accenture.com&vst.trks=somni.accenture.com&mboxMCGVID=20249408785217202391480254014403527357&mboxAAMB=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&mboxMCGLH=7"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-76413435-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-76413435-1"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||bat.bing.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/bat.js"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter .lms-analytics/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/extensions/EP308220a2a4c4403f97fc1960100db40f/AppMeasurement_Module_AudienceManagement.min.js"
+      },
+      {
+        "data": {
+          "filter": "||omtrdc.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mbox": "target-global-mbox",
+            "mboxSession": "b70e02f97b0641168cccdd11f6b89935",
+            "mboxPC": "b70e02f97b0641168cccdd11f6b89935.17_0",
+            "mboxPage": "bc74e432114c40c7b9034af115cef006",
+            "mboxRid": "559cca9023e049d5ad4fff12f8392009",
+            "mboxVersion": "1.7.1",
+            "mboxCount": 1,
+            "mboxTime": 1589914968666,
+            "mboxHost": "www.accenture.com",
+            "mboxURL": "https://www.accenture.com/za-en",
+            "mboxReferrer": "",
+            "browserHeight": 812,
+            "browserWidth": 375,
+            "browserTimeOffset": -240,
+            "screenHeight": 812,
+            "screenWidth": 375,
+            "colorDepth": 24,
+            "devicePixelRatio": 3,
+            "screenOrientation": "portrait",
+            "webGLRenderer": "Google SwiftShader",
+            "entity.id": "article_prodcd-82F8E336-1BDA-4E8C-922E-CB909FFFBD77",
+            "entity.categoryId": "m351,m370,m122,m203,m74,m98,m57,m508,m109,m121,m70,m71,m270,m1286,m244,m248,m1098,m1717,m1100,m1101",
+            "profile.demandbase_sid": 1900992,
+            "profile.industry": "Education",
+            "profile.sub_industry": "University",
+            "profile.employee_range": "Enterprise",
+            "profile.revenue_range": "%242.5B%20-%20%245B",
+            "profile.audience": "Education",
+            "profile.audience_segment": "University",
+            "profile.ip": "24.187.51.199",
+            "profile.company_name": "New%20York%20University",
+            "profile.state": "NY",
+            "profile.country_name": "United%20States",
+            "profile.watch_list_customer_type": "Diamond",
+            "profile.watch_list_customer_name": "STATE%20OF%20NEW%20YORK",
+            "profile.watch_list_account_id": "001d000000HaZ9EAAV",
+            "profile.annual_sales": 3736891000,
+            "profile.street_address": "70%20Washington%20Sq%20S",
+            "profile.city": "New%20York",
+            "profile.fortune_1000": false,
+            "profile.forbes_2000": false,
+            "profile.zip": 10012,
+            "profile.primary_sic": 8221,
+            "profile.isp": false,
+            "mboxMCSDID": "5C9F2E71E8F06ECF-0CAC12B3887B9A47",
+            "vst.trk": "somni.accenture.com",
+            "vst.trks": "somni.accenture.com",
+            "mboxMCGVID": 2.0249408785217202e+37,
+            "mboxAAMB": "6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y",
+            "mboxMCGLH": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||omtrdc.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://accenture.tt.omtrdc.net/m2/accenture/mbox/json?mbox=target-global-mbox&mboxSession=b70e02f97b0641168cccdd11f6b89935&mboxPC=b70e02f97b0641168cccdd11f6b89935.17_0&mboxPage=bc74e432114c40c7b9034af115cef006&mboxRid=559cca9023e049d5ad4fff12f8392009&mboxVersion=1.7.1&mboxCount=1&mboxTime=1589914968666&mboxHost=www.accenture.com&mboxURL=https%3A%2F%2Fwww.accenture.com%2Fza-en&mboxReferrer=&browserHeight=812&browserWidth=375&browserTimeOffset=-240&screenHeight=812&screenWidth=375&colorDepth=24&devicePixelRatio=3&screenOrientation=portrait&webGLRenderer=Google%20SwiftShader&entity.id=article_prodcd-82F8E336-1BDA-4E8C-922E-CB909FFFBD77&entity.categoryId=m351%2Cm370%2Cm122%2Cm203%2Cm74%2Cm98%2Cm57%2Cm508%2Cm109%2Cm121%2Cm70%2Cm71%2Cm270%2Cm1286%2Cm244%2Cm248%2Cm1098%2Cm1717%2Cm1100%2Cm1101&profile.demandbase_sid=1900992&profile.industry=Education&profile.sub_industry=University&profile.employee_range=Enterprise&profile.revenue_range=%25242.5B%2520-%2520%25245B&profile.audience=Education&profile.audience_segment=University&profile.ip=24.187.51.199&profile.company_name=New%2520York%2520University&profile.state=NY&profile.country_name=United%2520States&profile.watch_list_customer_type=Diamond&profile.watch_list_customer_name=STATE%2520OF%2520NEW%2520YORK&profile.watch_list_account_id=001d000000HaZ9EAAV&profile.annual_sales=3736891000&profile.street_address=70%2520Washington%2520Sq%2520S&profile.city=New%2520York&profile.fortune_1000=false&profile.forbes_2000=false&profile.zip=10012&profile.primary_sic=8221&profile.isp=false&mboxMCSDID=5C9F2E71E8F06ECF-0CAC12B3887B9A47&vst.trk=somni.accenture.com&vst.trks=somni.accenture.com&mboxMCGVID=20249408785217202391480254014403527357&mboxAAMB=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&mboxMCGLH=7"
+      },
+      {
+        "data": {
+          "filter": "||company-target.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "key": "126cd7070cfc0c3ab3e70e653cde6887",
+            "amp;callback": "Dmdbase_CDC.callback"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||company-target.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.company-target.com/api/v2/ip.json?key=126cd7070cfc0c3ab3e70e653cde6887&amp;callback=Dmdbase_CDC.callback"
+      },
+      {
+        "data": {
+          "filter": "||company-target.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "key": "126cd7070cfc0c3ab3e70e653cde6887",
+            "src": "adobelaunch"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||company-target.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.company-target.com/api/v2/ip.json?key=126cd7070cfc0c3ab3e70e653cde6887&src=adobelaunch"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/EX319512eeb3654064bdfba7fafaad1fef-libraryCode_source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||demandbase.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/za-en",
+            "source": "requested from https://www.accenture.com/za-en and matched with easyprivacy.txt filter ||demandbase.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://scripts.demandbase.com/adobeanalytics/wDq4Hx70.min.js"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ti": 36001212,
+            "Ver": 2,
+            "mid": "7131d6e6-7de6-5f65-db9f-e165901c597b",
+            "sid": "a9c1bfaf-330f-cbed-594d-f2ed1d161212",
+            "evt": "pageHide"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||bat.bing.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/actionp/0?ti=36001212&Ver=2&mid=7131d6e6-7de6-5f65-db9f-e165901c597b&sid=a9c1bfaf-330f-cbed-594d-f2ed1d161212&evt=pageHide"
+      },
+      {
+        "data": {
+          "filter": "||company-target.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "vendor": "choca",
+            "user_id": "AAFxVE69iMsAAG-DEkFiWA"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||company-target.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://segments.company-target.com/log?vendor=choca&user_id=AAFxVE69iMsAAG-DEkFiWA"
+      },
+      {
+        "data": {
+          "filter": "||company-target.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "referrer": "",
+            "page": "https://www.accenture.com/br-pt",
+            "page_title": "Accenture | Brasil | New Applied Now",
+            "key": "5f71597d1c087bea98a9c8c2c4080646",
+            "src": "tag"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||company-target.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.company-target.com/api/v2/ip.json?referrer=&page=https%3A%2F%2Fwww.accenture.com%2Fbr-pt&page_title=Accenture%20%7C%20Brasil%20%7C%20New%20Applied%20Now&key=5f71597d1c087bea98a9c8c2c4080646&src=tag"
+      },
+      {
+        "data": {
+          "filter": "||bidr.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||bidr.io^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://match.prod.bidr.io/cookie-sync/demandbase"
+      },
+      {
+        "data": {
+          "filter": "||facebook.com/tr$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": 772335989453317,
+            "ev": "Microdata",
+            "dl": "https://www.accenture.com/br-pt",
+            "rl": "",
+            "if": false,
+            "ts": 1589929363529,
+            "cd[DataLayer]": [],
+            "cd[Meta]": {
+              "title": "Accenture | Brasil | New Applied Now",
+              "meta:description": "A Accenture oferece no Brasil oportunidades que surgem a partir da disrupção em todas as indústrias, em todos os países, todos os dias.",
+              "meta:keywords": "accenture, new applied now, strategy consulting, management consulting, digital consulting, technology consulting, operations consulting, business operations management"
+            },
+            "cd[OpenGraph]": {
+              "og:title": "Accenture | Brasil | New Applied Now",
+              "og:description": "A Accenture oferece no Brasil oportunidades que surgem a partir da disrupção em todas as indústrias, em todos os países, todos os dias.",
+              "og:image": "https://www.accenture.com/t00010101T000000Z__w__/br-pt/_acnmedia/Accenture/DigitasLBi/new-applied-now/images/grid-items/Articles9/Accenture-main-logo.jpg"
+            },
+            "cd[Schema.org]": [],
+            "cd[JSON-LD]": [],
+            "sw": 375,
+            "sh": 812,
+            "v": "2.9.18",
+            "r": "stable",
+            "ec": 1,
+            "o": 30,
+            "fbp": "fb.1.1589929357187.202459000",
+            "it": 1589929362877,
+            "coo": false,
+            "es": "automatic",
+            "tm": 3,
+            "rqm": "GET"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||facebook.com/tr$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=772335989453317&ev=Microdata&dl=https%3A%2F%2Fwww.accenture.com%2Fbr-pt&rl=&if=false&ts=1589929363529&cd[DataLayer]=%5B%5D&cd[Meta]=%7B%22title%22%3A%22Accenture%20%7C%20Brasil%20%7C%20New%20Applied%20Now%22%2C%22meta%3Adescription%22%3A%22A%20Accenture%20oferece%20no%20Brasil%20oportunidades%20que%20surgem%20a%20partir%20da%20disrup%C3%A7%C3%A3o%20em%20todas%20as%20ind%C3%BAstrias%2C%20em%20todos%20os%20pa%C3%ADses%2C%20todos%20os%20dias.%22%2C%22meta%3Akeywords%22%3A%22accenture%2C%20new%20applied%20now%2C%20strategy%20consulting%2C%20management%20consulting%2C%20digital%20consulting%2C%20technology%20consulting%2C%20operations%20consulting%2C%20business%20operations%20management%22%7D&cd[OpenGraph]=%7B%22og%3Atitle%22%3A%22Accenture%20%7C%20Brasil%20%7C%20New%20Applied%20Now%22%2C%22og%3Adescription%22%3A%22A%20Accenture%20oferece%20no%20Brasil%20oportunidades%20que%20surgem%20a%20partir%20da%20disrup%C3%A7%C3%A3o%20em%20todas%20as%20ind%C3%BAstrias%2C%20em%20todos%20os%20pa%C3%ADses%2C%20todos%20os%20dias.%22%2C%22og%3Aimage%22%3A%22https%3A%2F%2Fwww.accenture.com%2Ft00010101T000000Z__w__%2Fbr-pt%2F_acnmedia%2FAccenture%2FDigitasLBi%2Fnew-applied-now%2Fimages%2Fgrid-items%2FArticles9%2FAccenture-main-logo.jpg%22%7D&cd[Schema.org]=%5B%5D&cd[JSON-LD]=%5B%5D&sw=375&sh=812&v=2.9.18&r=stable&ec=1&o=30&fbp=fb.1.1589929357187.202459000&it=1589929362877&coo=false&es=automatic&tm=3&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||demandbase.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||demandbase.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tag.demandbase.com/wDq4Hx70.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC856d063a18fc4843a04a8397d5c0b1a4-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC6200a27eb4c3433a9d8c8e25956e73bc-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC7e63339f37064b99a79871dc7c8487de-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RCbbf93726d327489690854516539a33af-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC41946dc9434e4107b011a88cf35a6ef9-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RCe0a02bd209d144daadb1c6fc081ea855-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RCae5ac80c26cd42d0b7f30bd02d0079be-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RCc05ba2c0a30443379abf6058491b35f8-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC082b20cb91c442ceaf1348b0be921587-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||demandbase.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "key": "126cd7070cfc0c3ab3e70e653cde6887",
+            "callback": "Dmdbase_CDC.callback"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||demandbase.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.demandbase.com/api/v2/ip.json?key=126cd7070cfc0c3ab3e70e653cde6887&callback=Dmdbase_CDC.callback"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j82",
+            "a": 1385184467,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.accenture.com/br-pt",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Accenture | Brasil | New Applied Now",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "ACCACUABB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 953476815.1589929,
+            "tid": "UA-76413435-1",
+            "_gid": 525690817.15899295,
+            "gtm": "2ou561",
+            "z": 1132690160
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j82&a=1385184467&t=pageview&_s=1&dl=https%3A%2F%2Fwww.accenture.com%2Fbr-pt&ul=en-us&de=UTF-8&dt=Accenture%20%7C%20Brasil%20%7C%20New%20Applied%20Now&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=ACCACUABB~&jid=&gjid=&cid=953476815.1589929357&tid=UA-76413435-1&_gid=525690817.1589929357&gtm=2ou561&z=1132690160"
+      },
+      {
+        "data": {
+          "filter": "||adsymptotic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_pid": 16218,
+            "_psign": "0aa5badf92527f7732e22463d6fa4dbc",
+            "coopa": 0,
+            "gdpr": 0,
+            "gdpr_consent": "",
+            "_puuid": "a0b980e3-545d-4db2-a0be-d66293ee46d0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||adsymptotic.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.adsymptotic.com/d/px/?_pid=16218&_psign=0aa5badf92527f7732e22463d6fa4dbc&coopa=0&gdpr=0&gdpr_consent=&_puuid=a0b980e3-545d-4db2-a0be-d66293ee46d0"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RCbd0f31b7fe2148bb928a033077f889bd-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/extensions/EP308220a2a4c4403f97fc1960100db40f/AppMeasurement_Module_AudienceManagement.min.js"
+      },
+      {
+        "data": {
+          "filter": "||facebook.com/tr$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": 772335989453317,
+            "ev": "PageView",
+            "dl": "https://www.accenture.com/br-pt",
+            "rl": "",
+            "if": false,
+            "ts": 1589929362959,
+            "sw": 375,
+            "sh": 812,
+            "v": "2.9.18",
+            "r": "stable",
+            "ec": 0,
+            "o": 30,
+            "fbp": "fb.1.1589929357187.202459000",
+            "it": 1589929362877,
+            "coo": false,
+            "rqm": "GET"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||facebook.com/tr$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=772335989453317&ev=PageView&dl=https%3A%2F%2Fwww.accenture.com%2Fbr-pt&rl=&if=false&ts=1589929362959&sw=375&sh=812&v=2.9.18&r=stable&ec=0&o=30&fbp=fb.1.1589929357187.202459000&it=1589929362877&coo=false&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC5109835b5b6b4d83b820771f006d7de3-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RCd49ed0eb7d4b4d5891079ddaec73d927-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC97e82023b2fc4806ac15fd8a1145ddc1-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RCd77d4fdb52074d699465ab4d0a36c2a0-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RCeee2c5a602c246e6b917512abdff71b9-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC2f669671a92b4c48a1805d0f1d168c57-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC980eb9845db94506807337bfbdb6fa2b-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": "2.9.18",
+            "r": "stable"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||connect.facebook.net/signals/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/772335989453317?v=2.9.18&r=stable"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ti": 36001212,
+            "Ver": 2,
+            "mid": "7131d6e6-7de6-5f65-db9f-e165901c597b",
+            "sid": "a9c1bfaf-330f-cbed-594d-f2ed1d161212",
+            "pi": 0,
+            "lg": "en-US",
+            "sw": 375,
+            "sh": 812,
+            "sc": 24,
+            "tl": "Accenture | Brasil | New Applied Now",
+            "kw": "accenture, new applied now, strategy consulting, management consulting, digital consulting, technology consulting, operations consulting, business operations management",
+            "p": "https://www.accenture.com/br-pt",
+            "r": "",
+            "evt": "pageLoad",
+            "msclkid": "N",
+            "sv": 1,
+            "rn": 625349
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||bat.bing.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/action/0?ti=36001212&Ver=2&mid=7131d6e6-7de6-5f65-db9f-e165901c597b&sid=a9c1bfaf-330f-cbed-594d-f2ed1d161212&pi=0&lg=en-US&sw=375&sh=812&sc=24&tl=Accenture%20%7C%20Brasil%20%7C%20New%20Applied%20Now&kw=accenture,%20new%20applied%20now,%20strategy%20consulting,%20management%20consulting,%20digital%20consulting,%20technology%20consulting,%20operations%20consulting,%20business%20operations%20management&p=https%3A%2F%2Fwww.accenture.com%2Fbr-pt&r=&evt=pageLoad&msclkid=N&sv=1&rn=625349"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter /fbevents.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||omtrdc.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mbox": "track-user-info",
+            "mboxSession": "b70e02f97b0641168cccdd11f6b89935",
+            "mboxPC": "b70e02f97b0641168cccdd11f6b89935.17_0",
+            "mboxPage": "e01ff3e231104e038dc0b9fececeb83e",
+            "mboxRid": "b7d036e225f94a56820d5e7ef85c84c5",
+            "mboxVersion": "1.7.1",
+            "mboxCount": 2,
+            "mboxTime": 1589914962750,
+            "mboxHost": "www.accenture.com",
+            "mboxURL": "https://www.accenture.com/br-pt",
+            "mboxReferrer": "",
+            "browserHeight": 812,
+            "browserWidth": 375,
+            "browserTimeOffset": -240,
+            "screenHeight": 812,
+            "screenWidth": 375,
+            "colorDepth": 24,
+            "devicePixelRatio": 3,
+            "screenOrientation": "portrait",
+            "webGLRenderer": "Google SwiftShader",
+            "profile.userType": "anon",
+            "profile.userSocialSkill": "",
+            "profile.userSocialCountry": "",
+            "profile.userSocialIndustry": "",
+            "profile.userCareersSkill1": "",
+            "profile.userCareersSkill2": "",
+            "profile.userCareersSkill3": "",
+            "profile.userCareersSpecialization1": "",
+            "profile.userCareersSpecialization2": "",
+            "profile.userCareersSpecialization3": "",
+            "profile.userCareersSpecialization4": "",
+            "profile.userCareersSpecialization5": "",
+            "profile.userTravelOption": "",
+            "profile.userCareersIndustry": "",
+            "profile.userCareersCountry": "",
+            "profile.userCareersCity": "",
+            "profile.userCareersYearsOfExperience": "",
+            "profile.userCareersCareerLevel": "",
+            "profile.jobAlertsSubscriber": "not available",
+            "profile.talentConnectionSubscriber": "not available",
+            "profile.careersBlogSubscriber": "not available",
+            "mboxMCSDID": "5AB2086E50312E8A-2AB061246F8A800D",
+            "vst.trk": "somni.accenture.com",
+            "vst.trks": "somni.accenture.com",
+            "mboxMCGVID": 2.0249408785217202e+37,
+            "mboxAAMB": "6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y",
+            "mboxMCGLH": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||omtrdc.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://accenture.tt.omtrdc.net/m2/accenture/mbox/json?mbox=track-user-info&mboxSession=b70e02f97b0641168cccdd11f6b89935&mboxPC=b70e02f97b0641168cccdd11f6b89935.17_0&mboxPage=e01ff3e231104e038dc0b9fececeb83e&mboxRid=b7d036e225f94a56820d5e7ef85c84c5&mboxVersion=1.7.1&mboxCount=2&mboxTime=1589914962750&mboxHost=www.accenture.com&mboxURL=https%3A%2F%2Fwww.accenture.com%2Fbr-pt&mboxReferrer=&browserHeight=812&browserWidth=375&browserTimeOffset=-240&screenHeight=812&screenWidth=375&colorDepth=24&devicePixelRatio=3&screenOrientation=portrait&webGLRenderer=Google%20SwiftShader&profile.userType=anon&profile.userSocialSkill=&profile.userSocialCountry=&profile.userSocialIndustry=&profile.userCareersSkill1=&profile.userCareersSkill2=&profile.userCareersSkill3=&profile.userCareersSpecialization1=&profile.userCareersSpecialization2=&profile.userCareersSpecialization3=&profile.userCareersSpecialization4=&profile.userCareersSpecialization5=&profile.userTravelOption=&profile.userCareersIndustry=&profile.userCareersCountry=&profile.userCareersCity=&profile.userCareersYearsOfExperience=&profile.userCareersCareerLevel=&profile.jobAlertsSubscriber=not%20available&profile.talentConnectionSubscriber=not%20available&profile.careersBlogSubscriber=not%20available&mboxMCSDID=5AB2086E50312E8A-2AB061246F8A800D&vst.trk=somni.accenture.com&vst.trks=somni.accenture.com&mboxMCGVID=20249408785217202391480254014403527357&mboxAAMB=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&mboxMCGLH=7"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-76413435-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-76413435-1"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||bat.bing.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/bat.js"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter .lms-analytics/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "DC-8157286"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-8157286"
+      },
+      {
+        "data": {
+          "filter": "||omtrdc.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mbox": "target-global-mbox",
+            "mboxSession": "b70e02f97b0641168cccdd11f6b89935",
+            "mboxPC": "b70e02f97b0641168cccdd11f6b89935.17_0",
+            "mboxPage": "e01ff3e231104e038dc0b9fececeb83e",
+            "mboxRid": "57cf4f426a7f45a691d82f9a57c86e29",
+            "mboxVersion": "1.7.1",
+            "mboxCount": 1,
+            "mboxTime": 1589914962483,
+            "mboxHost": "www.accenture.com",
+            "mboxURL": "https://www.accenture.com/br-pt",
+            "mboxReferrer": "",
+            "browserHeight": 812,
+            "browserWidth": 375,
+            "browserTimeOffset": -240,
+            "screenHeight": 812,
+            "screenWidth": 375,
+            "colorDepth": 24,
+            "devicePixelRatio": 3,
+            "screenOrientation": "portrait",
+            "webGLRenderer": "Google SwiftShader",
+            "entity.id": "article_prodcd-D297792F-6FD9-4C17-A888-D386BD0E7E6D",
+            "entity.categoryId": "m351,m370,m122,m203,m74,m1242,m57,m508,m109,m121,m70,m72,m270,m272,m244,m259,m1098,m1099,m1100,m1101",
+            "profile.demandbase_sid": 1900992,
+            "profile.industry": "Education",
+            "profile.sub_industry": "University",
+            "profile.employee_range": "Enterprise",
+            "profile.revenue_range": "%242.5B%20-%20%245B",
+            "profile.audience": "Education",
+            "profile.audience_segment": "University",
+            "profile.ip": "24.187.51.199",
+            "profile.company_name": "New%20York%20University",
+            "profile.state": "NY",
+            "profile.country_name": "United%20States",
+            "profile.watch_list_customer_type": "Diamond",
+            "profile.watch_list_customer_name": "STATE%20OF%20NEW%20YORK",
+            "profile.watch_list_account_id": "001d000000HaZ9EAAV",
+            "profile.annual_sales": 3736891000,
+            "profile.street_address": "70%20Washington%20Sq%20S",
+            "profile.city": "New%20York",
+            "profile.fortune_1000": false,
+            "profile.forbes_2000": false,
+            "profile.zip": 10012,
+            "profile.primary_sic": 8221,
+            "profile.isp": false,
+            "mboxMCSDID": "5AB2086E50312E8A-2AB061246F8A800D",
+            "vst.trk": "somni.accenture.com",
+            "vst.trks": "somni.accenture.com",
+            "mboxMCGVID": 2.0249408785217202e+37,
+            "mboxAAMB": "6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y",
+            "mboxMCGLH": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||omtrdc.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://accenture.tt.omtrdc.net/m2/accenture/mbox/json?mbox=target-global-mbox&mboxSession=b70e02f97b0641168cccdd11f6b89935&mboxPC=b70e02f97b0641168cccdd11f6b89935.17_0&mboxPage=e01ff3e231104e038dc0b9fececeb83e&mboxRid=57cf4f426a7f45a691d82f9a57c86e29&mboxVersion=1.7.1&mboxCount=1&mboxTime=1589914962483&mboxHost=www.accenture.com&mboxURL=https%3A%2F%2Fwww.accenture.com%2Fbr-pt&mboxReferrer=&browserHeight=812&browserWidth=375&browserTimeOffset=-240&screenHeight=812&screenWidth=375&colorDepth=24&devicePixelRatio=3&screenOrientation=portrait&webGLRenderer=Google%20SwiftShader&entity.id=article_prodcd-D297792F-6FD9-4C17-A888-D386BD0E7E6D&entity.categoryId=m351%2Cm370%2Cm122%2Cm203%2Cm74%2Cm1242%2Cm57%2Cm508%2Cm109%2Cm121%2Cm70%2Cm72%2Cm270%2Cm272%2Cm244%2Cm259%2Cm1098%2Cm1099%2Cm1100%2Cm1101&profile.demandbase_sid=1900992&profile.industry=Education&profile.sub_industry=University&profile.employee_range=Enterprise&profile.revenue_range=%25242.5B%2520-%2520%25245B&profile.audience=Education&profile.audience_segment=University&profile.ip=24.187.51.199&profile.company_name=New%2520York%2520University&profile.state=NY&profile.country_name=United%2520States&profile.watch_list_customer_type=Diamond&profile.watch_list_customer_name=STATE%2520OF%2520NEW%2520YORK&profile.watch_list_account_id=001d000000HaZ9EAAV&profile.annual_sales=3736891000&profile.street_address=70%2520Washington%2520Sq%2520S&profile.city=New%2520York&profile.fortune_1000=false&profile.forbes_2000=false&profile.zip=10012&profile.primary_sic=8221&profile.isp=false&mboxMCSDID=5AB2086E50312E8A-2AB061246F8A800D&vst.trk=somni.accenture.com&vst.trks=somni.accenture.com&mboxMCGVID=20249408785217202391480254014403527357&mboxAAMB=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&mboxMCGLH=7"
+      },
+      {
+        "data": {
+          "filter": "||company-target.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "key": "126cd7070cfc0c3ab3e70e653cde6887",
+            "amp;callback": "Dmdbase_CDC.callback"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||company-target.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.company-target.com/api/v2/ip.json?key=126cd7070cfc0c3ab3e70e653cde6887&amp;callback=Dmdbase_CDC.callback"
+      },
+      {
+        "data": {
+          "filter": "||company-target.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "key": "126cd7070cfc0c3ab3e70e653cde6887",
+            "src": "adobelaunch"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||company-target.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.company-target.com/api/v2/ip.json?key=126cd7070cfc0c3ab3e70e653cde6887&src=adobelaunch"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/EX319512eeb3654064bdfba7fafaad1fef-libraryCode_source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||demandbase.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/br-pt",
+            "source": "requested from https://www.accenture.com/br-pt and matched with easyprivacy.txt filter ||demandbase.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://scripts.demandbase.com/adobeanalytics/wDq4Hx70.min.js"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "2": 8101479455354758,
+            "3": 2614957538755798,
+            "4": 2849074111519230,
+            "5": 2,
+            "9": 1305,
+            "12": 7665,
+            "13": 22,
+            "21": "48275,45222,46716",
+            "23": true,
+            "28": 2,
+            "33": 2.0249408785217202e+37,
+            "35": "55708\u000b3\u000bOnload | dataModel | Logged Out\u000b45109\u000b3\u000bL| DD | pageInfo | HomePage\u000b45110\u000b3\u000bL| DD | pageId | acn:homepage:homepage",
+            "98": 1589929360852,
+            "t": "end",
+            "p": 339,
+            "v": "1.5.5",
+            "r": 1589929362227
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://conductor.clicktale.net/monitor?t=end&p=339&2=8101479455354758&v=1.5.5&35=55708%0B3%0BOnload%20%7C%20dataModel%20%7C%20Logged%20Out%0B45109%0B3%0BL%7C%20DD%20%7C%20pageInfo%20%7C%20HomePage%0B45110%0B3%0BL%7C%20DD%20%7C%20pageId%20%7C%20acn%3Ahomepage%3Ahomepage&21=48275%2C45222%2C46716&12=7665&13=22&98=1589929360852&28=2&23=true&33=20249408785217202391480254014403527357&9=1305&3=2614957538755798&4=2849074111519230&5=2&r=1589929362227"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ti": 36001212,
+            "Ver": 2,
+            "mid": "76812289-bc04-0bf4-9696-68e5e8e72ccd",
+            "sid": "a9c1bfaf-330f-cbed-594d-f2ed1d161212",
+            "evt": "pageHide"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||bat.bing.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/actionp/0?ti=36001212&Ver=2&mid=76812289-bc04-0bf4-9696-68e5e8e72ccd&sid=a9c1bfaf-330f-cbed-594d-f2ed1d161212&evt=pageHide"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "0": null,
+            "10": null,
+            "13": null,
+            "257": null,
+            "3111": null,
+            "1505567015": null,
+            "2782969166119805": null,
+            "subsid": 233661,
+            "msgsize": 120,
+            "P_(%7B%22a%22:[%7B%22a%22:%7B%22s%22:%22o:0.123664;zi:11;%22%7D,%22n%22:%22div73%22%7D]%7D)": null,
+            "9BfkP_(%7B%22a%22:[%7B%22a%22:%7B%22s%22:%22o:0;zi:11;%22%7D,%22n%22:%22div73%22%7D]%7D)": null,
+            "RuAJ8BUtAIJuAICtABGMBAuABDtABGMAAuABCtABFMAAuABCtABDMABuABBtABCMABuABBtABCMAAuABBtABDMAAuABBtABCMAAuABAtABDMAAuABBtABCMAAuABDtABCMAAuABBtABCMAAuABAtABCMAAuABBP_(%7B%22a%22:[%7B%22a%22:%7B%22s%22:%22d:block;%22%7D,%22n%22:%22div143%22%7D]%7D)": null,
+            "8IicDI8FY": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ing-district.clicktale.net/ctn_v2/wr/?2782969166119805&3111&10&13&0&10&257&subsid=233661&msgsize=120&P_({%22a%22:[{%22a%22:{%22s%22:%22o:0.123664;zi:11;%22},%22n%22:%22div73%22}]})&9BfkP_({%22a%22:[{%22a%22:{%22s%22:%22o:0;zi:11;%22},%22n%22:%22div73%22}]})&RuAJ8BUtAIJuAICtABGMBAuABDtABGMAAuABCtABFMAAuABCtABDMABuABBtABCMABuABBtABCMAAuABBtABDMAAuABBtABCMAAuABAtABDMAAuABBtABCMAAuABDtABCMAAuABBtABCMAAuABAtABCMAAuABBP_({%22a%22:[{%22a%22:{%22s%22:%22d:block;%22},%22n%22:%22div143%22}]})&8IicDI8FY&1505567015"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "2": 8101479455354758,
+            "t": "init",
+            "p": 339,
+            "v": "1.5.5"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://conductor.clicktale.net/monitor?t=init&p=339&2=8101479455354758&v=1.5.5"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "0": null,
+            "9": null,
+            "10": null,
+            "12": null,
+            "264": null,
+            "3111": null,
+            "2782969166119805": null,
+            "subsid": 233661,
+            "msgsize": 120
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ing-district.clicktale.net/ctn_v2/wr/?2782969166119805&3111&10&12&0&9&264&subsid=233661&msgsize=120"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "0": null,
+            "8": null,
+            "10": null,
+            "11": null,
+            "264": null,
+            "3111": null,
+            "2782969166119805": null,
+            "subsid": 233661,
+            "msgsize": 120
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ing-district.clicktale.net/ctn_v2/wr/?2782969166119805&3111&10&11&0&8&264&subsid=233661&msgsize=120"
+      },
+      {
+        "data": {
+          "filter": "||company-target.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "vendor": "choca",
+            "user_id": "AAFxVE69iMsAAG-DEkFiWA",
+            "verifyHash": "2622657694e3e31fede7d428be344dcd88e6237d"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||company-target.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://segments.company-target.com/validateCookie?vendor=choca&user_id=AAFxVE69iMsAAG-DEkFiWA&verifyHash=2622657694e3e31fede7d428be344dcd88e6237d"
+      },
+      {
+        "data": {
+          "filter": "||company-target.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "vendor": "choca",
+            "user_id": "AAFxVE69iMsAAG-DEkFiWA"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||company-target.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://segments.company-target.com/log?vendor=choca&user_id=AAFxVE69iMsAAG-DEkFiWA"
+      },
+      {
+        "data": {
+          "filter": "||bidr.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_bee_ppp": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||bidr.io^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://match.prod.bidr.io/cookie-sync/demandbase?_bee_ppp=1"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "0": null,
+            "3": null,
+            "9": null,
+            "10": null,
+            "105": null,
+            "3111": null,
+            "2782969166119805": null,
+            "subsid": 233661,
+            "msgsize": 120
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ing-district.clicktale.net/ctn_v2/wr/?2782969166119805&3111&10&9&3&0&105&subsid=233661&msgsize=120"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "0": null,
+            "2": null,
+            "8": null,
+            "10": null,
+            "105": null,
+            "3111": null,
+            "2782969166119805": null,
+            "subsid": 233661,
+            "msgsize": 120
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ing-district.clicktale.net/ctn_v2/wr/?2782969166119805&3111&10&8&2&0&105&subsid=233661&msgsize=120"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "0": null,
+            "7": null,
+            "10": null,
+            "264": null,
+            "3111": null,
+            "2782969166119805": null,
+            "subsid": 233661,
+            "msgsize": 120
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ing-district.clicktale.net/ctn_v2/wr/?2782969166119805&3111&10&10&0&7&264&subsid=233661&msgsize=120"
+      },
+      {
+        "data": {
+          "filter": "||bidr.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||bidr.io^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://match.prod.bidr.io/cookie-sync/demandbase"
+      },
+      {
+        "data": {
+          "filter": "||company-target.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "referrer": "",
+            "page": "https://www.accenture.com/us-en",
+            "page_title": "Accenture | New insights. Tangible outcomes. New Applied Now",
+            "key": "5f71597d1c087bea98a9c8c2c4080646",
+            "src": "tag"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||company-target.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.company-target.com/api/v2/ip.json?referrer=&page=https%3A%2F%2Fwww.accenture.com%2Fus-en&page_title=Accenture%20%7C%20New%20insights.%20Tangible%20outcomes.%20New%20Applied%20Now&key=5f71597d1c087bea98a9c8c2c4080646&src=tag"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "0": null,
+            "1": null,
+            "7": null,
+            "10": null,
+            "105": null,
+            "3111": null,
+            "2782969166119805": null,
+            "subsid": 233661,
+            "msgsize": 120
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ing-district.clicktale.net/ctn_v2/wr/?2782969166119805&3111&10&7&1&0&105&subsid=233661&msgsize=120"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "0": null,
+            "6": null,
+            "10": null,
+            "264": null,
+            "3111": null,
+            "2782969166119805": null,
+            "subsid": 233661,
+            "msgsize": 120
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ing-district.clicktale.net/ctn_v2/wr/?2782969166119805&3111&10&6&0&6&264&subsid=233661&msgsize=120"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "0": null,
+            "5": null,
+            "10": null,
+            "264": null,
+            "3111": null,
+            "2782969166119805": null,
+            "subsid": 233661,
+            "msgsize": 120
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ing-district.clicktale.net/ctn_v2/wr/?2782969166119805&3111&10&5&0&5&264&subsid=233661&msgsize=120"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "0": null,
+            "4": null,
+            "10": null,
+            "264": null,
+            "3111": null,
+            "2782969166119805": null,
+            "subsid": 233661,
+            "msgsize": 120
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ing-district.clicktale.net/ctn_v2/wr/?2782969166119805&3111&10&4&0&4&264&subsid=233661&msgsize=120"
+      },
+      {
+        "data": {
+          "filter": "||demandbase.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||demandbase.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tag.demandbase.com/wDq4Hx70.min.js"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "0": null,
+            "3": null,
+            "10": null,
+            "264": null,
+            "3111": null,
+            "2782969166119805": null,
+            "subsid": 233661,
+            "msgsize": 120
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ing-district.clicktale.net/ctn_v2/wr/?2782969166119805&3111&10&3&0&3&264&subsid=233661&msgsize=120"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "0": null,
+            "2": null,
+            "10": null,
+            "264": null,
+            "3111": null,
+            "2782969166119805": null,
+            "subsid": 233661,
+            "msgsize": 120
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ing-district.clicktale.net/ctn_v2/wr/?2782969166119805&3111&10&2&0&2&264&subsid=233661&msgsize=120"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC856d063a18fc4843a04a8397d5c0b1a4-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC6200a27eb4c3433a9d8c8e25956e73bc-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC7e63339f37064b99a79871dc7c8487de-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RCbbf93726d327489690854516539a33af-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC082b20cb91c442ceaf1348b0be921587-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC41946dc9434e4107b011a88cf35a6ef9-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RCe0a02bd209d144daadb1c6fc081ea855-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adsymptotic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_pid": 16218,
+            "_psign": "0aa5badf92527f7732e22463d6fa4dbc",
+            "coopa": 0,
+            "gdpr": 0,
+            "gdpr_consent": "",
+            "_puuid": "a0b980e3-545d-4db2-a0be-d66293ee46d0",
+            "_expected_cookie": "1939f5957096d395eefaaea6b07c94d1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||adsymptotic.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.adsymptotic.com/d/px/?_pid=16218&_psign=0aa5badf92527f7732e22463d6fa4dbc&coopa=0&gdpr=0&gdpr_consent=&_puuid=a0b980e3-545d-4db2-a0be-d66293ee46d0&_expected_cookie=1939f5957096d395eefaaea6b07c94d1"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_visid_ver": "4.5.2",
+            "d_fieldgroup": "AAM",
+            "d_rtbd": "json",
+            "d_ver": 2,
+            "d_orgid": "AAB73BC75245B44A0A490D4D@AdobeOrg",
+            "d_nsid": 0,
+            "d_mid": 2.0249408785217202e+37,
+            "d_blob": "6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y",
+            "d_cid_ic": "clicktale_userid\u00012782969166119805",
+            "ts": 1589929358143
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||demdex.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/id?d_visid_ver=4.5.2&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=AAB73BC75245B44A0A490D4D%40AdobeOrg&d_nsid=0&d_mid=20249408785217202391480254014403527357&d_blob=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&d_cid_ic=mcvidcec%018101479455354758&d_cid_ic=clicktale_userid%012782969166119805&ts=1589929358143"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "0": null,
+            "1": null,
+            "10": null,
+            "264": null,
+            "3111": null,
+            "2782969166119805": null,
+            "subsid": 233661,
+            "msgsize": 120
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ing-district.clicktale.net/ctn_v2/wr/?2782969166119805&3111&10&1&0&1&264&subsid=233661&msgsize=120"
+      },
+      {
+        "data": {
+          "filter": "||adsymptotic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_pid": 16218,
+            "_psign": "0aa5badf92527f7732e22463d6fa4dbc",
+            "coopa": 0,
+            "gdpr": 0,
+            "gdpr_consent": "",
+            "_puuid": "a0b980e3-545d-4db2-a0be-d66293ee46d0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||adsymptotic.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.adsymptotic.com/d/px/?_pid=16218&_psign=0aa5badf92527f7732e22463d6fa4dbc&coopa=0&gdpr=0&gdpr_consent=&_puuid=a0b980e3-545d-4db2-a0be-d66293ee46d0"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "0": null,
+            "10": null,
+            "264": null,
+            "3111": null,
+            "2782969166119805": null,
+            "subsid": 233661,
+            "msgsize": 120
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ing-district.clicktale.net/ctn_v2/wr/?2782969166119805&3111&10&0&0&0&264&subsid=233661&msgsize=120"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdnssl.clicktale.net/www/WR1031b.js"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "2": 8101479455354758,
+            "t": "auth",
+            "p": 339,
+            "v": "1.5.5"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://conductor.clicktale.net/monitor?t=auth&p=339&2=8101479455354758&v=1.5.5"
+      },
+      {
+        "data": {
+          "filter": "||facebook.com/tr$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||facebook.com/tr$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/"
+      },
+      {
+        "data": {
+          "filter": "||crwdcntrl.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D121998%26dpuuid%3D%24%7Bprofile_id%7D": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://accenture.demdex.net/dest5.html?d_nsid=0",
+            "source": "requested from https://accenture.demdex.net/dest5.html?d_nsid=0 and matched with easyprivacy.txt filter ||crwdcntrl.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bcp.crwdcntrl.net/map/ct=y/c=9828/tp=ADBE/tpid=20531197356334315331508362464103519487?https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D121998%26dpuuid%3D%24%7Bprofile_id%7D"
+      },
+      {
+        "data": {
+          "filter": "||stats.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": "dc",
+            "aip": 1,
+            "_r": 3,
+            "v": 1,
+            "_v": "j82",
+            "tid": "UA-76413435-1",
+            "cid": 953476815.1589929,
+            "jid": 294552811,
+            "gjid": 85218250,
+            "_gid": 525690817.15899295,
+            "_u": "IGBACUAABAAAAC~",
+            "z": 986743644
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||stats.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j82&tid=UA-76413435-1&cid=953476815.1589929357&jid=294552811&gjid=85218250&_gid=525690817.1589929357&_u=IGBACUAABAAAAC~&z=986743644"
+      },
+      {
+        "data": {
+          "filter": "/collect?*&cid=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j82",
+            "a": 1906302891,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.accenture.com/us-en",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Accenture | New insights. Tangible outcomes. New Applied Now",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "IGBACUABBAAAAC~",
+            "jid": 294552811,
+            "gjid": 85218250,
+            "cid": 953476815.1589929,
+            "tid": "UA-76413435-1",
+            "_gid": 525690817.15899295,
+            "_r": 1,
+            "gtm": "2od561",
+            "z": 1476076822
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j82&a=1906302891&t=pageview&_s=1&dl=https%3A%2F%2Fwww.accenture.com%2Fus-en&ul=en-us&de=UTF-8&dt=Accenture%20%7C%20New%20insights.%20Tangible%20outcomes.%20New%20Applied%20Now&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=IGBACUABBAAAAC~&jid=294552811&gjid=85218250&cid=953476815.1589929357&tid=UA-76413435-1&_gid=525690817.1589929357&_r=1&gtm=2od561&z=1476076822"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "1238850129": null,
+            "pid": 3111,
+            "as": 1,
+            "m": 1,
+            "subsid": 233661,
+            "msgsize": 120
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ing-district.clicktale.net/ctn_v2/auth/?pid=3111&as=1&m=1&1238850129&subsid=233661&msgsize=120"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdnssl.clicktale.net/www/ChangeMonitor-latest.js"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "2": 8101479455354758,
+            "3": 2614957538755798,
+            "4": 2849074111519230,
+            "5": 0,
+            "7": "https://www.accenture.com/us-en",
+            "t": "preinit",
+            "p": 339,
+            "v": "1.5.5",
+            "r": 1589929357249
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://conductor.clicktale.net/monitor?t=preinit&p=339&2=8101479455354758&v=1.5.5&7=https%3A%2F%2Fwww.accenture.com%2Fus-en&3=2614957538755798&4=2849074111519230&5=0&r=1589929357249"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_visid_ver": "4.5.2",
+            "d_fieldgroup": "AAM",
+            "d_rtbd": "json",
+            "d_ver": 2,
+            "d_orgid": "AAB73BC75245B44A0A490D4D@AdobeOrg",
+            "d_nsid": 0,
+            "d_mid": 2.0249408785217202e+37,
+            "d_blob": "6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y",
+            "d_cid_ic": "mcvidcec\u00018101479455354758",
+            "ts": 1589929357256
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||demdex.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/id?d_visid_ver=4.5.2&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=AAB73BC75245B44A0A490D4D%40AdobeOrg&d_nsid=0&d_mid=20249408785217202391480254014403527357&d_blob=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&d_cid_ic=mcvidcec%018101479455354758&ts=1589929357256"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "2": 8101479455354758,
+            "t": "auth",
+            "p": 339,
+            "v": "1.5.5"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://conductor.clicktale.net/monitor?t=auth&p=339&2=8101479455354758&v=1.5.5"
+      },
+      {
+        "data": {
+          "filter": "||facebook.com/tr$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": 772335989453317,
+            "ev": "PageView",
+            "dl": "https://www.accenture.com/us-en",
+            "rl": "",
+            "if": false,
+            "ts": 1589929357190,
+            "sw": 375,
+            "sh": 812,
+            "v": "2.9.18",
+            "r": "stable",
+            "ec": 0,
+            "o": 30,
+            "fbp": "fb.1.1589929357187.202459000",
+            "it": 1589929356958,
+            "coo": false,
+            "rqm": "GET"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||facebook.com/tr$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=772335989453317&ev=PageView&dl=https%3A%2F%2Fwww.accenture.com%2Fus-en&rl=&if=false&ts=1589929357190&sw=375&sh=812&v=2.9.18&r=stable&ec=0&o=30&fbp=fb.1.1589929357187.202459000&it=1589929356958&coo=false&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdnssl.clicktale.net/www/WR-latest.js"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "DeploymentConfigName": "Release_20200403",
+            "Version": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdnssl.clicktale.net/www27/pcc/bd52ad0e-c233-4c22-882d-4c2151b49d64.js?DeploymentConfigName=Release_20200403&Version=3"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdnssl.clicktale.net/www/monitor-latest.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/extensions/EP308220a2a4c4403f97fc1960100db40f/AppMeasurement_Module_AudienceManagement.min.js"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": "2.9.18",
+            "r": "stable"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||connect.facebook.net/signals/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/772335989453317?v=2.9.18&r=stable"
+      },
+      {
+        "data": {
+          "filter": "||crwdcntrl.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D121998%26dpuuid%3D%24%7Bprofile_id%7D": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://accenture.demdex.net/dest5.html?d_nsid=0",
+            "source": "requested from https://accenture.demdex.net/dest5.html?d_nsid=0 and matched with easyprivacy.txt filter ||crwdcntrl.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bcp.crwdcntrl.net/map/c=9828/tp=ADBE/tpid=20531197356334315331508362464103519487?https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D121998%26dpuuid%3D%24%7Bprofile_id%7D"
+      },
+      {
+        "data": {
+          "filter": "||demandbase.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "key": "126cd7070cfc0c3ab3e70e653cde6887",
+            "callback": "Dmdbase_CDC.callback"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||demandbase.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.demandbase.com/api/v2/ip.json?key=126cd7070cfc0c3ab3e70e653cde6887&callback=Dmdbase_CDC.callback"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ti": 36001212,
+            "Ver": 2,
+            "mid": "76812289-bc04-0bf4-9696-68e5e8e72ccd",
+            "sid": "a9c1bfaf-330f-cbed-594d-f2ed1d161212",
+            "pi": 0,
+            "lg": "en-US",
+            "sw": 375,
+            "sh": 812,
+            "sc": 24,
+            "tl": "Accenture | New insights. Tangible outcomes. New Applied Now",
+            "kw": "accenture, new applied now, strategy consulting, management consulting, digital consulting, technology consulting, operations consulting, business operations management",
+            "p": "https://www.accenture.com/us-en",
+            "r": "",
+            "lt": 1852,
+            "evt": "pageLoad",
+            "msclkid": "N",
+            "sv": 1,
+            "rn": 419674
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||bat.bing.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/action/0?ti=36001212&Ver=2&mid=76812289-bc04-0bf4-9696-68e5e8e72ccd&sid=a9c1bfaf-330f-cbed-594d-f2ed1d161212&pi=0&lg=en-US&sw=375&sh=812&sc=24&tl=Accenture%20%7C%20New%20insights.%20Tangible%20outcomes.%20New%20Applied%20Now&kw=accenture,%20new%20applied%20now,%20strategy%20consulting,%20management%20consulting,%20digital%20consulting,%20technology%20consulting,%20operations%20consulting,%20business%20operations%20management&p=https%3A%2F%2Fwww.accenture.com%2Fus-en&r=&lt=1852&evt=pageLoad&msclkid=N&sv=1&rn=419674"
+      },
+      {
+        "data": {
+          "filter": "||ml314.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "eid": 50112,
+            "et": 0,
+            "return": "https://dpm.demdex.net/ibs:dpid=22052&dpuuid=[PersonID]"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://accenture.demdex.net/dest5.html?d_nsid=0",
+            "source": "requested from https://accenture.demdex.net/dest5.html?d_nsid=0 and matched with easyprivacy.txt filter ||ml314.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ml314.com/utsync.ashx?eid=50112&et=0&return=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D22052%26dpuuid%3D[PersonID]"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||demdex.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/ibs:dpid=411&dpuuid=XsRljAAAAvMS2S4o"
+      },
+      {
+        "data": {
+          "filter": "||omtrdc.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mbox": "target-global-mbox",
+            "mboxSession": "b70e02f97b0641168cccdd11f6b89935",
+            "mboxPC": "",
+            "mboxPage": "f18b1622ad4d4e31a14f50b9b6bc7339",
+            "mboxRid": "390961ff3c2a4a26be75cf5ff1c7eae8",
+            "mboxVersion": "1.7.1",
+            "mboxCount": 2,
+            "mboxTime": 1589914956560,
+            "mboxHost": "www.accenture.com",
+            "mboxURL": "https://www.accenture.com/us-en",
+            "mboxReferrer": "",
+            "browserHeight": 812,
+            "browserWidth": 375,
+            "browserTimeOffset": -240,
+            "screenHeight": 812,
+            "screenWidth": 375,
+            "colorDepth": 24,
+            "devicePixelRatio": 3,
+            "screenOrientation": "portrait",
+            "webGLRenderer": "Google SwiftShader",
+            "entity.id": "article_prodcd-892367EB-1809-44E2-B109-C2BA2392DB50",
+            "entity.categoryId": "m351,m370,m122,m203,m74,m98,m57,m508,m109,m121,m70,m71,m270,m1286,m244,m248,m1098,m1717,m1100,m1101",
+            "profile.demandbase_sid": 1900992,
+            "profile.industry": "Education",
+            "profile.sub_industry": "University",
+            "profile.employee_range": "Enterprise",
+            "profile.revenue_range": "%242.5B%20-%20%245B",
+            "profile.audience": "Education",
+            "profile.audience_segment": "University",
+            "profile.ip": "24.187.51.199",
+            "profile.company_name": "New%20York%20University",
+            "profile.state": "NY",
+            "profile.country_name": "United%20States",
+            "profile.watch_list_customer_type": "Diamond",
+            "profile.watch_list_customer_name": "STATE%20OF%20NEW%20YORK",
+            "profile.watch_list_account_id": "001d000000HaZ9EAAV",
+            "profile.annual_sales": 3736891000,
+            "profile.street_address": "70%20Washington%20Sq%20S",
+            "profile.city": "New%20York",
+            "profile.fortune_1000": false,
+            "profile.forbes_2000": false,
+            "profile.zip": 10012,
+            "profile.primary_sic": 8221,
+            "profile.isp": false,
+            "mboxMCSDID": "1527017E79585260-0890625F43025206",
+            "vst.trk": "somni.accenture.com",
+            "vst.trks": "somni.accenture.com",
+            "mboxMCGVID": 2.0249408785217202e+37,
+            "mboxAAMB": "6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y",
+            "mboxMCGLH": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||omtrdc.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://accenture.tt.omtrdc.net/m2/accenture/mbox/json?mbox=target-global-mbox&mboxSession=b70e02f97b0641168cccdd11f6b89935&mboxPC=&mboxPage=f18b1622ad4d4e31a14f50b9b6bc7339&mboxRid=390961ff3c2a4a26be75cf5ff1c7eae8&mboxVersion=1.7.1&mboxCount=2&mboxTime=1589914956560&mboxHost=www.accenture.com&mboxURL=https%3A%2F%2Fwww.accenture.com%2Fus-en&mboxReferrer=&browserHeight=812&browserWidth=375&browserTimeOffset=-240&screenHeight=812&screenWidth=375&colorDepth=24&devicePixelRatio=3&screenOrientation=portrait&webGLRenderer=Google%20SwiftShader&entity.id=article_prodcd-892367EB-1809-44E2-B109-C2BA2392DB50&entity.categoryId=m351%2Cm370%2Cm122%2Cm203%2Cm74%2Cm98%2Cm57%2Cm508%2Cm109%2Cm121%2Cm70%2Cm71%2Cm270%2Cm1286%2Cm244%2Cm248%2Cm1098%2Cm1717%2Cm1100%2Cm1101&profile.demandbase_sid=1900992&profile.industry=Education&profile.sub_industry=University&profile.employee_range=Enterprise&profile.revenue_range=%25242.5B%2520-%2520%25245B&profile.audience=Education&profile.audience_segment=University&profile.ip=24.187.51.199&profile.company_name=New%2520York%2520University&profile.state=NY&profile.country_name=United%2520States&profile.watch_list_customer_type=Diamond&profile.watch_list_customer_name=STATE%2520OF%2520NEW%2520YORK&profile.watch_list_account_id=001d000000HaZ9EAAV&profile.annual_sales=3736891000&profile.street_address=70%2520Washington%2520Sq%2520S&profile.city=New%2520York&profile.fortune_1000=false&profile.forbes_2000=false&profile.zip=10012&profile.primary_sic=8221&profile.isp=false&mboxMCSDID=1527017E79585260-0890625F43025206&vst.trk=somni.accenture.com&vst.trks=somni.accenture.com&mboxMCGVID=20249408785217202391480254014403527357&mboxAAMB=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&mboxMCGLH=7"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RCbd0f31b7fe2148bb928a033077f889bd-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC5109835b5b6b4d83b820771f006d7de3-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RCd49ed0eb7d4b4d5891079ddaec73d927-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC97e82023b2fc4806ac15fd8a1145ddc1-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RCd77d4fdb52074d699465ab4d0a36c2a0-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RCeee2c5a602c246e6b917512abdff71b9-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||clicktale.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||clicktale.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdnssl.clicktale.net/www27/ptc/BD52AD0E-C233-4C22-882D-4C2151B49D64.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC2f669671a92b4c48a1805d0f1d168c57-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/RC980eb9845db94506807337bfbdb6fa2b-source.min.js"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter /fbevents.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||omtrdc.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mbox": "track-user-info",
+            "mboxSession": "b70e02f97b0641168cccdd11f6b89935",
+            "mboxPC": "",
+            "mboxPage": "f18b1622ad4d4e31a14f50b9b6bc7339",
+            "mboxRid": "a1b92af830a844fea80ca9649d1d9f0f",
+            "mboxVersion": "1.7.1",
+            "mboxCount": 1,
+            "mboxTime": 1589914956338,
+            "mboxHost": "www.accenture.com",
+            "mboxURL": "https://www.accenture.com/us-en",
+            "mboxReferrer": "",
+            "browserHeight": 812,
+            "browserWidth": 375,
+            "browserTimeOffset": -240,
+            "screenHeight": 812,
+            "screenWidth": 375,
+            "colorDepth": 24,
+            "devicePixelRatio": 3,
+            "screenOrientation": "portrait",
+            "webGLRenderer": "Google SwiftShader",
+            "profile.userType": "anon",
+            "profile.userSocialSkill": "",
+            "profile.userSocialCountry": "",
+            "profile.userSocialIndustry": "",
+            "profile.userCareersSkill1": "",
+            "profile.userCareersSkill2": "",
+            "profile.userCareersSkill3": "",
+            "profile.userCareersSpecialization1": "",
+            "profile.userCareersSpecialization2": "",
+            "profile.userCareersSpecialization3": "",
+            "profile.userCareersSpecialization4": "",
+            "profile.userCareersSpecialization5": "",
+            "profile.userTravelOption": "",
+            "profile.userCareersIndustry": "",
+            "profile.userCareersCountry": "",
+            "profile.userCareersCity": "",
+            "profile.userCareersYearsOfExperience": "",
+            "profile.userCareersCareerLevel": "",
+            "profile.jobAlertsSubscriber": "not available",
+            "profile.talentConnectionSubscriber": "not available",
+            "profile.careersBlogSubscriber": "not available",
+            "mboxMCSDID": "1527017E79585260-0890625F43025206",
+            "vst.trk": "somni.accenture.com",
+            "vst.trks": "somni.accenture.com",
+            "mboxMCGVID": 2.0249408785217202e+37
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||omtrdc.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://accenture.tt.omtrdc.net/m2/accenture/mbox/json?mbox=track-user-info&mboxSession=b70e02f97b0641168cccdd11f6b89935&mboxPC=&mboxPage=f18b1622ad4d4e31a14f50b9b6bc7339&mboxRid=a1b92af830a844fea80ca9649d1d9f0f&mboxVersion=1.7.1&mboxCount=1&mboxTime=1589914956338&mboxHost=www.accenture.com&mboxURL=https%3A%2F%2Fwww.accenture.com%2Fus-en&mboxReferrer=&browserHeight=812&browserWidth=375&browserTimeOffset=-240&screenHeight=812&screenWidth=375&colorDepth=24&devicePixelRatio=3&screenOrientation=portrait&webGLRenderer=Google%20SwiftShader&profile.userType=anon&profile.userSocialSkill=&profile.userSocialCountry=&profile.userSocialIndustry=&profile.userCareersSkill1=&profile.userCareersSkill2=&profile.userCareersSkill3=&profile.userCareersSpecialization1=&profile.userCareersSpecialization2=&profile.userCareersSpecialization3=&profile.userCareersSpecialization4=&profile.userCareersSpecialization5=&profile.userTravelOption=&profile.userCareersIndustry=&profile.userCareersCountry=&profile.userCareersCity=&profile.userCareersYearsOfExperience=&profile.userCareersCareerLevel=&profile.jobAlertsSubscriber=not%20available&profile.talentConnectionSubscriber=not%20available&profile.careersBlogSubscriber=not%20available&mboxMCSDID=1527017E79585260-0890625F43025206&vst.trk=somni.accenture.com&vst.trks=somni.accenture.com&mboxMCGVID=20249408785217202391480254014403527357"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-76413435-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-76413435-1"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||bat.bing.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/bat.js"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter .lms-analytics/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "DC-8140983"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-8140983"
+      },
+      {
+        "data": {
+          "filter": "||everesttech.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_uuid": 2.0531197356334315e+37
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||everesttech.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.everesttech.net/cm/dd?d_uuid=20531197356334315331508362464103519487"
+      },
+      {
+        "data": {
+          "filter": "||company-target.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "key": "126cd7070cfc0c3ab3e70e653cde6887",
+            "amp;callback": "Dmdbase_CDC.callback"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||company-target.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.company-target.com/api/v2/ip.json?key=126cd7070cfc0c3ab3e70e653cde6887&amp;callback=Dmdbase_CDC.callback"
+      },
+      {
+        "data": {
+          "filter": "||company-target.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "key": "126cd7070cfc0c3ab3e70e653cde6887",
+            "src": "adobelaunch"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||company-target.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.company-target.com/api/v2/ip.json?key=126cd7070cfc0c3ab3e70e653cde6887&src=adobelaunch"
+      },
+      {
+        "data": {
+          "filter": "||adobedtm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||adobedtm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://assets.adobedtm.com/55621ea95d50/e22056dd1d90/b1fcf4795482/EX319512eeb3654064bdfba7fafaad1fef-libraryCode_source.min.js"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d_visid_ver": "4.5.2",
+            "d_fieldgroup": "MC",
+            "d_rtbd": "json",
+            "d_ver": 2,
+            "d_orgid": "AAB73BC75245B44A0A490D4D@AdobeOrg",
+            "d_nsid": 0,
+            "ts": 1589929355916
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||demdex.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/id?d_visid_ver=4.5.2&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=AAB73BC75245B44A0A490D4D%40AdobeOrg&d_nsid=0&ts=1589929355916"
+      },
+      {
+        "data": {
+          "filter": "||demandbase.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.accenture.com/us-en",
+            "source": "requested from https://www.accenture.com/us-en and matched with easyprivacy.txt filter ||demandbase.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://scripts.demandbase.com/adobeanalytics/wDq4Hx70.min.js"
+      }
+    ]
+  }
+}

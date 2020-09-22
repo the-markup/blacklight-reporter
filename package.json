@@ -1,0 +1,30 @@
+{
+  "name": "@themarkup/blacklight-reporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf build",
+    "build": "tsc -p tsconfig.json",
+    "build:watch": "tsc -p tsconfig.json --watch",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "jest": "^25.5.4",
+    "ts-jest": "^25.5.1",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.673.0",
+    "csv-write-stream": "^2.0.0",
+    "fast-glob": "^3.2.2",
+    "humanize-duration": "^3.22.0",
+    "tldts": "^5.6.24",
+    "yargs": "^15.3.1"
+  }
+}

@@ -1,0 +1,3661 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "http://www.nytimes.com",
+  "uri_dest": "https://www.nytimes.com/",
+  "uri_redirects": [
+    "http://www.nytimes.com/"
+  ],
+  "secure_connection": {},
+  "host": "www.nytimes.com",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": "iPhone X",
+    "numPages": 2
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/79.0.3945.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/79.0.3945.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "4.15.0-99-generic"
+    }
+  },
+  "script": {
+    "host": "shakaal",
+    "version": {
+      "npm": "2.0.0",
+      "commit": null
+    },
+    "node_version": "v12.15.0"
+  },
+  "start_time": "2020-05-19T23:08:27.970Z",
+  "end_time": "2020-05-19T23:08:46.778Z",
+  "deviceEmulated": {
+    "name": "iPhone X",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1",
+    "viewport": {
+      "width": 375,
+      "height": 812,
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "isLandscape": false
+    }
+  },
+  "browsing_history": [
+    "https://www.nytimes.com/",
+    "https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fmultiproduct%2Flp8KQUS.html%3FcampaignId%3D7QQFH%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252F&asset=masthead",
+    "https://www.nytimes.com/section/opinion"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "www.nytimes.com",
+        "a.et.nytimes.com",
+        "samizdat-graphql.nytimes.com",
+        "als-svc.nytimes.com",
+        "nytimes.com",
+        "content.api.nytimes.com",
+        "et.nytimes.com",
+        "meter-svc.nytimes.com",
+        "purr.nytimes.com",
+        "a.nytimes.com",
+        "mwcm.nytimes.com",
+        "myaccount.nytimes.com",
+        "regilite.nytimes.com"
+      ],
+      "third_party": [
+        "g1.nyt.com",
+        "static01.nyt.com",
+        "content.markitcdn.com",
+        "www.googletagmanager.com",
+        "news.google.com",
+        "securepubads.g.doubleclick.net",
+        "contextual.media.net",
+        "c.amazon-adsystem.com",
+        "pay.google.com",
+        "payments.google.com",
+        "clients2.google.com",
+        "adservice.google.com",
+        "gum.criteo.com",
+        "cdneast2-xch.media.net",
+        "data",
+        "vp.nyt.com",
+        "www.gstatic.com",
+        "js.datadome.co",
+        "sb.scorecardresearch.com",
+        "cslogger.media.net",
+        "s.amazon-adsystem.com",
+        "fonts.gstatic.com",
+        "api-js.datadome.co",
+        "www.google-analytics.com",
+        "tags.bluekai.com",
+        "5290727.fls.doubleclick.net",
+        "static.chartbeat.com",
+        "tags.bkrtx.com",
+        "a1.nyt.com",
+        "secure-assets.rubiconproject.com",
+        "play.google.com",
+        "stats.g.doubleclick.net",
+        "pnytimes.chartbeat.net",
+        "mwcm.nyt.com",
+        "eb2.3lift.com",
+        "www.google.com",
+        "stags.bluekai.com",
+        "eus.rubiconproject.com",
+        "c.bing.com",
+        "analytics.twitter.com",
+        "cm.g.doubleclick.net",
+        "sync-tm.everesttech.net",
+        "token.rubiconproject.com",
+        "pixel-us-east.rubiconproject.com",
+        "sync.mathtag.com",
+        "id.rlcdn.com",
+        "id.sharedid.org",
+        "match.adsrvr.org",
+        "pr-bh.ybp.yahoo.com",
+        "pixel.rubiconproject.com",
+        "platform.iteratehq.com",
+        "ib.adnxs.com",
+        "us-u.openx.net",
+        "x.bidswitch.net",
+        "medianet-match.dotomi.com",
+        "use.typekit.net",
+        "iteratehq.com",
+        "bsw.digitru.st",
+        "p.typekit.net",
+        "csm.va.us.criteo.net",
+        "us-east-sync.bidswitch.net",
+        "rtb.mfadsrvr.com",
+        "typeface.nyt.com",
+        "a3dc72daf8c3c362d41cf16364e4c271.safeframe.googlesyndication.com",
+        "tpc.googlesyndication.com",
+        "aax.amazon-adsystem.com",
+        "googleads.g.doubleclick.net",
+        "pagead2.googlesyndication.com",
+        "ad.turn.com",
+        "i.w55c.net",
+        "pixel-a.sitescout.com",
+        "sync.ipredictive.com",
+        "um.simpli.fi",
+        "p.rfihub.com",
+        "ads.yahoo.com",
+        "a.rfihub.com",
+        "cookiex.ngd.yahoo.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.nytimes.com/vi-assets/static-assets/main-7b1649a6e18dad541c50.js": [
+          "scroll",
+          "click",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://www.nytimes.com/vi-assets/static-assets/raven.min-830a6d04a55c283934dd1893d6ddc66d.js": [
+          "click"
+        ],
+        "https://contextual.media.net/hmmaster.js?cid=8CULO58R6&p=hb&v=3.1.3&https=1&adt=1": [
+          "mousemove",
+          "scroll"
+        ],
+        "https://static.chartbeat.com/js/chartbeat.js": [
+          "scroll"
+        ],
+        "https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.LtYKXGoAeIo.es5.O/am=Qg/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ct=zgms/rs=ABXTjI41-Lvn6a8c1Xy2o-TdVX7kiEK95w/m=_b,_tp": [
+          "scroll"
+        ],
+        "https://js.datadome.co/tags.js": [
+          "scroll",
+          "click",
+          "mousemove",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://www.nytimes.com/vi-assets/static-assets/collections-03b4fbc4918abd8693bd.js": [
+          "mousedown"
+        ],
+        "https://contextual.media.net/bidexchange.js?cid=8CULO58R6&dn=www.nytimes.com&https=1": [
+          "scroll"
+        ],
+        "https://www.gstatic.com/_/mss/boq-payments-consumer/_/js/k=boq-payments-consumer.InstantbuyFrontendBuyflowPayframeUi.en_US.t-_9A5KR6cM.es5.O/am=Qg/d=1/excm=_b,_tp,payframeview/ed=1/dg=0/wt=2/ct=zgms/rs=AMitfrj6HHd6ZOT8jdbrD66GzVBEIQX0qw/m=_b,_tp": [
+          "scroll"
+        ],
+        "https://news.google.com/swg/_/ui/v1/serviceiframe?_=441647": [
+          "mousedown",
+          "mouseup",
+          "click"
+        ],
+        "https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId}": [
+          "mousedown",
+          "mouseup",
+          "click"
+        ],
+        "https://www.nytimes.com/section/opinion": [
+          "mousedown",
+          "click"
+        ],
+        "https://www.google.com/js/bg/Okut69F44PP9QzMv2tFLFTVkcqAOhjaB1pDg-R7KLNo.js": [
+          "mouseup",
+          "mousedown",
+          "mousemove"
+        ],
+        "https://myaccount.nytimes.com/lire_ui/js/unified-lire.bundle.js?v=f44e963": [
+          "click"
+        ],
+        "https://www.nytimes.com/": [
+          "mousedown",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.nytimes.com/vi-assets/static-assets/main-7b1649a6e18dad541c50.js": [
+          "keyup",
+          "keydown",
+          "input",
+          "keypress"
+        ],
+        "https://www.nytimes.com/vi-assets/static-assets/raven.min-830a6d04a55c283934dd1893d6ddc66d.js": [
+          "keypress"
+        ],
+        "https://js.datadome.co/tags.js": [
+          "keyup",
+          "keydown",
+          "keypress"
+        ],
+        "https://www.nytimes.com/section/opinion": [
+          "keydown"
+        ],
+        "https://myaccount.nytimes.com/lire_ui/js/unified-lire.bundle.js?v=f44e963": [
+          "keypress",
+          "keyup",
+          "keydown",
+          "input"
+        ],
+        "https://www.nytimes.com/": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://js.datadome.co/tags.js": [
+          "touchmove",
+          "touchend",
+          "touchstart"
+        ],
+        "https://www.nytimes.com/section/opinion": [
+          "touchstart"
+        ],
+        "https://www.nytimes.com/": [
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "nyt-gdpr",
+        "value": "0",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2020-05-20T05:08:42.909Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "nyt-geo",
+        "value": "US",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2020-05-20T05:08:28.335Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "nyt-a",
+        "value": "gvP1RlCHkUi9AE2gRiz-wK",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2021-05-19T23:08:45.973Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "nyt-purr",
+        "value": "cfhhcfhhh",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2021-05-19T23:08:39.580Z",
+        "size": 17,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sessionActive",
+        "value": "true",
+        "domain": "et.nytimes.com",
+        "path": "/",
+        "expires": "2020-05-19T23:38:45.973Z",
+        "size": 17,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sessionIndex",
+        "value": "1|1589929708684|gvP1RlCHkUi9AE2gRiz-wK|1589929708684|true",
+        "domain": "et.nytimes.com",
+        "path": "/",
+        "expires": "2021-05-19T23:08:28.708Z",
+        "size": 69,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "visitor-id",
+        "value": "2329313092167163000V10",
+        "domain": "media.net",
+        "path": "/",
+        "expires": "2021-05-19T23:08:29.055Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "NID",
+        "value": "204=NLkoFH7UfnHOVhxCOPouVvIZE1tVAGoFXihuevaJaJvZWEJKtzoUvMAQ541yRfHlDP0JMBZn9rLVmS2O8KKIaKowFG3cDZGXoldgFyhwoGC44mM-_LxuRQSNXdbc5GqCpAv5zVh_Gl7PxW5D0JjZemkx0FHlviQxxnhP__DDhfw",
+        "domain": "google.com",
+        "path": "/",
+        "expires": "2020-11-18T23:08:29.576Z",
+        "size": 178,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "S",
+        "value": "billing-ui-v3=ortw4E6QVKYsRQyFeVT4YWv4XbAEZF1S:billing-ui-v3-efe=ortw4E6QVKYsRQyFeVT4YWv4XbAEZF1S",
+        "domain": "google.com",
+        "path": "/",
+        "expires": -1,
+        "size": 98,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "nyt-check3pc",
+        "value": "true",
+        "domain": "static01.nyt.com",
+        "path": "/",
+        "expires": "2020-05-19T23:13:39.000Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "UID",
+        "value": "13D16525435a19147655da31589929710",
+        "domain": "scorecardresearch.com",
+        "path": "/",
+        "expires": "2022-05-09T23:08:30.495Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "UIDR",
+        "value": "1589929710",
+        "domain": "scorecardresearch.com",
+        "path": "/",
+        "expires": "2022-05-09T23:08:30.495Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ad-id",
+        "value": "A6v4ngqHo0begap8MRX0xC0",
+        "domain": "amazon-adsystem.com",
+        "path": "/",
+        "expires": "2021-01-01T23:08:30.665Z",
+        "size": 28,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ad-privacy",
+        "value": "0",
+        "domain": "amazon-adsystem.com",
+        "path": "/",
+        "expires": "2025-07-01T23:08:30.665Z",
+        "size": 11,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "purr-cache",
+        "value": "<K0<r<C_<G_<S0",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2021-06-19T10:48:40.983Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "jkidd-p",
+        "value": "prevPage=&currPage=",
+        "domain": "a.nytimes.com",
+        "path": "/",
+        "expires": "2021-05-19T23:08:41.004Z",
+        "size": 26,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "b2b_cig_opt",
+        "value": "%7B%22isCorpUser%22:false%7D",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2020-05-19T23:59:59.341Z",
+        "size": 39,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "edu_cig_opt",
+        "value": "%7B%22isEduUser%22:false%7D",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2020-05-19T23:59:59.341Z",
+        "size": 38,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.238024858.1589929712",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2020-08-17T23:08:31.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "test_cookie",
+        "value": "CheckForPermission",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2020-05-19T23:23:31.719Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "walley",
+        "value": "GA1.2.1665871982.1589929712",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2022-05-19T23:08:42.000Z",
+        "size": 33,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "walley_gid",
+        "value": "GA1.2.1368880476.1589929712",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2020-05-20T23:08:42.000Z",
+        "size": 37,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gat_UA-58630905-2",
+        "value": "1",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2020-05-19T23:09:31.000Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.3.1269025882.1589929712",
+        "domain": "pay.google.com",
+        "path": "/",
+        "expires": "2022-05-19T23:08:42.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.3.1204743030.1589929712",
+        "domain": "pay.google.com",
+        "path": "/",
+        "expires": "2020-05-20T23:08:42.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_gat_UA1168580691",
+        "value": "1",
+        "domain": "pay.google.com",
+        "path": "/",
+        "expires": "2020-05-19T23:09:31.000Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "nyt-cmots",
+        "value": "eyJGcmVxdWVuY3lDYXAiOnsibnl0LWEiOiJndlAxUmxDSGtVaTlBRTJnUml6LXdLIiwiY2FwcyI6eyJNQUdfd2ViX2Fub25fVVNfbW9udGhseS1zYWxlLUFwcmlsIjp7IkFyZWFDYXBzIjp7IndlbGNvbWVBZCI6eyJmcmVxdWVuY3kiOjEsInNlc3Npb24iOjEsImZyZXF1ZW5jeUNyZWF0ZWQiOiIyMDIwLTA1LTE5VDIzOjA4OjMxLjgyMTUxOTMxWiIsInNlc3Npb25DcmVhdGVkIjoiMjAyMC0wNS0xOVQyMzowODozMS44MjE1MTkzMVoiLCJjcmVhdGVkQXQiOiIyMDIwLTA1LTE5VDIzOjA4OjMxLjgyMTUxOTMxWiJ9fX19fX0=",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2020-05-26T06:00:31.846Z",
+        "size": 405,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OTZ",
+        "value": "5460429_72_76_104100_72_446760",
+        "domain": "news.google.com",
+        "path": "/",
+        "expires": "2020-06-18T23:08:31.000Z",
+        "size": 33,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_cb_ls",
+        "value": "1",
+        "domain": "www.nytimes.com",
+        "path": "/",
+        "expires": "2021-06-18T23:08:31.000Z",
+        "size": 7,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_cb",
+        "value": "BUJKFRBSmOTiBngBln",
+        "domain": "www.nytimes.com",
+        "path": "/",
+        "expires": "2021-06-18T23:08:42.000Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_cb_svref",
+        "value": "null",
+        "domain": "www.nytimes.com",
+        "path": "/",
+        "expires": "2020-05-19T23:38:42.000Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "OTZ",
+        "value": "5460429_72_76_104100_72_446760",
+        "domain": "pay.google.com",
+        "path": "/",
+        "expires": "2020-06-18T23:08:31.000Z",
+        "size": 33,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bkdc",
+        "value": "phx",
+        "domain": "bluekai.com",
+        "path": "/",
+        "expires": "2020-11-15T23:08:31.196Z",
+        "size": 7,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bku",
+        "value": "ylT99m2ZhaffwALl",
+        "domain": "bluekai.com",
+        "path": "/",
+        "expires": "2020-11-15T23:08:42.839Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "tluid",
+        "value": "15156060053406084070",
+        "domain": "3lift.com",
+        "path": "/",
+        "expires": "2020-08-17T23:08:32.266Z",
+        "size": 25,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MUID",
+        "value": "186994A48C4F68D533899A6B8DC76996",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": "2021-06-13T23:08:32.658Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MR",
+        "value": "0",
+        "domain": "c.bing.com",
+        "path": "/",
+        "expires": "2020-05-26T23:08:32.658Z",
+        "size": 3,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MR2",
+        "value": "0",
+        "domain": "c.bing.com",
+        "path": "/",
+        "expires": "2020-05-26T23:08:32.658Z",
+        "size": 4,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "khaos",
+        "value": "KAEJ3LT4-1U-6AIE",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2021-05-19T23:08:43.785Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "personalization_id",
+        "value": "\"v1_ME48EOqrEcaSKBkYJuMWfg==\"",
+        "domain": "twitter.com",
+        "path": "/",
+        "expires": "2022-05-19T23:08:32.846Z",
+        "size": 47,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "everest_g_v2",
+        "value": "g_surferid~XsRm8AAAAJED7lvC",
+        "domain": "everesttech.net",
+        "path": "/",
+        "expires": "2021-05-19T23:08:32.887Z",
+        "size": 39,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "audit",
+        "value": "g1NtJX7MAvlPh/U4CXuKq+xqwHtR9Nvxi3bQwdGcn/FjRqY2e2OftpsJCiv4z66aGJwRulZR9jkJTGtSYb9DIsJjWDg4ySWjDZ9r0Xj+GN+DK0BjVyzLF3Y1N870WQpkyPcvDxbnlqjMN78XoQA5eMzboQFS/dfXhaGVQd/gCQ7pj6YvZnvO+UYM7ihgNxnkr0vbDYaHhHL5DxJLVS8XaFBnlPzJ1LN+FyIGObyTf0qDLpJJE/9heg==",
+        "domain": "id.sharedid.org",
+        "path": "/",
+        "expires": -1,
+        "size": 253,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sharedid",
+        "value": "01E8QK47C0WJ6GZXMEBAP6EHTK",
+        "domain": "id.sharedid.org",
+        "path": "/",
+        "expires": "2020-06-16T23:08:33.032Z",
+        "size": 34,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuid",
+        "value": "7c985ec4-66f1-4500-9622-e3b9a86d0a0c",
+        "domain": "mathtag.com",
+        "path": "/",
+        "expires": "2021-06-16T23:08:33.034Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TDID",
+        "value": "6f1bba8a-e415-4274-9d85-5ce533918035",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": "2021-05-19T23:08:33.113Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "rlas3",
+        "value": "QcsFXYajjjeD8tR+49pP82L0VXTvXLwSkKH4i1tfACc=",
+        "domain": "rlcdn.com",
+        "path": "/",
+        "expires": "2021-05-19T23:08:33.090Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "pxrc",
+        "value": "CAA=",
+        "domain": "rlcdn.com",
+        "path": "/",
+        "expires": "2020-07-18T23:08:33.090Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TDCPM",
+        "value": "CAESFgoHcnViaWNvbhILCIqYy9rylL44EAUYBSABKAIyCwj-gKCHiZW-OBAFOAE.",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": "2021-05-19T23:08:33.113Z",
+        "size": 69,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "B",
+        "value": "b46flvpfc8pnh&b=3&s=kg",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": "2021-05-20T05:08:44.038Z",
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "GUC",
+        "value": "AQEBAQFexbhezkIgGATM",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": "2021-05-20T05:08:44.038Z",
+        "size": 23,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuid2",
+        "value": "8735144515679648659",
+        "domain": "adnxs.com",
+        "path": "/",
+        "expires": "2020-08-17T23:08:33.566Z",
+        "size": 24,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "data-a",
+        "value": "8735144515679648659~~1",
+        "domain": "media.net",
+        "path": "/",
+        "expires": "2020-08-16T23:08:33.610Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "tuuid",
+        "value": "baaf8ca1-bf4a-459e-90c6-e07f960ae296",
+        "domain": "bidswitch.net",
+        "path": "/",
+        "expires": "2021-05-19T23:08:33.647Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "c",
+        "value": "1589929713",
+        "domain": "bidswitch.net",
+        "path": "/",
+        "expires": "2021-05-19T23:08:33.647Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "tuuid_lu",
+        "value": "1589929713",
+        "domain": "bidswitch.net",
+        "path": "/",
+        "expires": "2021-05-19T23:08:33.647Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "i",
+        "value": "858dd11e-0be7-0d8f-0c41-4a4baac67991|1589929713",
+        "domain": "openx.net",
+        "path": "/",
+        "expires": "2021-05-19T23:08:33.774Z",
+        "size": 48,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "DotomiTest",
+        "value": "41f39b1c4062157f",
+        "domain": "dotomi.com",
+        "path": "/",
+        "expires": "2020-05-19T23:09:03.741Z",
+        "size": 26,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "data-o",
+        "value": "9e0d87d8-0960-0898-35d8-fccd7c0ed8b0~~1",
+        "domain": "media.net",
+        "path": "/",
+        "expires": "2021-05-18T23:08:33.811Z",
+        "size": 45,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "data-co",
+        "value": "AAAHpCTDCJ5TOQNpDgYEAAAAAAA~~1",
+        "domain": "media.net",
+        "path": "/",
+        "expires": "2021-05-18T23:08:33.825Z",
+        "size": 37,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "iter_id",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhaWQiOiI1ZWM0NjZmMTI4ZDM0ZTAwMDE5ZDY5OGIiLCJjb21wYW55X2lkIjoiNWMwOThiM2QxNjU0YzEwMDAxMmM2OGY5IiwiaWF0IjoxNTg5OTI5NzEzfQ.R-djNKkNyEXxUdJImHusflP4tVSRckI-5djJhDksZZU",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2030-05-17T23:08:33.000Z",
+        "size": 210,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "DigiTrust.v1.identity",
+        "value": "eyJwcml2YWN5Ijp7Im9wdG91dCI6ZmFsc2V9LCJpZCI6ImRBbDZkSkJSNzJvPSIsInByb2R1Y2VyIjoieWVDVUxGSU9rZiIsInZlcnNpb24iOjJ9",
+        "domain": "digitru.st",
+        "path": "/",
+        "expires": "2022-05-19T23:08:34.027Z",
+        "size": 133,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "tuuid",
+        "value": "a8ef33af-36b6-4c24-81fe-f128c6cac556",
+        "domain": "mfadsrvr.com",
+        "path": "/",
+        "expires": "2022-05-19T23:08:34.561Z",
+        "size": 41,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "c",
+        "value": "1589929714",
+        "domain": "mfadsrvr.com",
+        "path": "/",
+        "expires": "2022-05-19T23:08:34.561Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "tuuid_lu",
+        "value": "1589929714",
+        "domain": "mfadsrvr.com",
+        "path": "/",
+        "expires": "2022-05-19T23:08:34.561Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bsw_uid",
+        "value": "baaf8ca1-bf4a-459e-90c6-e07f960ae296",
+        "domain": "mfadsrvr.com",
+        "path": "/",
+        "expires": "2022-05-19T23:08:34.561Z",
+        "size": 43,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "data-bs",
+        "value": "baaf8ca1-bf4a-459e-90c6-e07f960ae296~~1",
+        "domain": "media.net",
+        "path": "/",
+        "expires": "2021-05-18T23:08:34.761Z",
+        "size": 46,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "mnet_session_depth",
+        "value": "2%7C1589929709563",
+        "domain": "www.nytimes.com",
+        "path": "/",
+        "expires": -1,
+        "size": 35,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "nyt-us",
+        "value": "1",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2020-05-20T05:08:39.580Z",
+        "size": 7,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "nyt-m",
+        "value": "4F9C9D182B0D22D7AB376AD7FC5D0DB7&t=i.1&rc=i.0&iga=i.0&igf=i.0&er=i.1589929720&imu=i.1&igu=i.1&imv=i.0&ird=i.0&g=i.0&igd=i.0&iir=i.0&e=i.1590969600&ica=i.0&ier=i.0&iub=i.0&s=s.core&n=i.2&vr=l.4.0.0.0.0&fv=i.0&v=i.0&pr=l.4.0.0.0.0&cav=i.0&ifv=i.0&vp=i.0&ft=i.0&prt=i.0&iue=i.0&iru=i.0&ira=i.0&uuid=s.e9d67b3d-2ee3-4a36-a8bb-c4fd0999abf0",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2025-05-19T23:08:40.834Z",
+        "size": 339,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "jkidd-s",
+        "value": "referrer=&landing=&start=1589929711296&isNew=0&pageIndex=2",
+        "domain": "a.nytimes.com",
+        "path": "/",
+        "expires": -1,
+        "size": 65,
+        "httpOnly": true,
+        "secure": false,
+        "session": true,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "nyt-jkidd",
+        "value": "uid=0&lastRequest=1589929720963&activeDays=%5B0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C1%5D&adv=1&a7dv=1&a14dv=1&a21dv=1&lastKnownType=anon",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2021-05-19T23:08:41.004Z",
+        "size": 223,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__gads",
+        "value": "ID=0f8cf827d06e514e-22f1d52b90bf0053:T=1589929720:RT=1589929720:S=ALNI_MZ0L252tYvWDOvaXy5_ikHcfk5BTA",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2022-05-19T23:08:40.000Z",
+        "size": 106,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "et-a1",
+        "value": "%257B%2522agentId%2522%253A%2522gvP1RlCHkUi9AE2gRiz-wK%2522%252C%2522agentStarted%2522%253A1589929710394%252C%2522sessionIndex%2522%253A1%252C%2522sessionStarted%2522%253A1589929710394%252C%2522lastModified%2522%253A1589929722018%252C%2522lastUpdate%2522%253A1589929722018%257D",
+        "domain": "et.nytimes.com",
+        "path": "/",
+        "expires": "2021-05-19T23:08:42.035Z",
+        "size": 282,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cto_bundle",
+        "value": "UWwtRF9sODNjdzk4cjlEWiUyRnBhJTJGSE1sbFVnWDRuUkJlVWhlN3dBSnRKS2p2bWdQckNybm85c2lkZExXRiUyQlRiSlZuODJPcXNJU0pHaTU0ZHZrJTJGSk00TDhJeTJ3Vjc1ZFVsZW1FMExYWHFGTHhmR0ZVZ3FUQ0x6QXoyUFhrdHpqQyUyRnRlV1I",
+        "domain": "nytimes.com",
+        "path": "/",
+        "expires": "2021-06-13T23:08:42.000Z",
+        "size": 201,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_chartbeat2",
+        "value": ".1589929711929.1589929722425.1.Eq_thBCdK8r6QKoTRsTJeidLZV.2",
+        "domain": "www.nytimes.com",
+        "path": "/",
+        "expires": "2021-06-18T23:08:42.000Z",
+        "size": 70,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "data-max",
+        "value": "1234~~1",
+        "domain": "media.net",
+        "path": "/",
+        "expires": "2021-05-19T23:08:43.154Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "pux",
+        "value": "1185%3D91002%261512%3D91002%262132%3D91002%262231%3D91002%262238%3D91002%262249%3D91002%262307%3D91002%262596%3D91002%262861%3D91002%262974%3D91002%263778%3D91002%26idl%3D91002%262249-DV360-Hosted%3D91002%26goog%3D91002%26brx%3D91002%26w55c%3D91002%26",
+        "domain": "eus.rubiconproject.com",
+        "path": "/",
+        "expires": "2020-08-17T23:08:43.000Z",
+        "size": 254,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "data-r",
+        "value": "KAEJ3LT4-1U-6AIE~~1",
+        "domain": "media.net",
+        "path": "/",
+        "expires": "2020-11-15T23:08:43.223Z",
+        "size": 25,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uid",
+        "value": "3972492956482687798",
+        "domain": "turn.com",
+        "path": "/",
+        "expires": "2020-11-15T23:08:44.321Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "data-amb",
+        "value": "3828377768406831926~~1",
+        "domain": "media.net",
+        "path": "/",
+        "expires": "2021-05-19T23:08:43.395Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "wfivefivec",
+        "value": "HIHz088m1JBblN5",
+        "domain": "w55c.net",
+        "path": "/",
+        "expires": "2021-06-19T23:08:44.468Z",
+        "size": 25,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ssi",
+        "value": "9bc4632e-e1ef-4aba-9b94-5d2942a0d1cf#1589929723630",
+        "domain": "sitescout.com",
+        "path": "/",
+        "expires": "2021-05-19T23:08:43.701Z",
+        "size": 53,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "cu",
+        "value": "af78ac8a-9a25-11ea-bdd4-c5617a9d8631|1589929723661",
+        "domain": "ipredictive.com",
+        "path": "/",
+        "expires": "2021-05-19T23:08:43.671Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ssum",
+        "value": "e30",
+        "domain": "sitescout.com",
+        "path": "/",
+        "expires": "2020-06-18T23:08:43.701Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "suid",
+        "value": "4BB7497639E94D7DAE2F0C84AF987BBA",
+        "domain": "simpli.fi",
+        "path": "/",
+        "expires": "2021-05-20T23:08:43.750Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "suid_legacy",
+        "value": "4BB7497639E94D7DAE2F0C84AF987BBA",
+        "domain": "simpli.fi",
+        "path": "/",
+        "expires": "2021-05-20T23:08:43.751Z",
+        "size": 43,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "audit",
+        "value": "1|WDbnQrz9hh24Crdw9FPagIKGCX6Yh3da957i1EMR711uSyLsFUJEBY5WxV7moOGY3sBfl6kXiEEiZ07GJqnMno4BjqNRGrmz",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": "2021-05-19T23:08:43.785Z",
+        "size": 103,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "A3",
+        "value": "d=AQABBPFmxF4CEE-3kwe71hSbYVQ5fP71GbIFEgEBAQG4xV7OXgAAAAAA_SMAAAcI8WbEXv71GbI&S=AQAAAoh2PV4SSznbVE-h9qyaitk",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": "2021-05-20T05:08:44.038Z",
+        "size": 109,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "rud",
+        "value": "H4sIAAAAAAAAAOMSsjSzNDc1NDMzMzU3NjUwNjI2FeIz1M0LMM40N6osDrcMCpPiNTS1sLQ0sjQ3MrY0MQUAt6dFGzMAAAA",
+        "domain": "rfihub.com",
+        "path": "/",
+        "expires": "2021-06-13T23:08:43.000Z",
+        "size": 98,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "eud",
+        "value": "H4sIAAAAAAAAAONicjUO4jU0tbC0NLI0NzK2NDF5xYjCNwUA6tDXuyMAAAA",
+        "domain": "rfihub.com",
+        "path": "/",
+        "expires": "2021-06-13T23:08:43.000Z",
+        "size": 62,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "euds",
+        "value": "H4sIAAAAAAAAAONicjUGAEAxo38EAAAA",
+        "domain": "rfihub.com",
+        "path": "/",
+        "expires": -1,
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ruds",
+        "value": "H4sIAAAAAAAAAOMSsjSzNDc1NDMzMzU3NjUwNjI2FeIz1M0LMM40N6osDrcMCgMAo5Nz8SQAAAA",
+        "domain": "rfihub.com",
+        "path": "/",
+        "expires": -1,
+        "size": 79,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||criteo.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "r": 2,
+            "c": 321,
+            "j": "window.advBidxc.mnetRtusId"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/section/opinion",
+            "source": "requested from https://www.nytimes.com/section/opinion and matched with easyprivacy.txt filter ||criteo.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gum.criteo.com/sync?r=2&c=321&j=window.advBidxc.mnetRtusId"
+      },
+      {
+        "data": {
+          "filter": "||rfihub.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pub": 445,
+            "google_error": 5
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://eus.rubiconproject.com/usync.html?p=medianet",
+            "source": "requested from https://eus.rubiconproject.com/usync.html?p=medianet and matched with easyprivacy.txt filter ||rfihub.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://a.rfihub.com/cm?pub=445&google_error=5"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "zeta_interactive",
+            "google_push": "",
+            "google_hm": "OTY5NzUxNjY2NTczNTAzMjM1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://eus.rubiconproject.com/usync.html?p=medianet",
+            "source": "requested from https://eus.rubiconproject.com/usync.html?p=medianet and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=zeta_interactive&google_push=&google_hm=OTY5NzUxNjY2NTczNTAzMjM1"
+      },
+      {
+        "data": {
+          "filter": "||cookiex.ngd.yahoo.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "xid": "jTlDwO8nj6WmMRo8DxcfVd1P",
+            "eid": "KAEJ3LT4-1U-6AIE"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://eus.rubiconproject.com/usync.html?p=medianet",
+            "source": "requested from https://eus.rubiconproject.com/usync.html?p=medianet and matched with easyprivacy.txt filter ||cookiex.ngd.yahoo.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cookiex.ngd.yahoo.com/ack?xid=jTlDwO8nj6WmMRo8DxcfVd1P&eid=KAEJ3LT4-1U-6AIE"
+      },
+      {
+        "data": {
+          "filter": "||rfihub.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pub": 445,
+            "rfi_evt": "cm",
+            "rfi_uri": "/cm?in=1&pub=64",
+            "rfi_ts": 1589929723831,
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://eus.rubiconproject.com/usync.html?p=medianet",
+            "source": "requested from https://eus.rubiconproject.com/usync.html?p=medianet and matched with easyprivacy.txt filter ||rfihub.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://a.rfihub.com/cm?pub=445&rfi_evt=cm&rfi_uri=%2Fcm%3Fin%3D1%26pub%3D64&rfi_ts=1589929723831&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "zeta_interactive",
+            "google_no_sc": null,
+            "google_cm": null,
+            "rfi_evt": "cm",
+            "rfi_uri": "/cm?in=1&pub=64",
+            "rfi_ts": 1589929723831
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://eus.rubiconproject.com/usync.html?p=medianet",
+            "source": "requested from https://eus.rubiconproject.com/usync.html?p=medianet and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=zeta_interactive&google_no_sc&google_cm&rfi_evt=cm&rfi_uri=%2Fcm%3Fin%3D1%26pub%3D64&rfi_ts=1589929723831"
+      },
+      {
+        "data": {
+          "filter": "/gen_204?$image,other,ping,script",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "sodar2",
+            "v": 209,
+            "t": 2,
+            "li": "gpt_2020050602",
+            "jk": 4446799899148256,
+            "bg": "!MjGlMSlYnuYv6dhzgF4CAAAAYVIAAAAOmQFun8llwdh9uWizeDTPbBUhmxxiiuI8tjnD4I1Lf5SASt2edykQpBrEfO0LWibbxQuqDkobr9bY2OQjtbystkD6l0j3GhKzBIfqH7dVHv6mf0sp3NkxeP2KlNQt49vsdgu-ZldXt2F7Nfpoq4UQmA5erL5kB8HXNKzhNH_w9iNlvgtE6949_QWX16F_Kxi7XgJViS-9PpUhjEQtr4klUE6NdQRV8IqnaR2gaWzqlNcMRXM-ejf5sp9j8iMZWJU4sVFnwtgWi_VlFR66X0hQBOz4OU91d2d1SIF1NgVTQCSlSL50SwzBilWSJ8BgjwCq2DZz3lZPq7YphgW8ZFrUGfLlhlkM5E1pah5M9GqhLdiplFzu7NNF582xx8Tm3UmDHiwurgfNkIFXiAqrT-LKUkR1xnoDVvAqkRNtOqtgRtDcnEicjDzrfSDUcIu_LfUgQ2nE_Wt5pdFbAZt0qVzu0RUCmfy_dr71lAp6Wm7CoJOF"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/section/opinion",
+            "source": "requested from https://www.nytimes.com/section/opinion and matched with easyprivacy.txt filter /gen_204?$image,other,ping,script"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=sodar2&v=209&t=2&li=gpt_2020050602&jk=4446799899148256&bg=!MjGlMSlYnuYv6dhzgF4CAAAAYVIAAAAOmQFun8llwdh9uWizeDTPbBUhmxxiiuI8tjnD4I1Lf5SASt2edykQpBrEfO0LWibbxQuqDkobr9bY2OQjtbystkD6l0j3GhKzBIfqH7dVHv6mf0sp3NkxeP2KlNQt49vsdgu-ZldXt2F7Nfpoq4UQmA5erL5kB8HXNKzhNH_w9iNlvgtE6949_QWX16F_Kxi7XgJViS-9PpUhjEQtr4klUE6NdQRV8IqnaR2gaWzqlNcMRXM-ejf5sp9j8iMZWJU4sVFnwtgWi_VlFR66X0hQBOz4OU91d2d1SIF1NgVTQCSlSL50SwzBilWSJ8BgjwCq2DZz3lZPq7YphgW8ZFrUGfLlhlkM5E1pah5M9GqhLdiplFzu7NNF582xx8Tm3UmDHiwurgfNkIFXiAqrT-LKUkR1xnoDVvAqkRNtOqtgRtDcnEicjDzrfSDUcIu_LfUgQ2nE_Wt5pdFbAZt0qVzu0RUCmfy_dr71lAp6Wm7CoJOF"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "rp",
+            "google_hm": "S0FFSjNMVDQtMVUtNkFJRQ=="
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://eus.rubiconproject.com/usync.html?p=medianet",
+            "source": "requested from https://eus.rubiconproject.com/usync.html?p=medianet and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=rp&google_hm=S0FFSjNMVDQtMVUtNkFJRQ=="
+      },
+      {
+        "data": {
+          "filter": "||rfihub.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "in": 1,
+            "pub": 64
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://eus.rubiconproject.com/usync.html?p=medianet",
+            "source": "requested from https://eus.rubiconproject.com/usync.html?p=medianet and matched with easyprivacy.txt filter ||rfihub.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.rfihub.com/cm?in=1&pub=64"
+      },
+      {
+        "data": {
+          "filter": "||simpli.fi^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://eus.rubiconproject.com/usync.html?p=medianet",
+            "source": "requested from https://eus.rubiconproject.com/usync.html?p=medianet and matched with easyprivacy.txt filter ||simpli.fi^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://um.simpli.fi/rb_match"
+      },
+      {
+        "data": {
+          "filter": "||w55c.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ei": "RUBICON",
+            "rurl": "https://pixel.rubiconproject.com/tap.php?v=4210&nid=1523&put=_wfivefivec_&expires=30"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://eus.rubiconproject.com/usync.html?p=medianet",
+            "source": "requested from https://eus.rubiconproject.com/usync.html?p=medianet and matched with easyprivacy.txt filter ||w55c.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://i.w55c.net/ping_match.gif?ei=RUBICON&rurl=https%3A%2F%2Fpixel.rubiconproject.com%2Ftap.php%3Fv%3D4210%26nid%3D1523%26put%3D_wfivefivec_%26expires%3D30"
+      },
+      {
+        "data": {
+          "filter": "||platform.iteratehq.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/section/opinion",
+            "source": "requested from https://www.nytimes.com/section/opinion and matched with easyprivacy.txt filter ||platform.iteratehq.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://platform.iteratehq.com/style-fbca0d9ee70fe7fc4864c9cbe529a205.css"
+      },
+      {
+        "data": {
+          "filter": "||platform.iteratehq.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/section/opinion",
+            "source": "requested from https://www.nytimes.com/section/opinion and matched with easyprivacy.txt filter ||platform.iteratehq.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://platform.iteratehq.com/sdk-prod-5587a317726656939481.js"
+      },
+      {
+        "data": {
+          "filter": "||platform.iteratehq.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/section/opinion",
+            "source": "requested from https://www.nytimes.com/section/opinion and matched with easyprivacy.txt filter ||platform.iteratehq.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://platform.iteratehq.com/loader.js"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/section/opinion",
+            "source": "requested from https://www.nytimes.com/section/opinion and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/c2/3005403/cs.js"
+      },
+      {
+        "data": {
+          "filter": "||everesttech.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "redir": "https://tags.bluekai.com/site/4413?id=${USER_ID}&r=123"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://stags.bluekai.com/site/50747?ret=html&phint=regid%3D&phint=usertype%3Danon&phint=userloggedin%3Dfalse&phint=coresubtenure%3D&phint=corestop%3D&phint=corepromo%3Dfalse&phint=ingrace%3Dfalse&phint=giftrecipient%3Dfalse&phint=childsubrecipient%3Dfalse&phint=bundlecoredigi%3D&phint=bundlecorehd%3D&phint=bundlexword%3D&phint=bundlecooking%3D&phint=bundleother%3D&phint=b2bentitle%3Dfalse&phint=marketingoptin%3Dfalse&phint=formercoresub%3Dfalse&phint=formeredusub%3Dfalse&phint=formerhdsub%3Dfalse&phint=retentionscore%3D&phint=topwatseg%3D&phint=sassegment%3D&phint=hdstopreasoncode%3D&phint=regitenure%3D&phint=cookinggrace%3Dfalse&phint=crosswordsgrace%3Dfalse&phint=gatewayhitlm%3Dfalse&phint=coregracelevel%3Dfalse&phint=activedaysengagement%3D&phint=authors%3D&phint=newsletter%3D&phint=businessname%3D&phint=corpadblock%3Dfalse&phint=isedu%3D&phint=propensityedu%3D&phint=propensityscore&phint=activedays%3D1&phint=metercount%3D&phint=propensitysection&phint=propensitytype&phint=propensitysite&phint=url%3Dhttps%3A%2F%2Fwww.nytimes.com%2Fsection%2Fopinion&phint=referrer%3D&phint=section%3DOpinion&phint=subsection%3D&phint=pagetype%3Dcollection&phint=keywords%3D&phint=sourceapp%3Dnyt-vi&phint=browsername%3DSafari%20Mobile&phint=funnelpropensity%3D0&phint=column%3D&phint=collectionname%3D&phint=contenttype%3Dsectioncollection&phint=emotions%3D&phint=xwordstenure%3D&phint=cookingtenure%3D&phint=xwordsstop%3D&phint=cookingstop%3D&phint=productswitch%3D&phint=giftsubgiver%3Dfalse&phint=formerxwordsub%3Dfalse&phint=formercookingsub%3Dfalse&phint=watsegs%3D&phint=edusub%3D&phint=aiqaudience%3D&limit=4&r=99569187",
+            "source": "requested from https://stags.bluekai.com/site/50747?ret=html&phint=regid%3D&phint=usertype%3Danon&phint=userloggedin%3Dfalse&phint=coresubtenure%3D&phint=corestop%3D&phint=corepromo%3Dfalse&phint=ingrace%3Dfalse&phint=giftrecipient%3Dfalse&phint=childsubrecipient%3Dfalse&phint=bundlecoredigi%3D&phint=bundlecorehd%3D&phint=bundlexword%3D&phint=bundlecooking%3D&phint=bundleother%3D&phint=b2bentitle%3Dfalse&phint=marketingoptin%3Dfalse&phint=formercoresub%3Dfalse&phint=formeredusub%3Dfalse&phint=formerhdsub%3Dfalse&phint=retentionscore%3D&phint=topwatseg%3D&phint=sassegment%3D&phint=hdstopreasoncode%3D&phint=regitenure%3D&phint=cookinggrace%3Dfalse&phint=crosswordsgrace%3Dfalse&phint=gatewayhitlm%3Dfalse&phint=coregracelevel%3Dfalse&phint=activedaysengagement%3D&phint=authors%3D&phint=newsletter%3D&phint=businessname%3D&phint=corpadblock%3Dfalse&phint=isedu%3D&phint=propensityedu%3D&phint=propensityscore&phint=activedays%3D1&phint=metercount%3D&phint=propensitysection&phint=propensitytype&phint=propensitysite&phint=url%3Dhttps%3A%2F%2Fwww.nytimes.com%2Fsection%2Fopinion&phint=referrer%3D&phint=section%3DOpinion&phint=subsection%3D&phint=pagetype%3Dcollection&phint=keywords%3D&phint=sourceapp%3Dnyt-vi&phint=browsername%3DSafari%20Mobile&phint=funnelpropensity%3D0&phint=column%3D&phint=collectionname%3D&phint=contenttype%3Dsectioncollection&phint=emotions%3D&phint=xwordstenure%3D&phint=cookingtenure%3D&phint=xwordsstop%3D&phint=cookingstop%3D&phint=productswitch%3D&phint=giftsubgiver%3Dfalse&phint=formerxwordsub%3Dfalse&phint=formercookingsub%3Dfalse&phint=watsegs%3D&phint=edusub%3D&phint=aiqaudience%3D&limit=4&r=99569187 and matched with easyprivacy.txt filter ||everesttech.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync-tm.everesttech.net/upi/pid/2j4ke5f0?redir=https%3A%2F%2Ftags.bluekai.com%2Fsite%2F4413%3Fid%3D%24%7BUSER_ID%7D%26r=123"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "bluekai",
+            "google_cm": null,
+            "google_sc": null,
+            "google_hm": "KzBObkJUMis5OVlNNXpISw==",
+            "": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://stags.bluekai.com/site/50747?ret=html&phint=regid%3D&phint=usertype%3Danon&phint=userloggedin%3Dfalse&phint=coresubtenure%3D&phint=corestop%3D&phint=corepromo%3Dfalse&phint=ingrace%3Dfalse&phint=giftrecipient%3Dfalse&phint=childsubrecipient%3Dfalse&phint=bundlecoredigi%3D&phint=bundlecorehd%3D&phint=bundlexword%3D&phint=bundlecooking%3D&phint=bundleother%3D&phint=b2bentitle%3Dfalse&phint=marketingoptin%3Dfalse&phint=formercoresub%3Dfalse&phint=formeredusub%3Dfalse&phint=formerhdsub%3Dfalse&phint=retentionscore%3D&phint=topwatseg%3D&phint=sassegment%3D&phint=hdstopreasoncode%3D&phint=regitenure%3D&phint=cookinggrace%3Dfalse&phint=crosswordsgrace%3Dfalse&phint=gatewayhitlm%3Dfalse&phint=coregracelevel%3Dfalse&phint=activedaysengagement%3D&phint=authors%3D&phint=newsletter%3D&phint=businessname%3D&phint=corpadblock%3Dfalse&phint=isedu%3D&phint=propensityedu%3D&phint=propensityscore&phint=activedays%3D1&phint=metercount%3D&phint=propensitysection&phint=propensitytype&phint=propensitysite&phint=url%3Dhttps%3A%2F%2Fwww.nytimes.com%2Fsection%2Fopinion&phint=referrer%3D&phint=section%3DOpinion&phint=subsection%3D&phint=pagetype%3Dcollection&phint=keywords%3D&phint=sourceapp%3Dnyt-vi&phint=browsername%3DSafari%20Mobile&phint=funnelpropensity%3D0&phint=column%3D&phint=collectionname%3D&phint=contenttype%3Dsectioncollection&phint=emotions%3D&phint=xwordstenure%3D&phint=cookingtenure%3D&phint=xwordsstop%3D&phint=cookingstop%3D&phint=productswitch%3D&phint=giftsubgiver%3Dfalse&phint=formerxwordsub%3Dfalse&phint=formercookingsub%3Dfalse&phint=watsegs%3D&phint=edusub%3D&phint=aiqaudience%3D&limit=4&r=99569187",
+            "source": "requested from https://stags.bluekai.com/site/50747?ret=html&phint=regid%3D&phint=usertype%3Danon&phint=userloggedin%3Dfalse&phint=coresubtenure%3D&phint=corestop%3D&phint=corepromo%3Dfalse&phint=ingrace%3Dfalse&phint=giftrecipient%3Dfalse&phint=childsubrecipient%3Dfalse&phint=bundlecoredigi%3D&phint=bundlecorehd%3D&phint=bundlexword%3D&phint=bundlecooking%3D&phint=bundleother%3D&phint=b2bentitle%3Dfalse&phint=marketingoptin%3Dfalse&phint=formercoresub%3Dfalse&phint=formeredusub%3Dfalse&phint=formerhdsub%3Dfalse&phint=retentionscore%3D&phint=topwatseg%3D&phint=sassegment%3D&phint=hdstopreasoncode%3D&phint=regitenure%3D&phint=cookinggrace%3Dfalse&phint=crosswordsgrace%3Dfalse&phint=gatewayhitlm%3Dfalse&phint=coregracelevel%3Dfalse&phint=activedaysengagement%3D&phint=authors%3D&phint=newsletter%3D&phint=businessname%3D&phint=corpadblock%3Dfalse&phint=isedu%3D&phint=propensityedu%3D&phint=propensityscore&phint=activedays%3D1&phint=metercount%3D&phint=propensitysection&phint=propensitytype&phint=propensitysite&phint=url%3Dhttps%3A%2F%2Fwww.nytimes.com%2Fsection%2Fopinion&phint=referrer%3D&phint=section%3DOpinion&phint=subsection%3D&phint=pagetype%3Dcollection&phint=keywords%3D&phint=sourceapp%3Dnyt-vi&phint=browsername%3DSafari%20Mobile&phint=funnelpropensity%3D0&phint=column%3D&phint=collectionname%3D&phint=contenttype%3Dsectioncollection&phint=emotions%3D&phint=xwordstenure%3D&phint=cookingtenure%3D&phint=xwordsstop%3D&phint=cookingstop%3D&phint=productswitch%3D&phint=giftsubgiver%3Dfalse&phint=formerxwordsub%3Dfalse&phint=formercookingsub%3Dfalse&phint=watsegs%3D&phint=edusub%3D&phint=aiqaudience%3D&limit=4&r=99569187 and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=bluekai&google_cm&google_sc&google_hm=KzBObkJUMis5OVlNNXpISw%3D%3D&"
+      },
+      {
+        "data": {
+          "filter": "||analytics.twitter.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "p_user_id": "+0NnBT2+99YM5zHK",
+            "p_id": 661892,
+            "": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://stags.bluekai.com/site/50747?ret=html&phint=regid%3D&phint=usertype%3Danon&phint=userloggedin%3Dfalse&phint=coresubtenure%3D&phint=corestop%3D&phint=corepromo%3Dfalse&phint=ingrace%3Dfalse&phint=giftrecipient%3Dfalse&phint=childsubrecipient%3Dfalse&phint=bundlecoredigi%3D&phint=bundlecorehd%3D&phint=bundlexword%3D&phint=bundlecooking%3D&phint=bundleother%3D&phint=b2bentitle%3Dfalse&phint=marketingoptin%3Dfalse&phint=formercoresub%3Dfalse&phint=formeredusub%3Dfalse&phint=formerhdsub%3Dfalse&phint=retentionscore%3D&phint=topwatseg%3D&phint=sassegment%3D&phint=hdstopreasoncode%3D&phint=regitenure%3D&phint=cookinggrace%3Dfalse&phint=crosswordsgrace%3Dfalse&phint=gatewayhitlm%3Dfalse&phint=coregracelevel%3Dfalse&phint=activedaysengagement%3D&phint=authors%3D&phint=newsletter%3D&phint=businessname%3D&phint=corpadblock%3Dfalse&phint=isedu%3D&phint=propensityedu%3D&phint=propensityscore&phint=activedays%3D1&phint=metercount%3D&phint=propensitysection&phint=propensitytype&phint=propensitysite&phint=url%3Dhttps%3A%2F%2Fwww.nytimes.com%2Fsection%2Fopinion&phint=referrer%3D&phint=section%3DOpinion&phint=subsection%3D&phint=pagetype%3Dcollection&phint=keywords%3D&phint=sourceapp%3Dnyt-vi&phint=browsername%3DSafari%20Mobile&phint=funnelpropensity%3D0&phint=column%3D&phint=collectionname%3D&phint=contenttype%3Dsectioncollection&phint=emotions%3D&phint=xwordstenure%3D&phint=cookingtenure%3D&phint=xwordsstop%3D&phint=cookingstop%3D&phint=productswitch%3D&phint=giftsubgiver%3Dfalse&phint=formerxwordsub%3Dfalse&phint=formercookingsub%3Dfalse&phint=watsegs%3D&phint=edusub%3D&phint=aiqaudience%3D&limit=4&r=99569187",
+            "source": "requested from https://stags.bluekai.com/site/50747?ret=html&phint=regid%3D&phint=usertype%3Danon&phint=userloggedin%3Dfalse&phint=coresubtenure%3D&phint=corestop%3D&phint=corepromo%3Dfalse&phint=ingrace%3Dfalse&phint=giftrecipient%3Dfalse&phint=childsubrecipient%3Dfalse&phint=bundlecoredigi%3D&phint=bundlecorehd%3D&phint=bundlexword%3D&phint=bundlecooking%3D&phint=bundleother%3D&phint=b2bentitle%3Dfalse&phint=marketingoptin%3Dfalse&phint=formercoresub%3Dfalse&phint=formeredusub%3Dfalse&phint=formerhdsub%3Dfalse&phint=retentionscore%3D&phint=topwatseg%3D&phint=sassegment%3D&phint=hdstopreasoncode%3D&phint=regitenure%3D&phint=cookinggrace%3Dfalse&phint=crosswordsgrace%3Dfalse&phint=gatewayhitlm%3Dfalse&phint=coregracelevel%3Dfalse&phint=activedaysengagement%3D&phint=authors%3D&phint=newsletter%3D&phint=businessname%3D&phint=corpadblock%3Dfalse&phint=isedu%3D&phint=propensityedu%3D&phint=propensityscore&phint=activedays%3D1&phint=metercount%3D&phint=propensitysection&phint=propensitytype&phint=propensitysite&phint=url%3Dhttps%3A%2F%2Fwww.nytimes.com%2Fsection%2Fopinion&phint=referrer%3D&phint=section%3DOpinion&phint=subsection%3D&phint=pagetype%3Dcollection&phint=keywords%3D&phint=sourceapp%3Dnyt-vi&phint=browsername%3DSafari%20Mobile&phint=funnelpropensity%3D0&phint=column%3D&phint=collectionname%3D&phint=contenttype%3Dsectioncollection&phint=emotions%3D&phint=xwordstenure%3D&phint=cookingtenure%3D&phint=xwordsstop%3D&phint=cookingstop%3D&phint=productswitch%3D&phint=giftsubgiver%3Dfalse&phint=formerxwordsub%3Dfalse&phint=formercookingsub%3Dfalse&phint=watsegs%3D&phint=edusub%3D&phint=aiqaudience%3D&limit=4&r=99569187 and matched with easyprivacy.txt filter ||analytics.twitter.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.twitter.com/i/adsct?p_user_id=%2B0NnBT2%2B99YM5zHK&p_id=661892&"
+      },
+      {
+        "data": {
+          "filter": "://c.*/c.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "uid": "+0NnBT2+99YM5zHK",
+            "Red3": "MSBK_pd"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://stags.bluekai.com/site/50747?ret=html&phint=regid%3D&phint=usertype%3Danon&phint=userloggedin%3Dfalse&phint=coresubtenure%3D&phint=corestop%3D&phint=corepromo%3Dfalse&phint=ingrace%3Dfalse&phint=giftrecipient%3Dfalse&phint=childsubrecipient%3Dfalse&phint=bundlecoredigi%3D&phint=bundlecorehd%3D&phint=bundlexword%3D&phint=bundlecooking%3D&phint=bundleother%3D&phint=b2bentitle%3Dfalse&phint=marketingoptin%3Dfalse&phint=formercoresub%3Dfalse&phint=formeredusub%3Dfalse&phint=formerhdsub%3Dfalse&phint=retentionscore%3D&phint=topwatseg%3D&phint=sassegment%3D&phint=hdstopreasoncode%3D&phint=regitenure%3D&phint=cookinggrace%3Dfalse&phint=crosswordsgrace%3Dfalse&phint=gatewayhitlm%3Dfalse&phint=coregracelevel%3Dfalse&phint=activedaysengagement%3D&phint=authors%3D&phint=newsletter%3D&phint=businessname%3D&phint=corpadblock%3Dfalse&phint=isedu%3D&phint=propensityedu%3D&phint=propensityscore&phint=activedays%3D1&phint=metercount%3D&phint=propensitysection&phint=propensitytype&phint=propensitysite&phint=url%3Dhttps%3A%2F%2Fwww.nytimes.com%2Fsection%2Fopinion&phint=referrer%3D&phint=section%3DOpinion&phint=subsection%3D&phint=pagetype%3Dcollection&phint=keywords%3D&phint=sourceapp%3Dnyt-vi&phint=browsername%3DSafari%20Mobile&phint=funnelpropensity%3D0&phint=column%3D&phint=collectionname%3D&phint=contenttype%3Dsectioncollection&phint=emotions%3D&phint=xwordstenure%3D&phint=cookingtenure%3D&phint=xwordsstop%3D&phint=cookingstop%3D&phint=productswitch%3D&phint=giftsubgiver%3Dfalse&phint=formerxwordsub%3Dfalse&phint=formercookingsub%3Dfalse&phint=watsegs%3D&phint=edusub%3D&phint=aiqaudience%3D&limit=4&r=99569187",
+            "source": "requested from https://stags.bluekai.com/site/50747?ret=html&phint=regid%3D&phint=usertype%3Danon&phint=userloggedin%3Dfalse&phint=coresubtenure%3D&phint=corestop%3D&phint=corepromo%3Dfalse&phint=ingrace%3Dfalse&phint=giftrecipient%3Dfalse&phint=childsubrecipient%3Dfalse&phint=bundlecoredigi%3D&phint=bundlecorehd%3D&phint=bundlexword%3D&phint=bundlecooking%3D&phint=bundleother%3D&phint=b2bentitle%3Dfalse&phint=marketingoptin%3Dfalse&phint=formercoresub%3Dfalse&phint=formeredusub%3Dfalse&phint=formerhdsub%3Dfalse&phint=retentionscore%3D&phint=topwatseg%3D&phint=sassegment%3D&phint=hdstopreasoncode%3D&phint=regitenure%3D&phint=cookinggrace%3Dfalse&phint=crosswordsgrace%3Dfalse&phint=gatewayhitlm%3Dfalse&phint=coregracelevel%3Dfalse&phint=activedaysengagement%3D&phint=authors%3D&phint=newsletter%3D&phint=businessname%3D&phint=corpadblock%3Dfalse&phint=isedu%3D&phint=propensityedu%3D&phint=propensityscore&phint=activedays%3D1&phint=metercount%3D&phint=propensitysection&phint=propensitytype&phint=propensitysite&phint=url%3Dhttps%3A%2F%2Fwww.nytimes.com%2Fsection%2Fopinion&phint=referrer%3D&phint=section%3DOpinion&phint=subsection%3D&phint=pagetype%3Dcollection&phint=keywords%3D&phint=sourceapp%3Dnyt-vi&phint=browsername%3DSafari%20Mobile&phint=funnelpropensity%3D0&phint=column%3D&phint=collectionname%3D&phint=contenttype%3Dsectioncollection&phint=emotions%3D&phint=xwordstenure%3D&phint=cookingtenure%3D&phint=xwordsstop%3D&phint=cookingstop%3D&phint=productswitch%3D&phint=giftsubgiver%3Dfalse&phint=formerxwordsub%3Dfalse&phint=formercookingsub%3Dfalse&phint=watsegs%3D&phint=edusub%3D&phint=aiqaudience%3D&limit=4&r=99569187 and matched with easyprivacy.txt filter ://c.*/c.gif?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.bing.com/c.gif?uid=%2B0NnBT2%2B99YM5zHK&Red3=MSBK_pd"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^$image,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "label": "L0PfCLK4-oIBEMi-9-AD",
+            "guid": "ON",
+            "script": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://stags.bluekai.com/site/50747?ret=html&phint=regid%3D&phint=usertype%3Danon&phint=userloggedin%3Dfalse&phint=coresubtenure%3D&phint=corestop%3D&phint=corepromo%3Dfalse&phint=ingrace%3Dfalse&phint=giftrecipient%3Dfalse&phint=childsubrecipient%3Dfalse&phint=bundlecoredigi%3D&phint=bundlecorehd%3D&phint=bundlexword%3D&phint=bundlecooking%3D&phint=bundleother%3D&phint=b2bentitle%3Dfalse&phint=marketingoptin%3Dfalse&phint=formercoresub%3Dfalse&phint=formeredusub%3Dfalse&phint=formerhdsub%3Dfalse&phint=retentionscore%3D&phint=topwatseg%3D&phint=sassegment%3D&phint=hdstopreasoncode%3D&phint=regitenure%3D&phint=cookinggrace%3Dfalse&phint=crosswordsgrace%3Dfalse&phint=gatewayhitlm%3Dfalse&phint=coregracelevel%3Dfalse&phint=activedaysengagement%3D&phint=authors%3D&phint=newsletter%3D&phint=businessname%3D&phint=corpadblock%3Dfalse&phint=isedu%3D&phint=propensityedu%3D&phint=propensityscore&phint=activedays%3D1&phint=metercount%3D&phint=propensitysection&phint=propensitytype&phint=propensitysite&phint=url%3Dhttps%3A%2F%2Fwww.nytimes.com%2Fsection%2Fopinion&phint=referrer%3D&phint=section%3DOpinion&phint=subsection%3D&phint=pagetype%3Dcollection&phint=keywords%3D&phint=sourceapp%3Dnyt-vi&phint=browsername%3DSafari%20Mobile&phint=funnelpropensity%3D0&phint=column%3D&phint=collectionname%3D&phint=contenttype%3Dsectioncollection&phint=emotions%3D&phint=xwordstenure%3D&phint=cookingtenure%3D&phint=xwordsstop%3D&phint=cookingstop%3D&phint=productswitch%3D&phint=giftsubgiver%3Dfalse&phint=formerxwordsub%3Dfalse&phint=formercookingsub%3Dfalse&phint=watsegs%3D&phint=edusub%3D&phint=aiqaudience%3D&limit=4&r=99569187",
+            "source": "requested from https://stags.bluekai.com/site/50747?ret=html&phint=regid%3D&phint=usertype%3Danon&phint=userloggedin%3Dfalse&phint=coresubtenure%3D&phint=corestop%3D&phint=corepromo%3Dfalse&phint=ingrace%3Dfalse&phint=giftrecipient%3Dfalse&phint=childsubrecipient%3Dfalse&phint=bundlecoredigi%3D&phint=bundlecorehd%3D&phint=bundlexword%3D&phint=bundlecooking%3D&phint=bundleother%3D&phint=b2bentitle%3Dfalse&phint=marketingoptin%3Dfalse&phint=formercoresub%3Dfalse&phint=formeredusub%3Dfalse&phint=formerhdsub%3Dfalse&phint=retentionscore%3D&phint=topwatseg%3D&phint=sassegment%3D&phint=hdstopreasoncode%3D&phint=regitenure%3D&phint=cookinggrace%3Dfalse&phint=crosswordsgrace%3Dfalse&phint=gatewayhitlm%3Dfalse&phint=coregracelevel%3Dfalse&phint=activedaysengagement%3D&phint=authors%3D&phint=newsletter%3D&phint=businessname%3D&phint=corpadblock%3Dfalse&phint=isedu%3D&phint=propensityedu%3D&phint=propensityscore&phint=activedays%3D1&phint=metercount%3D&phint=propensitysection&phint=propensitytype&phint=propensitysite&phint=url%3Dhttps%3A%2F%2Fwww.nytimes.com%2Fsection%2Fopinion&phint=referrer%3D&phint=section%3DOpinion&phint=subsection%3D&phint=pagetype%3Dcollection&phint=keywords%3D&phint=sourceapp%3Dnyt-vi&phint=browsername%3DSafari%20Mobile&phint=funnelpropensity%3D0&phint=column%3D&phint=collectionname%3D&phint=contenttype%3Dsectioncollection&phint=emotions%3D&phint=xwordstenure%3D&phint=cookingtenure%3D&phint=xwordsstop%3D&phint=cookingstop%3D&phint=productswitch%3D&phint=giftsubgiver%3Dfalse&phint=formerxwordsub%3Dfalse&phint=formercookingsub%3Dfalse&phint=watsegs%3D&phint=edusub%3D&phint=aiqaudience%3D&limit=4&r=99569187 and matched with easyprivacy.txt filter ||doubleclick.net^$image,third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1008590664/?label=L0PfCLK4-oIBEMi-9-AD&guid=ON&script=0"
+      },
+      {
+        "data": {
+          "filter": "||bluekai.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "limit": 1,
+            "id": "gvP1RlCHkUi9AE2gRiz-wK",
+            "gtmcb": 911303357
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/section/opinion",
+            "source": "requested from https://www.nytimes.com/section/opinion and matched with easyprivacy.txt filter ||bluekai.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stags.bluekai.com/site/50136?limit=1&id=gvP1RlCHkUi9AE2gRiz-wK&gtmcb=911303357"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "h": "nytimes.com",
+            "p": "nytimes.com/section/opinion",
+            "u": "BUJKFRBSmOTiBngBln",
+            "d": "nytimes.com",
+            "g": 16698,
+            "g0": "opinion",
+            "g1": "No Author",
+            "n": 1,
+            "f": "00001",
+            "c": 0,
+            "x": 0,
+            "m": 0,
+            "y": 8490,
+            "o": 375,
+            "w": 812,
+            "j": 45,
+            "R": 1,
+            "W": 0,
+            "I": 0,
+            "E": 0,
+            "e": 0,
+            "r": "",
+            "b": 3348,
+            "t": "B61kTnDw2J6BCaAoc5BNKPdSCNGKkc",
+            "V": 120,
+            "z": "t=0slI-0Jn0pDI4j4JDFHFXGBWnd58&E=2&x=0&c=0.05&y=9532&w=812",
+            "i": "Opinion - The New York Times",
+            "tz": 240,
+            "_acct": "anon",
+            "sn": 1,
+            "sv": "Eq_thBCdK8r6QKoTRsTJeidLZV",
+            "sd": 2,
+            "im": "06679ff3",
+            "_": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/section/opinion",
+            "source": "requested from https://www.nytimes.com/section/opinion and matched with easyprivacy.txt filter ||chartbeat.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pnytimes.chartbeat.net/ping?h=nytimes.com&p=nytimes.com%2Fsection%2Fopinion&u=BUJKFRBSmOTiBngBln&d=nytimes.com&g=16698&g0=opinion&g1=No%20Author&n=1&f=00001&c=0&x=0&m=0&y=8490&o=375&w=812&j=45&R=1&W=0&I=0&E=0&e=0&r=&b=3348&t=B61kTnDw2J6BCaAoc5BNKPdSCNGKkc&V=120&z=t%3D0slI-0Jn0pDI4j4JDFHFXGBWnd58%26E%3D2%26x%3D0%26c%3D0.05%26y%3D9532%26w%3D812&i=Opinion%20-%20The%20New%20York%20Times&tz=240&_acct=anon&sn=1&sv=Eq_thBCdK8r6QKoTRsTJeidLZV&sd=2&im=06679ff3&_"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j82",
+            "a": 1309006998,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.nytimes.com/section/opinion",
+            "dr": "",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Opinion - The New York Times",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "QACAAEAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1665871982.158993,
+            "tid": "UA-58630905-2",
+            "_gid": 1368880476.158993,
+            "gtm": "2wg561P528B3",
+            "cg1": null,
+            "cg2": null,
+            "cg3": "collection",
+            "cg4": null,
+            "cd1": "https://www.nytimes.com/section/opinion",
+            "cd2": "https://www.nytimes.com/section/opinion",
+            "cd3": "",
+            "cd4": "Opinion",
+            "cd9": 9,
+            "cd10": null,
+            "cd13": null,
+            "cd14": null,
+            "cd15": "earned",
+            "cd16": "referring_links",
+            "cd17": 100000004047791,
+            "cd21": "collection",
+            "cd23": "Opinion",
+            "cd26": 2015,
+            "cd27": "2015-12-10-10",
+            "cd28": "Thursday",
+            "cd29": 10,
+            "cd30": 1589918426000,
+            "cd34": "OPINION",
+            "cd36": "opinion",
+            "cd37": 0,
+            "cd42": "nyt-vi",
+            "cd48": "December",
+            "cd49": "blurb_under_100",
+            "cd51": "nyt-vi",
+            "cd52": "collection",
+            "cd54": null,
+            "cd55": 0,
+            "cd56": "anon",
+            "cd57": 0,
+            "cd58": 0,
+            "cd59": "",
+            "cd60": "",
+            "cd61": 0,
+            "cd63": "gvP1RlCHkUi9AE2gRiz-wK",
+            "cd65": "anon",
+            "cd67": 0,
+            "cd95": "",
+            "cd122": "",
+            "cd123": "",
+            "cd124": "",
+            "cd125": "",
+            "cd126": "",
+            "cd127": "",
+            "cd129": "NaN",
+            "cd135": "",
+            "cd139": "",
+            "cd141": "",
+            "cd142": "",
+            "cd162": "",
+            "cd163": "",
+            "cd164": "gvP1RlCHkUi9AE2gRiz-wK",
+            "cd172": "smartphone",
+            "cd173": "smartphone",
+            "z": 1100296205
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/section/opinion",
+            "source": "requested from https://www.nytimes.com/section/opinion and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j82&a=1309006998&t=pageview&_s=1&dl=https%3A%2F%2Fwww.nytimes.com%2Fsection%2Fopinion&dr=&ul=en-us&de=UTF-8&dt=Opinion%20-%20The%20New%20York%20Times&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=QACAAEAB~&jid=&gjid=&cid=1665871982.1589929712&tid=UA-58630905-2&_gid=1368880476.1589929712&gtm=2wg561P528B3&cg1=null&cg2=null&cg3=collection&cg4=null&cd1=https%3A%2F%2Fwww.nytimes.com%2Fsection%2Fopinion&cd2=https%3A%2F%2Fwww.nytimes.com%2Fsection%2Fopinion&cd3=&cd4=Opinion&cd9=9&cd10=null&cd13=null&cd14=null&cd15=earned&cd16=referring_links&cd17=100000004047791&cd21=collection&cd23=Opinion&cd26=2015&cd27=2015-12-10-10&cd28=Thursday&cd29=10&cd30=1589918426000&cd34=OPINION&cd36=opinion&cd37=0&cd42=nyt-vi&cd48=December&cd49=blurb_under_100&cd51=nyt-vi&cd52=collection&cd54=null&cd55=0&cd56=anon&cd57=0&cd58=0&cd59=&cd60=&cd61=0&cd63=gvP1RlCHkUi9AE2gRiz-wK&cd65=anon&cd67=0&cd95=&cd122=&cd123=&cd124=&cd125=&cd126=&cd127=&cd129=NaN&cd135=&cd139=&cd141=&cd142=&cd162=&cd163=&cd164=gvP1RlCHkUi9AE2gRiz-wK&cd172=smartphone&cd173=smartphone&z=1100296205"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j82",
+            "a": 405568313,
+            "t": "timing",
+            "_s": 6,
+            "dl": "https://pay.google.com/gp/p/ui/payframe",
+            "dr": "https://www.nytimes.com",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "",
+            "je": 0,
+            "utc": "/buyflow/merchant_page/",
+            "utv": "PAY_FRAME_LOADED_WITH_ALL_JS",
+            "utt": 61,
+            "_u": "SACAAEAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1269025882.158993,
+            "tid": "UA-116858069-1",
+            "_gid": 1204743030.158993,
+            "z": 1531481635
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId}",
+            "source": "requested from https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId} and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j82&a=405568313&t=timing&_s=6&dl=https%3A%2F%2Fpay.google.com%2Fgp%2Fp%2Fui%2Fpayframe&dr=https%3A%2F%2Fwww.nytimes.com&ul=en-us&de=UTF-8&dt=&sd=24-bit&sr=375x812&vp=&je=0&utc=%2Fbuyflow%2Fmerchant_page%2F&utv=PAY_FRAME_LOADED_WITH_ALL_JS&utt=61&_u=SACAAEAB~&jid=&gjid=&cid=1269025882.1589929712&tid=UA-116858069-1&_gid=1204743030.1589929712&z=1531481635"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j82",
+            "a": 405568313,
+            "t": "pageview",
+            "_s": 5,
+            "dl": "https://pay.google.com/gp/p/ui/payframe",
+            "dr": "https://www.nytimes.com",
+            "dp": "/buyflow/merchant_page/pay_frame_loaded_with_all_js",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "",
+            "je": 0,
+            "_u": "SACAAEAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1269025882.158993,
+            "tid": "UA-116858069-1",
+            "_gid": 1204743030.158993,
+            "z": 72050822
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId}",
+            "source": "requested from https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId} and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j82&a=405568313&t=pageview&_s=5&dl=https%3A%2F%2Fpay.google.com%2Fgp%2Fp%2Fui%2Fpayframe&dr=https%3A%2F%2Fwww.nytimes.com&dp=%2Fbuyflow%2Fmerchant_page%2Fpay_frame_loaded_with_all_js&ul=en-us&de=UTF-8&dt=&sd=24-bit&sr=375x812&vp=&je=0&_u=SACAAEAB~&jid=&gjid=&cid=1269025882.1589929712&tid=UA-116858069-1&_gid=1204743030.1589929712&z=72050822"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j82",
+            "a": 405568313,
+            "t": "timing",
+            "_s": 4,
+            "dl": "https://pay.google.com/gp/p/ui/payframe",
+            "dr": "https://www.nytimes.com",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "",
+            "je": 0,
+            "utc": "/buyflow/merchant_page/",
+            "utv": "INITIALIZE_PAYMENTS_CLIENT",
+            "utt": 2830,
+            "_u": "SACAAEAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1269025882.158993,
+            "tid": "UA-116858069-1",
+            "_gid": 1204743030.158993,
+            "z": 453030587
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId}",
+            "source": "requested from https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId} and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j82&a=405568313&t=timing&_s=4&dl=https%3A%2F%2Fpay.google.com%2Fgp%2Fp%2Fui%2Fpayframe&dr=https%3A%2F%2Fwww.nytimes.com&ul=en-us&de=UTF-8&dt=&sd=24-bit&sr=375x812&vp=&je=0&utc=%2Fbuyflow%2Fmerchant_page%2F&utv=INITIALIZE_PAYMENTS_CLIENT&utt=2830&_u=SACAAEAB~&jid=&gjid=&cid=1269025882.1589929712&tid=UA-116858069-1&_gid=1204743030.1589929712&z=453030587"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j82",
+            "a": 405568313,
+            "t": "pageview",
+            "_s": 3,
+            "dl": "https://pay.google.com/gp/p/ui/payframe",
+            "dr": "https://www.nytimes.com",
+            "dp": "/buyflow/merchant_page/initialize_payments_client",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "",
+            "je": 0,
+            "_u": "SACAAEAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1269025882.158993,
+            "tid": "UA-116858069-1",
+            "_gid": 1204743030.158993,
+            "z": 1801310778
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId}",
+            "source": "requested from https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId} and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j82&a=405568313&t=pageview&_s=3&dl=https%3A%2F%2Fpay.google.com%2Fgp%2Fp%2Fui%2Fpayframe&dr=https%3A%2F%2Fwww.nytimes.com&dp=%2Fbuyflow%2Fmerchant_page%2Finitialize_payments_client&ul=en-us&de=UTF-8&dt=&sd=24-bit&sr=375x812&vp=&je=0&_u=SACAAEAB~&jid=&gjid=&cid=1269025882.1589929712&tid=UA-116858069-1&_gid=1204743030.1589929712&z=1801310778"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j82",
+            "a": 405568313,
+            "t": "timing",
+            "_s": 2,
+            "dl": "https://pay.google.com/gp/p/ui/payframe",
+            "dr": "https://www.nytimes.com",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "",
+            "je": 0,
+            "utc": "/buyflow/merchant_page/",
+            "utv": "PAY_FRAME_REQUESTED",
+            "utt": 2841,
+            "_u": "SACAAEAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1269025882.158993,
+            "tid": "UA-116858069-1",
+            "_gid": 1204743030.158993,
+            "z": 1783113351
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId}",
+            "source": "requested from https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId} and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j82&a=405568313&t=timing&_s=2&dl=https%3A%2F%2Fpay.google.com%2Fgp%2Fp%2Fui%2Fpayframe&dr=https%3A%2F%2Fwww.nytimes.com&ul=en-us&de=UTF-8&dt=&sd=24-bit&sr=375x812&vp=&je=0&utc=%2Fbuyflow%2Fmerchant_page%2F&utv=PAY_FRAME_REQUESTED&utt=2841&_u=SACAAEAB~&jid=&gjid=&cid=1269025882.1589929712&tid=UA-116858069-1&_gid=1204743030.1589929712&z=1783113351"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j82",
+            "a": 405568313,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://pay.google.com/gp/p/ui/payframe",
+            "dr": "https://www.nytimes.com",
+            "dp": "/buyflow/merchant_page/pay_frame_requested",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "",
+            "je": 0,
+            "_u": "SACAAEAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1269025882.158993,
+            "tid": "UA-116858069-1",
+            "_gid": 1204743030.158993,
+            "z": 885259900
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId}",
+            "source": "requested from https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId} and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j82&a=405568313&t=pageview&_s=1&dl=https%3A%2F%2Fpay.google.com%2Fgp%2Fp%2Fui%2Fpayframe&dr=https%3A%2F%2Fwww.nytimes.com&dp=%2Fbuyflow%2Fmerchant_page%2Fpay_frame_requested&ul=en-us&de=UTF-8&dt=&sd=24-bit&sr=375x812&vp=&je=0&_u=SACAAEAB~&jid=&gjid=&cid=1269025882.1589929712&tid=UA-116858069-1&_gid=1204743030.1589929712&z=885259900"
+      },
+      {
+        "data": {
+          "filter": "||criteo.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "entry": "c~Idfs.Rtus.321.Origin.FromSyncframeBundle~1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/section/opinion",
+            "source": "requested from https://www.nytimes.com/section/opinion and matched with easyprivacy.txt filter ||criteo.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://csm.va.us.criteo.net/iev?entry=c~Idfs.Rtus.321.Events.SyncframeDropped~1&entry=c~Idfs.Rtus.321.Origin.FromSyncframeBundle~1"
+      },
+      {
+        "data": {
+          "filter": "||bkrtx.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/section/opinion",
+            "source": "requested from https://www.nytimes.com/section/opinion and matched with easyprivacy.txt filter ||bkrtx.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.bkrtx.com/js/bk-coretag.js"
+      },
+      {
+        "data": {
+          "filter": "/chartbeat.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/section/opinion",
+            "source": "requested from https://www.nytimes.com/section/opinion and matched with easyprivacy.txt filter /chartbeat.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.chartbeat.com/js/chartbeat.js"
+      },
+      {
+        "data": {
+          "filter": "||bluekai.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ret": "js",
+            "limit": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/section/opinion",
+            "source": "requested from https://www.nytimes.com/section/opinion and matched with easyprivacy.txt filter ||bluekai.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.bluekai.com/site/50550?ret=js&limit=1"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/section/opinion",
+            "source": "requested from https://www.nytimes.com/section/opinion and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||datadome.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/section/opinion",
+            "source": "requested from https://www.nytimes.com/section/opinion and matched with easyprivacy.txt filter ||datadome.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api-js.datadome.co/js/"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId}",
+            "source": "requested from https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId} and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c1": 2,
+            "c2": 3005403,
+            "ns__t": 1589929720162,
+            "ns_c": "UTF-8",
+            "c8": "Opinion - The New York Times",
+            "c7": "https://www.nytimes.com/section/opinion",
+            "c9": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/section/opinion",
+            "source": "requested from https://www.nytimes.com/section/opinion and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/b?c1=2&c2=3005403&ns__t=1589929720162&ns_c=UTF-8&c8=Opinion%20-%20The%20New%20York%20Times&c7=https%3A%2F%2Fwww.nytimes.com%2Fsection%2Fopinion&c9="
+      },
+      {
+        "data": {
+          "filter": "||datadome.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/section/opinion",
+            "source": "requested from https://www.nytimes.com/section/opinion and matched with easyprivacy.txt filter ||datadome.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.datadome.co/tags.js"
+      },
+      {
+        "data": {
+          "filter": "||criteo.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "entry": "c~Idfs.Rtus.321.Events.InitiateFetch~1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/section/opinion",
+            "source": "requested from https://www.nytimes.com/section/opinion and matched with easyprivacy.txt filter ||criteo.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://csm.va.us.criteo.net/iev?entry=c~Idfs.Rtus.321.Events.StartInit~1&entry=c~Idfs.Rtus.321.Origin.FromBundle~1&entry=c~Idfs.Rtus.321.Headers.Bundle~1&entry=c~Idfs.Rtus.321.Events.InitiateFetch~1"
+      },
+      {
+        "data": {
+          "filter": "||criteo.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "r": 2,
+            "c": 321,
+            "j": "window.advBidxc.mnetRtusId"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/section/opinion",
+            "source": "requested from https://www.nytimes.com/section/opinion and matched with easyprivacy.txt filter ||criteo.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gum.criteo.com/sync?r=2&c=321&j=window.advBidxc.mnetRtusId"
+      },
+      {
+        "data": {
+          "filter": "||criteo.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "r": 2,
+            "c": 321,
+            "j": "window.advBidxc.mnetRtusId"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/section/opinion",
+            "source": "requested from https://www.nytimes.com/section/opinion and matched with easyprivacy.txt filter ||criteo.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gum.criteo.com/sync?r=2&c=321&j=window.advBidxc.mnetRtusId"
+      },
+      {
+        "data": {
+          "filter": "||criteo.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "r": 2,
+            "c": 321,
+            "j": "window.advBidxc.mnetRtusId"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/section/opinion",
+            "source": "requested from https://www.nytimes.com/section/opinion and matched with easyprivacy.txt filter ||criteo.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gum.criteo.com/sync?r=2&c=321&j=window.advBidxc.mnetRtusId"
+      },
+      {
+        "data": {
+          "filter": "||datadome.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fmultiproduct%2Flp8KQUS.html%3FcampaignId%3D7QQFH%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252F&asset=masthead",
+            "source": "requested from https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fmultiproduct%2Flp8KQUS.html%3FcampaignId%3D7QQFH%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252F&asset=masthead and matched with easyprivacy.txt filter ||datadome.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api-js.datadome.co/js/"
+      },
+      {
+        "data": {
+          "filter": "||datadome.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fmultiproduct%2Flp8KQUS.html%3FcampaignId%3D7QQFH%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252F&asset=masthead",
+            "source": "requested from https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fmultiproduct%2Flp8KQUS.html%3FcampaignId%3D7QQFH%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252F&asset=masthead and matched with easyprivacy.txt filter ||datadome.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.datadome.co/tags.js"
+      },
+      {
+        "data": {
+          "filter": "||criteo.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "entry": "h~Gum.SafariSyncframe.CookieSyncSuccessDuration~45"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://gum.criteo.com/syncframe?topUrl=www.nytimes.com",
+            "source": "requested from https://gum.criteo.com/syncframe?topUrl=www.nytimes.com and matched with easyprivacy.txt filter ||criteo.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://csm.va.us.criteo.net/iev?entry=c~Gum.SafariSyncframe.InitCookieSync~1&entry=c~Gum.SafariSyncframe.SidReadSuccess~1&entry=h~Gum.SafariSyncframe.SidReadSuccessDuration~29&entry=c~Gum.SafariSyncframe.StorageWriting.Cname.Disabled~1&entry=c~Gum.SafariSyncframe.CookieSyncSuccess~1&entry=h~Gum.SafariSyncframe.CookieSyncSuccessDuration~45"
+      },
+      {
+        "data": {
+          "filter": "||bidswitch.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dsp_id": 250,
+            "expires": 14,
+            "user_id": "",
+            "ssp": "medianet"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://contextual.media.net/checksync.php?&vsSync=1&cs=1&hb=1&cv=37&ndec=1&cid=8CULO58R6&prvid=23%2C29%2C80%2C97%2C106%2C109%2C126%2C159%2C201%2C214%2C222%2C224%2C225%2C3014%2C3015&rtime=3673&https=1&usp_status=0&usp_consent=1",
+            "source": "requested from https://contextual.media.net/checksync.php?&vsSync=1&cs=1&hb=1&cv=37&ndec=1&cid=8CULO58R6&prvid=23%2C29%2C80%2C97%2C106%2C109%2C126%2C159%2C201%2C214%2C222%2C224%2C225%2C3014%2C3015&rtime=3673&https=1&usp_status=0&usp_consent=1 and matched with easyprivacy.txt filter ||bidswitch.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://x.bidswitch.net/sync?dsp_id=250&expires=14&user_id=&ssp=medianet"
+      },
+      {
+        "data": {
+          "filter": "||mfadsrvr.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ssp": "bidswitch",
+            "bidswitch_ssp_id": "medianet",
+            "bsw_user_id": "baaf8ca1-bf4a-459e-90c6-e07f960ae296"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://contextual.media.net/checksync.php?&vsSync=1&cs=1&hb=1&cv=37&ndec=1&cid=8CULO58R6&prvid=23%2C29%2C80%2C97%2C106%2C109%2C126%2C159%2C201%2C214%2C222%2C224%2C225%2C3014%2C3015&rtime=3673&https=1&usp_status=0&usp_consent=1",
+            "source": "requested from https://contextual.media.net/checksync.php?&vsSync=1&cs=1&hb=1&cv=37&ndec=1&cid=8CULO58R6&prvid=23%2C29%2C80%2C97%2C106%2C109%2C126%2C159%2C201%2C214%2C222%2C224%2C225%2C3014%2C3015&rtime=3673&https=1&usp_status=0&usp_consent=1 and matched with easyprivacy.txt filter ||mfadsrvr.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rtb.mfadsrvr.com/sync?ssp=bidswitch&bidswitch_ssp_id=medianet&bsw_user_id=baaf8ca1-bf4a-459e-90c6-e07f960ae296"
+      },
+      {
+        "data": {
+          "filter": "||bidswitch.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ssp": "medianet",
+            "bsw_own_uuid": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://contextual.media.net/checksync.php?&vsSync=1&cs=1&hb=1&cv=37&ndec=1&cid=8CULO58R6&prvid=23%2C29%2C80%2C97%2C106%2C109%2C126%2C159%2C201%2C214%2C222%2C224%2C225%2C3014%2C3015&rtime=3673&https=1&usp_status=0&usp_consent=1",
+            "source": "requested from https://contextual.media.net/checksync.php?&vsSync=1&cs=1&hb=1&cv=37&ndec=1&cid=8CULO58R6&prvid=23%2C29%2C80%2C97%2C106%2C109%2C126%2C159%2C201%2C214%2C222%2C224%2C225%2C3014%2C3015&rtime=3673&https=1&usp_status=0&usp_consent=1 and matched with easyprivacy.txt filter ||bidswitch.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://us-east-sync.bidswitch.net/sync?ssp=medianet&bsw_own_uuid="
+      },
+      {
+        "data": {
+          "filter": "||criteo.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "entry": "c~Idfs.Rtus.321.Events.InitiateFetch~1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "requested from https://www.nytimes.com/ and matched with easyprivacy.txt filter ||criteo.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://csm.va.us.criteo.net/iev?entry=c~Idfs.Rtus.321.Events.StartInit~1&entry=c~Idfs.Rtus.321.Events.SyncframeDropped~1&entry=c~Idfs.Rtus.321.Origin.FromSyncframeBundle~1&entry=c~Idfs.Rtus.321.Headers.Bundle~1&entry=c~Idfs.Rtus.321.Events.InitiateFetch~1"
+      },
+      {
+        "data": {
+          "filter": "||dotomi.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "DotomiTest": "41f39b1c4062157f",
+            "is_secure": true,
+            "version": 1,
+            "networkId": 57734,
+            "redir": "https://contextual.media.net/cksync.php?cs=1&vsid=2329313092167163000V10&type=con&refUrl=&vid=99297134362329313092167163000V10&ovsid=$UID"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://contextual.media.net/checksync.php?&vsSync=1&cs=1&hb=1&cv=37&ndec=1&cid=8CULO58R6&prvid=23%2C29%2C80%2C97%2C106%2C109%2C126%2C159%2C201%2C214%2C222%2C224%2C225%2C3014%2C3015&rtime=3673&https=1&usp_status=0&usp_consent=1",
+            "source": "requested from https://contextual.media.net/checksync.php?&vsSync=1&cs=1&hb=1&cv=37&ndec=1&cid=8CULO58R6&prvid=23%2C29%2C80%2C97%2C106%2C109%2C126%2C159%2C201%2C214%2C222%2C224%2C225%2C3014%2C3015&rtime=3673&https=1&usp_status=0&usp_consent=1 and matched with easyprivacy.txt filter ||dotomi.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://medianet-match.dotomi.com/match/bounce/current?DotomiTest=41f39b1c4062157f&is_secure=true&version=1&networkId=57734&redir=https%3A%2F%2Fcontextual.media.net%2Fcksync.php%3Fcs%3D1%26vsid%3D2329313092167163000V10%26type%3Dcon%26refUrl%3D%26vid%3D99297134362329313092167163000V10%26ovsid%3D%24UID"
+      },
+      {
+        "data": {
+          "filter": "||digitru.st^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ssp": "medianet"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://contextual.media.net/checksync.php?&vsSync=1&cs=1&hb=1&cv=37&ndec=1&cid=8CULO58R6&prvid=23%2C29%2C80%2C97%2C106%2C109%2C126%2C159%2C201%2C214%2C222%2C224%2C225%2C3014%2C3015&rtime=3673&https=1&usp_status=0&usp_consent=1",
+            "source": "requested from https://contextual.media.net/checksync.php?&vsSync=1&cs=1&hb=1&cv=37&ndec=1&cid=8CULO58R6&prvid=23%2C29%2C80%2C97%2C106%2C109%2C126%2C159%2C201%2C214%2C222%2C224%2C225%2C3014%2C3015&rtime=3673&https=1&usp_status=0&usp_consent=1 and matched with easyprivacy.txt filter ||digitru.st^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bsw.digitru.st/syncx?ssp=medianet"
+      },
+      {
+        "data": {
+          "filter": "||criteo.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "r": 2,
+            "c": 321,
+            "j": "window.advBidxc.mnetRtusId"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "requested from https://www.nytimes.com/ and matched with easyprivacy.txt filter ||criteo.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gum.criteo.com/sync?r=2&c=321&j=window.advBidxc.mnetRtusId"
+      },
+      {
+        "data": {
+          "filter": "||ib.adnxs.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "%2Fgetuid%3Fhttps%253A%252F%252Fcontextual.media.net%252Fcksync.php%253Fcs%253D1%2526vsid%253D2329313092167163000V10%2526type%253Dapx%2526refUrl%253D%2526vid%253D99297134362329313092167163000V10%2526ovsid%253D%2524UID": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://contextual.media.net/checksync.php?&vsSync=1&cs=1&hb=1&cv=37&ndec=1&cid=8CULO58R6&prvid=23%2C29%2C80%2C97%2C106%2C109%2C126%2C159%2C201%2C214%2C222%2C224%2C225%2C3014%2C3015&rtime=3673&https=1&usp_status=0&usp_consent=1",
+            "source": "requested from https://contextual.media.net/checksync.php?&vsSync=1&cs=1&hb=1&cv=37&ndec=1&cid=8CULO58R6&prvid=23%2C29%2C80%2C97%2C106%2C109%2C126%2C159%2C201%2C214%2C222%2C224%2C225%2C3014%2C3015&rtime=3673&https=1&usp_status=0&usp_consent=1 and matched with easyprivacy.txt filter ||ib.adnxs.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/bounce?%2Fgetuid%3Fhttps%253A%252F%252Fcontextual.media.net%252Fcksync.php%253Fcs%253D1%2526vsid%253D2329313092167163000V10%2526type%253Dapx%2526refUrl%253D%2526vid%253D99297134362329313092167163000V10%2526ovsid%253D%2524UID"
+      },
+      {
+        "data": {
+          "filter": "||criteo.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "r": 2,
+            "c": 321,
+            "j": "window.advBidxc.mnetRtusId"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "requested from https://www.nytimes.com/ and matched with easyprivacy.txt filter ||criteo.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gum.criteo.com/sync?r=2&c=321&j=window.advBidxc.mnetRtusId"
+      },
+      {
+        "data": {
+          "filter": "||platform.iteratehq.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "requested from https://www.nytimes.com/ and matched with easyprivacy.txt filter ||platform.iteratehq.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://platform.iteratehq.com/style-fbca0d9ee70fe7fc4864c9cbe529a205.css"
+      },
+      {
+        "data": {
+          "filter": "||platform.iteratehq.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "requested from https://www.nytimes.com/ and matched with easyprivacy.txt filter ||platform.iteratehq.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://platform.iteratehq.com/sdk-prod-5587a317726656939481.js"
+      },
+      {
+        "data": {
+          "filter": "||dotomi.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "version": 1,
+            "networkId": 57734,
+            "redir": "https://contextual.media.net/cksync.php?cs=1&vsid=2329313092167163000V10&type=con&refUrl=&vid=99297134362329313092167163000V10&ovsid=$UID"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://contextual.media.net/checksync.php?&vsSync=1&cs=1&hb=1&cv=37&ndec=1&cid=8CULO58R6&prvid=23%2C29%2C80%2C97%2C106%2C109%2C126%2C159%2C201%2C214%2C222%2C224%2C225%2C3014%2C3015&rtime=3673&https=1&usp_status=0&usp_consent=1",
+            "source": "requested from https://contextual.media.net/checksync.php?&vsSync=1&cs=1&hb=1&cv=37&ndec=1&cid=8CULO58R6&prvid=23%2C29%2C80%2C97%2C106%2C109%2C126%2C159%2C201%2C214%2C222%2C224%2C225%2C3014%2C3015&rtime=3673&https=1&usp_status=0&usp_consent=1 and matched with easyprivacy.txt filter ||dotomi.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://medianet-match.dotomi.com/match/bounce/current?version=1&networkId=57734&redir=https%3A%2F%2Fcontextual.media.net%2Fcksync.php%3Fcs%3D1%26vsid%3D2329313092167163000V10%26type%3Dcon%26refUrl%3D%26vid%3D99297134362329313092167163000V10%26ovsid%3D%24UID"
+      },
+      {
+        "data": {
+          "filter": "||bidswitch.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ssp": "medianet"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://contextual.media.net/checksync.php?&vsSync=1&cs=1&hb=1&cv=37&ndec=1&cid=8CULO58R6&prvid=23%2C29%2C80%2C97%2C106%2C109%2C126%2C159%2C201%2C214%2C222%2C224%2C225%2C3014%2C3015&rtime=3673&https=1&usp_status=0&usp_consent=1",
+            "source": "requested from https://contextual.media.net/checksync.php?&vsSync=1&cs=1&hb=1&cv=37&ndec=1&cid=8CULO58R6&prvid=23%2C29%2C80%2C97%2C106%2C109%2C126%2C159%2C201%2C214%2C222%2C224%2C225%2C3014%2C3015&rtime=3673&https=1&usp_status=0&usp_consent=1 and matched with easyprivacy.txt filter ||bidswitch.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://x.bidswitch.net/sync?ssp=medianet"
+      },
+      {
+        "data": {
+          "filter": "||ib.adnxs.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "https%3A%2F%2Fcontextual.media.net%2Fcksync.php%3Fcs%3D1%26vsid%3D2329313092167163000V10%26type%3Dapx%26refUrl%3D%26vid%3D99297134362329313092167163000V10%26ovsid%3D%24UID": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://contextual.media.net/checksync.php?&vsSync=1&cs=1&hb=1&cv=37&ndec=1&cid=8CULO58R6&prvid=23%2C29%2C80%2C97%2C106%2C109%2C126%2C159%2C201%2C214%2C222%2C224%2C225%2C3014%2C3015&rtime=3673&https=1&usp_status=0&usp_consent=1",
+            "source": "requested from https://contextual.media.net/checksync.php?&vsSync=1&cs=1&hb=1&cv=37&ndec=1&cid=8CULO58R6&prvid=23%2C29%2C80%2C97%2C106%2C109%2C126%2C159%2C201%2C214%2C222%2C224%2C225%2C3014%2C3015&rtime=3673&https=1&usp_status=0&usp_consent=1 and matched with easyprivacy.txt filter ||ib.adnxs.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/getuid?https%3A%2F%2Fcontextual.media.net%2Fcksync.php%3Fcs%3D1%26vsid%3D2329313092167163000V10%26type%3Dapx%26refUrl%3D%26vid%3D99297134362329313092167163000V10%26ovsid%3D%24UID"
+      },
+      {
+        "data": {
+          "filter": "||platform.iteratehq.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "requested from https://www.nytimes.com/ and matched with easyprivacy.txt filter ||platform.iteratehq.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://platform.iteratehq.com/loader.js"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "requested from https://www.nytimes.com/ and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/c2/3005403/cs.js"
+      },
+      {
+        "data": {
+          "filter": "||mathtag.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mt_exid": 9,
+            "redir": "https://pixel.rubiconproject.com/tap.php?v=4222&nid=1512&put=[MM_UUID]",
+            "mm_bnc": null,
+            "mm_bct": null,
+            "UUID": "7c985ec4-66f1-4500-9622-e3b9a86d0a0c"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://eus.rubiconproject.com/usync.html?region=na&country=us&endpoint=us-east&p=a9us&",
+            "source": "requested from https://eus.rubiconproject.com/usync.html?region=na&country=us&endpoint=us-east&p=a9us& and matched with easyprivacy.txt filter ||mathtag.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync.mathtag.com/sync/img?mt_exid=9&redir=https%3A%2F%2Fpixel.rubiconproject.com%2Ftap.php%3Fv%3D4222%26nid%3D1512%26put%3D%5BMM_UUID%5D&mm_bnc&mm_bct&UUID=7c985ec4-66f1-4500-9622-e3b9a86d0a0c"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "rubicon",
+            "google_hm": "ZDQzZDdkMTM4NDMyMGI2NzdiNzI1NWVhYTUzMzViZjVlNTcyNzYyZg"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://eus.rubiconproject.com/usync.html?region=na&country=us&endpoint=us-east&p=a9us&",
+            "source": "requested from https://eus.rubiconproject.com/usync.html?region=na&country=us&endpoint=us-east&p=a9us& and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=rubicon&google_hm=ZDQzZDdkMTM4NDMyMGI2NzdiNzI1NWVhYTUzMzViZjVlNTcyNzYyZg"
+      },
+      {
+        "data": {
+          "filter": "||everesttech.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "redir": "https://tags.bluekai.com/site/4413?id=${USER_ID}&r=123",
+            "_test": "XsRm8AAAAJED7lvC"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://stags.bluekai.com/site/50747?ret=html&phint=regid%3D&phint=usertype%3Danon&phint=userloggedin%3Dfalse&phint=coresubtenure%3D&phint=corestop%3D&phint=corepromo%3Dfalse&phint=ingrace%3Dfalse&phint=giftrecipient%3Dfalse&phint=childsubrecipient%3Dfalse&phint=bundlecoredigi%3D&phint=bundlecorehd%3D&phint=bundlexword%3D&phint=bundlecooking%3D&phint=bundleother%3D&phint=b2bentitle%3Dfalse&phint=marketingoptin%3Dfalse&phint=formercoresub%3Dfalse&phint=formeredusub%3Dfalse&phint=formerhdsub%3Dfalse&phint=retentionscore%3D&phint=topwatseg%3D&phint=sassegment%3D&phint=hdstopreasoncode%3D&phint=regitenure%3D&phint=cookinggrace%3Dfalse&phint=crosswordsgrace%3Dfalse&phint=gatewayhitlm%3Dfalse&phint=coregracelevel%3Dfalse&phint=activedaysengagement%3D&phint=authors%3D&phint=newsletter%3D&phint=businessname%3D&phint=corpadblock%3Dfalse&phint=isedu%3D&phint=propensityedu%3D&phint=propensityscore&phint=activedays%3D1&phint=metercount%3D&phint=propensitysection&phint=propensitytype&phint=propensitysite&phint=url%3Dhttps%3A%2F%2Fwww.nytimes.com%2F&phint=referrer%3D&phint=section%3DHomepage&phint=subsection%3D&phint=pagetype%3DHomepage&phint=keywords%3D&phint=sourceapp%3Dnyt-vi&phint=browsername%3DSafari%20Mobile&phint=funnelpropensity%3D0&phint=column%3D&phint=collectionname%3D&phint=contenttype%3Dsectionfront&phint=emotions%3D&phint=xwordstenure%3D&phint=cookingtenure%3D&phint=xwordsstop%3D&phint=cookingstop%3D&phint=productswitch%3D&phint=giftsubgiver%3Dfalse&phint=formerxwordsub%3Dfalse&phint=formercookingsub%3Dfalse&phint=watsegs%3D&phint=edusub%3D&phint=aiqaudience%3D&limit=4&r=16217942",
+            "source": "requested from https://stags.bluekai.com/site/50747?ret=html&phint=regid%3D&phint=usertype%3Danon&phint=userloggedin%3Dfalse&phint=coresubtenure%3D&phint=corestop%3D&phint=corepromo%3Dfalse&phint=ingrace%3Dfalse&phint=giftrecipient%3Dfalse&phint=childsubrecipient%3Dfalse&phint=bundlecoredigi%3D&phint=bundlecorehd%3D&phint=bundlexword%3D&phint=bundlecooking%3D&phint=bundleother%3D&phint=b2bentitle%3Dfalse&phint=marketingoptin%3Dfalse&phint=formercoresub%3Dfalse&phint=formeredusub%3Dfalse&phint=formerhdsub%3Dfalse&phint=retentionscore%3D&phint=topwatseg%3D&phint=sassegment%3D&phint=hdstopreasoncode%3D&phint=regitenure%3D&phint=cookinggrace%3Dfalse&phint=crosswordsgrace%3Dfalse&phint=gatewayhitlm%3Dfalse&phint=coregracelevel%3Dfalse&phint=activedaysengagement%3D&phint=authors%3D&phint=newsletter%3D&phint=businessname%3D&phint=corpadblock%3Dfalse&phint=isedu%3D&phint=propensityedu%3D&phint=propensityscore&phint=activedays%3D1&phint=metercount%3D&phint=propensitysection&phint=propensitytype&phint=propensitysite&phint=url%3Dhttps%3A%2F%2Fwww.nytimes.com%2F&phint=referrer%3D&phint=section%3DHomepage&phint=subsection%3D&phint=pagetype%3DHomepage&phint=keywords%3D&phint=sourceapp%3Dnyt-vi&phint=browsername%3DSafari%20Mobile&phint=funnelpropensity%3D0&phint=column%3D&phint=collectionname%3D&phint=contenttype%3Dsectionfront&phint=emotions%3D&phint=xwordstenure%3D&phint=cookingtenure%3D&phint=xwordsstop%3D&phint=cookingstop%3D&phint=productswitch%3D&phint=giftsubgiver%3Dfalse&phint=formerxwordsub%3Dfalse&phint=formercookingsub%3Dfalse&phint=watsegs%3D&phint=edusub%3D&phint=aiqaudience%3D&limit=4&r=16217942 and matched with easyprivacy.txt filter ||everesttech.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync-tm.everesttech.net/ct/upi/pid/2j4ke5f0?redir=https%3A%2F%2Ftags.bluekai.com%2Fsite%2F4413%3Fid%3D%24%7BUSER_ID%7D%26r=123&_test=XsRm8AAAAJED7lvC"
+      },
+      {
+        "data": {
+          "filter": "||everesttech.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "redir": "https://pixel.rubiconproject.com/tap.php?v=191940&nid=3778&put=${USER_ID}",
+            "_test": "XsRm8AAAAHXP3g9x"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://eus.rubiconproject.com/usync.html?region=na&country=us&endpoint=us-east&p=a9us&",
+            "source": "requested from https://eus.rubiconproject.com/usync.html?region=na&country=us&endpoint=us-east&p=a9us& and matched with easyprivacy.txt filter ||everesttech.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync-tm.everesttech.net/ct/upi/pid/btu4jd3a?redir=https%3A%2F%2Fpixel.rubiconproject.com%2Ftap.php%3Fv%3D191940%26nid%3D3778%26put%3D%24%7BUSER_ID%7D&_test=XsRm8AAAAHXP3g9x"
+      },
+      {
+        "data": {
+          "filter": "||everesttech.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "redir": "https://pixel.rubiconproject.com/tap.php?v=191940&nid=3778&put=${USER_ID}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://eus.rubiconproject.com/usync.html?region=na&country=us&endpoint=us-east&p=a9us&",
+            "source": "requested from https://eus.rubiconproject.com/usync.html?region=na&country=us&endpoint=us-east&p=a9us& and matched with easyprivacy.txt filter ||everesttech.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync-tm.everesttech.net/upi/pid/btu4jd3a?redir=https%3A%2F%2Fpixel.rubiconproject.com%2Ftap.php%3Fv%3D191940%26nid%3D3778%26put%3D%24%7BUSER_ID%7D"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "rubicon",
+            "google_cm": null,
+            "google_sc": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://eus.rubiconproject.com/usync.html?region=na&country=us&endpoint=us-east&p=a9us&",
+            "source": "requested from https://eus.rubiconproject.com/usync.html?region=na&country=us&endpoint=us-east&p=a9us& and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=rubicon&google_cm&google_sc"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://eus.rubiconproject.com/usync.html?region=na&country=us&endpoint=us-east&p=a9us&",
+            "source": "requested from https://eus.rubiconproject.com/usync.html?region=na&country=us&endpoint=us-east&p=a9us& and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://id.rlcdn.com/709414.gif"
+      },
+      {
+        "data": {
+          "filter": "||mathtag.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mt_exid": 9,
+            "redir": "https://pixel.rubiconproject.com/tap.php?v=4222&nid=1512&put=[MM_UUID]"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://eus.rubiconproject.com/usync.html?region=na&country=us&endpoint=us-east&p=a9us&",
+            "source": "requested from https://eus.rubiconproject.com/usync.html?region=na&country=us&endpoint=us-east&p=a9us& and matched with easyprivacy.txt filter ||mathtag.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync.mathtag.com/sync/img?mt_exid=9&redir=https%3A%2F%2Fpixel.rubiconproject.com%2Ftap.php%3Fv%3D4222%26nid%3D1512%26put%3D%5BMM_UUID%5D"
+      },
+      {
+        "data": {
+          "filter": "||everesttech.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "redir": "https://tags.bluekai.com/site/4413?id=${USER_ID}&r=123"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://stags.bluekai.com/site/50747?ret=html&phint=regid%3D&phint=usertype%3Danon&phint=userloggedin%3Dfalse&phint=coresubtenure%3D&phint=corestop%3D&phint=corepromo%3Dfalse&phint=ingrace%3Dfalse&phint=giftrecipient%3Dfalse&phint=childsubrecipient%3Dfalse&phint=bundlecoredigi%3D&phint=bundlecorehd%3D&phint=bundlexword%3D&phint=bundlecooking%3D&phint=bundleother%3D&phint=b2bentitle%3Dfalse&phint=marketingoptin%3Dfalse&phint=formercoresub%3Dfalse&phint=formeredusub%3Dfalse&phint=formerhdsub%3Dfalse&phint=retentionscore%3D&phint=topwatseg%3D&phint=sassegment%3D&phint=hdstopreasoncode%3D&phint=regitenure%3D&phint=cookinggrace%3Dfalse&phint=crosswordsgrace%3Dfalse&phint=gatewayhitlm%3Dfalse&phint=coregracelevel%3Dfalse&phint=activedaysengagement%3D&phint=authors%3D&phint=newsletter%3D&phint=businessname%3D&phint=corpadblock%3Dfalse&phint=isedu%3D&phint=propensityedu%3D&phint=propensityscore&phint=activedays%3D1&phint=metercount%3D&phint=propensitysection&phint=propensitytype&phint=propensitysite&phint=url%3Dhttps%3A%2F%2Fwww.nytimes.com%2F&phint=referrer%3D&phint=section%3DHomepage&phint=subsection%3D&phint=pagetype%3DHomepage&phint=keywords%3D&phint=sourceapp%3Dnyt-vi&phint=browsername%3DSafari%20Mobile&phint=funnelpropensity%3D0&phint=column%3D&phint=collectionname%3D&phint=contenttype%3Dsectionfront&phint=emotions%3D&phint=xwordstenure%3D&phint=cookingtenure%3D&phint=xwordsstop%3D&phint=cookingstop%3D&phint=productswitch%3D&phint=giftsubgiver%3Dfalse&phint=formerxwordsub%3Dfalse&phint=formercookingsub%3Dfalse&phint=watsegs%3D&phint=edusub%3D&phint=aiqaudience%3D&limit=4&r=16217942",
+            "source": "requested from https://stags.bluekai.com/site/50747?ret=html&phint=regid%3D&phint=usertype%3Danon&phint=userloggedin%3Dfalse&phint=coresubtenure%3D&phint=corestop%3D&phint=corepromo%3Dfalse&phint=ingrace%3Dfalse&phint=giftrecipient%3Dfalse&phint=childsubrecipient%3Dfalse&phint=bundlecoredigi%3D&phint=bundlecorehd%3D&phint=bundlexword%3D&phint=bundlecooking%3D&phint=bundleother%3D&phint=b2bentitle%3Dfalse&phint=marketingoptin%3Dfalse&phint=formercoresub%3Dfalse&phint=formeredusub%3Dfalse&phint=formerhdsub%3Dfalse&phint=retentionscore%3D&phint=topwatseg%3D&phint=sassegment%3D&phint=hdstopreasoncode%3D&phint=regitenure%3D&phint=cookinggrace%3Dfalse&phint=crosswordsgrace%3Dfalse&phint=gatewayhitlm%3Dfalse&phint=coregracelevel%3Dfalse&phint=activedaysengagement%3D&phint=authors%3D&phint=newsletter%3D&phint=businessname%3D&phint=corpadblock%3Dfalse&phint=isedu%3D&phint=propensityedu%3D&phint=propensityscore&phint=activedays%3D1&phint=metercount%3D&phint=propensitysection&phint=propensitytype&phint=propensitysite&phint=url%3Dhttps%3A%2F%2Fwww.nytimes.com%2F&phint=referrer%3D&phint=section%3DHomepage&phint=subsection%3D&phint=pagetype%3DHomepage&phint=keywords%3D&phint=sourceapp%3Dnyt-vi&phint=browsername%3DSafari%20Mobile&phint=funnelpropensity%3D0&phint=column%3D&phint=collectionname%3D&phint=contenttype%3Dsectionfront&phint=emotions%3D&phint=xwordstenure%3D&phint=cookingtenure%3D&phint=xwordsstop%3D&phint=cookingstop%3D&phint=productswitch%3D&phint=giftsubgiver%3Dfalse&phint=formerxwordsub%3Dfalse&phint=formercookingsub%3Dfalse&phint=watsegs%3D&phint=edusub%3D&phint=aiqaudience%3D&limit=4&r=16217942 and matched with easyprivacy.txt filter ||everesttech.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync-tm.everesttech.net/upi/pid/2j4ke5f0?redir=https%3A%2F%2Ftags.bluekai.com%2Fsite%2F4413%3Fid%3D%24%7BUSER_ID%7D%26r=123"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "bluekai",
+            "google_cm": null,
+            "google_sc": null,
+            "google_hm": "KzBObkJUMis5OVlNNXpISw==",
+            "": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://stags.bluekai.com/site/50747?ret=html&phint=regid%3D&phint=usertype%3Danon&phint=userloggedin%3Dfalse&phint=coresubtenure%3D&phint=corestop%3D&phint=corepromo%3Dfalse&phint=ingrace%3Dfalse&phint=giftrecipient%3Dfalse&phint=childsubrecipient%3Dfalse&phint=bundlecoredigi%3D&phint=bundlecorehd%3D&phint=bundlexword%3D&phint=bundlecooking%3D&phint=bundleother%3D&phint=b2bentitle%3Dfalse&phint=marketingoptin%3Dfalse&phint=formercoresub%3Dfalse&phint=formeredusub%3Dfalse&phint=formerhdsub%3Dfalse&phint=retentionscore%3D&phint=topwatseg%3D&phint=sassegment%3D&phint=hdstopreasoncode%3D&phint=regitenure%3D&phint=cookinggrace%3Dfalse&phint=crosswordsgrace%3Dfalse&phint=gatewayhitlm%3Dfalse&phint=coregracelevel%3Dfalse&phint=activedaysengagement%3D&phint=authors%3D&phint=newsletter%3D&phint=businessname%3D&phint=corpadblock%3Dfalse&phint=isedu%3D&phint=propensityedu%3D&phint=propensityscore&phint=activedays%3D1&phint=metercount%3D&phint=propensitysection&phint=propensitytype&phint=propensitysite&phint=url%3Dhttps%3A%2F%2Fwww.nytimes.com%2F&phint=referrer%3D&phint=section%3DHomepage&phint=subsection%3D&phint=pagetype%3DHomepage&phint=keywords%3D&phint=sourceapp%3Dnyt-vi&phint=browsername%3DSafari%20Mobile&phint=funnelpropensity%3D0&phint=column%3D&phint=collectionname%3D&phint=contenttype%3Dsectionfront&phint=emotions%3D&phint=xwordstenure%3D&phint=cookingtenure%3D&phint=xwordsstop%3D&phint=cookingstop%3D&phint=productswitch%3D&phint=giftsubgiver%3Dfalse&phint=formerxwordsub%3Dfalse&phint=formercookingsub%3Dfalse&phint=watsegs%3D&phint=edusub%3D&phint=aiqaudience%3D&limit=4&r=16217942",
+            "source": "requested from https://stags.bluekai.com/site/50747?ret=html&phint=regid%3D&phint=usertype%3Danon&phint=userloggedin%3Dfalse&phint=coresubtenure%3D&phint=corestop%3D&phint=corepromo%3Dfalse&phint=ingrace%3Dfalse&phint=giftrecipient%3Dfalse&phint=childsubrecipient%3Dfalse&phint=bundlecoredigi%3D&phint=bundlecorehd%3D&phint=bundlexword%3D&phint=bundlecooking%3D&phint=bundleother%3D&phint=b2bentitle%3Dfalse&phint=marketingoptin%3Dfalse&phint=formercoresub%3Dfalse&phint=formeredusub%3Dfalse&phint=formerhdsub%3Dfalse&phint=retentionscore%3D&phint=topwatseg%3D&phint=sassegment%3D&phint=hdstopreasoncode%3D&phint=regitenure%3D&phint=cookinggrace%3Dfalse&phint=crosswordsgrace%3Dfalse&phint=gatewayhitlm%3Dfalse&phint=coregracelevel%3Dfalse&phint=activedaysengagement%3D&phint=authors%3D&phint=newsletter%3D&phint=businessname%3D&phint=corpadblock%3Dfalse&phint=isedu%3D&phint=propensityedu%3D&phint=propensityscore&phint=activedays%3D1&phint=metercount%3D&phint=propensitysection&phint=propensitytype&phint=propensitysite&phint=url%3Dhttps%3A%2F%2Fwww.nytimes.com%2F&phint=referrer%3D&phint=section%3DHomepage&phint=subsection%3D&phint=pagetype%3DHomepage&phint=keywords%3D&phint=sourceapp%3Dnyt-vi&phint=browsername%3DSafari%20Mobile&phint=funnelpropensity%3D0&phint=column%3D&phint=collectionname%3D&phint=contenttype%3Dsectionfront&phint=emotions%3D&phint=xwordstenure%3D&phint=cookingtenure%3D&phint=xwordsstop%3D&phint=cookingstop%3D&phint=productswitch%3D&phint=giftsubgiver%3Dfalse&phint=formerxwordsub%3Dfalse&phint=formercookingsub%3Dfalse&phint=watsegs%3D&phint=edusub%3D&phint=aiqaudience%3D&limit=4&r=16217942 and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=bluekai&google_cm&google_sc&google_hm=KzBObkJUMis5OVlNNXpISw%3D%3D&"
+      },
+      {
+        "data": {
+          "filter": "||analytics.twitter.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "p_user_id": "+0NnBT2+99YM5zHK",
+            "p_id": 661892,
+            "": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://stags.bluekai.com/site/50747?ret=html&phint=regid%3D&phint=usertype%3Danon&phint=userloggedin%3Dfalse&phint=coresubtenure%3D&phint=corestop%3D&phint=corepromo%3Dfalse&phint=ingrace%3Dfalse&phint=giftrecipient%3Dfalse&phint=childsubrecipient%3Dfalse&phint=bundlecoredigi%3D&phint=bundlecorehd%3D&phint=bundlexword%3D&phint=bundlecooking%3D&phint=bundleother%3D&phint=b2bentitle%3Dfalse&phint=marketingoptin%3Dfalse&phint=formercoresub%3Dfalse&phint=formeredusub%3Dfalse&phint=formerhdsub%3Dfalse&phint=retentionscore%3D&phint=topwatseg%3D&phint=sassegment%3D&phint=hdstopreasoncode%3D&phint=regitenure%3D&phint=cookinggrace%3Dfalse&phint=crosswordsgrace%3Dfalse&phint=gatewayhitlm%3Dfalse&phint=coregracelevel%3Dfalse&phint=activedaysengagement%3D&phint=authors%3D&phint=newsletter%3D&phint=businessname%3D&phint=corpadblock%3Dfalse&phint=isedu%3D&phint=propensityedu%3D&phint=propensityscore&phint=activedays%3D1&phint=metercount%3D&phint=propensitysection&phint=propensitytype&phint=propensitysite&phint=url%3Dhttps%3A%2F%2Fwww.nytimes.com%2F&phint=referrer%3D&phint=section%3DHomepage&phint=subsection%3D&phint=pagetype%3DHomepage&phint=keywords%3D&phint=sourceapp%3Dnyt-vi&phint=browsername%3DSafari%20Mobile&phint=funnelpropensity%3D0&phint=column%3D&phint=collectionname%3D&phint=contenttype%3Dsectionfront&phint=emotions%3D&phint=xwordstenure%3D&phint=cookingtenure%3D&phint=xwordsstop%3D&phint=cookingstop%3D&phint=productswitch%3D&phint=giftsubgiver%3Dfalse&phint=formerxwordsub%3Dfalse&phint=formercookingsub%3Dfalse&phint=watsegs%3D&phint=edusub%3D&phint=aiqaudience%3D&limit=4&r=16217942",
+            "source": "requested from https://stags.bluekai.com/site/50747?ret=html&phint=regid%3D&phint=usertype%3Danon&phint=userloggedin%3Dfalse&phint=coresubtenure%3D&phint=corestop%3D&phint=corepromo%3Dfalse&phint=ingrace%3Dfalse&phint=giftrecipient%3Dfalse&phint=childsubrecipient%3Dfalse&phint=bundlecoredigi%3D&phint=bundlecorehd%3D&phint=bundlexword%3D&phint=bundlecooking%3D&phint=bundleother%3D&phint=b2bentitle%3Dfalse&phint=marketingoptin%3Dfalse&phint=formercoresub%3Dfalse&phint=formeredusub%3Dfalse&phint=formerhdsub%3Dfalse&phint=retentionscore%3D&phint=topwatseg%3D&phint=sassegment%3D&phint=hdstopreasoncode%3D&phint=regitenure%3D&phint=cookinggrace%3Dfalse&phint=crosswordsgrace%3Dfalse&phint=gatewayhitlm%3Dfalse&phint=coregracelevel%3Dfalse&phint=activedaysengagement%3D&phint=authors%3D&phint=newsletter%3D&phint=businessname%3D&phint=corpadblock%3Dfalse&phint=isedu%3D&phint=propensityedu%3D&phint=propensityscore&phint=activedays%3D1&phint=metercount%3D&phint=propensitysection&phint=propensitytype&phint=propensitysite&phint=url%3Dhttps%3A%2F%2Fwww.nytimes.com%2F&phint=referrer%3D&phint=section%3DHomepage&phint=subsection%3D&phint=pagetype%3DHomepage&phint=keywords%3D&phint=sourceapp%3Dnyt-vi&phint=browsername%3DSafari%20Mobile&phint=funnelpropensity%3D0&phint=column%3D&phint=collectionname%3D&phint=contenttype%3Dsectionfront&phint=emotions%3D&phint=xwordstenure%3D&phint=cookingtenure%3D&phint=xwordsstop%3D&phint=cookingstop%3D&phint=productswitch%3D&phint=giftsubgiver%3Dfalse&phint=formerxwordsub%3Dfalse&phint=formercookingsub%3Dfalse&phint=watsegs%3D&phint=edusub%3D&phint=aiqaudience%3D&limit=4&r=16217942 and matched with easyprivacy.txt filter ||analytics.twitter.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.twitter.com/i/adsct?p_user_id=%2B0NnBT2%2B99YM5zHK&p_id=661892&"
+      },
+      {
+        "data": {
+          "filter": "://c.*/c.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "uid": "+0NnBT2+99YM5zHK",
+            "Red3": "MSBK_pd"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://stags.bluekai.com/site/50747?ret=html&phint=regid%3D&phint=usertype%3Danon&phint=userloggedin%3Dfalse&phint=coresubtenure%3D&phint=corestop%3D&phint=corepromo%3Dfalse&phint=ingrace%3Dfalse&phint=giftrecipient%3Dfalse&phint=childsubrecipient%3Dfalse&phint=bundlecoredigi%3D&phint=bundlecorehd%3D&phint=bundlexword%3D&phint=bundlecooking%3D&phint=bundleother%3D&phint=b2bentitle%3Dfalse&phint=marketingoptin%3Dfalse&phint=formercoresub%3Dfalse&phint=formeredusub%3Dfalse&phint=formerhdsub%3Dfalse&phint=retentionscore%3D&phint=topwatseg%3D&phint=sassegment%3D&phint=hdstopreasoncode%3D&phint=regitenure%3D&phint=cookinggrace%3Dfalse&phint=crosswordsgrace%3Dfalse&phint=gatewayhitlm%3Dfalse&phint=coregracelevel%3Dfalse&phint=activedaysengagement%3D&phint=authors%3D&phint=newsletter%3D&phint=businessname%3D&phint=corpadblock%3Dfalse&phint=isedu%3D&phint=propensityedu%3D&phint=propensityscore&phint=activedays%3D1&phint=metercount%3D&phint=propensitysection&phint=propensitytype&phint=propensitysite&phint=url%3Dhttps%3A%2F%2Fwww.nytimes.com%2F&phint=referrer%3D&phint=section%3DHomepage&phint=subsection%3D&phint=pagetype%3DHomepage&phint=keywords%3D&phint=sourceapp%3Dnyt-vi&phint=browsername%3DSafari%20Mobile&phint=funnelpropensity%3D0&phint=column%3D&phint=collectionname%3D&phint=contenttype%3Dsectionfront&phint=emotions%3D&phint=xwordstenure%3D&phint=cookingtenure%3D&phint=xwordsstop%3D&phint=cookingstop%3D&phint=productswitch%3D&phint=giftsubgiver%3Dfalse&phint=formerxwordsub%3Dfalse&phint=formercookingsub%3Dfalse&phint=watsegs%3D&phint=edusub%3D&phint=aiqaudience%3D&limit=4&r=16217942",
+            "source": "requested from https://stags.bluekai.com/site/50747?ret=html&phint=regid%3D&phint=usertype%3Danon&phint=userloggedin%3Dfalse&phint=coresubtenure%3D&phint=corestop%3D&phint=corepromo%3Dfalse&phint=ingrace%3Dfalse&phint=giftrecipient%3Dfalse&phint=childsubrecipient%3Dfalse&phint=bundlecoredigi%3D&phint=bundlecorehd%3D&phint=bundlexword%3D&phint=bundlecooking%3D&phint=bundleother%3D&phint=b2bentitle%3Dfalse&phint=marketingoptin%3Dfalse&phint=formercoresub%3Dfalse&phint=formeredusub%3Dfalse&phint=formerhdsub%3Dfalse&phint=retentionscore%3D&phint=topwatseg%3D&phint=sassegment%3D&phint=hdstopreasoncode%3D&phint=regitenure%3D&phint=cookinggrace%3Dfalse&phint=crosswordsgrace%3Dfalse&phint=gatewayhitlm%3Dfalse&phint=coregracelevel%3Dfalse&phint=activedaysengagement%3D&phint=authors%3D&phint=newsletter%3D&phint=businessname%3D&phint=corpadblock%3Dfalse&phint=isedu%3D&phint=propensityedu%3D&phint=propensityscore&phint=activedays%3D1&phint=metercount%3D&phint=propensitysection&phint=propensitytype&phint=propensitysite&phint=url%3Dhttps%3A%2F%2Fwww.nytimes.com%2F&phint=referrer%3D&phint=section%3DHomepage&phint=subsection%3D&phint=pagetype%3DHomepage&phint=keywords%3D&phint=sourceapp%3Dnyt-vi&phint=browsername%3DSafari%20Mobile&phint=funnelpropensity%3D0&phint=column%3D&phint=collectionname%3D&phint=contenttype%3Dsectionfront&phint=emotions%3D&phint=xwordstenure%3D&phint=cookingtenure%3D&phint=xwordsstop%3D&phint=cookingstop%3D&phint=productswitch%3D&phint=giftsubgiver%3Dfalse&phint=formerxwordsub%3Dfalse&phint=formercookingsub%3Dfalse&phint=watsegs%3D&phint=edusub%3D&phint=aiqaudience%3D&limit=4&r=16217942 and matched with easyprivacy.txt filter ://c.*/c.gif?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.bing.com/c.gif?uid=%2B0NnBT2%2B99YM5zHK&Red3=MSBK_pd"
+      },
+      {
+        "data": {
+          "filter": "||bluekai.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "limit": 1,
+            "id": "gvP1RlCHkUi9AE2gRiz-wK",
+            "gtmcb": 689286309
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "requested from https://www.nytimes.com/ and matched with easyprivacy.txt filter ||bluekai.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stags.bluekai.com/site/50136?limit=1&id=gvP1RlCHkUi9AE2gRiz-wK&gtmcb=689286309"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "h": "nytimes.com",
+            "p": "nytimes.com/",
+            "u": "BUJKFRBSmOTiBngBln",
+            "d": "nytimes.com",
+            "g": 16698,
+            "g0": "Homepage",
+            "g1": "No Author",
+            "n": 1,
+            "f": "00001",
+            "c": 0,
+            "x": 0,
+            "m": 0,
+            "y": 9532,
+            "o": 375,
+            "w": 812,
+            "j": 45,
+            "R": 1,
+            "W": 0,
+            "I": 0,
+            "E": 0,
+            "e": 0,
+            "r": "",
+            "b": 3805,
+            "t": "0slI-0Jn0pDI4j4JDFHFXGBWnd58",
+            "V": 120,
+            "i": "The New York Times - Breaking News, World News & Multimedia",
+            "tz": 240,
+            "_acct": "anon",
+            "sn": 1,
+            "sv": "Eq_thBCdK8r6QKoTRsTJeidLZV",
+            "sd": 1,
+            "im": "06670ff3",
+            "_": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "requested from https://www.nytimes.com/ and matched with easyprivacy.txt filter ||chartbeat.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pnytimes.chartbeat.net/ping?h=nytimes.com&p=nytimes.com%2F&u=BUJKFRBSmOTiBngBln&d=nytimes.com&g=16698&g0=Homepage&g1=No%20Author&n=1&f=00001&c=0&x=0&m=0&y=9532&o=375&w=812&j=45&R=1&W=0&I=0&E=0&e=0&r=&b=3805&t=0slI-0Jn0pDI4j4JDFHFXGBWnd58&V=120&i=The%20New%20York%20Times%20-%20Breaking%20News%2C%20World%20News%20%26%20Multimedia&tz=240&_acct=anon&sn=1&sv=Eq_thBCdK8r6QKoTRsTJeidLZV&sd=1&im=06670ff3&_"
+      },
+      {
+        "data": {
+          "filter": "||stats.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": "dc",
+            "aip": 1,
+            "_r": 3,
+            "v": 1,
+            "_v": "j82",
+            "tid": "UA-116858069-1",
+            "cid": 1269025882.158993,
+            "jid": 2090609468,
+            "gjid": 1657078371,
+            "_gid": 1204743030.158993,
+            "_u": "aEBAAEAAAAAAAC~",
+            "z": 291453982
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId}",
+            "source": "requested from https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId} and matched with easyprivacy.txt filter ||stats.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j82&tid=UA-116858069-1&cid=1269025882.1589929712&jid=2090609468&gjid=1657078371&_gid=1204743030.1589929712&_u=aEBAAEAAAAAAAC~&z=291453982"
+      },
+      {
+        "data": {
+          "filter": "||stats.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": "dc",
+            "aip": 1,
+            "_r": 3,
+            "v": 1,
+            "_v": "j82",
+            "tid": "UA-58630905-2",
+            "cid": 1665871982.158993,
+            "jid": 108750428,
+            "gjid": 1792633911,
+            "_gid": 1368880476.158993,
+            "_u": "YEBAAEAAAAAAAC~",
+            "z": 1157724755
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "requested from https://www.nytimes.com/ and matched with easyprivacy.txt filter ||stats.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j82&tid=UA-58630905-2&cid=1665871982.1589929712&jid=108750428&gjid=1792633911&_gid=1368880476.1589929712&_u=YEBAAEAAAAAAAC~&z=1157724755"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j82",
+            "a": 804933959,
+            "t": "timing",
+            "_s": 6,
+            "dl": "https://pay.google.com/gp/p/ui/payframe",
+            "dr": "https://www.nytimes.com",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "",
+            "je": 0,
+            "utc": "/buyflow/merchant_page/",
+            "utv": "PAY_FRAME_LOADED_WITH_ALL_JS",
+            "utt": 32,
+            "_u": "aEBAAEABAAAAAC~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1269025882.158993,
+            "tid": "UA-116858069-1",
+            "_gid": 1204743030.158993,
+            "z": 912393451
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId}",
+            "source": "requested from https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId} and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j82&a=804933959&t=timing&_s=6&dl=https%3A%2F%2Fpay.google.com%2Fgp%2Fp%2Fui%2Fpayframe&dr=https%3A%2F%2Fwww.nytimes.com&ul=en-us&de=UTF-8&dt=&sd=24-bit&sr=375x812&vp=&je=0&utc=%2Fbuyflow%2Fmerchant_page%2F&utv=PAY_FRAME_LOADED_WITH_ALL_JS&utt=32&_u=aEBAAEABAAAAAC~&jid=&gjid=&cid=1269025882.1589929712&tid=UA-116858069-1&_gid=1204743030.1589929712&z=912393451"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j82",
+            "a": 804933959,
+            "t": "pageview",
+            "_s": 5,
+            "dl": "https://pay.google.com/gp/p/ui/payframe",
+            "dr": "https://www.nytimes.com",
+            "dp": "/buyflow/merchant_page/pay_frame_loaded_with_all_js",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "",
+            "je": 0,
+            "_u": "aEBAAEABAAAAAC~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1269025882.158993,
+            "tid": "UA-116858069-1",
+            "_gid": 1204743030.158993,
+            "z": 243877996
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId}",
+            "source": "requested from https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId} and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j82&a=804933959&t=pageview&_s=5&dl=https%3A%2F%2Fpay.google.com%2Fgp%2Fp%2Fui%2Fpayframe&dr=https%3A%2F%2Fwww.nytimes.com&dp=%2Fbuyflow%2Fmerchant_page%2Fpay_frame_loaded_with_all_js&ul=en-us&de=UTF-8&dt=&sd=24-bit&sr=375x812&vp=&je=0&_u=aEBAAEABAAAAAC~&jid=&gjid=&cid=1269025882.1589929712&tid=UA-116858069-1&_gid=1204743030.1589929712&z=243877996"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j82",
+            "a": 804933959,
+            "t": "timing",
+            "_s": 4,
+            "dl": "https://pay.google.com/gp/p/ui/payframe",
+            "dr": "https://www.nytimes.com",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "",
+            "je": 0,
+            "utc": "/buyflow/merchant_page/",
+            "utv": "INITIALIZE_PAYMENTS_CLIENT",
+            "utt": 2434,
+            "_u": "aEBAAEABAAAAAC~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1269025882.158993,
+            "tid": "UA-116858069-1",
+            "_gid": 1204743030.158993,
+            "z": 1611997378
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId}",
+            "source": "requested from https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId} and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j82&a=804933959&t=timing&_s=4&dl=https%3A%2F%2Fpay.google.com%2Fgp%2Fp%2Fui%2Fpayframe&dr=https%3A%2F%2Fwww.nytimes.com&ul=en-us&de=UTF-8&dt=&sd=24-bit&sr=375x812&vp=&je=0&utc=%2Fbuyflow%2Fmerchant_page%2F&utv=INITIALIZE_PAYMENTS_CLIENT&utt=2434&_u=aEBAAEABAAAAAC~&jid=&gjid=&cid=1269025882.1589929712&tid=UA-116858069-1&_gid=1204743030.1589929712&z=1611997378"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j82",
+            "a": 804933959,
+            "t": "pageview",
+            "_s": 3,
+            "dl": "https://pay.google.com/gp/p/ui/payframe",
+            "dr": "https://www.nytimes.com",
+            "dp": "/buyflow/merchant_page/initialize_payments_client",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "",
+            "je": 0,
+            "_u": "aEBAAEABAAAAAC~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1269025882.158993,
+            "tid": "UA-116858069-1",
+            "_gid": 1204743030.158993,
+            "z": 581966001
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId}",
+            "source": "requested from https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId} and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j82&a=804933959&t=pageview&_s=3&dl=https%3A%2F%2Fpay.google.com%2Fgp%2Fp%2Fui%2Fpayframe&dr=https%3A%2F%2Fwww.nytimes.com&dp=%2Fbuyflow%2Fmerchant_page%2Finitialize_payments_client&ul=en-us&de=UTF-8&dt=&sd=24-bit&sr=375x812&vp=&je=0&_u=aEBAAEABAAAAAC~&jid=&gjid=&cid=1269025882.1589929712&tid=UA-116858069-1&_gid=1204743030.1589929712&z=581966001"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j82",
+            "a": 804933959,
+            "t": "timing",
+            "_s": 2,
+            "dl": "https://pay.google.com/gp/p/ui/payframe",
+            "dr": "https://www.nytimes.com",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "",
+            "je": 0,
+            "utc": "/buyflow/merchant_page/",
+            "utv": "PAY_FRAME_REQUESTED",
+            "utt": 2462,
+            "_u": "aEBAAEABAAAAAC~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1269025882.158993,
+            "tid": "UA-116858069-1",
+            "_gid": 1204743030.158993,
+            "z": 1939334621
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId}",
+            "source": "requested from https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId} and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j82&a=804933959&t=timing&_s=2&dl=https%3A%2F%2Fpay.google.com%2Fgp%2Fp%2Fui%2Fpayframe&dr=https%3A%2F%2Fwww.nytimes.com&ul=en-us&de=UTF-8&dt=&sd=24-bit&sr=375x812&vp=&je=0&utc=%2Fbuyflow%2Fmerchant_page%2F&utv=PAY_FRAME_REQUESTED&utt=2462&_u=aEBAAEABAAAAAC~&jid=&gjid=&cid=1269025882.1589929712&tid=UA-116858069-1&_gid=1204743030.1589929712&z=1939334621"
+      },
+      {
+        "data": {
+          "filter": "/collect?*&cid=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j82",
+            "a": 804933959,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://pay.google.com/gp/p/ui/payframe",
+            "dr": "https://www.nytimes.com",
+            "dp": "/buyflow/merchant_page/pay_frame_requested",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "",
+            "je": 0,
+            "_u": "aEBAAEABAAAAAC~",
+            "jid": 2090609468,
+            "gjid": 1657078371,
+            "cid": 1269025882.158993,
+            "tid": "UA-116858069-1",
+            "_gid": 1204743030.158993,
+            "_r": 1,
+            "z": 2055708071
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId}",
+            "source": "requested from https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId} and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j82&a=804933959&t=pageview&_s=1&dl=https%3A%2F%2Fpay.google.com%2Fgp%2Fp%2Fui%2Fpayframe&dr=https%3A%2F%2Fwww.nytimes.com&dp=%2Fbuyflow%2Fmerchant_page%2Fpay_frame_requested&ul=en-us&de=UTF-8&dt=&sd=24-bit&sr=375x812&vp=&je=0&_u=aEBAAEABAAAAAC~&jid=2090609468&gjid=1657078371&cid=1269025882.1589929712&tid=UA-116858069-1&_gid=1204743030.1589929712&_r=1&z=2055708071"
+      },
+      {
+        "data": {
+          "filter": "/collect?*&cid=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j82",
+            "a": 2002863499,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.nytimes.com/",
+            "dr": "",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "The New York Times - Breaking News, World News & Multimedia",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "YEBAAEABAAAAAC~",
+            "jid": 108750428,
+            "gjid": 1792633911,
+            "cid": 1665871982.158993,
+            "tid": "UA-58630905-2",
+            "_gid": 1368880476.158993,
+            "_r": 1,
+            "gtm": "2wg561P528B3",
+            "cg1": "homepage",
+            "cg2": null,
+            "cg3": "homepage",
+            "cg4": null,
+            "cd1": "https://www.nytimes.com/",
+            "cd2": "https://www.nytimes.com/",
+            "cd3": "",
+            "cd4": "Homepage",
+            "cd9": 9,
+            "cd10": null,
+            "cd13": null,
+            "cd14": null,
+            "cd15": "earned",
+            "cd16": "referring_links",
+            "cd17": 100000005877499,
+            "cd21": "Homepage",
+            "cd23": "Homepage",
+            "cd26": null,
+            "cd27": null,
+            "cd28": null,
+            "cd29": null,
+            "cd30": null,
+            "cd36": "",
+            "cd37": 0,
+            "cd42": "nyt-vi",
+            "cd48": null,
+            "cd49": "blurb_under_100",
+            "cd51": "nyt-vi",
+            "cd52": "",
+            "cd54": null,
+            "cd55": 0,
+            "cd56": "anon",
+            "cd57": 0,
+            "cd58": 0,
+            "cd59": "",
+            "cd60": "",
+            "cd61": 0,
+            "cd63": "gvP1RlCHkUi9AE2gRiz-wK",
+            "cd65": "anon",
+            "cd67": 0,
+            "cd95": "",
+            "cd122": "",
+            "cd123": "",
+            "cd124": "",
+            "cd125": "",
+            "cd126": "",
+            "cd127": "",
+            "cd129": "NaN",
+            "cd135": "",
+            "cd139": "",
+            "cd141": "",
+            "cd142": "",
+            "cd162": "",
+            "cd163": "",
+            "cd164": "gvP1RlCHkUi9AE2gRiz-wK",
+            "cd172": "smartphone",
+            "cd173": "smartphone",
+            "z": 360344665
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "requested from https://www.nytimes.com/ and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j82&a=2002863499&t=pageview&_s=1&dl=https%3A%2F%2Fwww.nytimes.com%2F&dr=&ul=en-us&de=UTF-8&dt=The%20New%20York%20Times%20-%20Breaking%20News%2C%20World%20News%20%26%20Multimedia&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=YEBAAEABAAAAAC~&jid=108750428&gjid=1792633911&cid=1665871982.1589929712&tid=UA-58630905-2&_gid=1368880476.1589929712&_r=1&gtm=2wg561P528B3&cg1=homepage&cg2=null&cg3=homepage&cg4=null&cd1=https%3A%2F%2Fwww.nytimes.com%2F&cd2=https%3A%2F%2Fwww.nytimes.com%2F&cd3=&cd4=Homepage&cd9=9&cd10=null&cd13=null&cd14=null&cd15=earned&cd16=referring_links&cd17=100000005877499&cd21=Homepage&cd23=Homepage&cd26=null&cd27=null&cd28=null&cd29=null&cd30=null&cd36=&cd37=0&cd42=nyt-vi&cd48=null&cd49=blurb_under_100&cd51=nyt-vi&cd52=&cd54=null&cd55=0&cd56=anon&cd57=0&cd58=0&cd59=&cd60=&cd61=0&cd63=gvP1RlCHkUi9AE2gRiz-wK&cd65=anon&cd67=0&cd95=&cd122=&cd123=&cd124=&cd125=&cd126=&cd127=&cd129=NaN&cd135=&cd139=&cd141=&cd142=&cd162=&cd163=&cd164=gvP1RlCHkUi9AE2gRiz-wK&cd172=smartphone&cd173=smartphone&z=360344665"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId}",
+            "source": "requested from https://pay.google.com/gp/p/ui/payframe?origin=https://www.nytimes.com&mid=%{merchantId} and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||bkrtx.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "requested from https://www.nytimes.com/ and matched with easyprivacy.txt filter ||bkrtx.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.bkrtx.com/js/bk-coretag.js"
+      },
+      {
+        "data": {
+          "filter": "/chartbeat.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "requested from https://www.nytimes.com/ and matched with easyprivacy.txt filter /chartbeat.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.chartbeat.com/js/chartbeat.js"
+      },
+      {
+        "data": {
+          "filter": "||bluekai.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ret": "js",
+            "limit": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "requested from https://www.nytimes.com/ and matched with easyprivacy.txt filter ||bluekai.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.bluekai.com/site/50550?ret=js&limit=1"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "requested from https://www.nytimes.com/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||datadome.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "requested from https://www.nytimes.com/ and matched with easyprivacy.txt filter ||datadome.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api-js.datadome.co/js/"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c1": 2,
+            "c2": 3005403,
+            "ns__t": 1589929710320,
+            "ns_c": "UTF-8",
+            "c8": "The New York Times - Breaking News, World News & Multimedia",
+            "c7": "https://www.nytimes.com/",
+            "c9": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "requested from https://www.nytimes.com/ and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/b2?c1=2&c2=3005403&ns__t=1589929710320&ns_c=UTF-8&c8=The%20New%20York%20Times%20-%20Breaking%20News%2C%20World%20News%20%26%20Multimedia&c7=https%3A%2F%2Fwww.nytimes.com%2F&c9="
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c1": 2,
+            "c2": 3005403,
+            "ns__t": 1589929710320,
+            "ns_c": "UTF-8",
+            "c8": "The New York Times - Breaking News, World News & Multimedia",
+            "c7": "https://www.nytimes.com/",
+            "c9": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "requested from https://www.nytimes.com/ and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/b?c1=2&c2=3005403&ns__t=1589929710320&ns_c=UTF-8&c8=The%20New%20York%20Times%20-%20Breaking%20News%2C%20World%20News%20%26%20Multimedia&c7=https%3A%2F%2Fwww.nytimes.com%2F&c9="
+      },
+      {
+        "data": {
+          "filter": "||datadome.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "requested from https://www.nytimes.com/ and matched with easyprivacy.txt filter ||datadome.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.datadome.co/tags.js"
+      },
+      {
+        "data": {
+          "filter": "||criteo.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "r": 2,
+            "c": 321,
+            "j": "window.advBidxc.mnetRtusId"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nytimes.com/",
+            "source": "requested from https://www.nytimes.com/ and matched with easyprivacy.txt filter ||criteo.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gum.criteo.com/sync?r=2&c=321&j=window.advBidxc.mnetRtusId"
+      }
+    ]
+  }
+}

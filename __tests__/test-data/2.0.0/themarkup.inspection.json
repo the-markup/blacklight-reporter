@@ -1,0 +1,89 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "http://www.themarkup.org",
+  "uri_dest": "https://themarkup.org/",
+  "uri_redirects": [
+    "http://www.themarkup.org/",
+    "https://www.themarkup.org/"
+  ],
+  "secure_connection": {},
+  "host": "www.themarkup.org",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": "iPhone X",
+    "numPages": 2
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/79.0.3945.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/79.0.3945.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "4.15.0-99-generic"
+    }
+  },
+  "script": {
+    "host": "shakaal",
+    "version": {
+      "npm": "2.0.0",
+      "commit": null
+    },
+    "node_version": "v12.15.0"
+  },
+  "start_time": "2020-05-22T15:40:08.818Z",
+  "end_time": "2020-05-22T15:40:19.570Z",
+  "deviceEmulated": {
+    "name": "iPhone X",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1",
+    "viewport": {
+      "width": 375,
+      "height": 812,
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "isLandscape": false
+    }
+  },
+  "browsing_history": [
+    "https://themarkup.org/",
+    "https://themarkup.org/ask-the-markup/2020/04/28/why-am-i-paying-60-for-that-bag-of-rice-on-amazon-com",
+    "https://themarkup.org/donate/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "www.themarkup.org",
+        "themarkup.org",
+        "mrkp-static-production.themarkup.org"
+      ],
+      "third_party": []
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://mrkp-static-production.themarkup.org/static/dist/main.01763de7.js": [
+          "scroll"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [],
+    "fb_pixel_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}
