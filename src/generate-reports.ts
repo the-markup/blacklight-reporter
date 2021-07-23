@@ -111,9 +111,11 @@ export const generateReports = async (inDir, outDir, trDataDir) => {
     outDir = path.join(outDir, "local-inspections");
     const surveyWriters = initStreamWriters(outDir);
     for await (let inspectionPath of loadInspectionsLocal(inDir)) {
-      const events = await loadBlTestEvents(inspectionPath, trDataDir);
-      writeTestEvents(inspectionPath, events, surveyWriters);
-      totalUrls++;
+      if(inspectionPath.indexOf("inspection.json") > -1){
+        const events = await loadBlTestEvents(inspectionPath, trDataDir);
+        writeTestEvents(inspectionPath, events, surveyWriters);
+        totalUrls++;
+      }
     }
   }
   console.log(
