@@ -92,19 +92,25 @@ export const generateReports = async (inDir, outDir, trDataDir) => {
     const trData = await loadTrackerRadar(trDataDir);
     for await (let inspectionPaths of loadInspectionsRemote(Bucket, Prefix)) {
       await async.mapLimit(inspectionPaths, 500, async function (path, cb) {
-        totalUrls++;
-        const obj = await s3
-          .getObject({
-            Bucket,
-            Key: path,
-          })
-          .promise();
-        const events = await getBlTestEvents(
-          JSON.parse(obj.Body.toString()),
-          path,
-          trData
-        );
-        writeTestEvents(`s3://${Bucket}/${path}`, await events, surveyWriters);
+        try {
+          totalUrls++;
+          const obj = await s3
+            .getObject({
+              Bucket,
+              Key: path,
+            })
+            .promise();
+          const events = await getBlTestEvents(
+            JSON.parse(obj.Body.toString()),
+            path,
+            trData
+          );
+          writeTestEvents(`s3://${Bucket}/${path}`, await events, surveyWriters);
+          cb()
+          
+        } catch (error) {
+          console.error(error)
+        }
       });
     }
   } else {
