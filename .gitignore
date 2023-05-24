@@ -1,2 +1,7 @@
 data/
 node_modules
+build/
+production/
+staging/
+redo_for_production.txt
+redo_for_staging.txt
