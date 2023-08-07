@@ -81,6 +81,7 @@ export const generateReports = async (inDir, outDir, trDataDir) => {
   let totalUrls = 0;
   outDir = path.resolve(outDir);
   console.log(trDataDir);
+  const trData = await loadTrackerRadar(trDataDir);
   if (inDir.includes("s3://")) {
     const sections = inDir.split("/");
     const surveyName = sections[3];
@@ -89,7 +90,6 @@ export const generateReports = async (inDir, outDir, trDataDir) => {
     const surveyWriters = initStreamWriters(outDir);
     const Bucket = sections[2];
     const Prefix = `${surveyName}/${captureSession}`;
-    const trData = await loadTrackerRadar(trDataDir);
     for await (let inspectionPaths of loadInspectionsRemote(Bucket, Prefix)) {
       await async.mapLimit(inspectionPaths, 500, async function (path, cb) {
         try {
@@ -118,7 +118,7 @@ export const generateReports = async (inDir, outDir, trDataDir) => {
     const surveyWriters = initStreamWriters(outDir);
     for await (let inspectionPath of loadInspectionsLocal(inDir)) {
       if(inspectionPath.indexOf("inspection.json") > -1){
-        const events = await loadBlTestEvents(inspectionPath, trDataDir);
+        const events = await loadBlTestEvents(inspectionPath, trData);
         writeTestEvents(inspectionPath, events, surveyWriters);
         totalUrls++;
       }

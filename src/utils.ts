@@ -95,11 +95,11 @@ const ts = [
   ...Object.values(getHashedValues("sha512", DEFAULT_INPUT_VALUES)),
 ];
 
-export const loadBlTestEvents = async (filepath, trDataDir) => {
+export const loadBlTestEvents = async (filepath, trData) => {
   return getBlTestEvents(
     await loadBlInspectionFile(filepath),
     filepath,
-    trDataDir
+    trData
   );
 };
 export const getLoggedFields = (obj) => {
